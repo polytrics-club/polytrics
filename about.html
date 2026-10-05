@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>About · Polytrics</title>
+<meta name="description" content="Who we are, what we do and how to join Polytrics.">
+<meta name="theme-color" content="#B62017">
+<meta property="og:title" content="About · Polytrics">
+<meta property="og:description" content="Who we are, what we do and how to join Polytrics.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23B62017'/%3E%3Cpath d='M31 10A22 22 0 0 0 31 54Z' fill='white'/%3E%3Cpath d='M33 54A22 22 0 0 0 33 10Z' fill='white'/%3E%3Crect x='21' y='34' width='10' height='22' fill='%23B62017'/%3E%3Crect x='33' y='8' width='10' height='22' fill='%23B62017'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>try{var t=localStorage.getItem("pt-theme");if(t==="dark"||t==="light")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+</head>
+<body data-page="about">
+<section class="hero hero--page">
+  <div class="ghost" data-ghost></div>
+  <div class="wrap">
+    <span class="eyebrow">Who we are</span>
+    <h1 style="margin-top:16px"><span class="line"><span style="--i:0">About <em>Polytrics</em></span></span></h1>
+    <p class="lede">Polytrics is a student club for people who want to understand how power is made, used and checked, and then argue about it.</p>
+  </div>
+</section>
+<main>
+<section class="section"><div class="wrap split">
+  <div data-reveal="left">
+    <span class="eyebrow">Our idea</span>
+    <h2 style="font-size:clamp(2rem,4.4vw,3.4rem);margin-top:10px">Two sides, one table</h2>
+  </div>
+  <div data-reveal="right" style="display:grid;gap:18px;font-family:var(--serif);font-size:1.2rem;line-height:1.6">
+    <p>Our logo shows two faces in profile, each half of one circle. Policy, politics and law work the same way: every rule has someone arguing for it and someone arguing against it, and the outcome depends on how well both sides are heard.</p>
+    <p>We run debates, mock parliaments and policy labs. We publish member writing, and we keep this site updated so that following public life takes five minutes a day, not an hour.</p>
+  </div>
+</div></section>
+
+<section class="section section--tint"><div class="wrap">
+  <div class="section-head" data-reveal><div><span class="eyebrow">What we do</span><h2>Four formats</h2></div></div>
+  <div class="grid grid-4">
+    <div class="stat" data-reveal style="--d:0"><b>i.</b><h3 style="margin-top:10px;font-size:1.4rem">Mock Parliament</h3><span>Real bills, real procedure: Question Hour, debate and division.</span></div>
+    <div class="stat" data-reveal style="--d:1"><b>ii.</b><h3 style="margin-top:10px;font-size:1.4rem">Policy Labs</h3><span>Small-group sessions taking apart a budget, a scheme or a report.</span></div>
+    <div class="stat" data-reveal style="--d:2"><b>iii.</b><h3 style="margin-top:10px;font-size:1.4rem">Debates &amp; Moots</h3><span>Parliamentary debate and moot-court practice on live questions.</span></div>
+    <div class="stat" data-reveal style="--d:3"><b>iv.</b><h3 style="margin-top:10px;font-size:1.4rem">The Journal</h3><span>Member essays and briefs, edited and published here.</span></div>
+  </div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="section-head" data-reveal><div><span class="eyebrow">The team</span><h2>Core committee</h2></div></div>
+  <div class="grid grid-4" id="team"></div>
+</div></section>
+
+<section class="section section--tint" id="join"><div class="wrap split">
+  <div data-reveal="left" style="display:grid;gap:18px;align-content:start">
+    <span class="eyebrow">Join us</span>
+    <h2 style="font-size:clamp(2rem,4.4vw,3.4rem)">Take a seat at the table</h2>
+    <p class="lede">Open to every student. No prior experience in law or politics needed, only curiosity and a willingness to argue in good faith.</p>
+    <a class="btn btn--solid" id="gform" href="#" target="_blank" rel="noopener" style="justify-self:start">Apply via Google Form <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <div class="copy-line"><span class="form-note">Or write to</span> <code id="club-mail"></code> <button class="chip" type="button" id="copy-mail">Copy</button></div>
+  </div>
+  <form class="panel form" id="join-form" data-reveal="right" novalidate>
+    <div class="form-row">
+      <div class="field"><label for="f-name">Full name</label><input id="f-name" name="name" required autocomplete="name"></div>
+      <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" required autocomplete="email"></div>
+    </div>
+    <div class="form-row">
+      <div class="field"><label for="f-prog">Programme &amp; year</label><input id="f-prog" name="programme" placeholder="e.g. MBA, 1st year"></div>
+      <div class="field"><label for="f-desk">Desk</label><select id="f-desk" name="desk"><option>Policy</option><option>Politics</option><option>Law</option><option>Journal</option><option>Events</option><option>Design &amp; Social</option></select></div>
+    </div>
+    <div class="field"><label for="f-why">Which issue would you argue about all night?</label><textarea id="f-why" name="message" required></textarea></div>
+    <button class="btn btn--solid" type="submit" style="justify-self:start">Send application <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+    <p class="form-note" id="form-note" aria-live="polite"></p>
+  </form>
+</div></section>
+</main>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/content.js"></script>
+<script src="assets/js/site.js"></script>
+<script src="assets/js/feeds.js"></script>
+<script src="assets/js/pages.js"></script>
+</body>
+</html>

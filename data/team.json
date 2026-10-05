@@ -1,0 +1,10 @@
+[
+  { "name": "Your Name", "role": "President", "photo": "", "linkedin": "" },
+  { "name": "Member Name", "role": "Vice President", "photo": "", "linkedin": "" },
+  { "name": "Member Name", "role": "Policy Desk Lead", "photo": "", "linkedin": "" },
+  { "name": "Member Name", "role": "Law Desk Lead", "photo": "", "linkedin": "" },
+  { "name": "Member Name", "role": "Politics Desk Lead", "photo": "", "linkedin": "" },
+  { "name": "Member Name", "role": "Editor, Journal", "photo": "", "linkedin": "" },
+  { "name": "Member Name", "role": "Events", "photo": "", "linkedin": "" },
+  { "name": "Member Name", "role": "Design & Social", "photo": "", "linkedin": "" }
+]

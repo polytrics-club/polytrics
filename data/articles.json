@@ -1,0 +1,49 @@
+[
+  {
+    "sample": true,
+    "slug": "basic-structure-at-fifty",
+    "title": "The basic structure doctrine, fifty years on",
+    "dek": "A doctrine that appears nowhere in the text has become the Constitution's most important safeguard. Is that a problem?",
+    "category": "Law",
+    "author": "Polytrics Editorial",
+    "date": "2026-09-20",
+    "body": [
+      "In April 1973, thirteen judges of the Supreme Court sat to decide whether Parliament could amend the Constitution in any way it chose. By a margin of seven to six, they held that it could not. Parliament could change almost anything, but not the Constitution's basic structure.",
+      "The phrase appears nowhere in the text. Critics have always made this point: unelected judges have given themselves a veto over the elected legislature on grounds they define themselves. The Court has never published a full list of what counts as basic, and it has added to the list case by case.",
+      "Supporters reply that the doctrine has rarely been used, and only at important moments. It struck down the parts of the 42nd Amendment that would have put amendments beyond judicial review, and in 2015 it struck down the National Judicial Appointments Commission. In each case the question was whether one branch could take apart the system of checks.",
+      "The better question may be what the alternative looks like. Constitutions that can be rewritten by a single legislative majority have been hollowed out in several countries over the last two decades, often by entirely legal steps. The basic structure doctrine is India's answer to that risk. It is imperfect, judge-made and contested, and it is still standing after fifty years.",
+      "This is a sample post to show how the Journal looks. Replace it with your members' writing in data/articles.json."
+    ]
+  },
+  {
+    "sample": true,
+    "slug": "how-to-read-a-bill",
+    "title": "How to read a Bill in fifteen minutes",
+    "dek": "You don't need a law degree. You need to know where to look.",
+    "category": "Policy",
+    "author": "Polytrics Policy Desk",
+    "date": "2026-09-08",
+    "body": [
+      "Start at the end. The Statement of Objects and Reasons, printed after the clauses, tells you in plain language what the government says the Bill is for. Read it first, then check whether the clauses actually do that.",
+      "Next, read the definitions clause, usually Section 2. Most of the real policy choices are hidden in how words like 'person', 'data' or 'public authority' are defined. A narrow definition can quietly exempt whole sectors.",
+      "Then look for delegated powers: phrases like 'as may be prescribed' or 'the Central Government may, by notification'. Each one is a decision left to the executive rather than made by Parliament. Count them.",
+      "Finally, check the Financial Memorandum and the Memorandum Regarding Delegated Legislation. PRS Legislative Research publishes a summary of most central Bills, and it is a good check on your reading.",
+      "This is a sample post to show how the Journal looks. Replace it with your members' writing in data/articles.json."
+    ]
+  },
+  {
+    "sample": true,
+    "slug": "why-delimitation-matters",
+    "title": "Why the next delimitation matters more than the next election",
+    "dek": "Seat shares between states have been frozen since 1976. That is about to change.",
+    "category": "Politics",
+    "author": "Polytrics Politics Desk",
+    "date": "2026-08-30",
+    "body": [
+      "Every election is fought on a map, and India's map of seats among states has been frozen for half a century, fixed on the basis of the 1971 Census.",
+      "The freeze was meant to stop states being penalised for controlling population growth. It is due to end after the first census taken after 2026, and redrawing seats on current population figures would move political weight between regions.",
+      "Delimitation is also linked to women's reservation under the 106th Amendment, which takes effect only after the exercise. Several outcomes are being discussed: a larger Lok Sabha, a continued freeze, or a formula that weighs more than population.",
+      "This is a sample post to show how the Journal looks. Replace it with your members' writing in data/articles.json."
+    ]
+  }
+]

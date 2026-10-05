@@ -1,0 +1,7 @@
+[
+  { "sample": true, "title": "Freshers' Mock Parliament", "date": "2026-10-17", "time": "17:30", "venue": "Main Auditorium", "type": "Mock Parliament", "description": "A full Lok Sabha session on a live bill: Question Hour, debate and division vote. Roles are assigned in advance; no experience needed.", "link": "" },
+  { "sample": true, "title": "Policy Lab: Reading the Union Budget", "date": "2026-10-29", "time": "18:00", "venue": "Seminar Hall 2", "type": "Workshop", "description": "How to read budget documents, follow the money from the Finance Bill to the outcome budget, and spot what the headlines miss.", "link": "" },
+  { "sample": true, "title": "Constitution Day Debate", "date": "2026-11-26", "time": "17:00", "venue": "Main Auditorium", "type": "Debate", "description": "This house believes the basic structure doctrine has made courts too powerful. Parliamentary format, open to all.", "link": "" },
+  { "sample": true, "title": "Guest Talk: Inside a Courtroom", "date": "2026-12-05", "time": "16:00", "venue": "Online", "type": "Guest Talk", "description": "An advocate walks through a constitutional case from filing to judgment.", "link": "" },
+  { "sample": true, "title": "Orientation & Club Launch", "date": "2026-08-22", "time": "18:00", "venue": "Seminar Hall 1", "type": "Launch", "description": "Meet the core team and the three desks: Policy, Politics and Law.", "link": "" }
+]

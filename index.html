@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Polytrics</title>
+<meta name="description" content="Polytrics, the Policy, Politics & Law Club. Live headlines, a daily constitutional fact, landmark cases and events.">
+<meta name="theme-color" content="#B62017">
+<meta property="og:title" content="Polytrics">
+<meta property="og:description" content="Polytrics, the Policy, Politics & Law Club. Live headlines, a daily constitutional fact, landmark cases and events.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23B62017'/%3E%3Cpath d='M31 10A22 22 0 0 0 31 54Z' fill='white'/%3E%3Cpath d='M33 54A22 22 0 0 0 33 10Z' fill='white'/%3E%3Crect x='21' y='34' width='10' height='22' fill='%23B62017'/%3E%3Crect x='33' y='8' width='10' height='22' fill='%23B62017'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>try{var t=localStorage.getItem("pt-theme");if(t==="dark"||t==="light")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+</head>
+<body data-page="home">
+<main>
+<section class="hero hero--home">
+  <div class="ghost" data-ghost></div>
+  <div class="wrap" style="width:100%">
+    <span class="eyebrow">The Policy, Politics &amp; Law Club</span>
+    <h1 style="margin-top:20px">
+      <span class="line"><span style="--i:0">Policy<span class="dot">.</span></span></span>
+      <span class="line"><span style="--i:1">Politics<span class="dot">.</span></span></span>
+      <span class="line"><span style="--i:2"><em>Law</em><span class="dot">.</span></span></span>
+    </h1>
+    <p class="lede">We read the bills, follow the courts and argue about what it all means. Every day this site brings you fresh headlines, a fact from the Constitution and a case worth knowing.</p>
+    <div class="hero-cta">
+      <a class="btn btn--light" href="#brief">Today's brief <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a class="btn btn--ghost" href="about.html#join">Join the club</a>
+    </div>
+  </div>
+  <a class="mouse" href="#brief" aria-label="Scroll to today's brief"><span></span></a>
+</section>
+
+<div class="ticker" aria-label="Latest headlines">
+  <div class="wrap"><span class="label">Latest</span><div class="track"><div class="run" id="ticker-run"></div></div></div>
+</div>
+
+<section class="section" id="brief">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <div><span class="eyebrow">Updates daily</span><h2>Today's brief</h2></div>
+      <p class="lede">A new fact and a new Article of the Constitution every day. Copy one and start an argument.</p>
+    </div>
+    <div class="split">
+      <div class="docket" id="fact" data-reveal="left"></div>
+      <div class="article-card" id="article" data-reveal="right"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <div><span class="eyebrow">Three desks</span><h2>Where to start</h2></div>
+      <p class="lede">Each desk has a live news feed and material written by our members.</p>
+    </div>
+    <div class="grid grid-3">
+      <a class="pillar" href="policy.html" data-reveal style="--d:0"><span class="num">i.</span><span class="tag">Policy Pulse</span><h3>Policy</h3><p>Bills in Parliament, government schemes and short explainers on how laws are made.</p><span class="link-arrow">Open desk <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+      <a class="pillar" href="politics.html" data-reveal style="--d:1"><span class="num">ii.</span><span class="tag">Politics Desk</span><h3>Politics</h3><p>Elections, Parliament and the world, sorted into India and global coverage.</p><span class="link-arrow">Open desk <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+      <a class="pillar" href="law.html" data-reveal style="--d:2"><span class="num">iii.</span><span class="tag">Law Watch</span><h3>Law</h3><p>Court news, landmark judgments and the Article of the day.</p><span class="link-arrow">Open desk <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tint">
+  <div class="wrap split">
+    <div>
+      <div class="section-head" data-reveal style="margin-bottom:24px"><div><span class="eyebrow">Case spotlight</span><h2>On the record</h2></div></div>
+      <div id="case-spot" class="case-list"></div>
+      <a class="link-arrow" href="law.html#cases-sec" style="margin-top:22px" data-reveal>All landmark cases <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div class="quiz" id="quiz" data-reveal="scale"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <div><span class="eyebrow">On campus</span><h2>Next event</h2></div>
+      <a class="link-arrow" href="events.html">All events <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div id="next-event" data-reveal></div>
+  </div>
+</section>
+</main>
+<section class="cta-band">
+  <div class="ghost" data-ghost></div>
+  <div class="wrap">
+    <h2 data-reveal="left">Have an argument worth making?</h2>
+    <a class="btn" href="about.html#join" data-reveal="right">Join Polytrics <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  </div>
+</section>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/content.js"></script>
+<script src="assets/js/site.js"></script>
+<script src="assets/js/feeds.js"></script>
+<script src="assets/js/pages.js"></script>
+</body>
+</html>
