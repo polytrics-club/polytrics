@@ -4,96 +4,87 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Polytrics</title>
-<meta name="description" content="Polytrics, the Policy, Politics & Law Club. Live headlines, a daily constitutional fact, landmark cases and events.">
+<meta name="description" content="Polytrics, the Policy, Politics & Law Club. News sorted by category, a daily constitutional fact, an opinion wall and more.">
 <meta name="theme-color" content="#B62017">
 <meta property="og:title" content="Polytrics">
-<meta property="og:description" content="Polytrics, the Policy, Politics & Law Club. Live headlines, a daily constitutional fact, landmark cases and events.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23B62017'/%3E%3Cpath d='M31 10A22 22 0 0 0 31 54Z' fill='white'/%3E%3Cpath d='M33 54A22 22 0 0 0 33 10Z' fill='white'/%3E%3Crect x='21' y='34' width='10' height='22' fill='%23B62017'/%3E%3Crect x='33' y='8' width='10' height='22' fill='%23B62017'/%3E%3C/svg%3E">
+<meta property="og:description" content="Polytrics, the Policy, Politics & Law Club. News sorted by category, a daily constitutional fact, an opinion wall and more.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23B62017'/%3E%3Cpath d='M31 10A22 22 0 0 0 31 54Z' fill='%23FFDF7E'/%3E%3Cpath d='M33 54A22 22 0 0 0 33 10Z' fill='%23FFDF7E'/%3E%3Crect x='21' y='34' width='10' height='22' fill='%23B62017'/%3E%3Crect x='33' y='8' width='10' height='22' fill='%23B62017'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Serif:ital@0;1&family=Outfit:wght@300..700&display=swap">
 <link rel="stylesheet" href="assets/css/style.css">
-<script>try{var t=localStorage.getItem("pt-theme");if(t==="dark"||t==="light")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 </head>
 <body data-page="home">
-<main>
-<section class="hero hero--home">
-  <div class="ghost" data-ghost></div>
-  <div class="wrap" style="width:100%">
-    <span class="eyebrow">The Policy, Politics &amp; Law Club</span>
-    <h1 style="margin-top:20px">
-      <span class="line"><span style="--i:0">Policy<span class="dot">.</span></span></span>
-      <span class="line"><span style="--i:1">Politics<span class="dot">.</span></span></span>
-      <span class="line"><span style="--i:2"><em>Law</em><span class="dot">.</span></span></span>
-    </h1>
-    <p class="lede">We read the bills, follow the courts and argue about what it all means. Every day this site brings you fresh headlines, a fact from the Constitution and a case worth knowing.</p>
-    <div class="hero-cta">
-      <a class="btn btn--light" href="#brief">Today's brief <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-      <a class="btn btn--ghost" href="about.html#join">Join the club</a>
-    </div>
-  </div>
-  <a class="mouse" href="#brief" aria-label="Scroll to today's brief"><span></span></a>
-</section>
-
-<div class="ticker" aria-label="Latest headlines">
-  <div class="wrap"><span class="label">Latest</span><div class="track"><div class="run" id="ticker-run"></div></div></div>
-</div>
-
-<section class="section" id="brief">
-  <div class="wrap">
-    <div class="section-head" data-reveal>
-      <div><span class="eyebrow">Updates daily</span><h2>Today's brief</h2></div>
-      <p class="lede">A new fact and a new Article of the Constitution every day. Copy one and start an argument.</p>
-    </div>
-    <div class="split">
-      <div class="docket" id="fact" data-reveal="left"></div>
-      <div class="article-card" id="article" data-reveal="right"></div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="wrap">
-    <div class="section-head" data-reveal>
-      <div><span class="eyebrow">Three desks</span><h2>Where to start</h2></div>
-      <p class="lede">Each desk has a live news feed and material written by our members.</p>
-    </div>
-    <div class="grid grid-3">
-      <a class="pillar" href="policy.html" data-reveal style="--d:0"><span class="num">i.</span><span class="tag">Policy Pulse</span><h3>Policy</h3><p>Bills in Parliament, government schemes and short explainers on how laws are made.</p><span class="link-arrow">Open desk <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
-      <a class="pillar" href="politics.html" data-reveal style="--d:1"><span class="num">ii.</span><span class="tag">Politics Desk</span><h3>Politics</h3><p>Elections, Parliament and the world, sorted into India and global coverage.</p><span class="link-arrow">Open desk <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
-      <a class="pillar" href="law.html" data-reveal style="--d:2"><span class="num">iii.</span><span class="tag">Law Watch</span><h3>Law</h3><p>Court news, landmark judgments and the Article of the day.</p><span class="link-arrow">Open desk <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
-    </div>
-  </div>
-</section>
-
-<section class="section section--tint">
-  <div class="wrap split">
+<section class="hero">
+  <div class="wrap grid">
     <div>
-      <div class="section-head" data-reveal style="margin-bottom:24px"><div><span class="eyebrow">Case spotlight</span><h2>On the record</h2></div></div>
-      <div id="case-spot" class="case-list"></div>
-      <a class="link-arrow" href="law.html#cases-sec" style="margin-top:22px" data-reveal>All landmark cases <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <span class="kicker">The Policy, Politics &amp; Law Club</span>
+      <h1 style="margin-top:22px">
+        <span class="line"><span style="--i:0">Policy.</span></span>
+        <span class="line"><span style="--i:1">Politics.</span></span>
+        <span class="line"><span style="--i:2">&amp; <em>Law.</em></span></span>
+      </h1>
+      <p class="lede">We read the bills, follow the courts and argue about what it all means. Fresh headlines sorted by topic, a fact a day, and a wall for your opinions.</p>
+      <div class="hero-cta">
+        <a class="btn btn--butter" href="news.html">Read the news <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn--line" href="opinion.html">Opinion Wall</a>
+      </div>
     </div>
-    <div class="quiz" id="quiz" data-reveal="scale"></div>
+    <div class="blob" id="hero-blob" data-logo></div>
+  </div>
+  <div data-wavetext="Read closely, argue fairly"></div>
+</section>
+<div aria-hidden="true" style="background:var(--red);position:relative;z-index:2"><svg class="wave wave--butter" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,48 C240,110 480,0 720,46 C960,92 1200,8 1440,52 L1440,121 L0,121 Z"/></svg></div>
+<main>
+<section class="section s-fade-bc" id="brief">
+  <div class="wrap cols-2">
+    <div class="fact" id="fact" data-reveal="left"></div>
+    <div class="seal" id="seal" data-reveal="scale"></div>
   </div>
 </section>
 
-<section class="section">
+<section class="section s-cream">
   <div class="wrap">
-    <div class="section-head" data-reveal>
-      <div><span class="eyebrow">On campus</span><h2>Next event</h2></div>
-      <a class="link-arrow" href="events.html">All events <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <div class="head" data-reveal>
+      <div><span class="kicker" style="color:var(--red)">Updated every few hours</span><h2 class="big">The news, <em>sorted.</em></h2></div>
+      <span class="status" id="news-status"><span class="live off"></span>Loading headlines…</span>
     </div>
-    <div id="next-event" data-reveal></div>
+    <div class="pills" id="news-pills" style="margin-bottom:26px"></div>
+    <div id="news-list"></div>
+    <a class="textlink more" href="news.html">All the news <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
   </div>
 </section>
-</main>
-<section class="cta-band">
-  <div class="ghost" data-ghost></div>
+<div aria-hidden="true" style="background:transparent;position:relative;z-index:2"><svg class="wave wave--red" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,78 C300,8 620,118 900,64 C1150,18 1300,44 1440,30 L1440,121 L0,121 Z"/></svg></div>
+<section class="section s-red" style="padding-top:clamp(40px,6vw,80px)">
+  <div class="wrap cols-2" style="align-items:start">
+    <div>
+      <div data-reveal><span class="kicker">On the record</span><h2 class="mid" style="margin-top:14px">A case worth <em>knowing.</em></h2></div>
+      <div id="case-spot" style="margin-top:20px"></div>
+      <a class="textlink" href="learn.html#cases-sec" data-reveal>Every landmark case <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div class="quiz" id="quiz" data-reveal="right"></div>
+  </div>
+</section>
+<div aria-hidden="true" style="background:var(--red);position:relative;z-index:2"><svg class="wave wave--cream" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,30 C200,30 380,100 640,90 C900,80 1100,10 1440,60 L1440,121 L0,121 Z"/></svg></div>
+<section class="section s-cream">
   <div class="wrap">
-    <h2 data-reveal="left">Have an argument worth making?</h2>
-    <a class="btn" href="about.html#join" data-reveal="right">Join Polytrics <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <div class="head" data-reveal>
+      <div><span class="kicker" style="color:var(--red)">From the Opinion Wall</span><h2 class="big">Say it. <em>It stays a week.</em></h2></div>
+      <a class="btn btn--red" href="opinion.html">See the whole wall <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div class="notes" id="wall"></div>
   </div>
 </section>
+<div aria-hidden="true" style="background:transparent;position:relative;z-index:2"><svg class="wave wave--red" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,48 C240,110 480,0 720,46 C960,92 1200,8 1440,52 L1440,121 L0,121 Z"/></svg></div>
+<section class="section s-red cta">
+  <div class="wrap" data-reveal="scale">
+    <h2>Have a take?<br><em>Put it on the wall.</em></h2>
+    <p class="lede">Short, sharp, one argument. It stays up for seven days, then makes room for the next one.</p>
+    <a class="btn btn--butter" href="opinion.html#write">Write your take <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  </div>
+</section>
+<div aria-hidden="true" style="background:var(--red);position:relative;z-index:2"><svg class="wave wave--ink" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,78 C300,8 620,118 900,64 C1150,18 1300,44 1440,30 L1440,121 L0,121 Z"/></svg></div>
+</main>
 <script src="assets/js/config.js"></script>
 <script src="assets/js/content.js"></script>
 <script src="assets/js/site.js"></script>

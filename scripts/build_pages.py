@@ -1,15 +1,15 @@
-"""Generates the HTML pages from one shared template.
-Edit page bodies here (or directly in the .html files after generation)."""
+"""Generates the HTML pages from one shared template (v2, "flow" design).
+Run:  python3 scripts/build_pages.py"""
 import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ARROW = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>'
 SEARCH = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>'
-
 FAVICON = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E"
-           "%3Crect width='64' height='64' rx='14' fill='%23B62017'/%3E"
-           "%3Cpath d='M31 10A22 22 0 0 0 31 54Z' fill='white'/%3E%3Cpath d='M33 54A22 22 0 0 0 33 10Z' fill='white'/%3E"
+           "%3Crect width='64' height='64' rx='32' fill='%23B62017'/%3E"
+           "%3Cpath d='M31 10A22 22 0 0 0 31 54Z' fill='%23FFDF7E'/%3E%3Cpath d='M33 54A22 22 0 0 0 33 10Z' fill='%23FFDF7E'/%3E"
            "%3Crect x='21' y='34' width='10' height='22' fill='%23B62017'/%3E%3Crect x='33' y='8' width='10' height='22' fill='%23B62017'/%3E%3C/svg%3E")
+FONTS = "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Serif:ital@0;1&family=Outfit:wght@300..700&display=swap"
 
 HEAD = """<!doctype html>
 <html lang="en">
@@ -24,13 +24,11 @@ HEAD = """<!doctype html>
 <link rel="icon" href="{favicon}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="{fonts}">
 <link rel="stylesheet" href="assets/css/style.css">
-<script>try{{var t=localStorage.getItem("pt-theme");if(t==="dark"||t==="light")document.documentElement.setAttribute("data-theme",t)}}catch(e){{}}</script>
 </head>
 <body data-page="{page}">
 """
-
 FOOT = """
 <script src="assets/js/config.js"></script>
 <script src="assets/js/content.js"></script>
@@ -41,274 +39,302 @@ FOOT = """
 </html>
 """
 
+WAVES = [
+    "M0,48 C240,110 480,0 720,46 C960,92 1200,8 1440,52 L1440,121 L0,121 Z",
+    "M0,78 C300,8 620,118 900,64 C1150,18 1300,44 1440,30 L1440,121 L0,121 Z",
+    "M0,30 C200,30 380,100 640,90 C900,80 1100,10 1440,60 L1440,121 L0,121 Z",
+]
+COL = {"red": "var(--red)", "cream": "var(--cream)", "butter": "var(--butter)", "ink": "var(--ink)"}
 
-def page_hero(eyebrow, h1_lines, lede):
-    lines = "".join(f'<span class="line"><span style="--i:{i}">{l}</span></span>' for i, l in enumerate(h1_lines))
+
+def wave(frm, to, v=0):
+    bg = "transparent" if frm == "cream" else COL[frm]
+    return (f'<div aria-hidden="true" style="background:{bg};position:relative;z-index:2">'
+            f'<svg class="wave wave--{to}" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="{WAVES[v % 3]}"/></svg></div>')
+
+
+def page_hero(kicker, title_lines, lede, right=None):
+    lines = "".join(f'<span class="line"><span style="--i:{i}">{l}</span></span>' for i, l in enumerate(title_lines))
+    right = right or '<div class="blob blob--sm" data-logo></div>'
     return f"""<section class="hero hero--page">
-  <div class="ghost" data-ghost></div>
-  <div class="wrap">
-    <span class="eyebrow">{eyebrow}</span>
-    <h1 style="margin-top:16px">{lines}</h1>
-    <p class="lede">{lede}</p>
-  </div>
-</section>"""
-
-
-def feed_block(title, eyebrow, lede, chips=""):
-    return f"""<div class="section-head" data-reveal>
-      <div><span class="eyebrow">{eyebrow}</span><h2>{title}</h2></div>
+  <div class="wrap grid">
+    <div>
+      <span class="kicker">{kicker}</span>
+      <h1 style="margin-top:18px">{lines}</h1>
       <p class="lede">{lede}</p>
     </div>
-    <div class="feed-toolbar">
-      <div class="chips">{chips}</div>
-      <div class="feed-status" id="feed-status"><span class="live off"></span>Loading headlines…</div>
-    </div>
-    <div id="feed"></div>"""
-
-
-CTA = f"""<section class="cta-band">
-  <div class="ghost" data-ghost></div>
-  <div class="wrap">
-    <h2 data-reveal="left">Have an argument worth making?</h2>
-    <a class="btn" href="about.html#join" data-reveal="right">Join Polytrics {ARROW}</a>
+    {right}
   </div>
 </section>"""
+
 
 PAGES = {}
 
 PAGES["index"] = dict(
-    title="Polytrics", desc="Polytrics, the Policy, Politics & Law Club. Live headlines, a daily constitutional fact, landmark cases and events.",
-    body=f"""<main>
-<section class="hero hero--home">
-  <div class="ghost" data-ghost></div>
-  <div class="wrap" style="width:100%">
-    <span class="eyebrow">The Policy, Politics &amp; Law Club</span>
-    <h1 style="margin-top:20px">
-      <span class="line"><span style="--i:0">Policy<span class="dot">.</span></span></span>
-      <span class="line"><span style="--i:1">Politics<span class="dot">.</span></span></span>
-      <span class="line"><span style="--i:2"><em>Law</em><span class="dot">.</span></span></span>
-    </h1>
-    <p class="lede">We read the bills, follow the courts and argue about what it all means. Every day this site brings you fresh headlines, a fact from the Constitution and a case worth knowing.</p>
-    <div class="hero-cta">
-      <a class="btn btn--light" href="#brief">Today's brief {ARROW}</a>
-      <a class="btn btn--ghost" href="about.html#join">Join the club</a>
-    </div>
-  </div>
-  <a class="mouse" href="#brief" aria-label="Scroll to today's brief"><span></span></a>
-</section>
-
-<div class="ticker" aria-label="Latest headlines">
-  <div class="wrap"><span class="label">Latest</span><div class="track"><div class="run" id="ticker-run"></div></div></div>
-</div>
-
-<section class="section" id="brief">
-  <div class="wrap">
-    <div class="section-head" data-reveal>
-      <div><span class="eyebrow">Updates daily</span><h2>Today's brief</h2></div>
-      <p class="lede">A new fact and a new Article of the Constitution every day. Copy one and start an argument.</p>
-    </div>
-    <div class="split">
-      <div class="docket" id="fact" data-reveal="left"></div>
-      <div class="article-card" id="article" data-reveal="right"></div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="wrap">
-    <div class="section-head" data-reveal>
-      <div><span class="eyebrow">Three desks</span><h2>Where to start</h2></div>
-      <p class="lede">Each desk has a live news feed and material written by our members.</p>
-    </div>
-    <div class="grid grid-3">
-      <a class="pillar" href="policy.html" data-reveal style="--d:0"><span class="num">i.</span><span class="tag">Policy Pulse</span><h3>Policy</h3><p>Bills in Parliament, government schemes and short explainers on how laws are made.</p><span class="link-arrow">Open desk {ARROW}</span></a>
-      <a class="pillar" href="politics.html" data-reveal style="--d:1"><span class="num">ii.</span><span class="tag">Politics Desk</span><h3>Politics</h3><p>Elections, Parliament and the world, sorted into India and global coverage.</p><span class="link-arrow">Open desk {ARROW}</span></a>
-      <a class="pillar" href="law.html" data-reveal style="--d:2"><span class="num">iii.</span><span class="tag">Law Watch</span><h3>Law</h3><p>Court news, landmark judgments and the Article of the day.</p><span class="link-arrow">Open desk {ARROW}</span></a>
-    </div>
-  </div>
-</section>
-
-<section class="section section--tint">
-  <div class="wrap split">
+    title="Polytrics", desc="Polytrics, the Policy, Politics & Law Club. News sorted by category, a daily constitutional fact, an opinion wall and more.",
+    body=f"""<section class="hero">
+  <div class="wrap grid">
     <div>
-      <div class="section-head" data-reveal style="margin-bottom:24px"><div><span class="eyebrow">Case spotlight</span><h2>On the record</h2></div></div>
-      <div id="case-spot" class="case-list"></div>
-      <a class="link-arrow" href="law.html#cases-sec" style="margin-top:22px" data-reveal>All landmark cases {ARROW}</a>
+      <span class="kicker">The Policy, Politics &amp; Law Club</span>
+      <h1 style="margin-top:22px">
+        <span class="line"><span style="--i:0">Policy.</span></span>
+        <span class="line"><span style="--i:1">Politics.</span></span>
+        <span class="line"><span style="--i:2">&amp; <em>Law.</em></span></span>
+      </h1>
+      <p class="lede">We read the bills, follow the courts and argue about what it all means. Fresh headlines sorted by topic, a fact a day, and a wall for your opinions.</p>
+      <div class="hero-cta">
+        <a class="btn btn--butter" href="news.html">Read the news {ARROW}</a>
+        <a class="btn btn--line" href="opinion.html">Opinion Wall</a>
+      </div>
     </div>
-    <div class="quiz" id="quiz" data-reveal="scale"></div>
+    <div class="blob" id="hero-blob" data-logo></div>
+  </div>
+  <div data-wavetext="Read closely, argue fairly"></div>
+</section>
+{wave("red", "butter", 0)}
+<main>
+<section class="section s-fade-bc" id="brief">
+  <div class="wrap cols-2">
+    <div class="fact" id="fact" data-reveal="left"></div>
+    <div class="seal" id="seal" data-reveal="scale"></div>
   </div>
 </section>
 
-<section class="section">
+<section class="section s-cream">
   <div class="wrap">
-    <div class="section-head" data-reveal>
-      <div><span class="eyebrow">On campus</span><h2>Next event</h2></div>
-      <a class="link-arrow" href="events.html">All events {ARROW}</a>
+    <div class="head" data-reveal>
+      <div><span class="kicker" style="color:var(--red)">Updated every few hours</span><h2 class="big">The news, <em>sorted.</em></h2></div>
+      <span class="status" id="news-status"><span class="live off"></span>Loading headlines…</span>
     </div>
-    <div id="next-event" data-reveal></div>
+    <div class="pills" id="news-pills" style="margin-bottom:26px"></div>
+    <div id="news-list"></div>
+    <a class="textlink more" href="news.html">All the news {ARROW}</a>
   </div>
 </section>
-</main>
-{CTA}""")
-
-PAGES["policy"] = dict(
-    title="Policy Pulse · Polytrics", desc="Live policy headlines and short explainers on how Indian law and policy are made.",
-    body=page_hero("Desk i · Policy Pulse", ["Policy Pulse"], "Bills, schemes and decisions from Parliament and the ministries, collected automatically and refreshed through the day.") + f"""
-<main>
-<section class="section"><div class="wrap">
-  {feed_block("What's moving", "Live feed", "Headlines from the Press Information Bureau and major outlets. Each one opens at the original source.")}
-</div></section>
-<section class="section section--tint" id="explainers-sec"><div class="wrap">
-  <div class="section-head" data-reveal>
-    <div><span class="eyebrow">Explainers</span><h2>How it works</h2></div>
-    <p class="lede">Short guides to the machinery of government. Open one before your next debate.</p>
+{wave("cream", "red", 1)}
+<section class="section s-red" style="padding-top:clamp(40px,6vw,80px)">
+  <div class="wrap cols-2" style="align-items:start">
+    <div>
+      <div data-reveal><span class="kicker">On the record</span><h2 class="mid" style="margin-top:14px">A case worth <em>knowing.</em></h2></div>
+      <div id="case-spot" style="margin-top:20px"></div>
+      <a class="textlink" href="learn.html#cases-sec" data-reveal>Every landmark case {ARROW}</a>
+    </div>
+    <div class="quiz" id="quiz" data-reveal="right"></div>
   </div>
-  <div id="explainers"></div>
-</div></section>
-</main>
-{CTA}""")
-
-PAGES["politics"] = dict(
-    title="Politics Desk · Polytrics", desc="Live political headlines from India and the world.",
-    body=page_hero("Desk ii · Politics Desk", ["Politics Desk"], "Elections, Parliament and geopolitics. Switch between India and the world, and every link takes you to the original reporting.") + f"""
-<main>
-<section class="section"><div class="wrap">
-  {feed_block("The latest", "Live feed", "Updated through the day from national and international outlets.",
-    '<button class="chip" type="button" data-scope="all" aria-pressed="true">All</button><button class="chip" type="button" data-scope="india" aria-pressed="false">India</button><button class="chip" type="button" data-scope="global" aria-pressed="false">World</button>')}
-</div></section>
-<section class="section section--tint"><div class="wrap">
-  <div class="section-head" data-reveal><div><span class="eyebrow">Daily</span><h2>Worth knowing</h2></div></div>
-  <div class="docket" id="fact" data-reveal></div>
-</div></section>
-</main>
-{CTA}""")
-
-PAGES["law"] = dict(
-    title="Law Watch · Polytrics", desc="Court news, landmark judgments of the Supreme Court of India and the Article of the day.",
-    body=page_hero("Desk iii · Law Watch", ["Law Watch"], "What the courts decided today, and the judgments that shaped the Republic.") + f"""
-<main>
-<section class="section"><div class="wrap split">
-  <div style="min-width:0">{feed_block("From the courts", "Live feed", "Supreme Court and High Court reporting from legal news outlets.")}</div>
-  <div class="article-card" id="article" data-reveal="right" style="position:sticky;top:90px"></div>
-</div></section>
-<section class="section section--tint" id="cases-sec"><div class="wrap">
-  <div class="section-head" data-reveal>
-    <div><span class="eyebrow">Landmark judgments</span><h2>Cases that shaped India</h2></div>
-    <label class="search"><span class="sr-only">Search cases</span>{SEARCH}<input id="case-q" type="search" placeholder="Search by name, year or topic"></label>
+</section>
+{wave("red", "cream", 2)}
+<section class="section s-cream">
+  <div class="wrap">
+    <div class="head" data-reveal>
+      <div><span class="kicker" style="color:var(--red)">From the Opinion Wall</span><h2 class="big">Say it. <em>It stays a week.</em></h2></div>
+      <a class="btn btn--red" href="opinion.html">See the whole wall {ARROW}</a>
+    </div>
+    <div class="notes" id="wall"></div>
   </div>
-  <div class="chips" id="case-areas" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px"></div>
-  <div class="case-list" id="cases"></div>
-</div></section>
-</main>
-{CTA}""")
+</section>
+{wave("cream", "red", 0)}
+<section class="section s-red cta">
+  <div class="wrap" data-reveal="scale">
+    <h2>Have a take?<br><em>Put it on the wall.</em></h2>
+    <p class="lede">Short, sharp, one argument. It stays up for seven days, then makes room for the next one.</p>
+    <a class="btn btn--butter" href="opinion.html#write">Write your take {ARROW}</a>
+  </div>
+</section>
+{wave("red", "ink", 1)}
+</main>""")
 
-PAGES["events"] = dict(
-    title="Events · Polytrics", desc="Mock parliaments, debates, policy labs and guest talks by Polytrics.",
-    body=page_hero("On campus", ["Events"], "Mock parliaments, debates, policy labs and guest talks. Come for one; most people stay.") + f"""
+PAGES["news"] = dict(
+    title="News · Polytrics", desc="Live political, legal and policy headlines sorted by category: Parliament, Courts, Elections, Policy, Economy and World.",
+    body=page_hero("Updated every few hours", ["The <em>News</em>"], "Headlines from Indian and international outlets, sorted into the topics we care about. Every link opens the original story.") + f"""
+{wave("red", "cream", 1)}
 <main>
-<section class="section"><div class="wrap">
-  <div id="next-event" data-reveal></div>
-</div></section>
-<section class="section"><div class="wrap">
-  <div class="section-head" data-reveal><div><span class="eyebrow">Calendar</span><h2>Coming up</h2></div></div>
-  <div id="upcoming"></div>
-</div></section>
-<section class="section section--tint"><div class="wrap">
-  <div class="section-head" data-reveal><div><span class="eyebrow">Archive</span><h2>Past events</h2></div></div>
-  <div id="past"></div>
-</div></section>
-</main>
-{CTA}""")
+<section class="section s-cream" style="padding-top:clamp(30px,4vw,50px)">
+  <div class="wrap">
+    <div class="news-bar"><div class="pills" id="news-pills"></div></div>
+    <p class="status" id="news-status" style="margin-bottom:10px"><span class="live off"></span>Loading headlines…</p>
+    <div id="news-list"></div>
+  </div>
+</section>
+{wave("cream", "ink", 0)}
+</main>""")
+
+PAGES["opinion"] = dict(
+    title="Opinion Wall · Polytrics", desc="Short opinion pieces by Polytrics members and readers. Each post stays up for a week.",
+    body=page_hero("Seven days on the wall", ["Opinion <em>Wall</em>"], "Short takes on policy, politics and law. Every post stays up for seven days, then makes way for new arguments.") + f"""
+{wave("red", "cream", 2)}
+<main>
+<section class="section s-cream" style="padding-top:clamp(30px,4vw,60px)">
+  <div class="wrap">
+    <div class="head" data-reveal>
+      <div><span class="kicker" style="color:var(--red)">This week</span><h2 class="big">On the <em>wall.</em></h2></div>
+      <a class="btn btn--red" href="#write" data-write>Write your take {ARROW}</a>
+    </div>
+    <div class="notes" id="wall"></div>
+  </div>
+</section>
+{wave("cream", "red", 0)}
+<section class="section s-red" id="write" style="padding-top:clamp(40px,6vw,80px)">
+  <div class="wrap cols-2" style="align-items:start">
+    <div data-reveal="left">
+      <span class="kicker">House rules</span>
+      <h2 class="big" style="margin-top:14px">How to <em>post.</em></h2>
+    </div>
+    <div data-reveal="right">
+      <ol class="rules">
+        <li><span>Make one argument, in 150 to 400 words.</span></li>
+        <li><span>Disagree with ideas, not people. No personal attacks.</span></li>
+        <li><span>Back up facts with a source the reader can check.</span></li>
+        <li><span>The editors approve posts, usually within a day. Each one stays up for seven days.</span></li>
+      </ol>
+      <a class="btn btn--butter" href="#write" data-write style="margin-top:30px">Write your take {ARROW}</a>
+      <p id="write-note" style="margin-top:16px"></p>
+    </div>
+  </div>
+</section>
+{wave("red", "ink", 1)}
+</main>""")
+
+PAGES["learn"] = dict(
+    title="Learn · Polytrics", desc="Explainers, the Article of the day, a weekly quiz and the landmark cases that shaped India.",
+    body=page_hero("The basics, done well", ["Learn the <em>basics</em>"], "Short explainers on how government works, one Article of the Constitution every day, a weekly quiz and the cases every student should know.") + f"""
+{wave("red", "butter", 0)}
+<main>
+<section class="section s-fade-bc" style="padding-top:clamp(30px,4vw,60px)">
+  <div class="wrap cols-2">
+    <div data-reveal="left">
+      <span class="kicker" style="color:var(--red)">Changes every day</span>
+      <h2 class="big" style="margin-top:14px">One Article, <em>every day.</em></h2>
+      <p class="lede" style="margin-top:20px">The Constitution is long. Read it one Article at a time, and come back tomorrow for the next.</p>
+    </div>
+    <div class="seal" id="seal" data-reveal="scale"></div>
+  </div>
+</section>
+<section class="section s-cream" id="explainers-sec">
+  <div class="wrap">
+    <div class="head" data-reveal><div><span class="kicker" style="color:var(--red)">Explainers</span><h2 class="big">How it <em>works.</em></h2></div></div>
+    <div id="explainers"></div>
+  </div>
+</section>
+{wave("cream", "red", 1)}
+<section class="section s-red" style="padding-top:clamp(40px,6vw,80px)">
+  <div class="wrap cols-2">
+    <div data-reveal="left"><span class="kicker">New every Monday</span><h2 class="big" style="margin-top:14px">Test <em>yourself.</em></h2><p class="lede" style="margin-top:20px">Five questions on the Constitution, Parliament and the courts.</p></div>
+    <div class="quiz" id="quiz" data-reveal="right"></div>
+  </div>
+</section>
+{wave("red", "cream", 2)}
+<section class="section s-cream" id="cases-sec">
+  <div class="wrap">
+    <div class="head" data-reveal>
+      <div><span class="kicker" style="color:var(--red)">Landmark judgments</span><h2 class="big">Cases that <em>shaped India.</em></h2></div>
+      <label class="search"><span class="sr-only">Search cases</span>{SEARCH}<input id="case-q" type="search" placeholder="Search a name, year or topic"></label>
+    </div>
+    <div class="pills" id="case-areas" style="margin-bottom:20px"></div>
+    <div id="cases"></div>
+  </div>
+</section>
+{wave("cream", "ink", 0)}
+</main>""")
 
 PAGES["journal"] = dict(
     title="The Journal · Polytrics", desc="Essays, policy briefs and case notes by Polytrics members.",
-    body=page_hero("Member writing", ["The <em>Journal</em>"], "Essays, policy briefs and case notes by our members. Each one is argued carefully and kept short enough to finish.") + f"""
+    body=page_hero("Member writing", ["The <em>Journal</em>"], "Longer essays, policy briefs and case notes by our members. Each one is edited and argued carefully, and kept short enough to finish.") + f"""
+{wave("red", "cream", 0)}
 <main>
-<section class="section"><div class="wrap">
-  <div class="grid grid-2" id="posts"></div>
-</div></section>
-<section class="section section--tint"><div class="wrap split">
-  <div data-reveal="left"><span class="eyebrow">Write for us</span><h2 style="font-size:clamp(2rem,4vw,3rem);margin-top:10px">Pitch a piece</h2></div>
-  <div data-reveal="right"><p class="lede" style="color:var(--fg)">Send a 100-word pitch: the argument, why it matters now, and one source. Pieces run 600 to 1,200 words and are edited by the Journal team before publishing.</p>
-  <a class="btn btn--solid" href="about.html#join" style="margin-top:22px">Get in touch {ARROW}</a></div>
-</div></section>
+<section class="section s-cream" style="padding-top:clamp(30px,4vw,60px)">
+  <div class="wrap"><div class="posts" id="posts"></div></div>
+</section>
+{wave("cream", "red", 1)}
+<section class="section s-red cta">
+  <div class="wrap" data-reveal="scale">
+    <h2>Pitch a <em>piece.</em></h2>
+    <p class="lede">Send a 100-word pitch: the argument, why it matters now, and one source. Journal pieces run 600 to 1,200 words. For something shorter, use the Opinion Wall.</p>
+    <a class="btn btn--butter" href="opinion.html">Go to the Opinion Wall {ARROW}</a>
+  </div>
+</section>
+{wave("red", "ink", 2)}
 </main>
 <div class="reader" id="reader" hidden role="dialog" aria-modal="true" aria-label="Article">
-  <button class="icon-btn close" type="button" aria-label="Close article"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  <button class="close" type="button" aria-label="Close article"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
   <article></article>
-</div>
-{CTA}""")
+</div>""")
 
 PAGES["resources"] = dict(
     title="Resources · Polytrics", desc="A curated directory of primary sources, case law, policy research and data for students of policy, politics and law.",
     extra='<script src="assets/js/resources.js"></script>\n',
-    body=page_hero("Library", ["Resources"], "The sources our members use most: primary texts, case law, research and data. Bookmark this page.") + f"""
+    body=page_hero("Library", ["Go to the <em>source</em>"], "The sites our members use most: primary texts, case law, research and data. Bookmark this page.") + f"""
+{wave("red", "cream", 1)}
 <main>
-<section class="section"><div class="wrap">
-  <div class="section-head" data-reveal>
-    <div><span class="eyebrow">Directory</span><h2>Go to the source</h2></div>
-    <label class="search"><span class="sr-only">Search resources</span>{SEARCH}<input id="res-q" type="search" placeholder="Search, e.g. judgments, data, treaties"></label>
-  </div>
-  <div class="grid grid-3" id="res"></div>
-</div></section>
-</main>
-{CTA}""")
-
-PAGES["about"] = dict(
-    title="About · Polytrics", desc="Who we are, what we do and how to join Polytrics.",
-    body=page_hero("Who we are", ["About <em>Polytrics</em>"], "Polytrics is a student club for people who want to understand how power is made, used and checked, and then argue about it.") + f"""
-<main>
-<section class="section"><div class="wrap split">
-  <div data-reveal="left">
-    <span class="eyebrow">Our idea</span>
-    <h2 style="font-size:clamp(2rem,4.4vw,3.4rem);margin-top:10px">Two sides, one table</h2>
-  </div>
-  <div data-reveal="right" style="display:grid;gap:18px;font-family:var(--serif);font-size:1.2rem;line-height:1.6">
-    <p>Our logo shows two faces in profile, each half of one circle. Policy, politics and law work the same way: every rule has someone arguing for it and someone arguing against it, and the outcome depends on how well both sides are heard.</p>
-    <p>We run debates, mock parliaments and policy labs. We publish member writing, and we keep this site updated so that following public life takes five minutes a day, not an hour.</p>
-  </div>
-</div></section>
-
-<section class="section section--tint"><div class="wrap">
-  <div class="section-head" data-reveal><div><span class="eyebrow">What we do</span><h2>Four formats</h2></div></div>
-  <div class="grid grid-4">
-    <div class="stat" data-reveal style="--d:0"><b>i.</b><h3 style="margin-top:10px;font-size:1.4rem">Mock Parliament</h3><span>Real bills, real procedure: Question Hour, debate and division.</span></div>
-    <div class="stat" data-reveal style="--d:1"><b>ii.</b><h3 style="margin-top:10px;font-size:1.4rem">Policy Labs</h3><span>Small-group sessions taking apart a budget, a scheme or a report.</span></div>
-    <div class="stat" data-reveal style="--d:2"><b>iii.</b><h3 style="margin-top:10px;font-size:1.4rem">Debates &amp; Moots</h3><span>Parliamentary debate and moot-court practice on live questions.</span></div>
-    <div class="stat" data-reveal style="--d:3"><b>iv.</b><h3 style="margin-top:10px;font-size:1.4rem">The Journal</h3><span>Member essays and briefs, edited and published here.</span></div>
-  </div>
-</div></section>
-
-<section class="section"><div class="wrap">
-  <div class="section-head" data-reveal><div><span class="eyebrow">The team</span><h2>Core committee</h2></div></div>
-  <div class="grid grid-4" id="team"></div>
-</div></section>
-
-<section class="section section--tint" id="join"><div class="wrap split">
-  <div data-reveal="left" style="display:grid;gap:18px;align-content:start">
-    <span class="eyebrow">Join us</span>
-    <h2 style="font-size:clamp(2rem,4.4vw,3.4rem)">Take a seat at the table</h2>
-    <p class="lede">Open to every student. No prior experience in law or politics needed, only curiosity and a willingness to argue in good faith.</p>
-    <a class="btn btn--solid" id="gform" href="#" target="_blank" rel="noopener" style="justify-self:start">Apply via Google Form {ARROW}</a>
-    <div class="copy-line"><span class="form-note">Or write to</span> <code id="club-mail"></code> <button class="chip" type="button" id="copy-mail">Copy</button></div>
-  </div>
-  <form class="panel form" id="join-form" data-reveal="right" novalidate>
-    <div class="form-row">
-      <div class="field"><label for="f-name">Full name</label><input id="f-name" name="name" required autocomplete="name"></div>
-      <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" required autocomplete="email"></div>
+<section class="section s-cream" style="padding-top:clamp(30px,4vw,60px)">
+  <div class="wrap">
+    <div class="head" data-reveal>
+      <div><span class="kicker" style="color:var(--red)">Directory</span><h2 class="big">Resources</h2></div>
+      <label class="search"><span class="sr-only">Search resources</span>{SEARCH}<input id="res-q" type="search" placeholder="Search, e.g. judgments, data, treaties"></label>
     </div>
-    <div class="form-row">
-      <div class="field"><label for="f-prog">Programme &amp; year</label><input id="f-prog" name="programme" placeholder="e.g. MBA, 1st year"></div>
-      <div class="field"><label for="f-desk">Desk</label><select id="f-desk" name="desk"><option>Policy</option><option>Politics</option><option>Law</option><option>Journal</option><option>Events</option><option>Design &amp; Social</option></select></div>
-    </div>
-    <div class="field"><label for="f-why">Which issue would you argue about all night?</label><textarea id="f-why" name="message" required></textarea></div>
-    <button class="btn btn--solid" type="submit" style="justify-self:start">Send application {ARROW}</button>
-    <p class="form-note" id="form-note" aria-live="polite"></p>
-  </form>
-</div></section>
+    <div class="cols-3" id="res" style="align-items:start"></div>
+  </div>
+</section>
+{wave("cream", "ink", 2)}
 </main>""")
 
+PAGES["about"] = dict(
+    title="About · Polytrics", desc="Who we are and what we do at Polytrics, the Policy, Politics & Law Club.",
+    body=page_hero("Who we are", ["About <em>us</em>"], "Polytrics is a student club for people who want to understand how power is made, used and checked, and then argue about it in good faith.",
+                   right='<div class="shape shape--arch" id="photo-1" style="width:min(100%,340px);justify-self:center"><span class="ph">Your photo here</span></div>') + f"""
+{wave("red", "cream", 2)}
+<main>
+<section class="section s-cream">
+  <div class="wrap cols-2">
+    <div class="prose" data-reveal="left">
+      <span class="kicker" style="color:var(--red)">Our story</span>
+      <p class="big-it">Two faces, one circle.</p>
+      <p>Our logo shows two people in profile, each half of the same circle. That is how we see policy, politics and law: every rule has someone arguing for it and someone arguing against it, and a good outcome depends on both being heard.</p>
+      <p>We started Polytrics to make following public life easier and arguing about it more fun. We read bills, follow the courts and debate what it all means, and we try to do it with curiosity rather than certainty.</p>
+    </div>
+    <div class="shape shape--blob" id="photo-2" data-reveal="scale"><span class="ph">Your photo here</span></div>
+  </div>
+</section>
+{wave("cream", "butter", 0)}
+<section class="section s-butter">
+  <div class="wrap">
+    <div class="head" data-reveal><div><span class="kicker" style="color:var(--red)">What we do</span><h2 class="big">Ways to <em>take part.</em></h2></div></div>
+    <div class="does">
+      <div data-reveal style="--d:0"><h3>Mock Parliament</h3><p>Real bills and real procedure: Question Hour, debate and a division vote.</p></div>
+      <div data-reveal style="--d:1"><h3>Policy Labs</h3><p>Small groups that take apart a budget, a scheme or a report, line by line.</p></div>
+      <div data-reveal style="--d:2"><h3>Debates &amp; Moots</h3><p>Parliamentary debate and moot-court practice on the questions in the news.</p></div>
+      <div data-reveal style="--d:3"><h3>Writing</h3><p>Longer essays in the Journal, and quick takes on the Opinion Wall.</p></div>
+    </div>
+  </div>
+</section>
+{wave("butter", "red", 1)}
+<section class="section s-red" style="padding-top:clamp(40px,6vw,80px)">
+  <div class="wrap cols-2">
+    <div data-reveal="left" style="display:grid;gap:22px;align-content:start">
+      <span class="kicker">Say hello</span>
+      <h2 class="big">Get in <em>touch.</em></h2>
+      <div class="copy-line"><code id="club-mail"></code><button class="pill" type="button" id="copy-mail">Copy email</button></div>
+      <div class="pills" id="socials"></div>
+    </div>
+    <div class="shape shape--round" id="photo-3" data-reveal="scale" style="width:min(100%,380px);justify-self:center"><span class="ph">Your photo here</span></div>
+  </div>
+</section>
+{wave("red", "ink", 2)}
+</main>""")
+
+# old pages now point to their new homes, so shared links keep working
+REDIRECTS = {"policy": "news.html#policy", "politics": "news.html", "law": "learn.html", "events": "./"}
+STUB = """<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Polytrics</title>
+<meta http-equiv="refresh" content="0; url={to}"><link rel="canonical" href="{to}">
+<script>location.replace("{to}")</script></head>
+<body style="background:#B62017;color:#FFDF7E;font-family:system-ui;display:grid;place-items:center;min-height:100vh;margin:0">
+<a href="{to}" style="color:inherit">This page has moved. Continue</a></body></html>
+"""
+
 for name, p in PAGES.items():
-    html = HEAD.format(title=p["title"], desc=p["desc"], page="home" if name == "index" else name, favicon=FAVICON) + p["body"] + FOOT.format(extra=p.get("extra", ""))
+    html = HEAD.format(title=p["title"], desc=p["desc"], page="home" if name == "index" else name, favicon=FAVICON, fonts=FONTS) + p["body"] + FOOT.format(extra=p.get("extra", ""))
     (ROOT / f"{name}.html").write_text(html, encoding="utf-8")
     print("wrote", name + ".html")
+for name, to in REDIRECTS.items():
+    (ROOT / f"{name}.html").write_text(STUB.format(to=to), encoding="utf-8")
+    print("redirect", name + ".html ->", to)

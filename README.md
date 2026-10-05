@@ -5,28 +5,34 @@ A multi-page, static website for Polytrics, the Policy, Politics & Law Club. It 
 ## Pages
 | File | Page |
 |---|---|
-| index.html | Home: live ticker, fact of the day, Article of the day, case spotlight, weekly quiz, next event |
-| policy.html | Policy Pulse: live feed and explainers |
-| politics.html | Politics Desk: live feed with India / World filter |
-| law.html | Law Watch: live feed, Article of the day, searchable landmark cases |
-| events.html | Events: countdown, upcoming events, archive |
-| journal.html | Journal: member articles with a full-screen reader |
+| index.html | Home: today's fact, Article of the day, news by category, case spotlight, weekly quiz, Opinion Wall preview |
+| news.html | News sorted into Parliament, Courts & Law, Elections, Policy & Schemes, Economy, World |
+| opinion.html | Opinion Wall: short takes that stay up for 7 days |
+| learn.html | Article of the day, explainers, weekly quiz, searchable landmark cases |
+| journal.html | Longer member articles with a full-screen reader |
 | resources.html | Searchable directory of sources |
-| about.html | About, team and join form |
+| about.html | About the club, with three photo frames and contact details |
+| policy.html, politics.html, law.html, events.html | Old pages that now forward to the new ones |
 
 ## What updates itself
-- **News feeds:** `.github/workflows/update-feeds.yml` runs every 3 hours, fetches the RSS feeds listed in `assets/js/config.js` and saves them to `data/feeds.json`. If that file is empty, browsers fetch the feeds live through rss2json.
-- **Fact, Article and case of the day** rotate daily from `assets/js/content.js`.
-- **Quiz** changes every Monday.
-- **Events** move from "upcoming" to "past" automatically by date.
+- **News:** `.github/workflows/update-feeds.yml` runs every 3 hours and saves headlines for each category to `data/feeds.json`. Categories and their feeds are in `assets/js/config.js`.
+- **Fact, Article and case of the day** rotate daily from `assets/js/content.js`. The **quiz** changes every Monday.
+- **Opinion Wall** posts disappear automatically 7 days after they were submitted.
+
+## Setting up the Opinion Wall (10 minutes, free)
+1. Create a Google Form with four questions: **Name**, **Title**, **Your take** (paragraph) and **Topic**.
+2. Click **Send**, then the link icon, and copy the link. Paste it into `opinion.formURL` in `assets/js/config.js`.
+3. In the form, open **Responses**, then **Link to Sheets**. In the new Sheet, add a column header **Approved** at the end.
+4. To publish a post, type **yes** in the Approved column next to it.
+5. In the Sheet, choose **File → Share → Publish to web**, pick the responses sheet and **CSV**, then click **Publish**. Paste that link into `opinion.sheetCSV`.
+Until step 5 is done the wall shows the sample posts from `data/opinions.json`.
 
 ## Everyday editing (no coding)
-- Club email, socials and join form links: `assets/js/config.js`
-- Events: `data/events.json`, or connect a Google Sheet (instructions are in config.js)
-- Team: `data/team.json` (put photos in `assets/img/` and set `"photo": "assets/img/name.jpg"`)
+- Club email, socials, photos, Opinion Wall links, news categories: `assets/js/config.js`
+- Photos: upload to `assets/img/`, then put the paths in `heroImage` and `aboutImages`
+- About text: `about.html` (look for "Our story")
 - Journal articles: `data/articles.json`
 - Facts, cases, quiz questions, explainers: `assets/js/content.js`
-- Remove `"sample": true` from entries once they are real.
 
 ## Deploy free on GitHub Pages (recommended, so the feed bot runs)
 1. Create a GitHub account and a new public repository named `polytrics`.

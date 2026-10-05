@@ -36,10 +36,9 @@
 
   var PAGES = [
     ["./", "Home", "home"],
-    ["policy.html", "Policy", "policy"],
-    ["politics.html", "Politics", "politics"],
-    ["law.html", "Law", "law"],
-    ["events.html", "Events", "events"],
+    ["news.html", "News", "news"],
+    ["opinion.html", "Opinion Wall", "opinion"],
+    ["learn.html", "Learn", "learn"],
     ["journal.html", "Journal", "journal"],
     ["resources.html", "Resources", "resources"],
     ["about.html", "About", "about"]
@@ -49,15 +48,6 @@
   /* ---------- storage helpers (never required) ---------- */
   function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
 
-  /* ---------- theme ---------- */
-  var saved = store("pt-theme");
-  if (saved === "dark" || saved === "light") document.documentElement.setAttribute("data-theme", saved);
-  function isDark() {
-    var t = document.documentElement.getAttribute("data-theme");
-    if (t) return t === "dark";
-    return window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches;
-  }
-
   /* ---------- header ---------- */
   var header = document.createElement("header");
   header.className = "main_h";
@@ -65,7 +55,7 @@
     '<div class="wrap row">' +
       '<a class="brand" href="./" aria-label="' + CFG.clubName + ' home">' +
         '<span class="mark">' + logoSVG() + '</span>' +
-        '<span class="name">' + CFG.clubName + '<small>' + (CFG.institution || "") + '</small></span>' +
+        '<span class="name">' + CFG.clubName + '</span>' +
       '</a>' +
       '<nav id="site-nav" aria-label="Main"><ul>' +
         PAGES.map(function (p) {
@@ -73,7 +63,6 @@
         }).join("") +
       '</ul></nav>' +
       '<div class="header-tools">' +
-        '<button class="icon-btn theme-toggle" type="button" aria-label="Switch colour theme"></button>' +
         '<button class="mobile-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>' +
       '</div>' +
     '</div>';
@@ -83,15 +72,6 @@
   progress.className = "progress"; progress.innerHTML = "<span></span>";
   document.body.prepend(progress);
 
-  var themeBtn = header.querySelector(".theme-toggle");
-  function paintThemeBtn() { themeBtn.innerHTML = isDark() ? ICON.sun : ICON.moon; }
-  paintThemeBtn();
-  themeBtn.addEventListener("click", function () {
-    var next = isDark() ? "light" : "dark";
-    document.documentElement.setAttribute("data-theme", next);
-    store("pt-theme", next);
-    paintThemeBtn();
-  });
 
   var toggle = header.querySelector(".mobile-toggle");
   toggle.addEventListener("click", function () {
@@ -100,33 +80,59 @@
     toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
   });
 
-  /* ---------- footer + CTA ---------- */
+  /* ---------- footer ---------- */
   var footer = document.createElement("footer");
   footer.className = "site";
   var soc = CFG.socials || {};
   footer.innerHTML =
     '<div class="wrap">' +
       '<div class="top">' +
-        '<div><a class="brand" href="./"><span class="mark">' + logoSVG() + '</span><span class="name">' + CFG.clubName + '<small>' + CFG.tagline + '</small></span></a>' +
-        '<p style="margin-top:18px;max-width:34ch;opacity:.75">Policy, politics and law, read closely and argued fairly. ' + (CFG.institution ? "A student club at " + CFG.institution + "." : "") + '</p></div>' +
-        '<div><h4>Read</h4><ul><li><a href="policy.html">Policy Pulse</a></li><li><a href="politics.html">Politics Desk</a></li><li><a href="law.html">Law Watch</a></li><li><a href="journal.html">Journal</a></li></ul></div>' +
-        '<div><h4>Club</h4><ul><li><a href="events.html">Events</a></li><li><a href="about.html">About &amp; team</a></li><li><a href="about.html#join">Join us</a></li><li><a href="resources.html">Resources</a></li></ul></div>' +
-        '<div><h4>Elsewhere</h4><ul>' +
+        '<div><div class="big-name">' + CFG.clubName + '</div>' +
+        '<p style="margin-top:18px;max-width:36ch;opacity:.8">' + CFG.tagline + (CFG.institution ? " at " + CFG.institution : "") + '. Policy, politics and law, read closely and argued fairly.</p></div>' +
+        '<div><h4>Explore</h4><ul>' + PAGES.slice(1).map(function (p) { return '<li><a href="' + p[0] + '">' + p[1] + '</a></li>'; }).join("") + '</ul></div>' +
+        '<div><h4>Say hello</h4><ul>' +
           (soc.instagram ? '<li><a href="' + soc.instagram + '" target="_blank" rel="noopener">Instagram</a></li>' : "") +
           (soc.linkedin ? '<li><a href="' + soc.linkedin + '" target="_blank" rel="noopener">LinkedIn</a></li>' : "") +
           (soc.x ? '<li><a href="' + soc.x + '" target="_blank" rel="noopener">X</a></li>' : "") +
-          '<li><span style="opacity:.8;user-select:all">' + CFG.email + '</span></li>' +
+          '<li><span style="opacity:.85;user-select:all;word-break:break-all">' + CFG.email + '</span></li>' +
         '</ul></div>' +
       '</div>' +
       '<div class="bottom"><span>© ' + new Date().getFullYear() + ' ' + CFG.clubName + '. Student-run; views are members\' own.</span><span>Headlines link to their original publishers.</span></div>' +
     '</div>';
   document.body.append(footer);
 
+  /* ---------- curved flowing text ---------- */
+  document.querySelectorAll("[data-wavetext]").forEach(function (box, n) {
+    var phrase = box.getAttribute("data-wavetext");
+    var id = "wv" + n;
+    var reps = 10, rep = "";
+    for (var i = 0; i < reps; i++) rep += phrase + "  \u2022  ";
+    box.innerHTML = '<svg class="wavetext" viewBox="0 0 1600 200" preserveAspectRatio="xMidYMid slice" aria-label="' + phrase + '" role="img">' +
+      '<path id="' + id + '" fill="none" d="M-200,120 C100,40 300,40 600,110 S1100,190 1400,100 S1800,40 2000,110"/>' +
+      '<text><textPath href="#' + id + '" startOffset="0">' + rep + '</textPath></text></svg>';
+    var tp = box.querySelector("textPath"), txt = box.querySelector("text");
+    var seg = 0, off = 0, last = 0, boost = 0;
+    function measure() { try { seg = txt.getComputedTextLength() / reps; } catch (e) { seg = 0; } }
+    measure();
+    if (reduce) return;
+    window.addEventListener("scroll", function () { boost = Math.min(boost + 1.5, 6); }, { passive: true });
+    function frame(t) {
+      var dt = last ? Math.min(t - last, 50) : 16; last = t;
+      if (!seg) measure();
+      off -= (0.05 + boost * 0.03) * dt; boost *= 0.94;
+      if (seg && off < -seg) off += seg;
+      tp.setAttribute("startOffset", off.toFixed(1));
+      requestAnimationFrame(frame);
+    }
+    requestAnimationFrame(frame);
+  });
+
   /* ---------- background watermark + hero ghosts ---------- */
   var wm = document.createElement("div");
   wm.className = "watermark"; wm.innerHTML = logoSVG();
-  document.body.prepend(wm);
-  document.querySelectorAll("[data-ghost]").forEach(function (el) { el.innerHTML = logoSVG(); });
+  var wmWrap = document.createElement("div"); wmWrap.className = "wm-wrap"; wmWrap.setAttribute("aria-hidden", "true");
+  wmWrap.appendChild(wm); document.body.prepend(wmWrap);
+  document.querySelectorAll("[data-logo]").forEach(function (el) { el.innerHTML = logoSVG("logo-split"); });
 
   /* ---------- page transition overlay ---------- */
   var pt = document.createElement("div");
@@ -163,16 +169,16 @@
 
   /* ---------- scroll: header, progress, parallax, watermark ---------- */
   var hero = document.querySelector(".hero");
-  var ghost = document.querySelector(".hero .ghost svg");
+  var ghost = document.querySelector(".hero .logo-split");
   var ticking = false;
   function onScroll() {
     var y = window.scrollY || 0;
     var max = document.documentElement.scrollHeight - innerHeight;
-    header.classList.toggle("sticky", y > (hero ? hero.offsetHeight - 80 : 20));
+    header.classList.toggle("sticky", y > (hero ? hero.offsetHeight - 90 : 20));
     progress.style.setProperty("--p", max > 0 ? Math.min(1, y / max) : 0);
     if (!reduce) {
       wm.style.setProperty("--wm", (y * 0.03).toFixed(2));
-      if (ghost && hero && y < hero.offsetHeight) ghost.style.setProperty("--split", (y * 0.18).toFixed(1));
+      if (ghost && hero && y < hero.offsetHeight) ghost.style.setProperty("--split", (y * 0.12).toFixed(1));
     }
     ticking = false;
   }

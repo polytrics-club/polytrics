@@ -3,44 +3,41 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Resources · Polytrics</title>
-<meta name="description" content="A curated directory of primary sources, case law, policy research and data for students of policy, politics and law.">
+<title>News · Polytrics</title>
+<meta name="description" content="Live political, legal and policy headlines sorted by category: Parliament, Courts, Elections, Policy, Economy and World.">
 <meta name="theme-color" content="#B62017">
-<meta property="og:title" content="Resources · Polytrics">
-<meta property="og:description" content="A curated directory of primary sources, case law, policy research and data for students of policy, politics and law.">
+<meta property="og:title" content="News · Polytrics">
+<meta property="og:description" content="Live political, legal and policy headlines sorted by category: Parliament, Courts, Elections, Policy, Economy and World.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23B62017'/%3E%3Cpath d='M31 10A22 22 0 0 0 31 54Z' fill='%23FFDF7E'/%3E%3Cpath d='M33 54A22 22 0 0 0 33 10Z' fill='%23FFDF7E'/%3E%3Crect x='21' y='34' width='10' height='22' fill='%23B62017'/%3E%3Crect x='33' y='8' width='10' height='22' fill='%23B62017'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Serif:ital@0;1&family=Outfit:wght@300..700&display=swap">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body data-page="resources">
+<body data-page="news">
 <section class="hero hero--page">
   <div class="wrap grid">
     <div>
-      <span class="kicker">Library</span>
-      <h1 style="margin-top:18px"><span class="line"><span style="--i:0">Go to the <em>source</em></span></span></h1>
-      <p class="lede">The sites our members use most: primary texts, case law, research and data. Bookmark this page.</p>
+      <span class="kicker">Updated every few hours</span>
+      <h1 style="margin-top:18px"><span class="line"><span style="--i:0">The <em>News</em></span></span></h1>
+      <p class="lede">Headlines from Indian and international outlets, sorted into the topics we care about. Every link opens the original story.</p>
     </div>
     <div class="blob blob--sm" data-logo></div>
   </div>
 </section>
 <div aria-hidden="true" style="background:var(--red);position:relative;z-index:2"><svg class="wave wave--cream" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,78 C300,8 620,118 900,64 C1150,18 1300,44 1440,30 L1440,121 L0,121 Z"/></svg></div>
 <main>
-<section class="section s-cream" style="padding-top:clamp(30px,4vw,60px)">
+<section class="section s-cream" style="padding-top:clamp(30px,4vw,50px)">
   <div class="wrap">
-    <div class="head" data-reveal>
-      <div><span class="kicker" style="color:var(--red)">Directory</span><h2 class="big">Resources</h2></div>
-      <label class="search"><span class="sr-only">Search resources</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="res-q" type="search" placeholder="Search, e.g. judgments, data, treaties"></label>
-    </div>
-    <div class="cols-3" id="res" style="align-items:start"></div>
+    <div class="news-bar"><div class="pills" id="news-pills"></div></div>
+    <p class="status" id="news-status" style="margin-bottom:10px"><span class="live off"></span>Loading headlines…</p>
+    <div id="news-list"></div>
   </div>
 </section>
-<div aria-hidden="true" style="background:transparent;position:relative;z-index:2"><svg class="wave wave--ink" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,30 C200,30 380,100 640,90 C900,80 1100,10 1440,60 L1440,121 L0,121 Z"/></svg></div>
+<div aria-hidden="true" style="background:transparent;position:relative;z-index:2"><svg class="wave wave--ink" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,48 C240,110 480,0 720,46 C960,92 1200,8 1440,52 L1440,121 L0,121 Z"/></svg></div>
 </main>
 <script src="assets/js/config.js"></script>
 <script src="assets/js/content.js"></script>
-<script src="assets/js/resources.js"></script>
 <script src="assets/js/site.js"></script>
 <script src="assets/js/feeds.js"></script>
 <script src="assets/js/pages.js"></script>
