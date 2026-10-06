@@ -1,0 +1,43 @@
+{
+ "week": "2026-10-05",
+ "start": "2026-10-05",
+ "end": "2026-10-11",
+ "topics": [
+  {
+   "id": "motion-2026-10-05",
+   "kind": "motion",
+   "label": "Debate motion",
+   "title": "Is the collegium the right way to appoint judges?"
+  },
+  {
+   "id": "news-2026-10-05-courts",
+   "kind": "news",
+   "label": "In the news · Courts & Law",
+   "title": "Supreme Court closes 7-judge reference on legislative privilege, leaves free speech questions open",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNenV2bHAzNVQ5UWExYnhIV2JlX0p3NGlnZktJNEFnM2FZNkxkQ09UdmJ1TmFjaHdaRkh2ZGh3ZEVGRUFuSExQeWVMWUx3ZnNLX19MVVR1dV9QaE91V3F1WGJhRDFlaVdfdjA5LVUwQU1ZeXFIcDJjQ2pqQUxXR0hqWUpzVnMzdHFDZ08tWDFKdzdmc0xMaUpSY2JCOVJQX2pBSXFCcC1nZFFwSHI2dHBIWmFRZDNoeFVPMWVlaC1vd1lyWXFvbUlqUmdnd0hoZExaOTB6UUJ0aC12eVZ6eTdYZ0xReG5JU3d1ZXZjVm5nT1lPUQ?oc=5",
+   "source": "India Legal"
+  },
+  {
+   "id": "news-2026-10-05-elections",
+   "kind": "news",
+   "label": "In the news · Elections",
+   "title": "INDIA bloc march to EC: Rahul, Priyanka enter Akashvani Bhawan; several leaders detained",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOODZrbE80dEM0enZsOUQySUV2TWxicE5hbUNHRGR3UHp2R3paenBwSWhwSkgtdTg5MEQ1YjVQUTBGb2h3UTNsR3FSZGhnTW9SUW9kYl9Db19OYjB6c1VhYzJhRWZrT3RTeVdlUXA2MTJFS1RLbURoTmUtN01Gc1BDSmUzYU1DME02emtydTU2VkNjUU12dFMxdVhRLXh6ZWZ6MGpQQjk0ZDdjaHNZc2ZXV3NSMWR0V1JHU2hwZnI2RDZDSkcxWERSNUJxYWxURm_SAdQBQVVfeXFMTXdEaWF5TW1RUER0VFlXVzdlMXp2cWxXTVN6bnczNHRONGM4SzV6azJzanVXSzFXMU9BdTVVV1Z6OEVZWkVXUE10cHFlYm1ycU9kbXNDWFFmcHROS1lnblFyREhzSW1UZnl4aDdZSFBma3FMNUNpZE9DT3NYU0xtQnVIdDB2aGh0WEJHTkNKaF9VZk1LTDBEUENlUEt6M0s4WjBiUUF6SXFaeXZtX0hGLXpOdC1lSW4zelZCdk9yS252WnQxWGxEdHpZekl6d1hXZ2c0U1M?oc=5",
+   "source": "Telegraph India"
+  },
+  {
+   "id": "news-2026-10-05-economy",
+   "kind": "news",
+   "label": "In the news · Economy",
+   "title": "Mint Explainer | Why the RBI looks set to hike rates",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOS1BrZXd4emtBa2JQUTV1R2FOUXhrUFNnY3gxcGRQNDVwWnNBc3laZU9YbEVLTDZPMWxGT2tDUzNiQ1piT0RCczNFVXJSUzhOT01PY1NUOGxrTWNlemlUTlo3NFE4aHpkOHNqbGNTQzdKcF81dkEwVU1vYk53ZlNTQm9pclhEYXJUOGdWTlYzVlh5UdIBlwFBVV95cUxQN2ViMFIwWW5icXptMEZfeE9CNUY2RTc4Q2FNNFBTbnlZOWozdXBIX0c0T2lKVHJZQ1RzZWFUeUNBSVBaU3VCcG52VDR1RTdLdzBjX19jOFlkZFEzRmhhUzlnT3QyVWJ4QldwZ3pCZTVIdDlWMlZhZU4tYVJGa2p3ZnpwalQ2TGgzWFVKZTdiMFF0MFppQUJN?oc=5",
+   "source": "livemint.com"
+  },
+  {
+   "id": "open",
+   "kind": "open",
+   "label": "Anything goes",
+   "title": "Open floor: any issue in policy, politics or law"
+  }
+ ]
+}
