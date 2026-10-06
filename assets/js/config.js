@@ -23,20 +23,12 @@ window.POLYTRICS_CONFIG = {
   aboutImages: ["", "", ""],
 
   /* ---- Opinion Wall ----
-     Posts come from a Google Form and stay on the site for `days` days.
-     1. Make a Google Form with questions: Name, Title, Your take (paragraph), Topic.
-     2. Paste the form's share link into formURL.
-     3. In the form: Responses > Link to Sheets. In that Sheet add a column
-        named "Approved" and type "yes" next to each post you approve.
-     4. In the Sheet: File > Share > Publish to web > (the responses sheet) > CSV.
-        Paste that link into sheetCSV.
-     Until sheetCSV is set, the wall shows sample posts from data/opinions.json. */
+     People write posts and replies directly on the website. Posts are stored in
+     a Google Sheet through a small script (see README: "Setting up the Opinion Wall").
+     Paste the web app URL you get from that setup here. Until then the wall shows samples. */
   opinion: {
-    formURL: "",
-    sheetCSV: "",
-    days: 7,
-    requireApproval: true,
-    dateOrder: "DMY"     // Google Sheets in India writes dates as day/month/year
+    api: "",
+    days: 7
   },
 
   /* ---- News categories ----

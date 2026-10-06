@@ -34,6 +34,7 @@ FOOT = """
 <script src="assets/js/content.js"></script>
 {extra}<script src="assets/js/site.js"></script>
 <script src="assets/js/feeds.js"></script>
+<script src="assets/js/newsquiz.js"></script>
 <script src="assets/js/pages.js"></script>
 </body>
 </html>
@@ -129,6 +130,7 @@ PAGES["index"] = dict(
       <div><span class="kicker" style="color:var(--red)">From the Opinion Wall</span><h2 class="big">Say it. <em>It stays a week.</em></h2></div>
       <a class="btn btn--red" href="opinion.html">See the whole wall {ARROW}</a>
     </div>
+    <div class="topic-strip" id="topic-strip" data-reveal></div>
     <div class="notes" id="wall"></div>
   </div>
 </section>
@@ -136,7 +138,7 @@ PAGES["index"] = dict(
 <section class="section s-red cta">
   <div class="wrap" data-reveal="scale">
     <h2>Have a take?<br><em>Put it on the wall.</em></h2>
-    <p class="lede">Short, sharp, one argument. It stays up for seven days, then makes room for the next one.</p>
+    <p class="lede">Write it right here on the site. It stays up for seven days, and anyone can reply.</p>
     <a class="btn btn--butter" href="opinion.html#write">Write your take {ARROW}</a>
   </div>
 </section>
@@ -159,16 +161,23 @@ PAGES["news"] = dict(
 </main>""")
 
 PAGES["opinion"] = dict(
-    title="Opinion Wall · Polytrics", desc="Short opinion pieces by Polytrics members and readers. Each post stays up for a week.",
-    body=page_hero("Seven days on the wall", ["Opinion <em>Wall</em>"], "Short takes on policy, politics and law. Every post stays up for seven days, then makes way for new arguments.") + f"""
+    title="Opinion Wall · Polytrics", desc="Write your take on this week's topics in policy, politics and law. Posts stay up for a week and anyone can reply.",
+    body=page_hero("Seven days on the wall", ["Opinion <em>Wall</em>"], "Write your take right here, reply to others, and argue in good faith. New topics every Monday, and every post stays up for seven days.") + f"""
 {wave("red", "cream", 2)}
 <main>
-<section class="section s-cream" style="padding-top:clamp(30px,4vw,60px)">
+<section class="section s-cream" id="topics" style="padding-top:clamp(30px,4vw,60px)">
   <div class="wrap">
     <div class="head" data-reveal>
-      <div><span class="kicker" style="color:var(--red)">This week</span><h2 class="big">On the <em>wall.</em></h2></div>
-      <a class="btn btn--red" href="#write" data-write>Write your take {ARROW}</a>
+      <div><span class="kicker" style="color:var(--red)">New every Monday \u00B7 <span id="week-label">this week</span></span><h2 class="big">This week\u2019s <em>topics.</em></h2></div>
+      <a class="btn btn--red" href="#write">Write your take {ARROW}</a>
     </div>
+    <div class="topics" id="topics-list"></div>
+  </div>
+</section>
+<section class="section s-cream" id="wall-sec" style="padding-top:0">
+  <div class="wrap">
+    <div class="head" data-reveal><div><span class="kicker" style="color:var(--red)">Posts disappear after 7 days</span><h2 class="big">On the <em>wall.</em></h2></div></div>
+    <div class="pills" id="wall-pills" style="margin-bottom:28px"></div>
     <div class="notes" id="wall"></div>
   </div>
 </section>
@@ -176,19 +185,24 @@ PAGES["opinion"] = dict(
 <section class="section s-red" id="write" style="padding-top:clamp(40px,6vw,80px)">
   <div class="wrap cols-2" style="align-items:start">
     <div data-reveal="left">
-      <span class="kicker">House rules</span>
-      <h2 class="big" style="margin-top:14px">How to <em>post.</em></h2>
-    </div>
-    <div data-reveal="right">
+      <span class="kicker">Your turn</span>
+      <h2 class="big" style="margin-top:14px">Write your <em>take.</em></h2>
       <ol class="rules">
-        <li><span>Make one argument, in 150 to 400 words.</span></li>
-        <li><span>Disagree with ideas, not people. No personal attacks.</span></li>
+        <li><span>Make one argument, in a few clear paragraphs.</span></li>
+        <li><span>Disagree with ideas, not people. Abusive posts are blocked or removed.</span></li>
         <li><span>Back up facts with a source the reader can check.</span></li>
-        <li><span>The editors approve posts, usually within a day. Each one stays up for seven days.</span></li>
+        <li><span>Your post appears instantly and stays up for seven days.</span></li>
       </ol>
-      <a class="btn btn--butter" href="#write" data-write style="margin-top:30px">Write your take {ARROW}</a>
-      <p id="write-note" style="margin-top:16px"></p>
     </div>
+    <form class="composer" id="post-form" data-reveal="right" novalidate>
+      <div class="field"><label for="f-name">Your name</label><input id="f-name" name="name" maxlength="40" autocomplete="name" placeholder="How you want to be credited"></div>
+      <div class="field"><label for="f-topic">Topic</label><select id="f-topic" name="topic"><option value="open">Open floor (any issue)</option></select></div>
+      <div class="field"><label for="f-title">Headline <span class="opt">(optional)</span></label><input id="f-title" name="title" maxlength="120" placeholder="Your argument in one line"></div>
+      <div class="field"><label for="f-text">Your take</label><textarea id="f-text" name="text" maxlength="2000" rows="7" placeholder="Make your case\u2026"></textarea><span class="count" id="f-count">0 / 2000</span></div>
+      <input name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn" type="submit">Post to the wall {ARROW}</button>
+      <p class="form-msg" id="post-msg" aria-live="polite"></p>
+    </form>
   </div>
 </section>
 {wave("red", "ink", 1)}

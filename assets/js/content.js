@@ -5,6 +5,30 @@
    ========================================================= */
 window.POLYTRICS_CONTENT = {
 
+  /* Debate motions: one becomes a discussion topic each week (rotates automatically) */
+  motions: [
+    "Should voting be made compulsory in India?",
+    "Should India hold Lok Sabha and state elections together?",
+    "Should social media platforms be legally responsible for what users post?",
+    "Should members of the Rajya Sabha be directly elected?",
+    "Is the collegium the right way to appoint judges?",
+    "Should the voting age be lowered to 16?",
+    "Should governors be elected instead of appointed?",
+    "Should internet shutdowns need a court's approval?",
+    "Should political parties be covered by the RTI Act?",
+    "Should there be a cap on how much parties spend on elections?",
+    "Should the anti-defection law be scrapped or reformed?",
+    "Should prisoners have the right to vote?",
+    "Should AI-generated political ads be banned during elections?",
+    "Should Parliament have to sit for a minimum number of days each year?",
+    "Is a universal basic income right for India?",
+    "Should the death penalty be abolished?",
+    "Should India have a four-day work week?",
+    "Should cryptocurrency be regulated or banned?",
+    "Should exit polls be banned until voting ends?",
+    "Should judges' assets be made public?"
+  ],
+
   facts: [
     { tag: "Constitution", text: "The Constitution of India was adopted on 26 November 1949 and came into force on 26 January 1950. 26 November is now observed as Constitution Day." },
     { tag: "Constitution", text: "The Constituent Assembly took 2 years, 11 months and 18 days to draft the Constitution." },

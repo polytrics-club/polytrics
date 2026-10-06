@@ -53,23 +53,23 @@
       '<h3>' + esc(c.name) + '</h3><cite>' + esc(c.cite) + '</cite><p>' + esc(c.held) + '</p><span class="cat">' + esc(c.area) + '</span></div></article>';
   }
 
-  /* ---------- quiz ---------- */
-  function quizWidget(el) {
-    if (!el || !C.quiz) return;
-    var n = Math.min(5, C.quiz.length), start = (PT.weekIndex() * n) % C.quiz.length;
-    var qs = []; for (var k = 0; k < n; k++) qs.push(C.quiz[(start + k) % C.quiz.length]);
-    var idx = 0, score = 0;
+  /* ---------- quiz (works for the weekly Constitution set and the daily news set) ---------- */
+  function quizWidget(el, qs, opt) {
+    if (!el || !qs || !qs.length) return;
+    opt = opt || {};
+    var n = qs.length, idx = 0, score = 0, title = opt.title || "Quiz of the week";
     function paint() {
-      if (idx >= qs.length) {
-        var msg = score === n ? "Full marks. Come argue with us." : score >= n - 2 ? "Strong. You'd hold your own in a mock parliament." : "A good start. The explainers will help.";
-        el.innerHTML = '<div class="quiz-top"><span>Quiz of the week</span><span>Done</span></div><div class="quiz-bar"><span style="width:100%"></span></div>' +
-          '<div class="score">' + score + '/' + n + '</div><p class="why">' + msg + ' A new set arrives every Monday.</p>' +
+      if (idx >= n) {
+        var msg = score === n ? "Full marks. Come argue with us." : score >= n - 2 ? "Strong. You clearly follow the news." : "A good start. The news page will help.";
+        el.innerHTML = '<div class="quiz-top"><span>' + esc(title) + '</span><span>Done</span></div><div class="quiz-bar"><span style="width:100%"></span></div>' +
+          '<div class="score">' + score + '/' + n + '</div><p class="why">' + msg + ' ' + esc(opt.again || "A new set arrives every Monday.") + '</p>' +
           '<button class="btn next" type="button" data-q="again">Try again ' + I.arrow + '</button>';
         return;
       }
       var q = qs[idx];
-      el.innerHTML = '<div class="quiz-top"><span>Quiz of the week</span><span>' + (idx + 1) + ' of ' + n + '</span></div>' +
-        '<div class="quiz-bar"><span style="width:' + (idx / n * 100) + '%"></span></div><h3>' + esc(q.q) + '</h3><div class="opts">' +
+      el.innerHTML = '<div class="quiz-top"><span>' + esc(title) + '</span><span>' + (idx + 1) + ' of ' + n + '</span></div>' +
+        '<div class="quiz-bar"><span style="width:' + (idx / n * 100) + '%"></span></div><h3>' + esc(q.q) + '</h3>' +
+        (q.quote ? '<p class="quote">\u201C' + esc(q.quote) + '\u201D</p>' : "") + '<div class="opts">' +
         q.options.map(function (o, j) { return '<button class="opt" type="button" data-o="' + j + '">' + esc(o) + '</button>'; }).join("") + '</div>';
     }
     el.addEventListener("click", function (e) {
@@ -80,10 +80,32 @@
       var q = qs[idx], pick = +b.dataset.o;
       el.querySelectorAll(".opt").forEach(function (o, j) { o.disabled = true; if (j === q.answer) o.classList.add("right"); });
       if (pick === q.answer) score++; else b.classList.add("wrong");
-      el.insertAdjacentHTML("beforeend", '<p class="why">' + (pick === q.answer ? "Correct. " : "Not quite. ") + esc(q.why) + '</p>' +
+      el.insertAdjacentHTML("beforeend", '<p class="why">' + (pick === q.answer ? "Correct. " : "Not quite. ") + esc(q.why) +
+        (q.link ? ' <a class="textlink" href="' + esc(q.link) + '" target="_blank" rel="noopener">Read the story</a>' : "") + '</p>' +
         '<button class="btn next" type="button" data-q="next">' + (idx + 1 < n ? "Next question" : "See score") + ' ' + I.arrow + '</button>');
     });
     paint();
+  }
+  function constitutionQuiz() {
+    var n = Math.min(5, C.quiz.length), start = (PT.weekIndex() * n) % C.quiz.length, out = [];
+    for (var k = 0; k < n; k++) out.push(C.quiz[(start + k) % C.quiz.length]);
+    return out;
+  }
+  /* today's news quiz: data/quiz.json from the GitHub Action, else built here from live headlines */
+  function dailyQuiz(el) {
+    if (!el) return;
+    var NQ = window.PolytricsNewsQuiz, today = NQ.dayKey();
+    var fallback = function () { quizWidget(el, constitutionQuiz(), { title: "Quiz of the week" }); };
+    var label = new Date().toLocaleDateString("en-IN", { day: "numeric", month: "short" });
+    var show = function (qs) { quizWidget(el, qs, { title: "News quiz \u00B7 " + label, again: "A new quiz arrives every day." }); };
+    fetch("data/quiz.json", { cache: "no-store" }).then(function (r) { if (!r.ok) throw 0; return r.json(); }).catch(function () { return null; })
+      .then(function (d) {
+        if (d && d.date === today && d.questions && d.questions.length >= 3) return show(d.questions);
+        return window.PolytricsFeeds.get("all").then(function (res) {
+          var qs = NQ.buildQuiz(res.items, today, 5);
+          if (qs.length >= 3) show(qs); else fallback();
+        });
+      }).catch(fallback);
   }
 
   /* ---------- news with category pills ---------- */
@@ -105,95 +127,209 @@
     draw();
   }
 
-  /* ---------- opinion wall ---------- */
-  function parseCSV(text) {
-    var rows = [], row = [], cur = "", q = false;
-    for (var i = 0; i < text.length; i++) {
-      var ch = text[i];
-      if (q) { if (ch === '"' && text[i + 1] === '"') { cur += '"'; i++; } else if (ch === '"') q = false; else cur += ch; }
-      else if (ch === '"') q = true;
-      else if (ch === ",") { row.push(cur); cur = ""; }
-      else if (ch === "\n" || ch === "\r") { if (cur || row.length) { row.push(cur); rows.push(row); row = []; cur = ""; } if (ch === "\r" && text[i + 1] === "\n") i++; }
-      else cur += ch;
-    }
-    if (cur || row.length) { row.push(cur); rows.push(row); }
-    return rows;
-  }
-  function parseStamp(s, order) {
-    var m = String(s).trim().match(/^(\d{1,4})[\/.-](\d{1,2})[\/.-](\d{1,4})(?:[ T,]+(\d{1,2}):(\d{2})(?::(\d{2}))?)?/);
-    if (!m) { var d = new Date(s); return isNaN(d) ? null : d; }
-    var a = +m[1], b = +m[2], c = +m[3], y, mo, da;
-    if (m[1].length === 4) { y = a; mo = b; da = c; }
-    else { y = c < 100 ? 2000 + c : c; if (a > 12) { da = a; mo = b; } else if (b > 12) { mo = a; da = b; } else if (order === "MDY") { mo = a; da = b; } else { da = a; mo = b; } }
-    return new Date(y, mo - 1, da, +(m[4] || 0), +(m[5] || 0), +(m[6] || 0));
-  }
-  function loadOpinions() {
-    var O = CFG.opinion || {}, days = O.days || 7;
-    var samples = function () {
-      return fetch("data/opinions.json", { cache: "no-store" }).then(function (r) { return r.json(); }).catch(function () { return []; })
-        .then(function (list) { return list.map(function (p) { p.date = new Date(Date.now() - (p.daysAgo || 0) * 864e5); return p; }); });
-    };
-    if (!O.sheetCSV) return samples().then(function (l) { return { posts: l, source: "sample", days: days }; });
-    return fetch(O.sheetCSV, { cache: "no-store" }).then(function (r) { if (!r.ok) throw 0; return r.text(); }).then(function (txt) {
-      var rows = parseCSV(txt), head = (rows.shift() || []).map(function (h) { return h.trim().toLowerCase(); });
-      var col = function (words) { for (var i = 0; i < head.length; i++) for (var w = 0; w < words.length; w++) if (head[i].indexOf(words[w]) > -1) return i; return -1; };
-      var cT = col(["timestamp", "time"]), cN = col(["name"]), cTi = col(["title", "headline"]), cX = col(["take", "opinion", "write", "your", "text"]), cTo = col(["topic", "category"]), cA = col(["approved"]);
-      var cutoff = Date.now() - days * 864e5;
-      var posts = rows.map(function (r) {
-        return { date: parseStamp(r[cT], O.dateOrder), name: (r[cN] || "Anonymous").trim(), title: (r[cTi] || "").trim(), text: (r[cX] || "").trim(), topic: (r[cTo] || "").trim(), ok: cA < 0 ? !O.requireApproval : /^y/i.test((r[cA] || "").trim()) };
-      }).filter(function (p) { return p.ok && p.text && p.date && p.date.getTime() > cutoff; })
-        .sort(function (a, b) { return b.date - a.date; });
-      return { posts: posts, source: "sheet", days: days };
-    }).catch(function () { return samples().then(function (l) { return { posts: l, source: "sample", days: days }; }); });
-  }
-  function noteHTML(p, i, days) {
-    var left = Math.max(0, Math.ceil(days - (Date.now() - p.date) / 864e5));
-    return '<article class="note" data-reveal style="--d:' + (i % 3) + '">' +
-      '<div class="top"><span>' + esc(p.topic || "Opinion") + (p.sample ? ' <span class="sample">Sample</span>' : "") + '</span><span class="left">' + (left <= 1 ? "Last day" : left + " days left") + '</span></div>' +
-      (p.title ? '<h3>' + esc(p.title) + '</h3>' : "") +
-      '<p class="clamp">' + esc(p.text) + '</p>' +
-      (p.text.length > 420 ? '<button class="expand" type="button">Read all</button>' : "") +
-      '<div class="by">— ' + esc(p.name) + '</div></article>';
-  }
-  function opinionWall(box, limit) {
-    if (!box) return;
-    loadOpinions().then(function (res) {
-      var posts = limit ? res.posts.slice(0, limit) : res.posts;
-      box.innerHTML = posts.length ? posts.map(function (p, i) { return noteHTML(p, i, res.days); }).join("")
-        : '<div class="news-empty" style="column-span:all"><strong>The wall is quiet this week.</strong>Be the first to put an argument up.</div>';
-      box.addEventListener("click", function (e) {
-        var b = e.target.closest(".expand"); if (!b) return;
-        var p = b.previousElementSibling; p.classList.toggle("clamp"); b.textContent = p.classList.contains("clamp") ? "Read all" : "Show less";
+  /* ---------- weekly discussion topics ---------- */
+  function loadTopics() {
+    var NQ = window.PolytricsNewsQuiz, wk = NQ.weekInfo();
+    var labels = {}; (CFG.newsCategories || []).forEach(function (c) { labels[c.key] = c.label; });
+    return fetch("data/topics.json", { cache: "no-store" }).then(function (r) { if (!r.ok) throw 0; return r.json(); }).catch(function () { return null; })
+      .then(function (d) {
+        if (d && d.week === wk.key && d.topics && d.topics.length) return d;
+        return window.PolytricsFeeds.get("all").then(function (res) {
+          return { week: wk.key, start: wk.start, end: wk.end, topics: NQ.buildTopics(res.items, C.motions, wk.key, wk.no, labels) };
+        });
       });
-      window.PolytricsReveal(box);
+  }
+  function weekLabel(t) {
+    var f = function (s) { var p = s.split("-"); return new Date(+p[0], +p[1] - 1, +p[2]).toLocaleDateString("en-IN", { day: "numeric", month: "short" }); };
+    return f(t.start) + " \u2013 " + f(t.end);
+  }
+
+  /* ---------- opinion wall: posts + replies, stored in a Google Sheet ---------- */
+  var O = CFG.opinion || {}, DAYS = O.days || 7, wallState = { posts: [], live: false, filter: "all" };
+  function api(body) {
+    var opts = body ? { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(body) } : { cache: "no-store" };
+    return fetch(body ? O.api : O.api + (O.api.indexOf("?") > -1 ? "&" : "?") + "t=" + Date.now(), opts).then(function (r) { if (!r.ok) throw 0; return r.json(); });
+  }
+  function loadWall() {
+    var samples = function () {
+      return fetch("data/opinions.json", { cache: "no-store" }).then(function (r) { return r.json(); }).catch(function () { return []; }).then(function (list) {
+        list.forEach(function (p) {
+          p.date = new Date(Date.now() - (p.daysAgo || 0) * 864e5 - 3600e3).toISOString();
+          (p.replies = p.replies || []).forEach(function (r) { r.date = new Date(Date.now() - (r.daysAgo || 0) * 864e5 - 1200e3).toISOString(); });
+        });
+        return { posts: list, live: false };
+      });
+    };
+    if (!O.api) return samples();
+    return api().then(function (d) { return { posts: d.posts || [], live: true }; }).catch(samples);
+  }
+  function daysLeft(date) { var l = Math.ceil(DAYS - (Date.now() - new Date(date)) / 864e5); return l <= 1 ? "Last day" : l + " days left"; }
+  function replyHTML(r) { return '<div class="reply"><p>' + esc(r.text) + '</p><span>' + esc(r.name) + ' \u00B7 ' + esc(PT.ago(r.date)) + '</span></div>'; }
+  function noteHTML(p, i, interactive) {
+    var reps = p.replies || [];
+    return '<article class="note" data-id="' + esc(p.id) + '" data-reveal style="--d:' + (i % 3) + '">' +
+      '<div class="top"><span>' + esc(p.topic && p.topicId !== "open" ? "On: " + p.topic : "Open floor") + (p.sample ? ' <span class="sample">Sample</span>' : "") + '</span></div>' +
+      (p.title ? '<h3>' + esc(p.title) + '</h3>' : "") +
+      '<p class="clamp body">' + esc(p.text) + '</p>' +
+      (p.text.length > 420 ? '<button class="expand" type="button">Read all</button>' : "") +
+      '<div class="by">\u2014 ' + esc(p.name) + '</div>' +
+      '<div class="meta"><span class="left">' + daysLeft(p.date) + '</span><span>' + esc(PT.ago(p.date)) + '</span></div>' +
+      (interactive ?
+        '<div class="thread"' + (reps.length ? "" : " hidden") + '>' + reps.map(replyHTML).join("") + '</div>' +
+        '<button class="reply-toggle" type="button">' + (reps.length ? "Replies (" + reps.length + ") \u00B7 Reply" : "Reply") + '</button>' +
+        '<form class="reply-form" hidden novalidate>' +
+          '<input name="name" maxlength="40" placeholder="Your name" autocomplete="name" aria-label="Your name">' +
+          '<textarea name="text" maxlength="600" rows="3" placeholder="Agree? Disagree? Say why." aria-label="Your reply"></textarea>' +
+          '<input name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">' +
+          '<button class="btn btn--red" type="submit">Post reply</button><p class="form-msg" aria-live="polite"></p></form>'
+        : (reps.length ? '<div class="meta"><span>' + reps.length + (reps.length === 1 ? " reply" : " replies") + '</span></div>' : "")) +
+      '</article>';
+  }
+  function renderWall(box, opts) {
+    var posts = wallState.posts;
+    if (wallState.filter !== "all") posts = posts.filter(function (p) { return (p.topicId || "open") === wallState.filter || (wallState.filter === "open" && !p.topicId); });
+    if (opts.limit) posts = posts.slice(0, opts.limit);
+    box.innerHTML = posts.length ? posts.map(function (p, i) { return noteHTML(p, i, opts.interactive); }).join("")
+      : '<div class="news-empty" style="column-span:all"><strong>Nothing here yet.</strong>Be the first to put an argument up.</div>';
+    window.PolytricsReveal(box);
+  }
+  function savedName() { return PT.store("pt-name") || ""; }
+  function cooldownOk(msgEl, kind) {
+    var last = +(PT.store("pt-last-" + kind) || 0), wait = kind === "reply" ? 10000 : 30000;
+    if (Date.now() - last < wait) { msgEl.textContent = "You just posted. Wait a few seconds before posting again."; return false; }
+    return true;
+  }
+  function opinionWall(box, opts) {
+    if (!box) return Promise.resolve();
+    opts = opts || {};
+    return loadWall().then(function (res) {
+      wallState.posts = res.posts; wallState.live = res.live;
+      renderWall(box, opts);
+      if (!opts.interactive) return;
+      box.addEventListener("click", function (e) {
+        var b = e.target.closest(".expand");
+        if (b) { var p = b.parentNode.querySelector(".body"); p.classList.toggle("clamp"); b.textContent = p.classList.contains("clamp") ? "Read all" : "Show less"; return; }
+        var t = e.target.closest(".reply-toggle");
+        if (t) {
+          var note = t.closest(".note"), f = note.querySelector(".reply-form"), th = note.querySelector(".thread");
+          f.hidden = !f.hidden; if (th.children.length) th.hidden = false;
+          if (!f.hidden) { f.name.value = f.name.value || savedName(); (f.name.value ? f.text : f.name).focus(); }
+        }
+      });
+      box.addEventListener("submit", function (e) {
+        var f = e.target.closest(".reply-form"); if (!f) return;
+        e.preventDefault();
+        var msg = f.querySelector(".form-msg"), note = f.closest(".note");
+        if (!wallState.live) { msg.textContent = "Replies open once the club connects the wall to its Google Sheet."; return; }
+        if (f.name.value.trim().length < 2) { msg.textContent = "Add your name first."; f.name.focus(); return; }
+        if (f.text.value.trim().length < 5) { msg.textContent = "Write your reply first."; f.text.focus(); return; }
+        if (!cooldownOk(msg, "reply")) return;
+        var btn = f.querySelector("button"); btn.disabled = true; msg.textContent = "Posting\u2026";
+        api({ type: "reply", postId: note.dataset.id, name: f.name.value, text: f.text.value, website: f.website.value }).then(function (d) {
+          btn.disabled = false;
+          if (!d.ok) { msg.textContent = d.error || "That didn't go through. Try again."; return; }
+          PT.store("pt-name", f.name.value.trim()); PT.store("pt-last-reply", String(Date.now()));
+          var th = note.querySelector(".thread"); th.hidden = false; th.insertAdjacentHTML("beforeend", replyHTML(d.reply));
+          var post = wallState.posts.filter(function (p) { return p.id === note.dataset.id; })[0]; if (post) post.replies.push(d.reply);
+          note.querySelector(".reply-toggle").textContent = "Replies (" + th.children.length + ") \u00B7 Reply";
+          f.text.value = ""; msg.textContent = "Reply posted.";
+        }).catch(function () { btn.disabled = false; msg.textContent = "That didn't go through. Check your connection and try again."; });
+      });
     });
   }
-  function writeButtons() {
-    var url = (CFG.opinion || {}).formURL;
-    document.querySelectorAll("[data-write]").forEach(function (a) {
-      if (url) { a.href = url; a.target = "_blank"; a.rel = "noopener"; }
-      else { a.href = "#write"; a.removeAttribute("target"); }
+  function countFor(t) { return wallState.posts.filter(function (p) { return (p.topicId || "open") === t.id; }).length; }
+  function refreshCounts(box, data) {
+    data.topics.forEach(function (t) {
+      var b = box.querySelector('[data-filter-topic="' + t.id + '"]'); if (!b) return;
+      var n = countFor(t); b.textContent = n ? n + (n === 1 ? " post" : " posts") : "No posts yet";
     });
-    var note = $("#write-note");
-    if (note && !url) note.textContent = "Submissions open as soon as the club links its Google Form. Until then, email your piece to " + CFG.email + ".";
+  }
+  function topicCards(box, data, onPick) {
+    box.innerHTML = data.topics.map(function (t, i) {
+      var n = wallState.posts.filter(function (p) { return (p.topicId || "open") === t.id || (t.kind === "motion" && p.topicId === "motion"); }).length;
+      return '<article class="topic topic--' + t.kind + '" data-reveal style="--d:' + i + '">' +
+        '<span class="cat">' + esc(t.label) + '</span><h3>' + esc(t.title) + '</h3>' +
+        (t.link ? '<a class="textlink src" href="' + esc(t.link) + '" target="_blank" rel="noopener">Read the story' + (t.source ? " \u00B7 " + esc(t.source) : "") + '</a>' : "") +
+        '<div class="pills"><button class="pill" type="button" data-write-topic="' + esc(t.id) + '">Write about this</button>' +
+        '<button class="pill" type="button" data-filter-topic="' + esc(t.id) + '">' + (n ? n + (n === 1 ? " post" : " posts") : "No posts yet") + '</button></div></article>';
+    }).join("");
+    box.addEventListener("click", function (e) {
+      var w = e.target.closest("[data-write-topic]"), f = e.target.closest("[data-filter-topic]");
+      if (w) onPick("write", w.dataset.writeTopic);
+      if (f) onPick("filter", f.dataset.filterTopic);
+    });
+    window.PolytricsReveal(box);
   }
 
   /* ---------- pages ---------- */
   function home() {
     factWidget($("#fact"));
     sealWidget($("#seal"));
-    quizWidget($("#quiz"));
+    dailyQuiz($("#quiz"));
     var spot = $("#case-spot");
     if (spot) { spot.innerHTML = caseHTML(C.cases[PT.dayIndex(C.cases.length, 3)], 0); window.PolytricsReveal(spot); }
     newsWidget({ pills: "#news-pills", list: "#news-list", status: "#news-status", limit: 8 });
-    opinionWall($("#wall"), 3);
-    writeButtons();
+    opinionWall($("#wall"), { limit: 3 });
+    loadTopics().then(function (d) {
+      var el = $("#topic-strip"); if (!el) return;
+      el.innerHTML = '<span class="kicker" style="color:var(--red)">This week\u2019s topics \u00B7 ' + esc(weekLabel(d)) + '</span><ul>' +
+        d.topics.filter(function (t) { return t.kind !== "open"; }).map(function (t) { return '<li><a href="opinion.html#topics">' + esc(t.title) + '</a></li>'; }).join("") + '</ul>';
+    }).catch(function () {});
   }
   function news() { newsWidget({ pills: "#news-pills", list: "#news-list", status: "#news-status", limit: 40, useHash: true }); }
-  function opinion() { opinionWall($("#wall")); writeButtons(); }
+  function opinion() {
+    var box = $("#wall"), form = $("#post-form"), pills = $("#wall-pills"), sel = $("#f-topic"), msg = $("#post-msg");
+    var topicsData = null;
+    function setFilter(id) {
+      wallState.filter = id;
+      pills.querySelectorAll(".pill").forEach(function (x) { x.setAttribute("aria-pressed", x.dataset.f === id); });
+      renderWall(box, { interactive: true });
+    }
+    function buildPills() {
+      var list = [{ id: "all", t: "All posts" }].concat(topicsData.topics.map(function (t) { return { id: t.id, t: t.kind === "open" ? "Open floor" : t.title }; }));
+      pills.innerHTML = list.map(function (x) { return '<button class="pill" type="button" data-f="' + esc(x.id) + '" aria-pressed="' + (x.id === wallState.filter) + '" title="' + esc(x.t) + '">' + esc(x.t.length > 46 ? x.t.slice(0, 44) + "\u2026" : x.t) + '</button>'; }).join("");
+    }
+    pills.addEventListener("click", function (e) { var b = e.target.closest("[data-f]"); if (b) setFilter(b.dataset.f); });
+    Promise.all([opinionWall(box, { interactive: true }), loadTopics()]).then(function (r) {
+      topicsData = r[1];
+      $("#week-label").textContent = weekLabel(topicsData);
+      // sample posts are tagged "motion"; point them at this week's motion so filters work
+      wallState.posts.forEach(function (p) { if (p.topicId === "motion") { var m = topicsData.topics.filter(function (t) { return t.kind === "motion"; })[0]; if (m) p.topicId = m.id; } });
+      topicCards($("#topics-list"), topicsData, function (what, id) {
+        if (what === "filter") { setFilter(id); $("#wall-sec").scrollIntoView({ behavior: "smooth" }); }
+        else { sel.value = id; $("#write").scrollIntoView({ behavior: "smooth" }); setTimeout(function () { (form.name.value ? form.title : form.name).focus({ preventScroll: true }); }, 700); }
+      });
+      sel.innerHTML = topicsData.topics.map(function (t) { return '<option value="' + esc(t.id) + '">' + esc(t.kind === "open" ? "Open floor (any issue)" : t.title) + '</option>'; }).join("");
+      buildPills();
+    });
+    form.name.value = savedName();
+    var count = $("#f-count");
+    form.text.addEventListener("input", function () { count.textContent = form.text.value.length + " / 2000"; });
+    if (!O.api) { msg.textContent = "Posting opens once the club connects the wall to its Google Sheet. The posts above are samples."; }
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      if (!O.api) { msg.textContent = "Posting opens once the club connects the wall to its Google Sheet."; return; }
+      if (form.name.value.trim().length < 2) { msg.textContent = "Add your name first."; form.name.focus(); return; }
+      if (form.text.value.trim().length < 40) { msg.textContent = "Your take is a bit short. Write at least a couple of sentences."; form.text.focus(); return; }
+      if (!cooldownOk(msg, "post")) return;
+      var t = (topicsData && topicsData.topics.filter(function (x) { return x.id === sel.value; })[0]) || { id: "open", title: "Open floor", kind: "open" };
+      var btn = form.querySelector('button[type="submit"]'); btn.disabled = true; msg.textContent = "Posting\u2026";
+      api({ type: "post", name: form.name.value, title: form.title.value, text: form.text.value, topicId: t.id, topic: t.kind === "open" ? "Open floor" : t.title, website: form.website.value })
+        .then(function (d) {
+          btn.disabled = false;
+          if (!d.ok) { msg.textContent = d.error || "That didn't go through. Try again."; return; }
+          PT.store("pt-name", form.name.value.trim()); PT.store("pt-last-post", String(Date.now()));
+          wallState.posts.unshift(d.post); wallState.filter = "all"; buildPills(); renderWall(box, { interactive: true });
+          if (topicsData) refreshCounts($("#topics-list"), topicsData);
+          form.title.value = ""; form.text.value = ""; count.textContent = "0 / 2000";
+          msg.textContent = "Posted. Your take is on the wall for the next " + DAYS + " days.";
+          $("#wall-sec").scrollIntoView({ behavior: "smooth" });
+        }).catch(function () { btn.disabled = false; msg.textContent = "That didn't go through. Check your connection and try again."; });
+    });
+  }
   function learn() {
     sealWidget($("#seal"));
-    quizWidget($("#quiz"));
+    quizWidget($("#quiz"), constitutionQuiz(), { title: "Quiz of the week" });
     var ex = $("#explainers");
     ex.innerHTML = C.explainers.map(function (x, i) {
       return '<details class="explainer" id="' + x.id + '" data-reveal style="--d:' + (i % 4) + '"><summary><div><span class="cat">' + esc(x.kicker) + '</span><h3>' + esc(x.title) + '</h3></div><span class="plus" aria-hidden="true"></span></summary>' +

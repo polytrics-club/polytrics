@@ -7,7 +7,7 @@ A multi-page, static website for Polytrics, the Policy, Politics & Law Club. It 
 |---|---|
 | index.html | Home: today's fact, Article of the day, news by category, case spotlight, weekly quiz, Opinion Wall preview |
 | news.html | News sorted into Parliament, Courts & Law, Elections, Policy & Schemes, Economy, World |
-| opinion.html | Opinion Wall: short takes that stay up for 7 days |
+| opinion.html | Opinion Wall: weekly topics, write posts and replies on the site; posts stay up for 7 days |
 | learn.html | Article of the day, explainers, weekly quiz, searchable landmark cases |
 | journal.html | Longer member articles with a full-screen reader |
 | resources.html | Searchable directory of sources |
@@ -20,12 +20,17 @@ A multi-page, static website for Polytrics, the Policy, Politics & Law Club. It 
 - **Opinion Wall** posts disappear automatically 7 days after they were submitted.
 
 ## Setting up the Opinion Wall (10 minutes, free)
-1. Create a Google Form with four questions: **Name**, **Title**, **Your take** (paragraph) and **Topic**.
-2. Click **Send**, then the link icon, and copy the link. Paste it into `opinion.formURL` in `assets/js/config.js`.
-3. In the form, open **Responses**, then **Link to Sheets**. In the new Sheet, add a column header **Approved** at the end.
-4. To publish a post, type **yes** in the Approved column next to it.
-5. In the Sheet, choose **File → Share → Publish to web**, pick the responses sheet and **CSV**, then click **Publish**. Paste that link into `opinion.sheetCSV`.
-Until step 5 is done the wall shows the sample posts from `data/opinions.json`.
+People write posts and replies directly on the site. They are stored in a Google Sheet you own.
+1. Create a new Google Sheet called "Polytrics Opinion Wall".
+2. **Extensions → Apps Script.** Delete the sample code, paste everything from `scripts/opinion-backend.gs`, and click **Save**.
+3. In the function menu at the top, choose **setup** and click **Run**. Allow the permissions (choose your account → Advanced → Go to project → Allow).
+4. **Deploy → New deployment →** gear icon **→ Web app.** Set *Execute as*: **Me**, *Who has access*: **Anyone**. Click **Deploy** and copy the **Web app URL**.
+5. On GitHub, open `assets/js/config.js`, paste the URL into `opinion.api` (between the quotes) and commit.
+
+**Moderating:** open the Sheet and type anything (e.g. `hide`) in the **hidden** column of a post or reply. It disappears from the site within a minute. Posts leave the wall on their own after 7 days.
+
+## Daily quiz and weekly topics
+The GitHub Action writes `data/quiz.json` (a new 5-question news quiz every day) and `data/topics.json` (new discussion topics every Monday: one debate motion from `content.js` plus three topics from the week's headlines). If those files are missing, the site builds them in the browser.
 
 ## Everyday editing (no coding)
 - Club email, socials, photos, Opinion Wall links, news categories: `assets/js/config.js`

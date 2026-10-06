@@ -1,26 +1,37 @@
 [
   {
     "sample": true,
+    "id": "s1",
     "daysAgo": 1,
     "name": "Polytrics Editorial",
-    "topic": "Elections",
+    "topicId": "motion",
+    "topic": "Should India hold Lok Sabha and state elections together?",
     "title": "Simultaneous elections would save money, but at what cost?",
-    "text": "One Nation, One Election promises lower costs and fewer months of campaign mode. But elections are also how voters hold governments to account between general elections. A state government that loses its majority would face a shorter, stranger term. Savings matter, but they shouldn't come before accountability. This is a sample post: real ones arrive through the Google Form."
+    "text": "One Nation, One Election promises lower costs and fewer months of campaign mode. But elections are also how voters hold governments to account between general elections. A state government that loses its majority would face a shorter, stranger term. Savings matter, but they shouldn't come before accountability. This is a sample post: real ones appear here as soon as people write them.",
+    "replies": [
+      { "name": "Sample Reader", "daysAgo": 0, "text": "Fair point, but constant elections also freeze policy because of the model code of conduct. Isn't that a cost to accountability too?" }
+    ]
   },
   {
     "sample": true,
+    "id": "s2",
     "daysAgo": 3,
     "name": "Sample Member",
-    "topic": "Courts & Law",
+    "topicId": "open",
+    "topic": "Open floor",
     "title": "Court hearings should be live-streamed by default",
-    "text": "The Supreme Court already streams Constitution Bench hearings, and the sky hasn't fallen. Open justice is a principle, not a privilege. Streaming more courts would build trust and help law students learn. This is a sample post."
+    "text": "The Supreme Court already streams Constitution Bench hearings, and the sky hasn't fallen. Open justice is a principle, not a privilege. Streaming more courts would build trust and help law students learn. This is a sample post.",
+    "replies": []
   },
   {
     "sample": true,
+    "id": "s3",
     "daysAgo": 5,
     "name": "Sample Member",
-    "topic": "Policy",
+    "topicId": "open",
+    "topic": "Open floor",
     "title": "Every bill deserves a committee",
-    "text": "Fewer bills now go to parliamentary committees than a decade ago. Committees are where members of all parties read the fine print together, away from the cameras. Sending more bills to them would make laws slower to pass but better to live with. This is a sample post."
+    "text": "Fewer bills now go to parliamentary committees than a decade ago. Committees are where members of all parties read the fine print together, away from the cameras. Sending more bills to them would make laws slower to pass but better to live with. This is a sample post.",
+    "replies": []
   }
 ]
