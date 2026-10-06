@@ -537,3 +537,24 @@ body > main { background: transparent; }
 .reader .share { margin-top: 40px; }
 .note .meta .pending { background: var(--ink); color: var(--butter); }
 .reply--pending { opacity: .75; border: 1.5px dashed rgba(43,13,10,.25); background: transparent !important; }
+
+/* ---------- cursor: ballot box + ink trail + seal (see site.js) ---------- */
+.has-ink, .has-ink * { cursor: none !important; }
+.has-ink input, .has-ink textarea, .has-ink [contenteditable] { cursor: text !important; }
+.ink-layer { --cursor-ink: rgb(182,32,23); position: fixed; inset: 0; pointer-events: none; z-index: 95; }
+.ink-trail { position: absolute; inset: 0; width: 100%; height: 100%; }
+.ink-dot { position: fixed; left: 0; top: 0; width: 0; height: 0; opacity: 0; transition: opacity .3s; }
+.ink-on .ink-dot { opacity: 1; }
+.ink-drop { position: absolute; left: -4.5px; top: -4.5px; width: 9px; height: 9px; border-radius: 50%; background: var(--cursor-ink); transition: background .25s, width .35s cubic-bezier(.22,1,.36,1), height .35s cubic-bezier(.22,1,.36,1), left .35s cubic-bezier(.22,1,.36,1), top .35s cubic-bezier(.22,1,.36,1); }
+.ink-ring { position: absolute; left: -19px; top: -19px; width: 38px; height: 38px; border-radius: 50%; border: 1.5px solid var(--cursor-ink); opacity: 0; transform: scale(.3); transition: opacity .3s, transform .5s cubic-bezier(.22,1,.36,1), border-color .25s; }
+.ink-ring::after { content: ""; position: absolute; inset: 4px; border-radius: 50%; border: 1px dashed var(--cursor-ink); opacity: .55; animation: spin 9s linear infinite; }
+.ink-hot .ink-ring { opacity: .7; transform: scale(1); }
+.ink-hot .ink-drop { width: 6px; height: 6px; left: -3px; top: -3px; }
+.ink-press .ink-ring { transform: scale(.82); opacity: 1; }
+.ink-press .ink-drop { width: 12px; height: 12px; left: -6px; top: -6px; }
+.ink-text .ink-dot { opacity: 0 !important; }
+.ink-stamp { position: fixed; width: 58px; height: 58px; margin: -29px 0 0 -29px; pointer-events: none; animation: ink-stamp 1.5s cubic-bezier(.22,1,.36,1) forwards; }
+.ink-stamp::after { content: ""; position: absolute; inset: -7px; border-radius: 50%; border: 1.5px solid currentColor; opacity: .55; }
+.ink-stamp svg { width: 100%; height: 100%; }
+@keyframes ink-stamp { 0% { opacity: 0; transform: scale(1.6) rotate(var(--r)); } 12% { opacity: .5; transform: scale(1) rotate(var(--r)); } 65% { opacity: .3; } 100% { opacity: 0; transform: scale(1) rotate(var(--r)); } }
+@media (hover: none), (pointer: coarse), (prefers-reduced-motion: reduce) { .ink-layer { display: none !important; } }
