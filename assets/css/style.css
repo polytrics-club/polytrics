@@ -462,3 +462,10 @@ body > main { background: transparent; }
 .reply-form .btn { justify-self: start; padding: 12px 20px; font-size: .92rem; }
 .s-red .quiz p, .s-red .quiz .why, .s-red .composer p { color: var(--ink); }
 .s-red .case .cat { background: rgba(255,223,126,.16); color: var(--butter); }
+/* loading placeholders (shown instantly while posts and topics arrive) */
+.note--loading, .topic--loading { display: grid; gap: 12px; min-height: 180px; align-content: start; }
+.note--loading span, .topic--loading span { display: block; height: 14px; border-radius: 8px; background: linear-gradient(90deg, rgba(43,13,10,.06), rgba(43,13,10,.13), rgba(43,13,10,.06)) 0 0 / 200% 100%; animation: shimmer 1.4s infinite; }
+.note--loading span:first-child, .topic--loading span:first-child { width: 40%; }
+.note--loading span:nth-child(2), .topic--loading span:nth-child(2) { width: 90%; height: 26px; }
+.note--loading span:nth-child(3) { width: 70%; }
+.topic--motion.topic--loading span { background: linear-gradient(90deg, rgba(255,223,126,.15), rgba(255,223,126,.3), rgba(255,223,126,.15)) 0 0 / 200% 100%; }
