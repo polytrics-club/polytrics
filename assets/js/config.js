@@ -26,7 +26,7 @@ window.POLYTRICS_CONFIG = {
      script (see README). Nothing appears on the site until an editor approves it.
      Paste the Web app URL from that setup into api. */
   opinion: {
-    api: "",
+    api: "https://script.google.com/macros/s/AKfycbxP9hsOkqqmyRjE72BMh36KjaLaTLKeAtMPDgPSteeOOAQKzGHCFbI4K-cOaCOWzQRRgw/exec",
     days: 7
   },
 
