@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T19:19:20.551Z",
+ "updated": "2026-10-06T20:21:06.049Z",
  "sections": {
   "parliament": [
    {
@@ -7,6 +7,12 @@
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTGo0MkxHZFlETXY2TWRaY3lzV05LcnlmRWJIMHhRdW9SRUhSTWFxazFOMERUSzdnaHgxZUg5SmJ6X0w0Y21uQ0FIbXZmU3FOZGtadnZMRHIzdDd1MzBnOURCMGQ2Rk15V3hQNUNRekJQTTdmX2VmTU80YTBmcUVDRHk4REtNRUJ6bFMtWDVRbkl0MjNzLXRYWHN5X183alVQM1ZHV2FKSUdmU1hpaklFYmlrTDNpY2M5ZERZU1M1eDNRc2pNOXRza3M4SVZHTlXSAdwBQVVfeXFMUGZibENoODEtajc3VGtkZjk3UEtCeGo1b09TcmdoeE5YN3RlLTExNFppdzU0Q0NQMmVRRUhmZk1QeVRGNVVtbEZkLWZoNERqLUhQRU1waU9QYm1vZThFMjZTTV9iUmF6ZW9XdkdCMDYxTTBYNHYzWXc2OURGaHBYVUQ3dUVsN2ZhSHJsLWppSVBPOVRLN2c4enhWNFUxNmgwX1NBUTZuMHhQZTlPUjNzSkRXeXZFVWh5VlhObWtXWk5tRFI1QUJwa05KQy1DTjFyMG1zYjB4Y0poRk92ZQ?oc=5",
     "date": "2026-10-06T08:39:09.000Z",
     "source": "Outlook India"
+   },
+   {
+    "title": "India, Tanzania discuss deepening parliamentary cooperation - IANS LIVE",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObXdacEh2LWwxdW9aTW1ib0hJM1pxNko4bFpCcFJ0U09mdU1Kc29nZjY1U21WaFpHeW9SbllSS0NpUm9KZFZCenZLaWtHenRlTF9DY3ZFTUtyWWZBWkFUdm9YQUpHSFBOR18xVzNiVXR6bzBsX1BjSV85N1Y1d05CZ3NzbXBYTmlOc2ZhTEs1dFRHamdQLUdJNzdB?oc=5",
+    "date": "2026-10-06T07:18:00.000Z",
+    "source": "IANS LIVE"
    },
    {
     "title": "One Nation, One Election: DMK's P Wilson defends JPC proposal to meet Supreme Court judges - Bar and Bench",
@@ -131,6 +137,12 @@
   ],
   "courts": [
    {
+    "title": "Supreme Court: Bench Clerk’s Experience Cannot Be Treated Equal To Law Clerk’s For Judicial Service - LawChakra",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5EUFBob09yd2ZyUkxBaHNrZFhNbDJBSDUxOXVjWGMyREhEQnhUbW8tQ0xLRHRkejRBMEE0bjBwMkxMbjZOem91TExlM3lSaVZQQ0FWSXIxR1pvVTIyRHkxaVVJMEJDYW5aekczcA?oc=5",
+    "date": "2026-10-06T19:55:10.000Z",
+    "source": "LawChakra"
+   },
+   {
     "title": "Tamil Nadu Assembly privilege case: Supreme Court closes proceedings; keeps questions of law open - The Indian Express",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRDNBbEphZWZERUhQSzNjWjVwcDd3RmJDUTFGQUdkTS1jb0IyWUlYczBjeDg1OTNfMUdnNTRnY2hMd1JWZmpJandLeXllZDU0ZmxiaUw4bXp3SHlaRjZkemVlS2RnSWxycURyRU5xUlVMQnBnU3V2aW95TkNYYk9iY2szNEJuX3RMaWphbnhZbk1vTjdfT2ZTYi02Qk5BTUFkUExDbUw0MDRQdmNHZ0tycW1QZk53M29odlhfZTJEa9IBxgFBVV95cUxPRFpKdnZfbnFuenF5Y3RVcEpVX3J3bGR0MnVFMDdnU0tlWk5zWm96WFlpYzNYeWJpdlJUN1VRV2xXYy1qZ3p3QU5NVVBtdUJfNi14aXhvUnZRcW1EWG1DckJTOWhMdEpxNkF4bExOZnFUckY2VTdPaDN5WV9OWnJVQUlmbm9ndHJxNVRyZl9JYWRjSEEzSUxtTi1iXzJJcTBlX1dJM01QYWs4cWItNU9mc0lkbTRPdzRCT0p1S1VmdlZlQ3RoS3c?oc=5",
     "date": "2026-10-06T18:53:43.000Z",
@@ -156,7 +168,7 @@
    },
    {
     "title": "CBI raids Punjab CM Mann's aide over alleged corruption, 8 locations searched - India Today",
-    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNSjhIcGc0QXlLMnRqV0xFcTZKMkFaVmZST0FZOVB6SjNsekRkcjdqdEVfdllSMEI1bXREWFJMbG1hUmlodTBFZk9SMDZaRTdYdHRQT1R4UG5CT0wyLUZZb3oxX3NCRmxfbGVUTFQ4MzlhNElobkJXNzFqa203YmE0Yk9lU0dPZjR4cG9NUWlGSWxaOW1Ec3Rxd1laaW9QbGRySVNCUHpfTk9WM1VWbUNyU05VR28tV1VnMDJrVGJadFlWQ2VIZTUxTHZIZ1lUNC10R21mRk9lanBMOV9ocldpNkJncl9ST2PSAecBQVVfeXFMTUo4SHBnNEF5SzJ0aldMRXE2SjJBWlZmUk9BWTlQekozbHpEZHI3anRFX3ZZUjBCNW10RFhSTGxtYVJpaHUwRWZPUjA2WkU3WHR0UE9UeFBuQk9MMi1GWW96MV9zQkZsX2xlVExUODM5YTRJaG5CVzcxamttN2JhNGJPZVNHT2Y0eHBvTVFpRklsWjltRHN0cXdZWmlvUGxkcklTQlB6X05PVjNVVm1DclNOVUdvLVdVZzAya1RiWnRZVkNlSGU1MUx2SGdZVDQtdEdtZkZPZWpwTDlfaHJXaTZCZ3JfUk9j?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZXNWc0ZubFJwZDVmUzVWaERrRW9vLW5KY2dJUi0xanAwbU8wb3ZMcW9XNmg5RzdpUG9aYjFGS245ckNPb25WRW83TFVBUmpWdktodS1iNEJFTWtMZ2JWaXZHNWMxdkJkRjg1VWE1TkhzSmk1RlZadXl5a08tOFdCNEZFQXp4YXlBU2Z1cjkxT1JncXRCRWs1R3ZWWVplVThCekJpczRiaXVHdmJKTEc0OHN2TnQzN0NEc3ppaFlYbTJMaTRRcjBpZUZINTNGbzh0ZUVTVWJScVdqNFJENGRnYWN30gHnAUFVX3lxTE1KOEhwZzRBeUsydGpXTEVxNkoyQVpWZlJPQVk5UHpKM2x6RGRyN2p0RV92WVIwQjVtdERYUkxsbWFSaWh1MEVmT1IwNlpFN1h0dFBPVHhQbkJPTDItRllvejFfc0JGbF9sZVRMVDgzOWE0SWhuQlc3MWprbTdiYTRiT2VTR09mNHhwb01RaUZJbFo5bURzdHF3WVppb1BsZHJJU0JQel9OT1YzVVZtQ3JTTlVHby1XVWcwMmtUYlp0WVZDZUhlNTFMdkhnWVQ0LXRHbWZGT2VqcEw5X2hyV2k2QmdyX1JPYw?oc=5",
     "date": "2026-10-06T15:20:01.000Z",
     "source": "India Today"
    },
@@ -204,7 +216,7 @@
    },
    {
     "title": "Court Orders Special Probe After DNA Mismatch In Bageshwar Dham Rape Case - NDTV",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTjByWGJpMjNqX3VIYXVrQ1M5eTRlVm01OERzU1pocVhMYkg4MGRkdGNsbnNhdWxMcFd1YTM3TE1lb2dRZHJKZ3R3dEFoTUF3eDU0eW5BN3Y2LWRZNmdGc0tUeVVNZFdqRm16b0pjNk9WZHQ1bzZjbWozX1YxRm1UU1c1NW1JVGpzelg1S3lfRm1Wa3pReXNPLTEzVmk1b0hJNkFRMFBucWhDZ0JYakVjbjZKTGY?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTjByWGJpMjNqX3VIYXVrQ1M5eTRlVm01OERzU1pocVhMYkg4MGRkdGNsbnNhdWxMcFd1YTM3TE1lb2dRZHJKZ3R3dEFoTUF3eDU0eW5BN3Y2LWRZNmdGc0tUeVVNZFdqRm16b0pjNk9WZHQ1bzZjbWozX1YxRm1UU1c1NW1JVGpzelg1S3lfRm1Wa3pReXNPLTEzVmk1b0hJNkFRMFBucWhDZ0JYakVjbjZKTGbSAbwBQVVfeXFMTkZBNk9GdDhWVHZkV0ZsczFRazlYNGVqWXd6LXBpRjNRbzVGZ1BvQWE0MVBvb3JLOGZYRHlYVkQ5QXNEb1hOVXpIaFJIT3hUOWN0VTBQTGNLN29sV1hORmJEdzZ5TG9rakU0RXJVZzR6YjNmc3NxeFdFbUJvd090dUd6OTZTclV5OXpXZHFKQnRsTHRDb0c3RXVFVTExdzdIeF82YkRLVGJfSFhqeDE2eXZPbTZFRjd2VTcwbjc?oc=5",
     "date": "2026-10-06T12:50:52.000Z",
     "source": "NDTV"
    },
@@ -330,7 +342,7 @@
    },
    {
     "title": "Colonial legacy of India’s policing system must end: Andhra Pradesh High Court - The Indian Express",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQX1QzVWcxWksyUXgzSVF6US1xV09waTlmbWxldHNobTZHczRoV25obTFGZVhrVGJKSjR4ZmlTZWl1SnFJZG4tNllzWFBDS0tSN3VzQ19fU09wZUR0UDVscnlSY1NHNHRCRGZmaEpwX3dpaVYyVzRIQk16aG12dkpqLU5JeTdSczRsSjdhUlA5a3Q0eEw3SzdXRUxOdDhwc25MZU5SS1Niemg3TE9XNTREUTEycEpnc2dpSnY0Vw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQX1QzVWcxWksyUXgzSVF6US1xV09waTlmbWxldHNobTZHczRoV25obTFGZVhrVGJKSjR4ZmlTZWl1SnFJZG4tNllzWFBDS0tSN3VzQ19fU09wZUR0UDVscnlSY1NHNHRCRGZmaEpwX3dpaVYyVzRIQk16aG12dkpqLU5JeTdSczRsSjdhUlA5a3Q0eEw3SzdXRUxOdDhwc25MZU5SS1Niemg3TE9XNTREUTEycEpnc2dpSnY0V9IBwwFBVV95cUxORl8tc3RBRVFYUWVBeFZzeXV3Q0h4d3VudUE0SjZkTHE0TzQxZmZrc085TU9NWS1YZUdoS0FIYmg4WDdPVEhxWnRmVFdScE40cGJab3VHbnJCdDlZaW9iWUVkYy13Z0J3VXhLdlFvdXIzM1lRVnVMSTRsd2lSbC1ETVZJbkRWZjFVRDVXa2ZnYW9xd2ZJWFhMQmFjQ2ZkQ2RmMEV4QmE2ZDI2RTBpNjI0WE5ySWh4dTZvYkU2WHJUbWVGbE0?oc=5",
     "date": "2026-10-06T10:30:36.000Z",
     "source": "The Indian Express"
    },
@@ -375,6 +387,12 @@
     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPUlMzRG9sWFhOMGdDVmZwMmNJRFB0R0xnTVY0VldTZkZ2SzZ5MnNsb0g2NjBlSUlGWE1neGszZ2M2YVFiV1dTdy1kVjdDQXh0NmttYXdPX0xfemtkT1hYTVgtNUh5elVOMGpRVFdZdjNnNlZPcWtQazVVc1Z1NHNyNG1uZHY1cGFIM1d5VkRnekdkZ1k2MXVqRVJKTEhSWUNvdTRCVzhZUFp5T0FwMGxOQUdNRmwwY0ZnUDRXMWdwVmNWdUI5bGRya1pGcHBpYnZuNEt4N24xNU5QeHdsX3hXN2Y2dWdjRVpKbXpzLVRuYmxKdjZhOVFkQU9B0gH6AUFVX3lxTE9SUzNEb2xYWE4wZ0NWZnAyY0lEUHRHTGdNVjRWV1NmRnZLNnkyc2xvSDY2MGVJSUZYTWd4azNnYzZhUWJXV1N3LWRWN0NBeHQ2a21hd09fTF96a2RPWFhNWC01SHl6VU4walFUV1l2M2c2Vk9xa1BrNVVzVnU0c3I0bW5kdjVwYUgzV3lWRGd6R2RnWTYxdWpFUkpMSFJZQ291NEJXOFlQWnlPQXAwbE5BR01GbDBjRmdQNFcxZ3BWY1Z1QjlsZHJrWkZwcGlidm40S3g3bjE1TlB4d2xfeFc3ZjZ1Z2NFWkptenMtVG5ibEp2NmE5UWRBT0E?oc=5",
     "date": "2026-10-06T09:24:44.000Z",
     "source": "The Hindu"
+   },
+   {
+    "title": "Allies turned foes? Bombay HC steps into BJP vs Shiv Sena in Ulhasnagar - The Indian Express",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNR1ZLLWl2dlIxdkhQNnhxVzlsNEFBalVjdGpnVmsza3RhRGVDc1p0Q0otNjE3Q0hoc20wT3VUbWJjMFFidFVyc0ZhdDlLNU1zeldwcmxGdVZXXzI0LXh4dzRMd2hwTmdtNS1rTTdTTnEwaDlaNDlXWXBVVGRCalFOZ3RLVUVnNlRrVTVwNzBpWVFpaDVjeGFhdDhUd2xtaGh6U2lHYThiN3RYWG5uUVhGZk16RHNDd9IBvAFBVV95cUxNOEU3MWl0eXRxS3l6eDFkdkM0MU4yc256T3dvQnVoMDN6THFlci0xSm1nTnBuR05Cd3UtMi1CTWwwSm1ZSkNLWmxBLVlQUkMwSGNVVnVhbDhMVjdteVJNYWxpNmN6ODh3alVOQjUxcVJENUdlLUFhZ0JnOWVpOUNGY1ZYY1JjVGVtLWRRSkh0ZVc0WHBFSld6X2I3UlcyckkwSVQ2NzloUklpUDhoNmZ5X3lOQmk3cDlZTXI3bg?oc=5",
+    "date": "2026-10-06T09:24:35.000Z",
+    "source": "The Indian Express"
    },
    {
     "title": "Punjab govt moves apex court against HC order for CBI probe linked to CM Bhagwant Mann’s office - The New Indian Express",
@@ -577,7 +595,7 @@
    {
     "title": "India: Top court hears petitions against CEC Gyanesh Kumar - DW.com",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTi1xeFh4TkswUFUtT00wYU90Y0V4R0RUN0Zfc1BDUXFRd0RGbmtkdHd3aHRDelZNWXJFVDN4OUU4UktLOS1OaGZBanlvcFI4NjVocWZYSkJEelZxTDZRSTdzUUlxTWxDRzZRUEdQSUJYYUc2T3c3b1kwVjk0a2tYM0VSdlJpMWpVRVY1dGF0MEhYbjFoWXNCY3QyVlQyTm5vMldpZnM2S19pRk5pOWVOZDFoaTN2VHhHaV9LMlVPZw?oc=5",
-    "date": "2026-10-06T00:00:47.000Z",
+    "date": "2026-10-06T01:15:43.000Z",
     "source": "DW.com"
    },
    {
@@ -597,21 +615,27 @@
     "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPRmpNSFhHR1cyYm1iS240MkJkcVJfWlkzWXVfamQ5dnJtMWlWbFA1YndSUW5zMHdkUlJEdGFBaWxfYmZ4SmpYSE5wUk1YenVfck9rSFAyLUhpQ3RFeFUwdi1hRTktelY3Ump1MjB4MmhCanlERUJpNDVuZXRnR055b3ltVVR5U21BZkhEcGJWN2YwVFRnQ0k1UVc1aHR3cWVfQXZvZFpUZ0ZmWWROdXdQT1hVUW1maTZoeUxHdUc2Mmt5NFhJVGxHWTA0WEtXMFpnRDBzbWc2SVFWUlBnQ2NxNTBBZUhxYnhyV1ZZaldzMGs5aEVzVlVCM1BRQno0dFliT1ZDel9aTkIzRXJYNTBKOUFHVzdPUmfSAZwCQVVfeXFMTnNVYmtXRG9zcm1GdGhMNEdMWWplTmZEY0NFNkhSblFQOGZwYTA5Z1AtakI5enVJQVMzZnFzZUtLRXgzVzhOcE9FZ0JyOGFYVTF2SDFrNngwZmZ2SlhvNmNqbkJwV3VrMzRDcDVkZXRMaUFyTVdNREtfVzlMRVZ5RmlnaG5RTkVtNXBRVWlRb1hzeUdhRXJWaW43Y0VQTndCRThSWEItWTBkTmtael9tY1MxSi1xTGRzcXRJSldZNE90NXZfc0Y0VG1hLXhwQ3E2V2dmc3NaTWktOHNqQ3QyVkNybEswMHRHOVJreVlhU1lBMFVWcGhmd1JuTUlpMkN1cWRGT3NQa3YyN3dfWW11cUoxWkRCQ2p5T0Q1VUI?oc=5",
     "date": "2026-10-05T23:06:00.000Z",
     "source": "The Times of India"
-   },
-   {
-    "title": "Visa doesn't create absolute right to enter India, says Delhi High Court - The Times of India",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZjlBdm5odmZZMUpNb2oyQWFQUXR5Q05SM0pnbXM3Ymx2VVZ6Rmc1aXBXcE9TNlZjOTRfWU45WnV1eEo5X3pkMF8yVkhYa1pDcXJCdUkxSVByemtiSUFUQkFVbXhRZDJVU0g5WHBQVjhCZUlYdUlxWERRWmh2NzhyM2RPTllpaWVSV1ZKMUYzbGNnMElDa29TV3hrY2NUa2tjaVdycVBJbnlYQnRsb2E3bEdYck1rRUI5SWFoNk9RLU1WUkJ2NnlOVjJSeDBSMG1QUVJQZdIB2gFBVV95cUxNU3FNV1BSbmp6WVpVWDBVR2x5b2RBSW1nZjB6MW1HV0tWb3lPLWRBY2QwRzZQeWdtUE9CSkstZU1vN28wMUZnWWtVM28wNkVMM2FsV01VdDFnN090MXc1M200SW1DRGRmckxKcERadmdocHZMdmJvdk1JejBDd0hZQ3REODY2elF0R3R2MmM1REUzcmJYd3RjQVh1UC1FcDJxRTE3RHN4cXp0Nlo4MDJPc2VTVGJycFBpcjF1MVpjVzZjV0RHSHg0bzZzY3NXd3VuaFpSSV9vUmVfUQ?oc=5",
-    "date": "2026-10-05T22:59:00.000Z",
-    "source": "The Times of India"
-   },
-   {
-    "title": "Supreme Court may get 3 judges today, to be one short of full strength - The Times of India",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeUhQRG9oUkVoSW1uYXVHNmhSVmpyTjViRDNkLUdIYTZ3dkY4OFRISGhxSVNlWmx3ZEpIMmVDelFIeW9HVlV4UUVIU1dlT2x3czk5OFRwZllfWWZfYmhMZ28xb0c1cWdCM1VjVW83bllFQktZQmg1UzdzRGRmWV9yeldJMmNyam9UNHNsWDJfbmNobzdPX1NldW5oa05oX1NYbXdScUNQWFFYbzkwc2liRkRkLWVjVlhkc0lyeEJWd3V4UGx4MWVoZUJJTkx6X0lYNEw00gHYAUFVX3lxTE1RM2lpWTdubkZsYXhSQ3VwTEhkeG01WXJTMEhtaDNmSVhIb2duNXdSU19RMF85dFowaXFFMlNISlVnQVZpQ3d2cGsxMkFmOWVZV2lBQzNUMy1YR1lPcmY1T09tTHpoM2owMnZhd3RBcm9qMnJ2Y2FsaGJULUVqMG5WMU5zX0U0enBUbkhQSzlmWTZiaHp3UUdncWVMZ1RNVXl5YzNQV09FRlFjbC03OU02MFFRSmZYWmotSlpWNzNEX211ZTBrd0VNelRJRGZTMFp1d0ltczlacw?oc=5",
-    "date": "2026-10-05T21:56:00.000Z",
-    "source": "The Times of India"
    }
   ],
   "elections": [
+   {
+    "title": "Will Opposition move beyond Gyanesh Kumar, address trust deficit in India's poll panel? - Counterview",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQS3Z0dVBFLTBSMHNmb2lCOGsyTG0ySDUwRTZJaUkzOVUxdW1pVDFWYldyZFpUZ0VhVjdyclRWbzRETHRxazUxcUxnMnlZYXVJVnJFcm4tZWNaNHJtZmRSdFQxd2RjQnozd25OUWF2R2ZfQ3duRjV2YWI0VXZFOHk1RDJR?oc=5",
+    "date": "2026-10-06T20:00:00.000Z",
+    "source": "Counterview"
+   },
+   {
+    "title": "Chaos at Akashvani Bhawan: Rahul Gandhi, Priyanka forcibly removed after hours-long sit-in near ECI - The South First",
+    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQV2FEVWgxTG8tOXl4MDJuVlZXNWk2ZVowSm1mMU0wXzdlZkU5ZDZQMWx0NC1CTmpuUjRzaG5vZ2ZBUS0wU3oxX3VVTFJXdlJ5UVhtSWFlNXJ2YmxoeTQ3b2lZXzVwdWxlY25uWXJfejRFb01qSHB4Q09zR04xRHFhTHNKTXVRYUZiTFF0aDFsdzRMZTFWQlFFbDRxUEtrQWxaU001WmttTl9raUJmdXZ6ZVRwdE1xVHpsNlBobnFMT1ZMOTliZXJWa3l5TVpMMEtHbDJvUHhtQWc5NnFoQmRlN051RlpuZjdBbzFn?oc=5",
+    "date": "2026-10-06T19:52:30.000Z",
+    "source": "The South First"
+   },
+   {
+    "title": "CEC row | EC refuses Opposition's demand for meeting - Deccan Herald",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaThhVUxrb2hMdFZFbnZJT0JXbXVaOUF4dHhpZDJENDFyVFN4SmhHNGZpdnJLX2F1UU1xTkV2RzlUWUp3MUhQSm51Sk45a1N2M0ZZdVZYVUc0VHF1WkRBaGl5OGdPSWgwSjJ6bEFsTUZ2STExS1lkeDFMYTBNWEI1SDJ5cFRHS3UzUzZ3Wmo1WkNHekNkMDZR?oc=5",
+    "date": "2026-10-06T18:31:53.000Z",
+    "source": "Deccan Herald"
+   },
    {
     "title": "BJP counters INDIA bloc’s Election Commission protest, targets Rahul Gandhi - The News Mill",
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSU0zRlVnc0VGdm81a243ZGVucTcxdEV6aFd0YWhPaDJudkhKU3d4NUIwWFZmaXpUUGduMVgwcHFoZVNpRUplNDgwZlk3bEprZUs5dUFFc2JCVHFydVB3cEpxRGpSNXhlbFROU19aQmVRaFBSWllVYUJnc1dtQWVRaFBOdEM2dlZ2ZHpOUWJUcXFITWVyMHZhR2pZblYtamQwa2tIZ0Q0MVlYaExsNU56eE1Mc19ILWJ4SjYtWGllTXA3aEZ4VkxwNDVDdw?oc=5",
@@ -823,6 +847,12 @@
     "source": "Rediff"
    },
    {
+    "title": "India: Opposition leaders march towards Election Commission - DW.com",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZmFtcHBJSks4QVYteG1VMmlyYjNYM2xmQy1NMkV3TW9jbURFd1RqMTlXaHd5S0FnNnVWODBLV0VsVC0tMlY4WDZnb2VpUnNmaFJwMVFHZm4wUlFjanBlNkFPSEZhVl91cE4xWHExcUhmTFlWNVQxM1lPRzR1c2J6bDVlZ2FCSEFNOVlER3lZajdQZjRGc19ZVzl1SkpTeVlF?oc=5",
+    "date": "2026-10-06T09:58:47.000Z",
+    "source": "DW.com"
+   },
+   {
     "title": "Watch: INDIA Bloc MPs Chant Slogans During Protest March To Election Commission | HT India | Videos - Hindustan Times",
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZm9KN1EzRnBaSjdlQWNsRHFPVmFVSUtpRW5kcDdieXFSbF9QQXVmSU00Ykt2WDhJWVdDN2hYZkVUcUVwdnExaGZKVVJGS1dBRndDalRBY1hTZXQ0OVo4UEg2ZWt3Q3F0SFNYR3pNSDNoeG1MaDZuV28zMnl4Q3M5a1JUZkJDZmtWeUM3YWE1ZnRuUjl0a3pOX3pxSXMwV190el96bVUxZmMxM1AtM3VBSTRKdUx4VnljX0Z4SWlZdWVFWHc4X21Kc25PLXdZd3VNVW96T0ZkRURDcHBIMnZj0gHkAUFVX3lxTE5tSmJYUHR6VU1ZSHlRUXdMVV9lX0pzaHFQMWxfMXBwUXBMd3JMTjdLV1lGTWVmM0tuQzdCZGdfQW9SR2NienVDSWdUQ25ISy1GblJ0RURPbFlxUDRlNzRKSnVMZnctQVlsalk4NEo0ZnRxb3FJSElwYURTTmJ3cXFDb3JYaDRVTnFUUi1fTGdIcVhtaDVBelhCRFBsODQ4dmdqT0p1ZzU0dTBwVnNXVlE2b2ptaHU5blRLZzl4eHNGbmd4UjViMFN1OGtZd3ZGakx0MHlySzdka2pwaHlEbElaaHVfMw?oc=5",
     "date": "2026-10-06T09:38:58.000Z",
@@ -917,12 +947,6 @@
     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNaF9VV3VvdVlIYk1QUnUyQ3NiU0o2WXRwV0FHX0h4XzB0ZHZfbFo2T2pHVk9XdU1mMlNmY0ZHQjhLdnpsaUhtUVQwQ0VNTDJZd0tkUFJILW12d0YtckJJSzFDVENfU2lKNF9HWHFaVjljc0FoRnRreVdWN19lX0kyeS1fQW9iMWdzVDdFQmhnV1FXOFFpQjBsaGtsajlSV0Q2RmQ1SHNnQ001LU5MaFZjdWRIT1k4bkFRYXp2SmZOVGpHNXdBbjRDYVhMY1NMT25DSWdfWm8zLXFLaERMYWlVZi1RZTh2Z9IB6wFBVV95cUxNTGtYU3ZSbmFqZXBGNERxM0pDa0c4eVRJNWVpUzZlSFR6OU5UcHV5Vmd0dURXTXFWSnprLTE3NXBvQVZFM0ptX09rOWJ5aWROT0gzWnNaMlZtdWZSUi03ZXZLdkpPRWJ5UkM0YU5Ndm15SjY2VzhNeF80SGZkXzJESTRsdC0yQXpCeTI0bmNWTldIOWFUOXJrbjBOVUg1R3NMTTl2VW93ajBWMnZnNndOM1lETEE5VXJocTJXTkU5X0lBMnhpUlJTTE9STXQ5T183ZFFHWEpRRF9rNTVJcTNJMHhGdTBOZkc4WWo0?oc=5",
     "date": "2026-10-06T06:04:04.000Z",
     "source": "India Today"
-   },
-   {
-    "title": "India: Opposition leaders march towards Election Commission - DW.com",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZmFtcHBJSks4QVYteG1VMmlyYjNYM2xmQy1NMkV3TW9jbURFd1RqMTlXaHd5S0FnNnVWODBLV0VsVC0tMlY4WDZnb2VpUnNmaFJwMVFHZm4wUlFjanBlNkFPSEZhVl91cE4xWHExcUhmTFlWNVQxM1lPRzR1c2J6bDVlZ2FCSEFNOVlER3lZajdQZjRGc19ZVzl1SkpTeVlF?oc=5",
-    "date": "2026-10-06T05:56:10.000Z",
-    "source": "DW.com"
    },
    {
     "title": "India: Opposition leaders to march to Election Commission - DW.com",
@@ -1567,6 +1591,24 @@
   ],
   "world": [
    {
+    "title": "White House defends Trump comment to let Iran 'take out' LA and San Diego",
+    "link": "https://www.bbc.co.uk/news/articles/c6r7yn8pknyxo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-06T20:15:31.000Z",
+    "source": "BBC World"
+   },
+   {
+    "title": "Cold War memories stir Rubio in Iceland as he champions diplomacy and downplays differences - Sentinel Colorado",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVGZyMHdoYzB1MUt2SmFDTmk0c2FIN2NEejY4eXVBVVI1aGdER3ZkOFN6X2k4LTdWMlh1Q2VjZ24wWXRCZkJJWmE0dDQ2WFJuQUNQN2hFbThHbzhtcm15VjlQSndhWE1rS1l6N1ZkaEtmQTlmTFhoU21LUzFBdC1KVTEtR3BxQjV5UXg3TFI1Um5qSm1hZTFuQlIxeHB2NGZmQllEU2s3MGRlMXFrZUx5NkdrLVAySHM2MEJuM1pJTWdUVHc2alVEdkgxTGljX3Jm?oc=5",
+    "date": "2026-10-06T19:43:39.000Z",
+    "source": "Sentinel Colorado"
+   },
+   {
+    "title": "U.S.-Iran diplomacy moves forward in Qatar as mediator exchanges proposals - Washington Times",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOREpZRWVWZ2pNY2xxb0R4eHVXU0hFZ0NKanRqNVZPTzFxUldVZVRKRm11bGM2ZUVYZVNJenpia2szeHoydE9XN1ZKeXNSMnpiUUJ0UVk0R2hTYUpDSGxiRTFVeGRRci1mQ0w2TUJyZUlOX182YU5kYXlwUGxwTUx2T2gwUXAtZGtxTlZ5dVNBMk8ta2NVMWd5ZDJZVkI4MzRLNkRrN1VDQnJ2a1NLSWVxLURpVVBvdw?oc=5",
+    "date": "2026-10-06T19:34:33.000Z",
+    "source": "Washington Times"
+   },
+   {
     "title": "UN chief urges diplomacy in US-Iran war, restoration of shipping rights - Arab News",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZWlMRXYwN2s0R2JLLTZDbGd0RGdnT2U1ZU5XNnhSMUhvNE52V1R6Sk5Lc0dvd2lDd0Y1SnQtUnl5dkpncmV0RDNjaUVTT012QU13OHpKb2pJYWxqUGFEeWRqT0Y0N20weFpZOUczV0pVZ1c1dDNqS1hUVzZXekxUTHpweDRhTU4wcjljeERhOEgxQUZhTm9hZHlqdEpaSWlTMUdDRnlCZDZ1RkRUNjZ1Ri1aS1RxZw?oc=5",
     "date": "2026-10-06T19:00:06.000Z",
@@ -1597,6 +1639,12 @@
     "source": "India Today"
    },
    {
+    "title": "Finland orders halt to work on two Google data centres",
+    "link": "https://www.bbc.co.uk/news/articles/cvj6jkx6g1r0o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-06T17:15:46.000Z",
+    "source": "BBC World"
+   },
+   {
     "title": "Separatist party projected to win Quebec election, adding new test to Canada's unity",
     "link": "https://www.bbc.co.uk/news/articles/crly09gz7ew4o?at_medium=RSS&at_campaign=rss",
     "date": "2026-10-06T16:51:59.000Z",
@@ -1607,12 +1655,6 @@
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yNjRYcWtoOFpDMk5zclo4YzM4dFdxRlNUc2VQQmpWYjBvU3FqWFcyYzZzbzN6T3ctME04LXZDWkQ2WnJVdUpWRG11bXpvRGdjMGc?oc=5",
     "date": "2026-10-06T16:31:21.000Z",
     "source": "Iran International"
-   },
-   {
-    "title": "White House defends Trump comment to let Iran 'take out' LA and San Diego",
-    "link": "https://www.bbc.co.uk/news/articles/c6r7yn8pknyxo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-06T16:22:37.000Z",
-    "source": "BBC World"
    },
    {
     "title": "Iza Ding | Wok Diplomacy - London Review of Books",
@@ -1649,12 +1691,6 @@
     "link": "https://www.bbc.co.uk/news/videos/cwzd650e2jqdo?at_medium=RSS&at_campaign=rss",
     "date": "2026-10-06T15:02:56.000Z",
     "source": "BBC World"
-   },
-   {
-    "title": "Cold War memories stir Rubio in Iceland as he champions diplomacy and downplays differences - AP News",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMXNEMzJ4RGJyN0o2cUcxSE9ySl9tRWVQcXZtVXVGZGxGRVBLbHA2Q3BoUDducTJWLVNyckNLWnNtOWxwWFA4R2FrLTBiZUJsQy1OZm9tdUdlQm9KNEgxMFZxalhqemZBOXRycXhBdXlDUXBTRXlncnd0OHMwRTlWTmRadG9aVlMwMnhPY1hteVZIZGVDWFhXc3l4aF83bHJKb0JiTnkxdlc?oc=5",
-    "date": "2026-10-06T14:45:00.000Z",
-    "source": "AP News"
    },
    {
     "title": "AfD candidate elected speaker of German regional parliament for first time",
@@ -1730,8 +1766,8 @@
    },
    {
     "title": "UN chief urges US, Iran to return to diplomacy, end war, hails Pakistan’s ‘pivotal role’ - Anadolu Ajansı",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTWRUTlczMWpURU0xZGN0aGlIcWN0bzBlODI0U1kxVGVTcHJnX2RaYXNjd1FTOUk4bHRjOHFnM3U5OXpOVTljd0tWdTQtOVE1TVR3OWRPbzVNRW1YM1dRN254UzVDRzVLNzd3S1FBTXE3bXlMMmNRRXo2YXFlTXEyVl81bUR3LXJxNjRiQ3FySDJSeDZ5NTNQd3JMajFYWWZFN096SHpERldydnBmSWVXTGpqbXMwOHQ0Q2dKMzUtSzI?oc=5",
-    "date": "2026-10-06T12:15:07.000Z",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRlVrUHlDSEhHM05kMVN6Snh6UV9DYnVxbV9NSGE1QjNud0hCZi0wNFJNZkJZZGpKSkFndFozTDFsdHpYb0I2NEgya3FxV3poSTlVV28wUThiblRCdFFjYS1GZnJnRkdBUzFxRzhldkQ2V2xIX2dWWGFQWksxMkZrMW9wQjRDVzNrd3daeGdCRFgtSHlMNXhfeEN5WFI3d2hTUlhxc3FGUWk3N0o5VUgteFlQV1pxM3pGbWNF?oc=5",
+    "date": "2026-10-06T12:16:05.000Z",
     "source": "Anadolu Ajansı"
    },
    {
@@ -2033,18 +2069,6 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOM2xmU3FSTWxJbTJJTWNKUDNnQXk2Q1MybVdlalVxSnB3QWt4SFpZNm0tWDM4UnZldjQ0RWVfOVhpSzFjNmpGV0pCR0hYdnRLT09uYWhWN1BuRHhYNFNUZ3lXS3BIZzFiYWhtaVAyRkJUR2xnNENJMWgzM2ZlMUdHcVR4Y2RmSW41dU1hN0VMZDhXRVlOZGxyM1U5RktBcWJvYV9lbmh1WXJ2QjQ4b3BydDhvN09uYVE?oc=5",
     "date": "2026-10-05T21:51:53.000Z",
     "source": "uscpublicdiplomacy.org"
-   },
-   {
-    "title": "Mainland Chinese favour diplomacy to achieve Taiwan reunification with caveats - SCMP",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSk14TXotWTRDN2JqZTh1bnBzdElndVlXM054NU1GT2xhME9Ndjl6Tml6MmE2S0ozSlI0QWJpTkVSVEptUjNLaUNQeUlrczVpZkNCUERDcDFiTnFRdC14S2NFNlk3Y2lzQXcyZ3lkUnpwak1Zd0xxeVpHNk5hMDY0VXRQN0xhaklpcVF0TVJJZURjeWZ0eXBOTkYzOHFHMnBsYkhUZGo4Z0Q3V3R1dnNDdkw2TUhiSUwwYUFReDVsdWVrcVVKbmtpNU1MaXV0R2hL0gHQAUFVX3lxTE5fMEV5S0xwOWk3VDdKQUVETkI1QURQOVo4Um1RNmJKcEdxMUNWTVEzVk1nUEtxVkdqZ0dzRmdYY09vUnY0WDByNndNWnZtSkZWOEdTSUJTbEFvRVlHOVNoOTV6TjkzUDZKQjVqT0hSaEtpd2ZZakdidzZFQVl0c3FFSVhEcmpPZS13cFlKd0Q2WldPSUxSVW5ELU02VkpyMUdUcGxBUW9HLW5GODl1Vk9nS3ExbDRVeXlFbmtxNU16VlE0OWVxOGV5NGx4bnVPdnM?oc=5",
-    "date": "2026-10-05T21:14:15.000Z",
-    "source": "SCMP"
-   },
-   {
-    "title": "Afghan Taliban says problems with Pakistan can be resolved through diplomacy - Al-Monitor",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeVZSZldNMWJRZE9mSUZvNDd3OFlpYkpzRGhkRENpZUNBOXNrdk4td1lvQWR1QmNmRktocWNLNnNWVXk1NzZaYTMyZUI2LW84TVdaekhsSkdIWmlDc1VRTDZGem9HMUxiX1JGRFhHQXZVZ2hEQnZrWTBXd1ptNDViVXNfZVFBbndPR1ZGN2p2dFB1ZWtnV2dOOWJUQWdmNF9tWDI4Qm1qRGdFd3gxeHR0cWxxRUhwVk0?oc=5",
-    "date": "2026-10-05T21:13:46.000Z",
-    "source": "Al-Monitor"
    }
   ]
  }
