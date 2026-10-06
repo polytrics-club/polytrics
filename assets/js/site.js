@@ -232,11 +232,10 @@
 })();
 
 /* =========================================================
-   POLYTRICS — cursor: ink drop + ink trail + seal stamp
-   - a small ink drop follows the pointer, stretching as it moves and settling round
-   - over links a seal-ring opens around it
-   - a fine ink line trails behind, like a pen signature
-   - clicking stamps the Polytrics seal, which fades away
+   POLYTRICS — cursor
+   Sits exactly on the pointer (no lag). It only changes SHAPE:
+   dot -> reading caret over text -> ring with an arrow / ↗ / ✓ over
+   things you can click. Clicking stamps the Polytrics seal.
    Desktop mice only; off for touch screens and reduced motion.
    ========================================================= */
 (function () {
@@ -246,82 +245,53 @@
   if (!fine || calm || !window.PolytricsLogo) return;
 
   var root = document.documentElement;
-  root.classList.add("has-ink");
-  var layer = document.createElement("div"); layer.className = "ink-layer"; layer.setAttribute("aria-hidden", "true");
-  var cv = document.createElement("canvas"); cv.className = "ink-trail";
-  var box = document.createElement("div"); box.className = "ink-dot";
-  box.innerHTML = '<span class="ink-ring"></span><span class="ink-drop"></span>';
-  var drop = box.querySelector(".ink-drop");
-  layer.appendChild(cv); layer.appendChild(box); document.body.appendChild(layer);
-  var ctx = cv.getContext("2d");
-  function size() { var r = Math.min(window.devicePixelRatio || 1, 2); cv.width = innerWidth * r; cv.height = innerHeight * r; ctx.setTransform(r, 0, 0, r, 0, 0); }
-  size(); window.addEventListener("resize", size);
+  root.classList.add("has-cur");
+  var layer = document.createElement("div"); layer.className = "cur-layer"; layer.setAttribute("aria-hidden", "true");
+  var cur = document.createElement("div"); cur.className = "cur";
+  cur.innerHTML = '<span class="cur-shape"></span>' +
+    '<svg class="cur-icon i-go" viewBox="0 0 24 24"><path d="M6 12h12M13 7l5 5-5 5"/></svg>' +
+    '<svg class="cur-icon i-out" viewBox="0 0 24 24"><path d="M8 16 16 8M9.5 8H16v6.5"/></svg>' +
+    '<svg class="cur-icon i-pick" viewBox="0 0 24 24"><path d="M6 12.5l4 4 8-9"/></svg>';
+  layer.appendChild(cur); document.body.appendChild(layer);
 
-  var RED = "182,32,23", BUTTER = "255,223,126";
-  var x = -200, y = -200, bx = x, by = y, col = RED, visible = false, typing = false, raf = 0, lastEl = null;
-  var pts = [], LIFE = 520;
+  // colour: red ink on light surfaces, butter on red / dark surfaces
+  var LIGHT = ".btn--butter, .btn:not(.btn--line):not(.btn--red), .note, .quiz, .composer, .topic:not(.topic--motion), .ctx, .term:not(.term--3), .pill:not([aria-pressed=true]), .news-empty, .field, .reply";
+  var DARK = ".s-red, .hero, .s-ink, footer.site, .topic--motion, .seal .core, .main_h nav, .btn--red, .term--3, .pill[aria-pressed=true], .act[aria-expanded=true], .reader .close, .pt";
+  var TEXT = "p, h1, h2, h3, h4, blockquote, li, cite, .lede, .quote, .dek, .body";
+  var x = -100, y = -100, lastEl = null, state = "", tone = "";
 
-  // yellow / white surfaces get red ink; red and dark surfaces get butter ink
-  var LIGHT = ".btn--butter, .btn:not(.btn--line):not(.btn--red), .note, .quiz, .composer, .topic:not(.topic--motion), .ctx, .term:not(.term--3), .pill:not([aria-pressed=true]), .news-empty, .field, .reply, .explainer[open], .res:hover, .post:hover";
-  var DARK = ".s-red, .hero, .s-ink, footer.site, .topic--motion, .seal .core, .main_h nav, .btn--red, .term--3, .pill[aria-pressed=true], .act[aria-expanded=true], .reader .close";
-  function sample(el) {
-    if (!el || el === lastEl) return; lastEl = el;
-    var c = el.closest ? el.closest(LIGHT + ", " + DARK) : null;
-    var next = c && c.matches(DARK) ? BUTTER : RED;
-    if (next !== col) { col = next; layer.style.setProperty("--cursor-ink", "rgb(" + col + ")"); }
-    root.classList.toggle("ink-hot", !!el.closest("a, button, summary, label, .bar-row, select"));
-    typing = !!el.closest("input, textarea, [contenteditable]");
-    root.classList.toggle("ink-text", typing);
+  function setState(s) { if (s !== state) { state = s; cur.setAttribute("data-s", s); } }
+  function look(el) {
+    if (!el || el === lastEl || !el.closest) return; lastEl = el;
+    var c = el.closest(LIGHT + ", " + DARK), t = c && c.matches(DARK) ? "dark" : "light";
+    if (t !== tone) { tone = t; layer.setAttribute("data-tone", t); }
+    if (el.closest("input, textarea, select, [contenteditable]")) return setState("type");
+    if (el.closest(".quiz .opt, [data-o]")) return setState("pick");
+    var a = el.closest("a[target=_blank]"); if (a) return setState("out");
+    if (el.closest("a, button, summary, label, .bar-row, .term")) return setState("go");
+    if (el.closest(TEXT)) return setState("text");
+    setState("dot");
   }
   window.addEventListener("mousemove", function (e) {
     x = e.clientX; y = e.clientY;
-    if (!visible) { visible = true; bx = x; by = y; root.classList.add("ink-on"); }
-    if (!typing) pts.push({ x: x, y: y, t: performance.now(), c: col });
-    sample(e.target); go();
+    cur.style.transform = "translate3d(" + x + "px," + y + "px,0)";   // exact position, every event
+    if (!root.classList.contains("cur-on")) root.classList.add("cur-on");
+    look(e.target);
   }, { passive: true });
-  window.addEventListener("scroll", function () { if (visible) sample(document.elementFromPoint(x, y)); }, { passive: true });
-  document.addEventListener("mouseleave", function () { visible = false; root.classList.remove("ink-on"); });
+  window.addEventListener("scroll", function () { lastEl = null; look(document.elementFromPoint(x, y)); }, { passive: true });
+  document.addEventListener("mouseleave", function () { root.classList.remove("cur-on"); });
+  document.addEventListener("mouseenter", function () { root.classList.add("cur-on"); });
 
-  // the seal
   window.addEventListener("mousedown", function (e) {
-    if (e.button !== 0 || typing) return;
-    root.classList.add("ink-press");
+    if (e.button !== 0 || state === "type") return;
+    root.classList.add("cur-press");
     var s = document.createElement("div");
-    s.className = "ink-stamp";
+    s.className = "cur-stamp";
     s.style.left = x + "px"; s.style.top = y + "px";
     s.style.setProperty("--r", (Math.random() * 24 - 12).toFixed(1) + "deg");
-    s.style.color = "rgb(" + col + ")";
-    s.innerHTML = window.PolytricsLogo("ink-seal");
+    s.innerHTML = window.PolytricsLogo("cur-seal");
     layer.appendChild(s);
-    setTimeout(function () { s.remove(); }, 1500);
+    setTimeout(function () { s.remove(); }, 1200);
   });
-  window.addEventListener("mouseup", function () { root.classList.remove("ink-press"); });
-
-  function go() { if (!raf) raf = requestAnimationFrame(frame); }
-  function frame(now) {
-    raf = 0;
-    var dx = (x - bx) * 0.35, dy = (y - by) * 0.35;
-    bx += dx; by += dy;
-    box.style.transform = "translate3d(" + bx + "px," + by + "px,0)";
-    // the drop stretches along its direction of travel, then settles round
-    var sp = Math.min(1, Math.hypot(dx, dy) / 14);
-    drop.style.transform = "rotate(" + Math.atan2(dy, dx) + "rad) scale(" + (1 + sp * 1.1).toFixed(3) + "," + (1 - sp * 0.45).toFixed(3) + ")";
-    ctx.clearRect(0, 0, innerWidth, innerHeight);
-    while (pts.length && now - pts[0].t > LIFE) pts.shift();
-    if (pts.length > 2) {
-      ctx.lineCap = "round"; ctx.lineJoin = "round";
-      for (var i = 1; i < pts.length - 1; i++) {
-        var p0 = pts[i - 1], p1 = pts[i], p2 = pts[i + 1];
-        if (p2.t - p0.t > 140) continue;                 // a pause lifts the pen
-        var age = (now - p1.t) / LIFE, speed = Math.min(1, Math.hypot(p2.x - p0.x, p2.y - p0.y) / 40);
-        ctx.strokeStyle = "rgba(" + p1.c + "," + (0.5 * (1 - age)).toFixed(3) + ")";
-        ctx.lineWidth = Math.max(0.35, (2.4 - speed * 1.5) * (1 - age * 0.85));   // thinner when fast, like a nib
-        ctx.beginPath();
-        ctx.moveTo((p0.x + p1.x) / 2, (p0.y + p1.y) / 2);
-        ctx.quadraticCurveTo(p1.x, p1.y, (p1.x + p2.x) / 2, (p1.y + p2.y) / 2);
-        ctx.stroke();
-      }
-    }
-    if (pts.length || Math.abs(x - bx) > 0.3 || Math.abs(y - by) > 0.3) raf = requestAnimationFrame(frame);
-  }
+  window.addEventListener("mouseup", function () { root.classList.remove("cur-press"); });
 })();
