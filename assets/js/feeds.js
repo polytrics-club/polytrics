@@ -18,9 +18,18 @@
     if (m) { t = m[1]; if (!src || /Google News/i.test(src)) src = m[2]; }
     return { title: t, link: item.link, date: item.date, source: src, cat: cat };
   }
+  var WEEK = 7 * 864e5, NEW_MS = 3 * 36e5;
+  /* the visitor's previous visit, read once per page; updated a few seconds after load */
+  var lastVisit = 0;
+  try { lastVisit = +(localStorage.getItem("pt-lastvisit") || 0); } catch (e) {}
+  setTimeout(function () { try { localStorage.setItem("pt-lastvisit", String(Date.now())); } catch (e) {} }, 8000);
+  function age(it) { return it.date ? Date.now() - new Date(it.date) : Infinity; }
+  function isNew(it) { var d = it.date ? new Date(it.date).getTime() : 0; return age(it) < NEW_MS || (lastVisit && d > lastVisit); }
+  function sinceLast(items) { return lastVisit ? items.filter(function (it) { return it.date && new Date(it.date) > lastVisit; }).length : 0; }
   function dedupe(items) {
     var seen = {};
     return items.filter(function (it) {
+      if (age(it) > WEEK) return false;                       // never show anything older than a week
       var k = (it.title || "").toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 60);
       if (!k || seen[k]) return false; seen[k] = 1; return true;
     }).sort(function (a, b) { return new Date(b.date || 0) - new Date(a.date || 0); });
@@ -72,10 +81,13 @@
     var PT = window.PT, esc = PT.esc;
     box.innerHTML = '<ul class="news">' + new Array(6).join('<li class="skeleton"></li>') + '</ul>';
     return get(cat).then(function (res) {
-      var items = res.items.slice(0, opts.limit || 24);
-      if (statusEl) statusEl.innerHTML = res.mode === "offline"
-        ? '<span class="live off"></span>Live headlines start once the site is online'
-        : '<span class="live"></span>Updated ' + (PT.ago(res.updated) || "just now");
+      var pool = res.items;
+      if (opts.recent) {                                       // home: today's news first
+        var day = pool.filter(function (it) { return age(it) < 864e5; });
+        pool = day.length >= 6 ? day : pool.filter(function (it) { return age(it) < 2 * 864e5; });
+      }
+      var items = pool.slice(0, opts.limit || 24);
+      if (statusEl) statusEl.innerHTML = statusHTML(res, pool);
       if (!items.length) {
         box.innerHTML = '<div class="news-empty"><strong>Headlines are on their way.</strong>' +
           'This section fills itself with the latest stories once the site is published. Until then, go straight to the sources:' +
@@ -84,7 +96,7 @@
       }
       box.innerHTML = '<ul class="news">' + items.map(function (it, i) {
         return '<li data-reveal style="--d:' + (i % 6) + '"><a href="' + esc(it.link) + '" target="_blank" rel="noopener">' +
-          '<span class="cat">' + esc(label(it.cat)) + '</span>' +
+          '<span class="cat">' + esc(label(it.cat)) + (isNew(it) ? '<b class="new-tag">New</b>' : "") + '</span>' +
           '<span class="t">' + esc(it.title) + '</span>' +
           '<span class="src">' + esc([it.source, PT.ago(it.date)].filter(Boolean).join(" · ")) + '</span></a></li>';
       }).join("") + '</ul>';
@@ -93,5 +105,37 @@
     });
   }
 
-  window.PolytricsFeeds = { get: get, render: render, label: label };
+  function statusHTML(res, items) {
+    if (res.mode === "offline") return '<span class="live off"></span>Live headlines start once the site is online';
+    var n = sinceLast(items || res.items), fresh = (items || res.items).filter(function (it) { return age(it) < NEW_MS; }).length;
+    return '<span class="live"></span><b>Live</b> \u00B7 updated ' + (PT.ago(res.updated) || "just now") +
+      (n ? ' \u00B7 <span class="since">' + n + ' new since your last visit</span>' : fresh ? ' \u00B7 <span class="since">' + fresh + ' in the last 3 hours</span>' : "");
+  }
+
+  /* while a page is open, look for newer headlines every 10 minutes */
+  function watch(onNew) {
+    var known = null;
+    function snapshot() { return fetch("data/feeds.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }); }
+    snapshot().then(function (d) { known = d && d.updated; });
+    setInterval(function () {
+      if (document.hidden) return;
+      snapshot().then(function (d) {
+        if (!d || !d.updated || d.updated === known) return;
+        var before = known; known = d.updated;
+        var all = [].concat.apply([], Object.keys(d.sections || {}).map(function (k) { return d.sections[k]; }));
+        var n = all.filter(function (it) { return it.date && (!before || new Date(it.date) > new Date(before)); }).length;
+        jsonCache = null; catCache = {};                        // next render uses the fresh file
+        if (n) onNew(n);
+      });
+    }, 10 * 60 * 1000);
+  }
+  function newPill(n, onClick) {
+    var b = document.querySelector(".new-pill");
+    if (!b) { b = document.createElement("button"); b.type = "button"; b.className = "new-pill"; document.body.appendChild(b); }
+    b.innerHTML = "\u2191 " + n + (n === 1 ? " new headline" : " new headlines");
+    b.onclick = function () { b.classList.remove("show"); onClick(); };
+    requestAnimationFrame(function () { b.classList.add("show"); });
+  }
+
+  window.PolytricsFeeds = { get: get, render: render, label: label, isNew: isNew, status: statusHTML, watch: watch, newPill: newPill, sinceLast: sinceLast };
 })();

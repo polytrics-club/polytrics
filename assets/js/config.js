@@ -31,8 +31,9 @@ window.POLYTRICS_CONFIG = {
   },
 
   /* ---- News categories ----
-     Each category pulls from its own feeds. The GitHub Action refreshes
-     data/feeds.json every 3 hours; if that is empty the browser fetches live. */
+     Each category pulls from its own feeds ("when:1d" = only the last 24 hours).
+     The GitHub Action refreshes data/feeds.json every hour and keeps a rolling
+     7-day archive; open pages check for new headlines every 10 minutes. */
   newsCategories: [
     { key: "parliament", label: "Parliament" },
     { key: "courts",     label: "Courts & Law" },
@@ -43,25 +44,25 @@ window.POLYTRICS_CONFIG = {
   ],
   feeds: {
     parliament: [
-      { name: "Google News", url: "https://news.google.com/rss/search?q=Parliament+bill+%22Lok+Sabha%22+OR+%22Rajya+Sabha%22&hl=en-IN&gl=IN&ceid=IN:en" }
+      { name: "Google News", url: "https://news.google.com/rss/search?q=Parliament+bill+%22Lok+Sabha%22+OR+%22Rajya+Sabha%22+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en" }
     ],
     courts: [
-      { name: "Google News", url: "https://news.google.com/rss/search?q=%22Supreme+Court%22+India&hl=en-IN&gl=IN&ceid=IN:en" },
-      { name: "Google News", url: "https://news.google.com/rss/search?q=%22High+Court%22+ruling+India&hl=en-IN&gl=IN&ceid=IN:en" }
+      { name: "Google News", url: "https://news.google.com/rss/search?q=%22Supreme+Court%22+India+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en" },
+      { name: "Google News", url: "https://news.google.com/rss/search?q=%22High+Court%22+ruling+India+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en" }
     ],
     elections: [
-      { name: "Google News", url: "https://news.google.com/rss/search?q=%22Election+Commission%22+OR+%22assembly+election%22+India&hl=en-IN&gl=IN&ceid=IN:en" }
+      { name: "Google News", url: "https://news.google.com/rss/search?q=%22Election+Commission%22+OR+%22assembly+election%22+India+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en" }
     ],
     policy: [
       { name: "PIB", url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3" },
-      { name: "Google News", url: "https://news.google.com/rss/search?q=India+government+policy+scheme&hl=en-IN&gl=IN&ceid=IN:en" }
+      { name: "Google News", url: "https://news.google.com/rss/search?q=India+government+policy+scheme+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en" }
     ],
     economy: [
-      { name: "Google News", url: "https://news.google.com/rss/search?q=RBI+OR+%22Union+Budget%22+OR+GST+India+economy&hl=en-IN&gl=IN&ceid=IN:en" }
+      { name: "Google News", url: "https://news.google.com/rss/search?q=RBI+OR+%22Union+Budget%22+OR+GST+India+economy+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en" }
     ],
     world: [
       { name: "BBC World", url: "https://feeds.bbci.co.uk/news/world/rss.xml" },
-      { name: "Google News", url: "https://news.google.com/rss/search?q=geopolitics+OR+diplomacy&hl=en-IN&gl=IN&ceid=IN:en" }
+      { name: "Google News", url: "https://news.google.com/rss/search?q=geopolitics+OR+diplomacy+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en" }
     ]
   },
 

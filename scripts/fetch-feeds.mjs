@@ -34,17 +34,25 @@ async function readFeed(feed) {
 
 const readJSON = async (f) => { try { return JSON.parse(await readFile(new URL(f, root), "utf8")); } catch { return null; } };
 
-// ---- 1. feeds ----
+// ---- 1. feeds: add fresh stories to a rolling 7-day archive ----
+const prev = (await readJSON("data/feeds.json")) || { sections: {} };
+const WEEK = 7 * 864e5, nowMs = Date.now();
 const out = { updated: new Date().toISOString(), sections: {} };
+const keyOf = (t) => t.toLowerCase().replace(/ - [^-]{2,60}$/, "").replace(/[^a-z0-9]/g, "").slice(0, 60);
 for (const [section, list] of Object.entries(CFG.feeds)) {
   const results = await Promise.allSettled(list.map(readFeed));
   results.forEach((r, i) => { if (r.status === "rejected") console.warn("skip", section, list[i].name, String(r.reason)); });
+  const fresh = results.flatMap((r) => (r.status === "fulfilled" ? r.value : []))
+    .map((i) => ({ ...i, date: i.date || out.updated }));                      // undated -> first seen now
+  const merged = [...fresh, ...((prev.sections || {})[section] || [])];
   const seen = new Set();
-  out.sections[section] = results.flatMap((r) => (r.status === "fulfilled" ? r.value : []))
-    .filter((i) => { const k = i.title.toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 60); if (seen.has(k)) return false; seen.add(k); return true; })
-    .sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0))
-    .slice(0, 40);
-  console.log(section, out.sections[section].length, "items");
+  out.sections[section] = merged
+    .filter((i) => i.date && nowMs - new Date(i.date) < WEEK && new Date(i.date) <= nowMs + 36e5)
+    .filter((i) => { const k = keyOf(i.title); if (seen.has(k)) return false; seen.add(k); return true; })
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .slice(0, 80);
+  const day = out.sections[section].filter((i) => nowMs - new Date(i.date) < 864e5).length;
+  console.log(section, out.sections[section].length, "in archive,", day, "from the last 24h");
 }
 const total = Object.values(out.sections).reduce((n, s) => n + s.length, 0);
 if (total === 0) { console.error("No items fetched; keeping previous files"); process.exit(0); }

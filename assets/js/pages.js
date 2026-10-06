@@ -116,7 +116,10 @@
     var current = "all";
     var h = location.hash.slice(1); if (opts.useHash && cats.some(function (c) { return c.key === h; })) current = h;
     bar.innerHTML = cats.map(function (c) { return '<button class="pill" type="button" data-cat="' + c.key + '" aria-pressed="' + (c.key === current) + '">' + esc(c.label) + '</button>'; }).join("");
-    function draw() { window.PolytricsFeeds.render(box, status, current, { limit: opts.limit }); }
+    function draw() { return window.PolytricsFeeds.render(box, status, current, { limit: opts.limit, recent: opts.recent }); }
+    if (opts.watch) window.PolytricsFeeds.watch(function (n) {
+      window.PolytricsFeeds.newPill(n, function () { draw(); box.scrollIntoView({ behavior: "smooth", block: "start" }); });
+    });
     bar.addEventListener("click", function (e) {
       var b = e.target.closest("[data-cat]"); if (!b) return;
       current = b.dataset.cat;
@@ -302,7 +305,7 @@
     dailyQuiz($("#quiz"));
     var spot = $("#case-spot");
     if (spot) { spot.innerHTML = caseHTML(C.cases[PT.dayIndex(C.cases.length, 3)], 0); window.PolytricsReveal(spot); }
-    newsWidget({ pills: "#news-pills", list: "#news-list", status: "#news-status", limit: 8 });
+    newsWidget({ pills: "#news-pills", list: "#news-list", status: "#news-status", limit: 8, recent: true, watch: true });
     opinionWall($("#wall"), { limit: 3 });
     loadTopics().then(function (d) {
       var el = $("#topic-strip"); if (!el) return;
@@ -373,20 +376,21 @@
     var cats = CFG.newsCategories || [], items = [], state = { cat: null, term: null, q: "" };
     var label = window.PolytricsFeeds.label;
     stream.innerHTML = new Array(6).join('<div class="skeleton"></div>');
-    window.PolytricsFeeds.get("all").then(function (res) {
+    window.PolytricsFeeds.watch(function (n) { window.PolytricsFeeds.newPill(n, function () { load(); window.scrollTo({ top: 0, behavior: "smooth" }); }); });
+    function load() { return window.PolytricsFeeds.get("all").then(function (res) {
       var weekAgo = Date.now() - 7 * 864e5;
       items = res.items.filter(function (it) { return !it.date || new Date(it.date) > weekAgo; });
       if (!items.length) items = res.items;
-      status.innerHTML = res.mode === "offline" ? '<span class="live off"></span>Live headlines start once the site is online'
-        : '<span class="live"></span>' + items.length + ' headlines from the past week · updated ' + (PT.ago(res.updated) || "just now");
+      status.innerHTML = window.PolytricsFeeds.status(res, items);
       if (!items.length) {
         pulse.innerHTML = trend.innerHTML = "";
         stream.innerHTML = '<div class="news-empty"><strong>Headlines are on their way.</strong>This page fills itself once the site is online. Until then, go straight to the sources:<div class="pills">' +
           (CFG.sourceLinks || []).map(function (l) { return '<a class="pill" href="' + l[1] + '" target="_blank" rel="noopener">' + esc(l[0]) + '</a>'; }).join("") + '</div></div>';
         return;
       }
-      drawPulse(); drawTrend(); drawStream();
-    });
+      drawPulse(); drawTrend(); drawActive(); drawStream();
+    }); }
+    load();
 
     /* where the news is: one bar per category, sorted, direct-labelled */
     function drawPulse() {
@@ -444,7 +448,7 @@
       stream.innerHTML = order.map(function (g) {
         return '<div class="day"><h3 class="day-head">' + g + ' <small>' + groups[g].length + '</small></h3><ul class="briefs">' + groups[g].slice(0, 40).map(function (it) {
           var ctx = contextFor(it.title), i = n++;
-          return '<li class="brief" data-reveal style="--d:' + (i % 6) + '"><span class="cat">' + esc(label(it.cat)) + '</span>' +
+          return '<li class="brief" data-reveal style="--d:' + (i % 6) + '"><span class="cat">' + esc(label(it.cat)) + (window.PolytricsFeeds.isNew(it) ? '<b class="new-tag">New</b>' : "") + '</span>' +
             '<a class="t" href="' + esc(it.link) + '" target="_blank" rel="noopener">' + esc(it.title) + '</a>' +
             '<span class="src">' + esc([it.source, PT.ago(it.date)].filter(Boolean).join(" · ")) + '</span>' +
             '<div class="acts">' + (ctx ? '<button class="act" type="button" data-ctx aria-expanded="false">Context</button>' : "") +
