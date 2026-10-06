@@ -199,13 +199,30 @@
     if (Date.now() - last < wait) { msgEl.textContent = "You just posted. Wait a few seconds before posting again."; return false; }
     return true;
   }
+  var WALL_CACHE = "pt-wall-cache";
   function opinionWall(box, opts) {
     if (!box) return Promise.resolve();
     opts = opts || {};
-    return loadWall().then(function (res) {
-      wallState.posts = res.posts; wallState.live = res.live;
+    // 1) show something straight away: last posts this browser saw, or placeholders
+    var cached = null;
+    try { cached = O.api ? JSON.parse(PT.store(WALL_CACHE) || "null") : null; } catch (e) { cached = null; }
+    var cutoff = Date.now() - DAYS * 864e5;
+    if (cached && cached.posts) {
+      wallState.posts = cached.posts.filter(function (p) { return new Date(p.date) > cutoff; }); wallState.live = true; wallState.ready = true;
       renderWall(box, opts);
-      if (!opts.interactive) return;
+    } else {
+      box.innerHTML = new Array((opts.limit || 3) + 1).join('<div class="note note--loading"><span></span><span></span><span></span></div>');
+    }
+    if (opts.interactive) bindWall(box);
+    // 2) then fetch fresh posts and swap them in
+    return loadWall().then(function (res) {
+      wallState.posts = res.posts; wallState.live = res.live; wallState.ready = true;
+      if (res.live) { try { PT.store(WALL_CACHE, JSON.stringify({ t: Date.now(), posts: res.posts })); } catch (e) {} }
+      renderWall(box, opts);
+    });
+  }
+  function bindWall(box) {
+    if (box.dataset.bound) return; box.dataset.bound = "1";
       box.addEventListener("click", function (e) {
         var b = e.target.closest(".expand");
         if (b) { var p = b.parentNode.querySelector(".body"); p.classList.toggle("clamp"); b.textContent = p.classList.contains("clamp") ? "Read all" : "Show less"; return; }
@@ -235,7 +252,6 @@
           f.text.value = ""; msg.textContent = "Reply posted.";
         }).catch(function () { btn.disabled = false; msg.textContent = "That didn't go through. Check your connection and try again."; });
       });
-    });
   }
   function countFor(t) { return wallState.posts.filter(function (p) { return (p.topicId || "open") === t.id; }).length; }
   function refreshCounts(box, data) {
@@ -283,25 +299,33 @@
     function setFilter(id) {
       wallState.filter = id;
       pills.querySelectorAll(".pill").forEach(function (x) { x.setAttribute("aria-pressed", x.dataset.f === id); });
-      renderWall(box, { interactive: true });
+      if (wallState.ready) renderWall(box, { interactive: true });
     }
     function buildPills() {
+      if (!topicsData) return;
       var list = [{ id: "all", t: "All posts" }].concat(topicsData.topics.map(function (t) { return { id: t.id, t: t.kind === "open" ? "Open floor" : t.title }; }));
       pills.innerHTML = list.map(function (x) { return '<button class="pill" type="button" data-f="' + esc(x.id) + '" aria-pressed="' + (x.id === wallState.filter) + '" title="' + esc(x.t) + '">' + esc(x.t.length > 46 ? x.t.slice(0, 44) + "\u2026" : x.t) + '</button>'; }).join("");
     }
     pills.addEventListener("click", function (e) { var b = e.target.closest("[data-f]"); if (b) setFilter(b.dataset.f); });
-    Promise.all([opinionWall(box, { interactive: true }), loadTopics()]).then(function (r) {
-      topicsData = r[1];
+    // topics and posts load independently, so neither waits for the other
+    function syncTopics() {
+      if (!topicsData) return;
+      var m = topicsData.topics.filter(function (t) { return t.kind === "motion"; })[0];
+      wallState.posts.forEach(function (p) { if (p.topicId === "motion" && m) p.topicId = m.id; });   // sample posts
+      refreshCounts($("#topics-list"), topicsData);
+    }
+    $("#topics-list").innerHTML = '<div class="topic topic--motion topic--loading"><span></span><span></span></div><div class="topic topic--loading"><span></span><span></span></div><div class="topic topic--loading"><span></span><span></span></div>';
+    loadTopics().then(function (d) {
+      topicsData = d;
       $("#week-label").textContent = weekLabel(topicsData);
-      // sample posts are tagged "motion"; point them at this week's motion so filters work
-      wallState.posts.forEach(function (p) { if (p.topicId === "motion") { var m = topicsData.topics.filter(function (t) { return t.kind === "motion"; })[0]; if (m) p.topicId = m.id; } });
       topicCards($("#topics-list"), topicsData, function (what, id) {
         if (what === "filter") { setFilter(id); $("#wall-sec").scrollIntoView({ behavior: "smooth" }); }
         else { sel.value = id; $("#write").scrollIntoView({ behavior: "smooth" }); setTimeout(function () { (form.name.value ? form.title : form.name).focus({ preventScroll: true }); }, 700); }
       });
       sel.innerHTML = topicsData.topics.map(function (t) { return '<option value="' + esc(t.id) + '">' + esc(t.kind === "open" ? "Open floor (any issue)" : t.title) + '</option>'; }).join("");
-      buildPills();
+      buildPills(); syncTopics(); if (wallState.ready) renderWall(box, { interactive: true });
     });
+    opinionWall(box, { interactive: true }).then(function () { syncTopics(); if (topicsData) renderWall(box, { interactive: true }); });
     form.name.value = savedName();
     var count = $("#f-count");
     form.text.addEventListener("input", function () { count.textContent = form.text.value.length + " / 2000"; });
