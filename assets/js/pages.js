@@ -164,17 +164,34 @@
     return api().then(function (d) { return { posts: d.posts || [], live: true }; }).catch(samples);
   }
   function daysLeft(date) { var l = Math.ceil(DAYS - (Date.now() - new Date(date)) / 864e5); return l <= 1 ? "Last day" : l + " days left"; }
-  function replyHTML(r) { return '<div class="reply"><p>' + esc(r.text) + '</p><span>' + esc(r.name) + ' \u00B7 ' + esc(PT.ago(r.date)) + '</span></div>'; }
+  /* submissions waiting for approval: kept in this browser so the author can see them */
+  var PENDING = "pt-pending";
+  function pendingGet() {
+    var d; try { d = JSON.parse(PT.store(PENDING) || "{}") || {}; } catch (e) { d = {}; }
+    var cut = Date.now() - 3 * 864e5;
+    d.posts = (d.posts || []).filter(function (p) { return new Date(p.date) > cut; });
+    d.replies = (d.replies || []).filter(function (r) { return new Date(r.date) > cut; });
+    return d;
+  }
+  function pendingSave(d) { PT.store(PENDING, JSON.stringify(d)); }
+  function replyHTML(r) {
+    return '<div class="reply' + (r.pending ? " reply--pending" : "") + '"><p>' + esc(r.text) + '</p><span>' + esc(r.name) + ' \u00B7 ' +
+      (r.pending ? "Waiting for approval \u00B7 only you can see this" : esc(PT.ago(r.date))) + '</span></div>';
+  }
   function noteHTML(p, i, interactive) {
-    var reps = p.replies || [];
+    var reps = (p.replies || []).slice();
+    var known = {}; reps.forEach(function (r) { known[r.id] = 1; });
+    pendingGet().replies.forEach(function (r) { if (r.postId === p.id && !known[r.id]) reps.push(Object.assign({ pending: true }, r)); });
     return '<article class="note" data-id="' + esc(p.id) + '" data-reveal style="--d:' + (i % 3) + '">' +
       '<div class="top"><span>' + esc(p.topic && p.topicId !== "open" ? "On: " + p.topic : "Open floor") + (p.sample ? ' <span class="sample">Sample</span>' : "") + '</span></div>' +
       (p.title ? '<h3>' + esc(p.title) + '</h3>' : "") +
       '<p class="clamp body">' + esc(p.text) + '</p>' +
       (p.text.length > 420 ? '<button class="expand" type="button">Read all</button>' : "") +
       '<div class="by">\u2014 ' + esc(p.name) + '</div>' +
-      '<div class="meta"><span class="left">' + daysLeft(p.date) + '</span><span>' + esc(PT.ago(p.date)) + '</span></div>' +
-      (interactive ?
+      (p.pending
+        ? '<div class="meta"><span class="left pending">Waiting for approval</span><span>Only you can see this until an editor approves it</span></div>'
+        : '<div class="meta"><span class="left">' + daysLeft(p.date) + '</span><span>' + esc(PT.ago(p.date)) + '</span></div>') +
+      (interactive && !p.pending ?
         '<div class="thread"' + (reps.length ? "" : " hidden") + '>' + reps.map(replyHTML).join("") + '</div>' +
         '<button class="reply-toggle" type="button">' + (reps.length ? "Replies (" + reps.length + ") \u00B7 Reply" : "Reply") + '</button>' +
         '<form class="reply-form" hidden novalidate>' +
@@ -186,7 +203,9 @@
       '</article>';
   }
   function renderWall(box, opts) {
-    var posts = wallState.posts;
+    var ids = {}; wallState.posts.forEach(function (p) { ids[p.id] = 1; });
+    var mine = opts.interactive && wallState.live ? pendingGet().posts.filter(function (p) { return !ids[p.id]; }).map(function (p) { return Object.assign({ pending: true }, p); }) : [];
+    var posts = mine.concat(wallState.posts);
     if (wallState.filter !== "all") posts = posts.filter(function (p) { return (p.topicId || "open") === wallState.filter || (wallState.filter === "open" && !p.topicId); });
     if (opts.limit) posts = posts.slice(0, opts.limit);
     box.innerHTML = posts.length ? posts.map(function (p, i) { return noteHTML(p, i, opts.interactive); }).join("")
@@ -246,10 +265,9 @@
           btn.disabled = false;
           if (!d.ok) { msg.textContent = d.error || "That didn't go through. Try again."; return; }
           PT.store("pt-name", f.name.value.trim()); PT.store("pt-last-reply", String(Date.now()));
-          var th = note.querySelector(".thread"); th.hidden = false; th.insertAdjacentHTML("beforeend", replyHTML(d.reply));
-          var post = wallState.posts.filter(function (p) { return p.id === note.dataset.id; })[0]; if (post) post.replies.push(d.reply);
-          note.querySelector(".reply-toggle").textContent = "Replies (" + th.children.length + ") \u00B7 Reply";
-          f.text.value = ""; msg.textContent = "Reply posted.";
+          var pend = pendingGet(); pend.replies.push(d.reply); pendingSave(pend);
+          var th = note.querySelector(".thread"); th.hidden = false; th.insertAdjacentHTML("beforeend", replyHTML(Object.assign({ pending: true }, d.reply)));
+          f.text.value = ""; msg.textContent = "Thanks! Your reply appears for everyone once an editor approves it.";
         }).catch(function () { btn.disabled = false; msg.textContent = "That didn't go through. Check your connection and try again."; });
       });
   }
@@ -292,7 +310,175 @@
         d.topics.filter(function (t) { return t.kind !== "open"; }).map(function (t) { return '<li><a href="opinion.html#topics">' + esc(t.title) + '</a></li>'; }).join("") + '</ul>';
     }).catch(function () {});
   }
-  function news() { newsWidget({ pills: "#news-pills", list: "#news-list", status: "#news-status", limit: 40, useHash: true }); }
+  /* ---------- NEWS: the Briefing Room ---------- */
+  var CONTEXT_RULES = [
+    { re: /\bordinances?\b/i, ex: "ordinance" },
+    { re: /money bill/i, ex: "money-bill" },
+    { re: /defect|disqualif/i, ex: "anti-defection" },
+    { re: /delimitation/i, ex: "delimitation" },
+    { re: /basic structure/i, ex: "basic-structure" },
+    { re: /president'?s rule|article 356/i, art: "356" },
+    { re: /election commission|\bECI\b|poll panel/i, art: "324" },
+    { re: /finance commission/i, art: "280" },
+    { re: /pardon|mercy petition|clemency/i, art: "72" },
+    { re: /uniform civil code|\bUCC\b/i, art: "44" },
+    { re: /right to education|\bRTE\b/i, art: "21A" },
+    { re: /internet shutdown|internet ban|internet suspen/i, cs: "Anuradha Bhasin" },
+    { re: /privacy|data protection|surveillance/i, cs: "Puttaswamy" },
+    { re: /electoral bond|political funding|poll funding/i, cs: "Electoral Bonds" },
+    { re: /reservation|quota|creamy layer/i, cs: "Indra Sawhney" },
+    { re: /sexual harassment|\bPOSH\b/i, cs: "Vishaka" },
+    { re: /free speech|freedom of speech|sedition|censorship/i, art: "19(1)(a)" },
+    { re: /constitution(al)? amendment|amend(ing)? the constitution/i, art: "368" },
+    { re: /\bbills?\b.*\b(pass|passed|passes|tabled|introduced|lok sabha|rajya sabha|parliament)\b|\b(pass|passed|passes|tables|introduces)\b.*\bbills?\b/i, ex: "bill-to-law" },
+    { re: /high court/i, art: "226" },
+    { re: /supreme court/i, art: "32" }
+  ];
+  function contextFor(title) {
+    for (var i = 0; i < CONTEXT_RULES.length; i++) {
+      var r = CONTEXT_RULES[i]; if (!r.re.test(title)) continue;
+      if (r.ex) { var x = C.explainers.filter(function (e) { return e.id === r.ex; })[0]; if (x) return { label: "Explainer", title: x.title, text: x.body[0], href: "learn.html#" + x.id }; }
+      if (r.art) { var a = C.articles.filter(function (e) { return e.no === r.art; })[0]; if (a) return { label: "Article " + a.no, title: a.title, text: a.text, href: "learn.html" }; }
+      if (r.cs) { var c = C.cases.filter(function (e) { return e.name.indexOf(r.cs) > -1; })[0]; if (c) return { label: "Landmark case · " + c.year, title: c.name, text: c.held, href: "learn.html#cases-sec" }; }
+    }
+    return null;
+  }
+  var NEWS_STOP = {};
+  ("a,an,the,and,or,but,of,to,in,on,for,with,at,by,from,as,is,are,was,were,be,been,being,has,have,had,will,would,can,could,should,may,might,must,after,before,over,under,amid,against,about,into,onto,its,it,this,that,these,those,his,her,their,our,your,not,no,new,says,said,say,more,than,also,how,what,why,who,when,where,which,all,out,up,down,off,just,now,still,get,gets,got,set,sets,top,key,big,first,last,next,year,years,day,days,week,weeks,month,months,report,reports,news,live,updates,update,latest,today,india,indian,india's,govt,government,state,states,amid,via,per,vs,one,two,three,four,five,six,ten,many,most,some,any,only,very,much,made,make,makes,take,takes,took,back,know,read,here,there,while,during,between,without,within,among,across,toward,towards,ahead,need,needs,calls,call,seeks,seek,asks,ask,urges,big,major,amidst,around,against,since,till,until,like,them,they,he,she,we,you,i,him,me,us,if,so,then,once,again,yet,whether,both,each,other,another,such,own,same,over,set,may,did,does,do,done,being,make,people,time,times,check,watch,video,photos,explained,opinion,editorial,analysis").split(",").forEach(function (w) { NEWS_STOP[w] = 1; });
+  var NEWS_PHRASES = [["supreme court", "Supreme Court"], ["high court", "High Court"], ["lok sabha", "Lok Sabha"], ["rajya sabha", "Rajya Sabha"], ["election commission", "Election Commission"], ["union budget", "Union Budget"], ["repo rate", "Repo rate"], ["chief minister", "Chief Minister"], ["prime minister", "Prime Minister"], ["model code", "Model code"], ["bihar polls", "Bihar polls"], ["assembly polls", "Assembly polls"]];
+  function trendingTerms(items) {
+    var df = {}, show = {};
+    items.forEach(function (it) {
+      var t = " " + window.PolytricsNewsQuiz.cleanTitle(it.title) + " ", seen = {};
+      NEWS_PHRASES.forEach(function (ph) { var re = new RegExp("\\b" + ph[0] + "\\b", "i"); if (re.test(t)) { seen[ph[0]] = 1; show[ph[0]] = ph[1]; t = t.replace(new RegExp("\\b" + ph[0] + "\\b", "ig"), " "); } });
+      t.split(/[^A-Za-z0-9'\-]+/).forEach(function (w) {
+        w = w.replace(/^['\-]+|['\-]+$/g, "").replace(/'s$/i, "");
+        var k = w.toLowerCase();
+        if (k.length < 4 || NEWS_STOP[k] || /^\d+$/.test(k)) return;
+        seen[k] = 1; if (!show[k] || /^[A-Z]/.test(w)) show[k] = /^[A-Z]{2,}$/.test(w) ? w : w.charAt(0).toUpperCase() + w.slice(1);
+      });
+      Object.keys(seen).forEach(function (k) { df[k] = (df[k] || 0) + 1; });
+    });
+    return Object.keys(df).filter(function (k) { return df[k] >= 2; })
+      .sort(function (a, b) { return df[b] - df[a] || a.localeCompare(b); }).slice(0, 18)
+      .map(function (k) { return { key: k, label: show[k], n: df[k] }; });
+  }
+  function dayBucket(date) {
+    var NQ = window.PolytricsNewsQuiz, d = date ? NQ.dayKey(new Date(date)) : "";
+    var today = NQ.dayKey(), yest = NQ.dayKey(new Date(Date.now() - 864e5));
+    return d === today ? "Today" : d === yest ? "Yesterday" : date ? "Earlier this week" : "Recently";
+  }
+  function news() {
+    var pulse = $("#pulse"), trend = $("#trending"), stream = $("#stream"), status = $("#brief-status"), q = $("#brief-q"), active = $("#brief-active");
+    var cats = CFG.newsCategories || [], items = [], state = { cat: null, term: null, q: "" };
+    var label = window.PolytricsFeeds.label;
+    stream.innerHTML = new Array(6).join('<div class="skeleton"></div>');
+    window.PolytricsFeeds.get("all").then(function (res) {
+      var weekAgo = Date.now() - 7 * 864e5;
+      items = res.items.filter(function (it) { return !it.date || new Date(it.date) > weekAgo; });
+      if (!items.length) items = res.items;
+      status.innerHTML = res.mode === "offline" ? '<span class="live off"></span>Live headlines start once the site is online'
+        : '<span class="live"></span>' + items.length + ' headlines from the past week · updated ' + (PT.ago(res.updated) || "just now");
+      if (!items.length) {
+        pulse.innerHTML = trend.innerHTML = "";
+        stream.innerHTML = '<div class="news-empty"><strong>Headlines are on their way.</strong>This page fills itself once the site is online. Until then, go straight to the sources:<div class="pills">' +
+          (CFG.sourceLinks || []).map(function (l) { return '<a class="pill" href="' + l[1] + '" target="_blank" rel="noopener">' + esc(l[0]) + '</a>'; }).join("") + '</div></div>';
+        return;
+      }
+      drawPulse(); drawTrend(); drawStream();
+    });
+
+    /* where the news is: one bar per category, sorted, direct-labelled */
+    function drawPulse() {
+      var counts = cats.map(function (c) {
+        var mine = items.filter(function (it) { return it.cat === c.key; });
+        return { key: c.key, label: c.label, n: mine.length, top: mine[0] };
+      }).filter(function (c) { return c.n; }).sort(function (a, b) { return b.n - a.n; });
+      var max = Math.max.apply(null, counts.map(function (c) { return c.n; }).concat([1])), total = items.length;
+      pulse.innerHTML = '<div class="bars" role="list">' + counts.map(function (c) {
+        var pct = Math.round(c.n / total * 100);
+        return '<button class="bar-row" type="button" role="listitem" data-cat="' + c.key + '" aria-pressed="' + (state.cat === c.key) + '" aria-label="' + esc(c.label) + ': ' + c.n + ' headlines, ' + pct + ' percent. Show only these."' +
+          ' data-tip="' + esc(c.top ? window.PolytricsNewsQuiz.cleanTitle(c.top.title) : "") + '">' +
+          '<span class="bar-label">' + esc(c.label) + '</span><span class="bar-track"><span class="bar" style="--w:' + (c.n / max * 100).toFixed(1) + '%"></span></span>' +
+          '<span class="bar-val">' + c.n + ' <small>' + pct + '%</small></span></button>';
+      }).join("") + '</div><div class="tip" role="tooltip" hidden></div>';
+      var tip = pulse.querySelector(".tip");
+      function showTip(row, x, y) {
+        if (!row.dataset.tip) return;
+        tip.innerHTML = '<b>Top story</b>' + esc(row.dataset.tip);
+        var box = pulse.getBoundingClientRect(), r = row.getBoundingClientRect();
+        tip.hidden = false;
+        var left = (x != null ? x - box.left : r.left - box.left + r.width / 2) - tip.offsetWidth / 2;
+        tip.style.left = Math.max(0, Math.min(box.width - tip.offsetWidth, left)) + "px";
+        tip.style.top = (r.bottom - box.top + 8) + "px";
+      }
+      pulse.querySelectorAll(".bar-row").forEach(function (row) {
+        row.addEventListener("mousemove", function (e) { showTip(row, e.clientX, e.clientY); });
+        row.addEventListener("focus", function () { showTip(row); });
+        row.addEventListener("mouseleave", function () { tip.hidden = true; });
+        row.addEventListener("blur", function () { tip.hidden = true; });
+        row.addEventListener("click", function () { state.cat = state.cat === row.dataset.cat ? null : row.dataset.cat; refresh(); });
+      });
+    }
+    function drawTrend() {
+      var terms = trendingTerms(items);
+      if (!terms.length) { trend.innerHTML = '<p class="status">Not enough headlines yet to spot a trend.</p>'; return; }
+      var hi = terms[0].n, lo = terms[terms.length - 1].n;
+      trend.innerHTML = terms.map(function (t) {
+        var tier = hi === lo ? 2 : 1 + Math.round((t.n - lo) / (hi - lo) * 2);
+        return '<button class="term term--' + tier + '" type="button" data-term="' + esc(t.key) + '" aria-pressed="' + (state.term === t.key) + '">' + esc(t.label) + '<small>' + t.n + '</small></button>';
+      }).join("");
+      trend.querySelectorAll(".term").forEach(function (b) {
+        b.addEventListener("click", function () { state.term = state.term === b.dataset.term ? null : b.dataset.term; refresh(); });
+      });
+    }
+    function matches(it) {
+      var t = it.title.toLowerCase();
+      return (!state.cat || it.cat === state.cat) && (!state.term || t.indexOf(state.term) > -1) && (!state.q || (t + " " + (it.source || "").toLowerCase()).indexOf(state.q) > -1);
+    }
+    function drawStream() {
+      var rows = items.filter(matches), groups = {}, order = [];
+      rows.forEach(function (it) { var g = dayBucket(it.date); if (!groups[g]) { groups[g] = []; order.push(g); } groups[g].push(it); });
+      if (!rows.length) { stream.innerHTML = '<div class="news-empty"><strong>No headlines match.</strong>Try another word, or clear the filters.</div>'; return; }
+      var n = 0;
+      stream.innerHTML = order.map(function (g) {
+        return '<div class="day"><h3 class="day-head">' + g + ' <small>' + groups[g].length + '</small></h3><ul class="briefs">' + groups[g].slice(0, 40).map(function (it) {
+          var ctx = contextFor(it.title), i = n++;
+          return '<li class="brief" data-reveal style="--d:' + (i % 6) + '"><span class="cat">' + esc(label(it.cat)) + '</span>' +
+            '<a class="t" href="' + esc(it.link) + '" target="_blank" rel="noopener">' + esc(it.title) + '</a>' +
+            '<span class="src">' + esc([it.source, PT.ago(it.date)].filter(Boolean).join(" · ")) + '</span>' +
+            '<div class="acts">' + (ctx ? '<button class="act" type="button" data-ctx aria-expanded="false">Context</button>' : "") +
+            '<button class="act act--debate" type="button" data-debate="' + esc(window.PolytricsNewsQuiz.cleanTitle(it.title)) + '">Debate this ' + I.arrow + '</button></div>' +
+            (ctx ? '<div class="ctx" hidden><span class="cat">' + esc(ctx.label) + '</span><b>' + esc(ctx.title) + '</b><p>' + esc(ctx.text) + '</p><a class="textlink" href="' + ctx.href + '">Learn more ' + I.arrow + '</a></div>' : "") +
+            '</li>';
+        }).join("") + '</ul></div>';
+      }).join("");
+      window.PolytricsReveal(stream);
+    }
+    function drawActive() {
+      var chips = [];
+      if (state.cat) chips.push('<button class="pill" type="button" aria-pressed="true" data-clear="cat">' + esc(label(state.cat)) + ' ×</button>');
+      if (state.term) chips.push('<button class="pill" type="button" aria-pressed="true" data-clear="term">“' + esc(state.term) + '” ×</button>');
+      if (state.q) chips.push('<button class="pill" type="button" aria-pressed="true" data-clear="q">Search: ' + esc(state.q) + ' ×</button>');
+      active.innerHTML = chips.length ? '<span class="status">Showing:</span>' + chips.join("") : "";
+    }
+    function refresh() {
+      pulse.querySelectorAll(".bar-row").forEach(function (b) { b.setAttribute("aria-pressed", state.cat === b.dataset.cat); });
+      trend.querySelectorAll(".term").forEach(function (b) { b.setAttribute("aria-pressed", state.term === b.dataset.term); });
+      drawActive(); drawStream();
+    }
+    active.addEventListener("click", function (e) {
+      var b = e.target.closest("[data-clear]"); if (!b) return;
+      state[b.dataset.clear] = b.dataset.clear === "q" ? "" : null; if (b.dataset.clear === "q") q.value = ""; refresh();
+    });
+    var qt; q.addEventListener("input", function () { clearTimeout(qt); qt = setTimeout(function () { state.q = q.value.trim().toLowerCase(); refresh(); }, 180); });
+    stream.addEventListener("click", function (e) {
+      var c = e.target.closest("[data-ctx]");
+      if (c) { var box = c.closest(".brief").querySelector(".ctx"); box.hidden = !box.hidden; c.setAttribute("aria-expanded", !box.hidden); c.textContent = box.hidden ? "Context" : "Hide context"; return; }
+      var d = e.target.closest("[data-debate]");
+      if (d) { PT.store("pt-prefill", JSON.stringify({ title: d.dataset.debate, t: Date.now() })); location.href = "opinion.html#write"; }
+    });
+  }
   function opinion() {
     var box = $("#wall"), form = $("#post-form"), pills = $("#wall-pills"), sel = $("#f-topic"), msg = $("#post-msg");
     var topicsData = null;
@@ -323,6 +509,7 @@
         else { sel.value = id; $("#write").scrollIntoView({ behavior: "smooth" }); setTimeout(function () { (form.name.value ? form.title : form.name).focus({ preventScroll: true }); }, 700); }
       });
       sel.innerHTML = topicsData.topics.map(function (t) { return '<option value="' + esc(t.id) + '">' + esc(t.kind === "open" ? "Open floor (any issue)" : t.title) + '</option>'; }).join("");
+      if (form.dataset.prefill) sel.value = "open";
       buildPills(); syncTopics(); if (wallState.ready) renderWall(box, { interactive: true });
     });
     opinionWall(box, { interactive: true }).then(function () { syncTopics(); if (topicsData) renderWall(box, { interactive: true }); });
@@ -330,6 +517,15 @@
     var count = $("#f-count");
     form.text.addEventListener("input", function () { count.textContent = form.text.value.length + " / 2000"; });
     if (!O.api) { msg.textContent = "Posting opens once the club connects the wall to its Google Sheet. The posts above are samples."; }
+    // arriving from "Debate this" on the News page
+    try {
+      var pre = JSON.parse(PT.store("pt-prefill") || "null");
+      if (pre && Date.now() - pre.t < 15 * 60e3) {
+        form.text.value = "Responding to \u201C" + pre.title + "\u201D\n\n"; count.textContent = form.text.value.length + " / 2000";
+        PT.store("pt-prefill", ""); form.dataset.prefill = "1";
+        if (location.hash === "#write") setTimeout(function () { form.text.focus({ preventScroll: true }); form.text.setSelectionRange(form.text.value.length, form.text.value.length); }, 900);
+      }
+    } catch (e) {}
     form.addEventListener("submit", function (e) {
       e.preventDefault();
       if (!O.api) { msg.textContent = "Posting opens once the club connects the wall to its Google Sheet."; return; }
@@ -343,10 +539,10 @@
           btn.disabled = false;
           if (!d.ok) { msg.textContent = d.error || "That didn't go through. Try again."; return; }
           PT.store("pt-name", form.name.value.trim()); PT.store("pt-last-post", String(Date.now()));
-          wallState.posts.unshift(d.post); wallState.filter = "all"; buildPills(); renderWall(box, { interactive: true });
-          if (topicsData) refreshCounts($("#topics-list"), topicsData);
+          var pend = pendingGet(); pend.posts.unshift(d.post); pendingSave(pend);
+          wallState.filter = "all"; buildPills(); renderWall(box, { interactive: true });
           form.title.value = ""; form.text.value = ""; count.textContent = "0 / 2000";
-          msg.textContent = "Posted. Your take is on the wall for the next " + DAYS + " days.";
+          msg.textContent = "Thanks! Your take is with the editors. It goes up on the wall once it's approved (usually within a day) and then stays for " + DAYS + " days. Until then, only you can see it.";
           $("#wall-sec").scrollIntoView({ behavior: "smooth" });
         }).catch(function () { btn.disabled = false; msg.textContent = "That didn't go through. Check your connection and try again."; });
     });
@@ -374,36 +570,90 @@
     draw();
     window.PolytricsReveal();
   }
+  /* ---------- JOURNAL: approved articles from the Google Sheet + data/articles.json ---------- */
+  var JOURNAL_CACHE = "pt-journal-cache";
+  function paragraphs(text) {
+    var parts = String(text || "").split(/\n\s*\n/);
+    if (parts.length < 2) parts = String(text || "").split(/\n/);
+    return parts.map(function (x) { return x.trim(); }).filter(Boolean);
+  }
+  function fromSheet(a) { return { slug: a.id, title: a.title, dek: a.dek, category: a.category, author: a.name, date: a.date, body: paragraphs(a.body) }; }
   function journal() {
-    var reader = $("#reader"), list = $("#posts");
-    fetch("data/articles.json", { cache: "no-store" }).then(function (r) { return r.json(); }).catch(function () { return []; }).then(function (posts) {
-      if (!posts.length) { list.innerHTML = '<p class="news-empty">The first issue is being edited.</p>'; return; }
+    var reader = $("#reader"), list = $("#posts"), form = $("#article-form"), msg = $("#article-msg"), wc = $("#a-count");
+    var posts = [];
+    function draw() {
+      if (!posts.length) { list.innerHTML = '<div class="news-empty"><strong>The first issue is being edited.</strong>Be the first to write for the Journal. The form is just below.</div>'; return; }
       list.innerHTML = posts.map(function (p, i) {
         return '<button class="post" type="button" data-slug="' + esc(p.slug) + '" data-reveal style="--d:' + (i % 3) + '"><div>' +
-          '<span class="cat">' + esc(p.category) + '</span>' + (p.sample ? ' <span class="sample">Sample</span>' : "") + '<h3>' + esc(p.title) + '</h3><p>' + esc(p.dek) + '</p></div>' +
-          '<span class="by">' + esc(p.author) + ' · ' + Math.max(1, Math.round(p.body.join(" ").split(/\s+/).length / 200)) + ' min</span></button>';
+          '<span class="cat">' + esc(p.category) + '</span>' + (p.sample ? ' <span class="sample">Sample</span>' : "") + '<h3>' + esc(p.title) + '</h3>' + (p.dek ? '<p>' + esc(p.dek) + '</p>' : "") + '</div>' +
+          '<span class="by">' + esc(p.author) + ' \u00B7 ' + Math.max(1, Math.round(p.body.join(" ").split(/\s+/).length / 200)) + ' min read</span></button>';
       }).join("");
       window.PolytricsReveal(list);
-      function open(slug) {
-        var p = posts.filter(function (x) { return x.slug === slug; })[0]; if (!p) return;
-        reader.querySelector("article").innerHTML = '<span class="kicker" style="color:var(--red)">' + esc(p.category) + '</span><h1>' + esc(p.title) + '</h1><p class="dek">' + esc(p.dek) + '</p>' +
-          '<p style="margin-top:18px;color:var(--ink-soft)">' + esc(p.author) + ' · ' + esc(new Date(p.date).toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" })) + '</p>' +
-          '<div class="body">' + p.body.map(function (x) { return '<p>' + esc(x) + '</p>'; }).join("") + '</div>';
-        reader.hidden = false; reader.scrollTop = 0;
-        requestAnimationFrame(function () { requestAnimationFrame(function () { reader.classList.add("open"); }); });
-        document.documentElement.style.overflow = "hidden";
-        try { history.replaceState(null, "", "#" + slug); } catch (e) {}
-        reader.querySelector(".close").focus();
-      }
-      function close() {
-        reader.classList.remove("open"); document.documentElement.style.overflow = "";
-        try { history.replaceState(null, "", location.pathname); } catch (e) {}
-        setTimeout(function () { reader.hidden = true; }, 900);
-      }
-      list.addEventListener("click", function (e) { var b = e.target.closest("[data-slug]"); if (b) open(b.dataset.slug); });
-      reader.querySelector(".close").addEventListener("click", close);
-      document.addEventListener("keydown", function (e) { if (e.key === "Escape" && reader.classList.contains("open")) close(); });
-      if (location.hash.length > 1) open(location.hash.slice(1));
+    }
+    function merge(live, json) {
+      var real = json.filter(function (p) { return !p.sample; });
+      var all = live.map(fromSheet).concat(real);
+      if (!all.length) all = json;                       // show samples only until real articles exist
+      return all.sort(function (a, b) { return new Date(b.date) - new Date(a.date); });
+    }
+    list.innerHTML = '<div class="post post--loading"><span></span><span></span><span></span></div><div class="post post--loading"><span></span><span></span><span></span></div>';
+    var json = fetch("data/articles.json", { cache: "no-store" }).then(function (r) { return r.json(); }).catch(function () { return []; });
+    var cached = null; try { cached = O.api ? JSON.parse(PT.store(JOURNAL_CACHE) || "null") : null; } catch (e) {}
+    if (cached) json.then(function (j) { posts = merge(cached.articles || [], j); draw(); openFromHash(); });
+    var live = O.api ? fetch(O.api + (O.api.indexOf("?") > -1 ? "&" : "?") + "type=journal&t=" + Date.now()).then(function (r) { return r.json(); })
+      .then(function (d) { try { PT.store(JOURNAL_CACHE, JSON.stringify({ articles: d.articles || [] })); } catch (e) {} return d.articles || []; }).catch(function () { return cached ? cached.articles : []; }) : Promise.resolve([]);
+    Promise.all([live, json]).then(function (r) { posts = merge(r[0], r[1]); draw(); openFromHash(); });
+
+    var opened = false;
+    function openFromHash() { if (!opened && location.hash.length > 1 && location.hash !== "#write") { opened = true; open(location.hash.slice(1)); } }
+    function open(slug) {
+      var p = posts.filter(function (x) { return x.slug === slug; })[0]; if (!p) return;
+      reader.querySelector("article").innerHTML = '<span class="kicker" style="color:var(--red)">' + esc(p.category) + '</span><h1>' + esc(p.title) + '</h1>' + (p.dek ? '<p class="dek">' + esc(p.dek) + '</p>' : "") +
+        '<p style="margin-top:18px;color:var(--ink-soft)">' + esc(p.author) + ' \u00B7 ' + esc(new Date(p.date).toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" })) + '</p>' +
+        '<div class="body">' + p.body.map(function (x) { return '<p>' + esc(x) + '</p>'; }).join("") + '</div>' +
+        '<div class="share"><button class="pill" type="button" data-share>Copy link to this article</button></div>';
+      reader.hidden = false; reader.scrollTop = 0;
+      requestAnimationFrame(function () { requestAnimationFrame(function () { reader.classList.add("open"); }); });
+      document.documentElement.style.overflow = "hidden";
+      try { history.replaceState(null, "", "#" + slug); } catch (e) {}
+      reader.querySelector(".close").focus();
+    }
+    function close() {
+      reader.classList.remove("open"); document.documentElement.style.overflow = "";
+      try { history.replaceState(null, "", location.pathname); } catch (e) {}
+      setTimeout(function () { reader.hidden = true; }, 900);
+    }
+    list.addEventListener("click", function (e) { var b = e.target.closest("[data-slug]"); if (b) open(b.dataset.slug); });
+    reader.querySelector(".close").addEventListener("click", close);
+    reader.addEventListener("click", function (e) {
+      var b = e.target.closest("[data-share]"); if (!b) return;
+      var url = location.href.split("#")[0] + location.hash;
+      try { navigator.clipboard.writeText(url).then(function () { b.textContent = "Link copied"; }, function () { b.textContent = url; }); } catch (err) { b.textContent = url; }
+    });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && reader.classList.contains("open")) close(); });
+
+    /* submission form */
+    if (!form) return;
+    form.name.value = savedName();
+    function words() { var t = form.body.value.trim(); return t ? t.split(/\s+/).length : 0; }
+    form.body.addEventListener("input", function () { var n = words(); wc.textContent = n + (n === 1 ? " word" : " words") + (n < 250 ? " \u00B7 at least 250" : ""); });
+    if (!O.api) msg.textContent = "Submissions open once the club connects the Journal to its Google Sheet.";
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      if (!O.api) { msg.textContent = "Submissions open once the club connects the Journal to its Google Sheet."; return; }
+      if (form.name.value.trim().length < 2) { msg.textContent = "Add your name first."; form.name.focus(); return; }
+      if (form.title.value.trim().length < 8) { msg.textContent = "Add a headline for your article."; form.title.focus(); return; }
+      if (words() < 250) { msg.textContent = "Journal articles need at least 250 words. For shorter pieces, use the Opinion Wall."; form.body.focus(); return; }
+      if (!cooldownOk(msg, "article")) return;
+      var btn = form.querySelector('button[type="submit"]'); btn.disabled = true; msg.textContent = "Sending\u2026";
+      api({ type: "article", name: form.name.value, email: form.email.value, category: form.category.value, title: form.title.value, dek: form.dek.value, body: form.body.value, website: form.website.value })
+        .then(function (d) {
+          btn.disabled = false;
+          if (!d.ok) { msg.textContent = d.error || "That didn't go through. Try again."; return; }
+          PT.store("pt-name", form.name.value.trim()); PT.store("pt-last-article", String(Date.now()));
+          form.title.value = ""; form.dek.value = ""; form.body.value = ""; wc.textContent = "0 words";
+          msg.textContent = "Thank you! Your article is with the editors. They may suggest edits before it's published here.";
+        }).catch(function () { btn.disabled = false; msg.textContent = "That didn't go through. Check your connection and try again. Your text is still in the form."; });
     });
   }
   function resources() {
@@ -430,7 +680,7 @@
     if (mail) mail.textContent = CFG.email;
     if (btn) btn.addEventListener("click", function () { copy(CFG.email, btn, mail, "Copy email"); });
     var soc = $("#socials"), S = CFG.socials || {};
-    if (soc) soc.innerHTML = [["Instagram", S.instagram], ["LinkedIn", S.linkedin], ["X", S.x]].filter(function (x) { return x[1]; })
+    if (soc) soc.innerHTML = [["Instagram " + (S.instagramHandle || ""), S.instagram]].filter(function (x) { return x[1]; })
       .map(function (x) { return '<a class="pill" href="' + esc(x[1]) + '" target="_blank" rel="noopener">' + x[0] + '</a>'; }).join("");
   }
 

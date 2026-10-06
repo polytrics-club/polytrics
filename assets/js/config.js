@@ -5,12 +5,11 @@
 window.POLYTRICS_CONFIG = {
   clubName: "Polytrics",
   tagline: "The Policy, Politics & Law Club",
-  institution: "IIM Ranchi",
+  institution: "IPM, IIM Ranchi",
   email: "polytrics@iimranchi.ac.in",          // change to the club's real inbox
   socials: {
-    instagram: "https://www.instagram.com/",     // paste the club's profile links
-    linkedin: "https://www.linkedin.com/",
-    x: ""
+    instagram: "https://www.instagram.com/polytrics.ipm/",
+    instagramHandle: "@polytrics.ipm"
   },
 
   /* Photo shown inside the moving shape on the home page.
@@ -22,12 +21,12 @@ window.POLYTRICS_CONFIG = {
      Upload to assets/img/ and list paths here (up to 3 look best). */
   aboutImages: ["", "", ""],
 
-  /* ---- Opinion Wall ----
-     People write posts and replies directly on the website. Posts are stored in
-     a Google Sheet through a small script (see README: "Setting up the Opinion Wall").
-     Paste the web app URL you get from that setup here. Until then the wall shows samples. */
+  /* ---- Opinion Wall + Journal ----
+     Posts, replies and Journal articles are stored in a Google Sheet through a small
+     script (see README). Nothing appears on the site until an editor approves it.
+     Paste the Web app URL from that setup into api. */
   opinion: {
-    api: "https://script.google.com/macros/s/AKfycbxP9hsOkqqmyRjE72BMh36KjaLaTLKeAtMPDgPSteeOOAQKzGHCFbI4K-cOaCOWzQRRgw/exec",
+    api: "",
     days: 7
   },
 

@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>News · Polytrics</title>
-<meta name="description" content="Live political, legal and policy headlines sorted by category: Parliament, Courts, Elections, Policy, Economy and World.">
+<title>Briefing Room · Polytrics</title>
+<meta name="description" content="See what's dominating the news this week, get the context behind each story, and take it to the Opinion Wall.">
 <meta name="theme-color" content="#B62017">
-<meta property="og:title" content="News · Polytrics">
-<meta property="og:description" content="Live political, legal and policy headlines sorted by category: Parliament, Courts, Elections, Policy, Economy and World.">
+<meta property="og:title" content="Briefing Room · Polytrics">
+<meta property="og:description" content="See what's dominating the news this week, get the context behind each story, and take it to the Opinion Wall.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23B62017'/%3E%3Cpath d='M31 10A22 22 0 0 0 31 54Z' fill='%23FFDF7E'/%3E%3Cpath d='M33 54A22 22 0 0 0 33 10Z' fill='%23FFDF7E'/%3E%3Crect x='21' y='34' width='10' height='22' fill='%23B62017'/%3E%3Crect x='33' y='8' width='10' height='22' fill='%23B62017'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,19 +19,42 @@
   <div class="wrap grid">
     <div>
       <span class="kicker">Updated every few hours</span>
-      <h1 style="margin-top:18px"><span class="line"><span style="--i:0">The <em>News</em></span></span></h1>
-      <p class="lede">Headlines from Indian and international outlets, sorted into the topics we care about. Every link opens the original story.</p>
+      <h1 style="margin-top:18px"><span class="line"><span style="--i:0">The Briefing <em>Room</em></span></span></h1>
+      <p class="lede">More than headlines. See what's dominating the news this week, get the constitutional context behind a story, and take it to the Opinion Wall.</p>
     </div>
     <div class="blob blob--sm" data-logo></div>
   </div>
 </section>
-<div aria-hidden="true" style="background:var(--red);position:relative;z-index:2"><svg class="wave wave--cream" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,78 C300,8 620,118 900,64 C1150,18 1300,44 1440,30 L1440,121 L0,121 Z"/></svg></div>
+<div aria-hidden="true" style="background:var(--red);position:relative;z-index:2"><svg class="wave wave--butter" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,78 C300,8 620,118 900,64 C1150,18 1300,44 1440,30 L1440,121 L0,121 Z"/></svg></div>
 <main>
-<section class="section s-cream" style="padding-top:clamp(30px,4vw,50px)">
+<section class="section s-fade-bc" style="padding-top:clamp(30px,4vw,60px)">
   <div class="wrap">
-    <div class="news-bar"><div class="pills" id="news-pills"></div></div>
-    <p class="status" id="news-status" style="margin-bottom:10px"><span class="live off"></span>Loading headlines…</p>
-    <div id="news-list"></div>
+    <div class="head" data-reveal>
+      <div><span class="kicker" style="color:var(--red)">The past seven days</span><h2 class="big">Where the news <em>is.</em></h2></div>
+      <p class="status" id="brief-status"><span class="live off"></span>Loading headlines…</p>
+    </div>
+    <div class="cols-2 pulse-grid">
+      <div data-reveal="left">
+        <h3 class="mini-head">Headlines by topic</h3>
+        <p class="mini-note">Tap a bar to see only that topic.</p>
+        <div class="pulse" id="pulse"></div>
+      </div>
+      <div data-reveal="right">
+        <h3 class="mini-head">Trending words</h3>
+        <p class="mini-note">The words showing up most in this week's headlines. Tap one to follow it.</p>
+        <div class="trending" id="trending"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section s-cream" style="padding-top:clamp(20px,3vw,40px)">
+  <div class="wrap">
+    <div class="head" data-reveal>
+      <div><span class="kicker" style="color:var(--red)">Every story, with context</span><h2 class="big">The <em>feed.</em></h2></div>
+      <label class="search"><span class="sr-only">Search headlines</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="brief-q" type="search" placeholder="Search this week's headlines"></label>
+    </div>
+    <div class="active-filters" id="brief-active"></div>
+    <div id="stream"></div>
   </div>
 </section>
 <div aria-hidden="true" style="background:transparent;position:relative;z-index:2"><svg class="wave wave--ink" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,48 C240,110 480,0 720,46 C960,92 1200,8 1440,52 L1440,121 L0,121 Z"/></svg></div>

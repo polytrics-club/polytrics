@@ -138,7 +138,7 @@ PAGES["index"] = dict(
 <section class="section s-red cta">
   <div class="wrap" data-reveal="scale">
     <h2>Have a take?<br><em>Put it on the wall.</em></h2>
-    <p class="lede">Write it right here on the site. It stays up for seven days, and anyone can reply.</p>
+    <p class="lede">Write it right here on the site. Once an editor approves it, it stays up for seven days and anyone can reply.</p>
     <a class="btn btn--butter" href="opinion.html#write">Write your take {ARROW}</a>
   </div>
 </section>
@@ -146,15 +146,38 @@ PAGES["index"] = dict(
 </main>""")
 
 PAGES["news"] = dict(
-    title="News · Polytrics", desc="Live political, legal and policy headlines sorted by category: Parliament, Courts, Elections, Policy, Economy and World.",
-    body=page_hero("Updated every few hours", ["The <em>News</em>"], "Headlines from Indian and international outlets, sorted into the topics we care about. Every link opens the original story.") + f"""
-{wave("red", "cream", 1)}
+    title="Briefing Room · Polytrics", desc="See what's dominating the news this week, get the context behind each story, and take it to the Opinion Wall.",
+    body=page_hero("Updated every few hours", ["The Briefing <em>Room</em>"], "More than headlines. See what's dominating the news this week, get the constitutional context behind a story, and take it to the Opinion Wall.") + f"""
+{wave("red", "butter", 1)}
 <main>
-<section class="section s-cream" style="padding-top:clamp(30px,4vw,50px)">
+<section class="section s-fade-bc" style="padding-top:clamp(30px,4vw,60px)">
   <div class="wrap">
-    <div class="news-bar"><div class="pills" id="news-pills"></div></div>
-    <p class="status" id="news-status" style="margin-bottom:10px"><span class="live off"></span>Loading headlines…</p>
-    <div id="news-list"></div>
+    <div class="head" data-reveal>
+      <div><span class="kicker" style="color:var(--red)">The past seven days</span><h2 class="big">Where the news <em>is.</em></h2></div>
+      <p class="status" id="brief-status"><span class="live off"></span>Loading headlines\u2026</p>
+    </div>
+    <div class="cols-2 pulse-grid">
+      <div data-reveal="left">
+        <h3 class="mini-head">Headlines by topic</h3>
+        <p class="mini-note">Tap a bar to see only that topic.</p>
+        <div class="pulse" id="pulse"></div>
+      </div>
+      <div data-reveal="right">
+        <h3 class="mini-head">Trending words</h3>
+        <p class="mini-note">The words showing up most in this week's headlines. Tap one to follow it.</p>
+        <div class="trending" id="trending"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section s-cream" style="padding-top:clamp(20px,3vw,40px)">
+  <div class="wrap">
+    <div class="head" data-reveal>
+      <div><span class="kicker" style="color:var(--red)">Every story, with context</span><h2 class="big">The <em>feed.</em></h2></div>
+      <label class="search"><span class="sr-only">Search headlines</span>{SEARCH}<input id="brief-q" type="search" placeholder="Search this week's headlines"></label>
+    </div>
+    <div class="active-filters" id="brief-active"></div>
+    <div id="stream"></div>
   </div>
 </section>
 {wave("cream", "ink", 0)}
@@ -162,7 +185,7 @@ PAGES["news"] = dict(
 
 PAGES["opinion"] = dict(
     title="Opinion Wall · Polytrics", desc="Write your take on this week's topics in policy, politics and law. Posts stay up for a week and anyone can reply.",
-    body=page_hero("Seven days on the wall", ["Opinion <em>Wall</em>"], "Write your take right here, reply to others, and argue in good faith. New topics every Monday, and every post stays up for seven days.") + f"""
+    body=page_hero("Seven days on the wall", ["Opinion <em>Wall</em>"], "Write your take right here, reply to others, and argue in good faith. New topics every Monday. Editors review every post, and approved posts stay up for seven days.") + f"""
 {wave("red", "cream", 2)}
 <main>
 <section class="section s-cream" id="topics" style="padding-top:clamp(30px,4vw,60px)">
@@ -176,7 +199,7 @@ PAGES["opinion"] = dict(
 </section>
 <section class="section s-cream" id="wall-sec" style="padding-top:0">
   <div class="wrap">
-    <div class="head" data-reveal><div><span class="kicker" style="color:var(--red)">Posts disappear after 7 days</span><h2 class="big">On the <em>wall.</em></h2></div></div>
+    <div class="head" data-reveal><div><span class="kicker" style="color:var(--red)">Approved posts stay for 7 days</span><h2 class="big">On the <em>wall.</em></h2></div></div>
     <div class="pills" id="wall-pills" style="margin-bottom:28px"></div>
     <div class="notes" id="wall"></div>
   </div>
@@ -191,7 +214,7 @@ PAGES["opinion"] = dict(
         <li><span>Make one argument, in a few clear paragraphs.</span></li>
         <li><span>Disagree with ideas, not people. Abusive posts are blocked or removed.</span></li>
         <li><span>Back up facts with a source the reader can check.</span></li>
-        <li><span>Your post appears instantly and stays up for seven days.</span></li>
+        <li><span>An editor reviews every post and reply, usually within a day. Approved posts stay up for seven days.</span></li>
       </ol>
     </div>
     <form class="composer" id="post-form" data-reveal="right" novalidate>
@@ -251,19 +274,46 @@ PAGES["learn"] = dict(
 </main>""")
 
 PAGES["journal"] = dict(
-    title="The Journal · Polytrics", desc="Essays, policy briefs and case notes by Polytrics members.",
-    body=page_hero("Member writing", ["The <em>Journal</em>"], "Longer essays, policy briefs and case notes by our members. Each one is edited and argued carefully, and kept short enough to finish.") + f"""
+    title="The Journal · Polytrics", desc="Essays, policy briefs and case notes by Polytrics members. Submit your own article for the editors to review.",
+    body=page_hero("Member writing", ["The <em>Journal</em>"], "Longer essays, policy briefs and case notes, edited by the club and kept short enough to finish. Anyone can submit; the editors review every piece.") + f"""
 {wave("red", "cream", 0)}
 <main>
 <section class="section s-cream" style="padding-top:clamp(30px,4vw,60px)">
-  <div class="wrap"><div class="posts" id="posts"></div></div>
+  <div class="wrap">
+    <div class="head" data-reveal>
+      <div><span class="kicker" style="color:var(--red)">Latest</span><h2 class="big">Read the <em>Journal.</em></h2></div>
+      <a class="btn btn--red" href="#write">Write for us {ARROW}</a>
+    </div>
+    <div class="posts" id="posts"></div>
+  </div>
 </section>
 {wave("cream", "red", 1)}
-<section class="section s-red cta">
-  <div class="wrap" data-reveal="scale">
-    <h2>Pitch a <em>piece.</em></h2>
-    <p class="lede">Send a 100-word pitch: the argument, why it matters now, and one source. Journal pieces run 600 to 1,200 words. For something shorter, use the Opinion Wall.</p>
-    <a class="btn btn--butter" href="opinion.html">Go to the Opinion Wall {ARROW}</a>
+<section class="section s-red" id="write" style="padding-top:clamp(40px,6vw,80px)">
+  <div class="wrap cols-2" style="align-items:start">
+    <div data-reveal="left">
+      <span class="kicker">Write for the Journal</span>
+      <h2 class="big" style="margin-top:14px">Submit an <em>article.</em></h2>
+      <ol class="rules">
+        <li><span>Make one clear argument in 250 to 2,000 words.</span></li>
+        <li><span>Back up facts with sources: name them in the text.</span></li>
+        <li><span>The editors read every submission and may suggest changes before publishing.</span></li>
+        <li><span>Published articles stay in the Journal permanently, with your name on them.</span></li>
+      </ol>
+      <p style="margin-top:22px">For a quick take instead, post on the <a class="textlink" href="opinion.html">Opinion Wall</a>.</p>
+    </div>
+    <form class="composer" id="article-form" data-reveal="right" novalidate>
+      <div class="form-pair">
+        <div class="field"><label for="a-name">Your name</label><input id="a-name" name="name" maxlength="40" autocomplete="name" placeholder="As it should appear"></div>
+        <div class="field"><label for="a-email">Email <span class="opt">(only editors see it)</span></label><input id="a-email" name="email" type="email" maxlength="120" autocomplete="email" placeholder="So we can reach you"></div>
+      </div>
+      <div class="field"><label for="a-cat">Section</label><select id="a-cat" name="category"><option>Policy</option><option>Politics</option><option>Law</option><option>Economy</option><option>World</option><option>Explainer</option></select></div>
+      <div class="field"><label for="a-title">Headline</label><input id="a-title" name="title" maxlength="140" placeholder="Your argument in one line"></div>
+      <div class="field"><label for="a-dek">Summary <span class="opt">(one sentence)</span></label><input id="a-dek" name="dek" maxlength="240" placeholder="Why it matters, in a sentence"></div>
+      <div class="field"><label for="a-body">Article</label><textarea id="a-body" name="body" maxlength="15000" rows="12" placeholder="Write your article here. Leave a blank line between paragraphs."></textarea><span class="count" id="a-count">0 words \u00B7 at least 250</span></div>
+      <input name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn" type="submit">Send to the editors {ARROW}</button>
+      <p class="form-msg" id="article-msg" aria-live="polite"></p>
+    </form>
   </div>
 </section>
 {wave("red", "ink", 2)}

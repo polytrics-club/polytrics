@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>The Journal · Polytrics</title>
-<meta name="description" content="Essays, policy briefs and case notes by Polytrics members.">
+<meta name="description" content="Essays, policy briefs and case notes by Polytrics members. Submit your own article for the editors to review.">
 <meta name="theme-color" content="#B62017">
 <meta property="og:title" content="The Journal · Polytrics">
-<meta property="og:description" content="Essays, policy briefs and case notes by Polytrics members.">
+<meta property="og:description" content="Essays, policy briefs and case notes by Polytrics members. Submit your own article for the editors to review.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23B62017'/%3E%3Cpath d='M31 10A22 22 0 0 0 31 54Z' fill='%23FFDF7E'/%3E%3Cpath d='M33 54A22 22 0 0 0 33 10Z' fill='%23FFDF7E'/%3E%3Crect x='21' y='34' width='10' height='22' fill='%23B62017'/%3E%3Crect x='33' y='8' width='10' height='22' fill='%23B62017'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +20,7 @@
     <div>
       <span class="kicker">Member writing</span>
       <h1 style="margin-top:18px"><span class="line"><span style="--i:0">The <em>Journal</em></span></span></h1>
-      <p class="lede">Longer essays, policy briefs and case notes by our members. Each one is edited and argued carefully, and kept short enough to finish.</p>
+      <p class="lede">Longer essays, policy briefs and case notes, edited by the club and kept short enough to finish. Anyone can submit; the editors review every piece.</p>
     </div>
     <div class="blob blob--sm" data-logo></div>
   </div>
@@ -28,14 +28,41 @@
 <div aria-hidden="true" style="background:var(--red);position:relative;z-index:2"><svg class="wave wave--cream" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,48 C240,110 480,0 720,46 C960,92 1200,8 1440,52 L1440,121 L0,121 Z"/></svg></div>
 <main>
 <section class="section s-cream" style="padding-top:clamp(30px,4vw,60px)">
-  <div class="wrap"><div class="posts" id="posts"></div></div>
+  <div class="wrap">
+    <div class="head" data-reveal>
+      <div><span class="kicker" style="color:var(--red)">Latest</span><h2 class="big">Read the <em>Journal.</em></h2></div>
+      <a class="btn btn--red" href="#write">Write for us <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div class="posts" id="posts"></div>
+  </div>
 </section>
 <div aria-hidden="true" style="background:transparent;position:relative;z-index:2"><svg class="wave wave--red" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,78 C300,8 620,118 900,64 C1150,18 1300,44 1440,30 L1440,121 L0,121 Z"/></svg></div>
-<section class="section s-red cta">
-  <div class="wrap" data-reveal="scale">
-    <h2>Pitch a <em>piece.</em></h2>
-    <p class="lede">Send a 100-word pitch: the argument, why it matters now, and one source. Journal pieces run 600 to 1,200 words. For something shorter, use the Opinion Wall.</p>
-    <a class="btn btn--butter" href="opinion.html">Go to the Opinion Wall <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+<section class="section s-red" id="write" style="padding-top:clamp(40px,6vw,80px)">
+  <div class="wrap cols-2" style="align-items:start">
+    <div data-reveal="left">
+      <span class="kicker">Write for the Journal</span>
+      <h2 class="big" style="margin-top:14px">Submit an <em>article.</em></h2>
+      <ol class="rules">
+        <li><span>Make one clear argument in 250 to 2,000 words.</span></li>
+        <li><span>Back up facts with sources: name them in the text.</span></li>
+        <li><span>The editors read every submission and may suggest changes before publishing.</span></li>
+        <li><span>Published articles stay in the Journal permanently, with your name on them.</span></li>
+      </ol>
+      <p style="margin-top:22px">For a quick take instead, post on the <a class="textlink" href="opinion.html">Opinion Wall</a>.</p>
+    </div>
+    <form class="composer" id="article-form" data-reveal="right" novalidate>
+      <div class="form-pair">
+        <div class="field"><label for="a-name">Your name</label><input id="a-name" name="name" maxlength="40" autocomplete="name" placeholder="As it should appear"></div>
+        <div class="field"><label for="a-email">Email <span class="opt">(only editors see it)</span></label><input id="a-email" name="email" type="email" maxlength="120" autocomplete="email" placeholder="So we can reach you"></div>
+      </div>
+      <div class="field"><label for="a-cat">Section</label><select id="a-cat" name="category"><option>Policy</option><option>Politics</option><option>Law</option><option>Economy</option><option>World</option><option>Explainer</option></select></div>
+      <div class="field"><label for="a-title">Headline</label><input id="a-title" name="title" maxlength="140" placeholder="Your argument in one line"></div>
+      <div class="field"><label for="a-dek">Summary <span class="opt">(one sentence)</span></label><input id="a-dek" name="dek" maxlength="240" placeholder="Why it matters, in a sentence"></div>
+      <div class="field"><label for="a-body">Article</label><textarea id="a-body" name="body" maxlength="15000" rows="12" placeholder="Write your article here. Leave a blank line between paragraphs."></textarea><span class="count" id="a-count">0 words · at least 250</span></div>
+      <input name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn" type="submit">Send to the editors <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      <p class="form-msg" id="article-msg" aria-live="polite"></p>
+    </form>
   </div>
 </section>
 <div aria-hidden="true" style="background:var(--red);position:relative;z-index:2"><svg class="wave wave--ink" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,30 C200,30 380,100 640,90 C900,80 1100,10 1440,60 L1440,121 L0,121 Z"/></svg></div>

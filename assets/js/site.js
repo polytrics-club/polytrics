@@ -88,12 +88,10 @@
     '<div class="wrap">' +
       '<div class="top">' +
         '<div><div class="big-name">' + CFG.clubName + '</div>' +
-        '<p style="margin-top:18px;max-width:36ch;opacity:.8">' + CFG.tagline + (CFG.institution ? " at " + CFG.institution : "") + '. Policy, politics and law, read closely and argued fairly.</p></div>' +
+        '<p style="margin-top:18px;max-width:36ch;opacity:.8">The official Public Policy and Governance club of ' + (CFG.institution || "IPM, IIM Ranchi") + '.</p></div>' +
         '<div><h4>Explore</h4><ul>' + PAGES.slice(1).map(function (p) { return '<li><a href="' + p[0] + '">' + p[1] + '</a></li>'; }).join("") + '</ul></div>' +
         '<div><h4>Say hello</h4><ul>' +
-          (soc.instagram ? '<li><a href="' + soc.instagram + '" target="_blank" rel="noopener">Instagram</a></li>' : "") +
-          (soc.linkedin ? '<li><a href="' + soc.linkedin + '" target="_blank" rel="noopener">LinkedIn</a></li>' : "") +
-          (soc.x ? '<li><a href="' + soc.x + '" target="_blank" rel="noopener">X</a></li>' : "") +
+          (soc.instagram ? '<li><a href="' + soc.instagram + '" target="_blank" rel="noopener">Instagram ' + (soc.instagramHandle || "") + '</a></li>' : "") +
           '<li><span style="opacity:.85;user-select:all;word-break:break-all">' + CFG.email + '</span></li>' +
         '</ul></div>' +
       '</div>' +

@@ -6,10 +6,10 @@ A multi-page, static website for Polytrics, the Policy, Politics & Law Club. It 
 | File | Page |
 |---|---|
 | index.html | Home: today's fact, Article of the day, news by category, case spotlight, weekly quiz, Opinion Wall preview |
-| news.html | News sorted into Parliament, Courts & Law, Elections, Policy & Schemes, Economy, World |
+| news.html | Briefing Room: headlines by topic, trending words, searchable feed with constitutional context and "Debate this" |
 | opinion.html | Opinion Wall: weekly topics, write posts and replies on the site; posts stay up for 7 days |
 | learn.html | Article of the day, explainers, weekly quiz, searchable landmark cases |
-| journal.html | Longer member articles with a full-screen reader |
+| journal.html | Journal: approved member articles plus a submission form |
 | resources.html | Searchable directory of sources |
 | about.html | About the club, with three photo frames and contact details |
 | policy.html, politics.html, law.html, events.html | Old pages that now forward to the new ones |
@@ -19,15 +19,23 @@ A multi-page, static website for Polytrics, the Policy, Politics & Law Club. It 
 - **Fact, Article and case of the day** rotate daily from `assets/js/content.js`. The **quiz** changes every Monday.
 - **Opinion Wall** posts disappear automatically 7 days after they were submitted.
 
-## Setting up the Opinion Wall (10 minutes, free)
-People write posts and replies directly on the site. They are stored in a Google Sheet you own.
-1. Create a new Google Sheet called "Polytrics Opinion Wall".
-2. **Extensions → Apps Script.** Delete the sample code, paste everything from `scripts/opinion-backend.gs`, and click **Save**.
-3. In the function menu at the top, choose **setup** and click **Run**. Allow the permissions (choose your account → Advanced → Go to project → Allow).
-4. **Deploy → New deployment →** gear icon **→ Web app.** Set *Execute as*: **Me**, *Who has access*: **Anyone**. Click **Deploy** and copy the **Web app URL**.
-5. On GitHub, open `assets/js/config.js`, paste the URL into `opinion.api` (between the quotes) and commit.
+## Opinion Wall + Journal (Google Sheet backend, free)
+Posts, replies and Journal articles are stored in a Google Sheet you own. **Nothing appears on the site until an editor approves it.**
 
-**Moderating:** open the Sheet and type anything (e.g. `hide`) in the **hidden** column of a post or reply. It disappears from the site within a minute. Posts leave the wall on their own after 7 days.
+**First-time setup**
+1. Create a Google Sheet. **Extensions → Apps Script**, paste everything from `scripts/opinion-backend.gs`, save.
+2. Choose **setup** in the toolbar and click **Run**. Allow the permissions (including "send email").
+3. **Deploy → New deployment → Web app**, Execute as **Me**, access **Anyone**. Copy the URL into `opinion.api` in `assets/js/config.js`.
+
+**Updating the script later** (e.g. after this version): paste the new code over the old, save, run **setup** again, then **Deploy → Manage deployments → ✏️ → Version: New version → Deploy**. The URL stays the same.
+
+**Moderating**
+- You get an email for every new post, reply and article.
+- Open the sheet and tick the **approved** box on that row. It appears on the site within a minute.
+- You can fix typos directly in the sheet before approving.
+- To take something down later, type `hide` in its **hidden** column.
+- Opinion posts stay up for 7 days from approval; Journal articles stay permanently.
+- Submitters' email addresses (Journal) are only visible in the sheet, never on the site.
 
 ## Daily quiz and weekly topics
 The GitHub Action writes `data/quiz.json` (a new 5-question news quiz every day) and `data/topics.json` (new discussion topics every Monday: one debate motion from `content.js` plus three topics from the week's headlines). If those files are missing, the site builds them in the browser.
