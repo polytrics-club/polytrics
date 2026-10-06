@@ -27,7 +27,7 @@ window.POLYTRICS_CONFIG = {
      a Google Sheet through a small script (see README: "Setting up the Opinion Wall").
      Paste the web app URL you get from that setup here. Until then the wall shows samples. */
   opinion: {
-    api: "",
+    api: "https://script.google.com/macros/s/AKfycbxP9hsOkqqmyRjE72BMh36KjaLaTLKeAtMPDgPSteeOOAQKzGHCFbI4K-cOaCOWzQRRgw/exec",
     days: 7
   },
 
