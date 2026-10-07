@@ -5,6 +5,12 @@
 (function () {
   "use strict";
   var CFG = window.POLYTRICS_CONFIG || {};
+
+  /* Always open a page at the top. Browsers otherwise reopen where you last
+     scrolled (e.g. the news part of the Home page). Links that point to a
+     section on purpose (#write, #cases-sec …) still go there. */
+  try { if ("scrollRestoration" in history) history.scrollRestoration = "manual"; } catch (e) {}
+  if (!location.hash) { window.scrollTo(0, 0); window.addEventListener("load", function () { window.scrollTo(0, 0); }); }
   var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   /* ---------- logo (two halves; the right half is the left rotated 180°) ---------- */
@@ -92,7 +98,7 @@
         '<div><h4>Explore</h4><ul>' + PAGES.slice(1).map(function (p) { return '<li><a href="' + p[0] + '">' + p[1] + '</a></li>'; }).join("") + '</ul></div>' +
         '<div><h4>Say hello</h4><ul>' +
           (soc.instagram ? '<li><a href="' + soc.instagram + '" target="_blank" rel="noopener">Instagram ' + (soc.instagramHandle || "") + '</a></li>' : "") +
-          '<li><span style="opacity:.85;user-select:all;word-break:break-all">' + CFG.email + '</span></li>' +
+          (CFG.email ? '<li><span style="opacity:.85;user-select:all;word-break:break-all">' + CFG.email + '</span></li>' : "") +
         '</ul></div>' +
       '</div>' +
       '<div class="bottom"><span>© ' + new Date().getFullYear() + ' ' + CFG.clubName + '. Student-run; views are members\' own.</span><span>Headlines link to their original publishers.</span></div>' +

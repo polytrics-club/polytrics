@@ -680,12 +680,27 @@
       var el = document.getElementById("photo-" + (i + 1));
       if (el && src) el.innerHTML = '<img src="' + esc(src) + '" alt="Polytrics members" loading="lazy">';
     });
-    var mail = $("#club-mail"), btn = $("#copy-mail");
-    if (mail) mail.textContent = CFG.email;
+    var mail = $("#club-mail"), btn = $("#copy-mail"), line = $("#mail-line");
+    if (line && !CFG.email) line.hidden = true;               // no inbox set yet: show Instagram only
+    if (mail) mail.textContent = CFG.email || "";
     if (btn) btn.addEventListener("click", function () { copy(CFG.email, btn, mail, "Copy email"); });
     var soc = $("#socials"), S = CFG.socials || {};
     if (soc) soc.innerHTML = [["Instagram " + (S.instagramHandle || ""), S.instagram]].filter(function (x) { return x[1]; })
       .map(function (x) { return '<a class="pill" href="' + esc(x[1]) + '" target="_blank" rel="noopener">' + x[0] + '</a>'; }).join("");
+
+    /* album: click a photo to see it large */
+    document.querySelectorAll(".snap-img").forEach(function (b) {
+      b.addEventListener("click", function () {
+        var img = b.querySelector("img"), cap = b.parentNode.querySelector("figcaption");
+        var lb = document.createElement("div");
+        lb.className = "lightbox"; lb.setAttribute("role", "dialog"); lb.setAttribute("aria-label", "Photo");
+        lb.innerHTML = '<figure><img src="' + esc(img.getAttribute("src")) + '" alt="' + esc(img.alt) + '"><figcaption>' + esc(cap ? cap.textContent : "") + '</figcaption></figure>';
+        function close() { lb.classList.remove("show"); document.removeEventListener("keydown", key); setTimeout(function () { lb.remove(); b.focus(); }, 350); }
+        function key(e) { if (e.key === "Escape") close(); }
+        lb.addEventListener("click", close); document.addEventListener("keydown", key);
+        document.body.appendChild(lb); requestAnimationFrame(function () { lb.classList.add("show"); });
+      });
+    });
   }
 
   var map = { home: home, news: news, opinion: opinion, learn: learn, journal: journal, resources: resources, about: about };

@@ -6,7 +6,7 @@ window.POLYTRICS_CONFIG = {
   clubName: "Polytrics",
   tagline: "The Policy, Politics & Law Club",
   institution: "IPM, IIM Ranchi",
-  email: "polytrics@iimranchi.ac.in",          // change to the club's real inbox
+  email: "",          // put the club's inbox here, e.g. "polytrics@iimranchi.ac.in" (left empty = hidden)
   socials: {
     instagram: "https://www.instagram.com/polytrics.ipm/",
     instagramHandle: "@polytrics.ipm"
