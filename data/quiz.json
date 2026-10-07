@@ -1,80 +1,80 @@
 {
- "date": "2026-10-07",
+ "date": "2026-10-08",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "DMK MP defends cancelled JPC meeting with _____ Court judges on ONOE Bill",
+   "quote": "Supreme Court refuses to interfere with _____ HC order granting interim bail to Milan Pradhan",
    "options": [
-    "Filed",
-    "Controversy",
-    "Absolute",
-    "Supreme"
+    "Calcutta",
+    "Voices",
+    "Celebrations",
+    "Boundaries"
+   ],
+   "answer": 0,
+   "why": "The headline reads: “Supreme Court refuses to interfere with Calcutta HC order granting interim bail to Milan Pradhan”",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNV25Vbk1sY3d5bFhCYVB0Z3FlWUpIcmtDQW45V1VISnJrRS1wbWVjclZFSDZaVk1CSjNQdWZmWmhvTjJaUEFWaG9FYV9wbGpCN21pOFZjUmtWa2V6NGc0R1U4MzNYdFNFU2FaZl9zU2JoSFNPdUhVRWpUNDZ1eFoySmFvdnpDZFE5clBsanZiS2cyZTJPQ0lLd3BVemZXcDk5UmoxZUgxNUE5QmJTOFdpQjlkakdXRXlINTlaQU5kUkZYal8xMlZIMEFwNzJJcW9zdTgzYmVn?oc=5",
+   "source": "Deccan Herald",
+   "cat": "courts"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "The Micro, Small and Medium _____ Development (Amendment) Bill, 2026",
+   "options": [
+    "During",
+    "Again",
+    "Logistics",
+    "Enterprises"
    ],
    "answer": 3,
-   "why": "The headline reads: “DMK MP defends cancelled JPC meeting with Supreme Court judges on ONOE Bill”",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRUx6TjhiZUNKMHR4QXMyZ3h0ZjlyaG5lVnBYOXhUQnUzVWRtcDN2U3VWSlVsYXZnWWRsaWN2RFZFTzBxY01xcnVQbHR4dUNzd2RpQmthQ0dxNlE3UUdRMTEweTZTb3pHN19jR0lXUTM5WW5DZ2NPaFVwRmZqbWExRTRCSTBkMGh5eFQ0c2doU0otSlgtQUJ4WU9VblZwQllvUFYw?oc=5",
-   "source": "The News Mill",
+   "why": "The headline reads: “The Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026”",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FZTBOb2xsNFIxaDFIei1YaU1ERnZwbW5pa3BDcDJhVnZmaEF3clJKVGFMcFJLYTJMeWtIb2RPclZNZXdLMGt0ajJPNTh5NS1wTS13bG12VU9rOUE3UmZhVG9oN0dPbHZ5ZHFJSVk0MVROeFVuUGtn?oc=5",
+   "source": "PIB",
    "cat": "parliament"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Who _____ Decides the Nobel Peace Prize, and Can Trump Win It?",
+   "quote": "Nine-hour INDIA bloc sit-in protest ends as Delhi Police detain Rahul, _____ Gandhi",
    "options": [
-    "Drink",
-    "Actually",
-    "Courts",
-    "Force"
-   ],
-   "answer": 1,
-   "why": "The headline reads: “Who Actually Decides the Nobel Peace Prize, and Can Trump Win It?”",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNm1LUVZuR2xOeVJ6dVNQQVpnNkJiTEpvT3hmSXdTTTBGb0ZkbC04WVlhM29OVmlPOS1RcC1zOGpkOGpCTEF2Qnh1ZjFvTGVzNHhGS29fQVdrUGpqMldSVEQ5MWFWMjBPZFEtOE9ZeFpjVXR5TFA2eWxEMDBtb1JLM003akR1cl9zcDd3LUhvMjNWTzIza0x5bjhGNkdoYmotaUF1Sg?oc=5",
-   "source": "Modern Diplomacy",
-   "cat": "world"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "RBI Policy Decision in Focus as Inflation, Rupee Pressure Raise Rate-Hike _____",
-   "options": [
-    "Police",
-    "Form",
-    "Employer",
-    "Expectations"
-   ],
-   "answer": 3,
-   "why": "The headline reads: “RBI Policy Decision in Focus as Inflation, Rupee Pressure Raise Rate-Hike Expectations”",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNazlrNUliR2djbkxXLWxWaUo3YmhrOUVOSVd1OFN4SDUzX1BSV2RZTmc5c1d1YTZWRC11Nm1uYmdIbzNwLVluR3I0UkE4M09hTVo1VGx0TmlhbmtDRGpQNGRYWWxOS3paQkdtMGRUWEFKWDdSaTF5eG03WU9rX08tNTZhOFVYNUd0OGZNcTdjY3h3WEk1V1ppX29MSVExRWoxUXBwOHNlV1F4T2FJVldiWVdULXRkS2x1?oc=5",
-   "source": "boldnewsonline.com",
-   "cat": "economy"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "India: _____ leaders to march to Election Commission",
-   "options": [
-    "East",
+    "Protests",
     "Mann",
-    "Opposition",
-    "Raises"
+    "Priyanka",
+    "Since"
    ],
    "answer": 2,
-   "why": "The headline reads: “India: Opposition leaders to march to Election Commission”",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU1hFU251NExybHFhNWFscG9aNDNsMjMyR2ltWVJKOUtyRGdmZ0EzNmFWVjJIeGJCOFFVYnRLRmtlUjlIYmt5UnpmYkozVWYwSThXZ2RQdkdQaXdVZWRCWTJodEpkbUNuWHJYdF82eHZMYTBLRVZsQ3hzeW1QWGdKZHRwN0NhRUZ3aU84dkt6YzMyWktDWFRGVW8yTENZSlR0eTdJ?oc=5",
-   "source": "DW.com",
+   "why": "The headline reads: “Nine-hour INDIA bloc sit-in protest ends as Delhi Police detain Rahul, Priyanka Gandhi”",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPeHJKX1lvbUl5cE4zTDRmVEVrN0szeWY1ZUNuQ3g4Nk5xcVNhNkRIb1FJZXYzMVlGUFV6X1RrZndna1lCQWNmVFNYYzY1a2hIMlE5aU52bFFlTnNXSDRibVcwLWxRMlFkVEJWSUZINWZ6bnBrdXNhZmpFTENDWDBVUjlvWXZudzFuR2d6RmprR3pTUEJGWFRxRUpYUUFOVm5zd0Z6eEVQQVVxMF9sQmRVdUJyNlh2dTljcVllNU91RkdZcnROU2s3NWUxM1pvOWc3S3fSAd8BQVVfeXFMUDlXRkxtQWhWcy1lUWFrdklGdmViNkVXR3I5S2xma3ExVUdKLXdrUVBRUENUQ0Fud0NFNjBVbnhlOTdJR19IV3FVMEtIMm9SdFJNbUszM05QcmlBdmdBS3FRa2h4aGh1U3l0U3ozNEhMOEFiS3pDRUFZdmg3T3Y4YmpXWHhiUHJzaFI0SDBTOU9vSExRSmNTeVZsRlB2RVA5eXBqMG9lMURRSkcyd0JvZ0k5Y0xRVnVOMlpVT0hta09rZmNiMzRKZGQyU0pKdlFQaklBSE9PRU5aWUFGYUVSMA?oc=5",
+   "source": "The New Indian Express",
    "cat": "elections"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Supreme _____ acquits government employee who spent 4 years in jail in 16-year-old corruption case",
+   "quote": "RBI MPC: From crude to El Nino, 5 key risks flagged by _____ Sanjay Malhotra",
    "options": [
-    "Connectivity",
-    "Court",
-    "Diplomats",
-    "Iran"
+    "Affirms",
+    "Governor",
+    "Release",
+    "Navi"
    ],
    "answer": 1,
-   "why": "The headline reads: “Supreme Court acquits government employee who spent 4 years in jail in 16-year-old corruption case”",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUlk5LTNJUlZQSE9TUGtWT2tQbU1TSzhtd1ZDbHVvemVjREw0LVpBRDl3cTRCMjZkRndsUEN1VS1EVjQyUXJNZkh0QjluX295d1NwczY5bFp2SHpwWmRWQVJqeURhOEJKcEhWVDgxbFl0ZjdBcmotbVJwTDBISWVIYjlHeDlkYlR4NFFPZXhzTkF6NkVPUjFNdW9haVlFTkFaaFkyY0Iza2VRZEwwZmdZVklXalAwZ0plNy1pYk9PbzdZR2JZcjJKT1gtUdIB2AFBVV95cUxQc1U0dEpTTk9fbjBwN0lzNXFtemI0ZkR3bEdTVjJsNzlOT0hFRmlXYWVzWVMxX05CMm9OQ3A2VEV3RTRGbUFXZ3VsVzA3YjkwNml1enRJUFVOMnBSazRaZVZPalVjcVkyb3cyYVJWdHQzdzlaTkZIMWF4XzRqWFJiZHJGeDFjNGJ1VHFQY2xEZnhnZXlPRlYzQ0gzdnVSc0ZBNHd5Q3ZTWFVTS2ZOd3l3aFU5dlNwbjNSUkpjTXdoalQ1d0ZXRWdfSk5xZnNnT3c3ZTVZZHBjSjQ?oc=5",
-   "source": "Bar and Bench",
-   "cat": "courts"
+   "why": "The headline reads: “RBI MPC: From crude to El Nino, 5 key risks flagged by Governor Sanjay Malhotra”",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQlotM3Z3VEg0YlpBODRUNFNmckdfTWNoTEg0VEZBeTRRTGZDZEVSRWl2b016Q2VGMGY1ZThfdDkteXJ3bXZlTzdkamotQ1JBVjlpczV1a3JjSUZnWXlXUnZYNV9WYXNjZ3BEc1BSX1Fja01haGRHRnhXV2paS1lQaENaNFZhZHVOS1oyeHozd2IwTzd1bUdvY1NfZGZpRm90LWVYSmlvdUR2RlYycGdaS0ZhUmU1OVc2TWJQNWV4WDgzSi1WdE5LSDRpNG1mNk9ZelRJdzBURWjSAdgBQVVfeXFMTkJaLTN2d1RINGJaQTg0VDRTZnJHX01jaExINFRGQXk0UUxmQ2RFUkVpdm9NekNlRjBmNWU4X3Q5LXlyd212ZU83ZGpqLUNSQVY5aXM1dWtyY0lGZ1l5V1J2WDVfVmFzY2dwRHNQUl9RY2tNYWhkR0Z4V1dqWktZUGhDWjRWYWR1TktaMnh6M3diME83dW1Hb2NTX2RmaUZvdC1lWEppb3VEdkZWMnBnWktGYVJlNTlXNk1iUDVleFg4M0otVnROS0g0aTRtZjZPWXpUSXcwVEVo?oc=5",
+   "source": "India Today",
+   "cat": "economy"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Sri _____'s ex-first lady arrested over alleged misuse of children's hospital donations",
+   "options": [
+    "Lanka",
+    "Day-Long",
+    "Slowing",
+    "Forces"
+   ],
+   "answer": 0,
+   "why": "The headline reads: “Sri Lanka's ex-first lady arrested over alleged misuse of children's hospital donations”",
+   "link": "https://www.bbc.co.uk/news/articles/ck0e0n3xzvp4o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "cat": "world"
   }
  ]
 }
