@@ -676,25 +676,77 @@
     q.addEventListener("input", draw); draw();
   }
   function about() {
-    (CFG.aboutImages || []).forEach(function (src, i) {
-      var el = document.getElementById("photo-" + (i + 1));
-      if (el && src) el.innerHTML = '<img src="' + esc(src) + '" alt="Polytrics members" loading="lazy">';
-    });
-    var mail = $("#club-mail"), btn = $("#copy-mail"), line = $("#mail-line");
-    if (line && !CFG.email) line.hidden = true;               // no inbox set yet: show Instagram only
-    if (mail) mail.textContent = CFG.email || "";
-    if (btn) btn.addEventListener("click", function () { copy(CFG.email, btn, mail, "Copy email"); });
     var soc = $("#socials"), S = CFG.socials || {};
     if (soc) soc.innerHTML = [["Instagram " + (S.instagramHandle || ""), S.instagram]].filter(function (x) { return x[1]; })
       .map(function (x) { return '<a class="pill" href="' + esc(x[1]) + '" target="_blank" rel="noopener">' + x[0] + '</a>'; }).join("");
 
-    /* album: click a photo to see it large */
+    var reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var clamp = function (v) { return v < 0 ? 0 : v > 1 ? 1 : v; };
+
+    /* split the big sentences into words that light up as you scroll */
+    var wordBlocks = [].slice.call(document.querySelectorAll("[data-words]")).map(function (el) {
+      el.innerHTML = el.textContent.trim().split(/\s+/).map(function (w) { return '<span class="w">' + esc(w) + '</span>'; }).join(" ");
+      return { el: el, words: [].slice.call(el.querySelectorAll(".w")) };
+    });
+
+    /* images open like a curtain, numbers count up, once each */
+    var io = "IntersectionObserver" in window ? new IntersectionObserver(function (es) {
+      es.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        io.unobserve(e.target);
+        if (e.target.classList.contains("clip")) e.target.classList.add("on");
+        else countUp(e.target);
+      });
+    }, { threshold: .25 }) : null;
+    function countUp(el) {
+      var to = +el.getAttribute("data-count"), from = +(el.getAttribute("data-from") || 0), t0 = performance.now(), dur = 1600;
+      (function step(t) { var k = clamp((t - t0) / dur), e = 1 - Math.pow(1 - k, 3); el.textContent = Math.round(from + (to - from) * e); if (k < 1) requestAnimationFrame(step); })(t0);
+    }
+    document.querySelectorAll(".clip, [data-count]").forEach(function (el) {
+      if (reduce || !io) { el.classList.add("on"); return; }
+      if (el.hasAttribute("data-count")) el.textContent = el.getAttribute("data-from") || "0";
+      io.observe(el);
+    });
+
+    var hero = $("#ab-hero"), gal = $("#ab-gallery"), track = $("#ab-track"), travel = 0;
+    function sizeGallery() {
+      var on = !reduce && innerWidth > 760 && track;
+      gal.classList.toggle("pinned", !!on);
+      if (!on) { gal.style.height = ""; track.style.transform = ""; return; }
+      travel = Math.max(0, track.scrollWidth - innerWidth);
+      gal.style.height = (innerHeight + travel) + "px";
+    }
+    function frame() {
+      var vh = innerHeight;
+      if (hero) {
+        var r = hero.getBoundingClientRect();
+        hero.style.setProperty("--p", reduce ? 1 : clamp(-r.top / Math.max(1, r.height - vh)).toFixed(4));
+      }
+      if (gal && gal.classList.contains("pinned")) {
+        var g = gal.getBoundingClientRect(), k = clamp(-g.top / Math.max(1, g.height - vh));
+        track.style.transform = "translate3d(" + (-travel * k).toFixed(1) + "px,0,0)";
+      }
+      wordBlocks.forEach(function (b) {
+        var r = b.el.getBoundingClientRect();
+        var k = reduce ? 1 : clamp((vh * .88 - r.top) / (r.height + vh * .45));
+        var lit = Math.round(k * b.words.length);
+        b.words.forEach(function (w, i) { w.classList.toggle("on", i < lit); });
+      });
+    }
+    var ticking = false;
+    function onScroll() { if (!ticking) { ticking = true; requestAnimationFrame(function () { ticking = false; frame(); }); } }
+    if (gal) { sizeGallery(); window.addEventListener("load", function () { sizeGallery(); frame(); }); }
+    window.addEventListener("resize", function () { if (gal) sizeGallery(); frame(); });
+    window.addEventListener("scroll", onScroll, { passive: true });
+    frame();
+
+    /* gallery: click a photo to see it large */
     document.querySelectorAll(".snap-img").forEach(function (b) {
       b.addEventListener("click", function () {
         var img = b.querySelector("img"), cap = b.parentNode.querySelector("figcaption");
         var lb = document.createElement("div");
         lb.className = "lightbox"; lb.setAttribute("role", "dialog"); lb.setAttribute("aria-label", "Photo");
-        lb.innerHTML = '<figure><img src="' + esc(img.getAttribute("src")) + '" alt="' + esc(img.alt) + '"><figcaption>' + esc(cap ? cap.textContent : "") + '</figcaption></figure>';
+        lb.innerHTML = '<figure><img src="' + esc(img.getAttribute("src")) + '" alt="' + esc(img.alt) + '"><figcaption>' + esc(cap ? cap.lastChild.textContent : "") + '</figcaption></figure>';
         function close() { lb.classList.remove("show"); document.removeEventListener("keydown", key); setTimeout(function () { lb.remove(); b.focus(); }, 350); }
         function key(e) { if (e.key === "Escape") close(); }
         lb.addEventListener("click", close); document.addEventListener("keydown", key);
