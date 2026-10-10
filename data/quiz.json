@@ -1,80 +1,80 @@
 {
- "date": "2026-10-10",
+ "date": "2026-10-11",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Is India’s Deep-Sea Oil Exploration Move an Economic _____?",
+   "quote": "Election _____ caps Form 7 objection applications by individual electors during electoral roll revisi",
    "options": [
-    "Game-changer",
-    "Anganwadi",
-    "Phase",
-    "Geopolitics"
-   ],
-   "answer": 0,
-   "why": "The headline reads: “Is India’s Deep-Sea Oil Exploration Move an Economic Game-changer?”",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTjMzOWh3aVJROWY4ZlkyNG5ES3d6UVdFa0k5OWIzS3R2MnZ3SkVYRnBvSDhGdkMtWGRVQjdyVXJqaWFFNVFtc0d6WE9LWG9UU2tQbk9VdXpCdnFlWXU2MUdfbENRSzltaHBFUFZkaHVZREpfWVRIZWFnSmdjUXhRVW9EaGFtVnQ5NkRCcXpKcE1qUzlKa1ppUGl3?oc=5",
-   "source": "Equitypandit",
-   "cat": "policy"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "SIR row: 42 former judges warn against 'vote theft' claims, back Election _____",
-   "options": [
+    "Training",
+    "Prepare",
     "Commission",
-    "Pending",
-    "Meridian",
-    "Earthquake"
+    "Doubt"
    ],
-   "answer": 0,
-   "why": "The headline reads: “SIR row: 42 former judges warn against 'vote theft' claims, back Election Commission”",
-   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOSU80YV82MHdOV0xtaE83Y3dCamhINlpoUHJiekVsMlFjTjRiZGFqSHZnUGhQUzdIMnVtR2lQLUlCd1M3V2ZiUUVOQ2Y4WnQ4VkhRM0xoRHV0NHVtV042RGxla0pEc20xMGNrRFFSWHhhOE1MVnV4c19jdUxtNEtNeUo4NzJDcHZIWl9YbmhfcEQ4RFM0OFFHNmc5NjJOOC1oX3VKNHhmZl9WT2RHMGlNbi1Id0VjS21ZdW5ONmlreENoRHA1UTQyYU8tZ1FPOTZUUUxRNFFQT1NWQlJyUU1VUHlTcVJkYmZWd09rUmppM2V1TVFla085WmhlWlhmeVnSAf8BQVVfeXFMTklPNGFfNjB3TldMbWhPN2N3QmpoSDZaaFByYnpFbDJRY040YmRhakh2Z1BoUFM3SDJ1bUdpUC1JQndTN1dmYlFFTkNmOFp0OFZIUTNMaER1dDR1bVdONkRsZWtKRHNtMTBja0RRUlh4YThNTFZ1eHNfY3VMbTRLTXlKODcyQ3B2SFpfWG5oX3BEOERTNDhRRzZnOTYyTjgtaF91SjR4ZmZfVk9kRzBpTW4tSHdFY0ttWXVuTjZpa3hDaERwNVE0MmFPLWdRTzk2VFFMUTRRUE9TVkJSclFNVVB5U3FSZGJmVndPa1JqaTNldU1RZWtPOVpoZVpYZnlZ?oc=5",
-   "source": "India.com",
+   "answer": 2,
+   "why": "The headline reads: “Election Commission caps Form 7 objection applications by individual electors during electoral roll revisi”",
+   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPWS01Z2xabmFpaWdtNFM5bWRUMVNwaU1ubGtOMmN4ajdjN0U2WWFFT3BIVW9Cc3R6Y1Rad3BWbWl3NWlnZzhWNThNdUo2OGY0MUNYUHFQYURDZ1k0cjJUSmp4Zm1nWHh6NWIyc3UzWG93YjNnYnpwZHlTNGpBYWhYNGJGLWhyNU5ESXk2UDBLekNxN0kwQVItdDdjTWthX0R4aGtSQTB1NHd2TDFVTmRsZ3NBa1BhZmwzTUYwNmVRZk9xQ0p2cmVsdWRPZmMzT3lkckhONXNobEZaNWdTQjlxZ0EzbmxxN0RzWHZIY0NxYzdvWHVfbE56aWp0ZElwTHhvRi1V0gGIAkFVX3lxTE9FaG45X0hiSlJsbmotclhRRVhZX3JRNkJSbDNzZTRWbTVtdUpuZnI2MDJsSXBiTWtmdGtMVFRJNHd1dkxLNFlNVzNSbWNMUUF1QmtMLVRGcXpBWmp6Wk10YUY0aDVvd1FJS084WDFJUzg5X2FxeVIyV1ZZWm1yMVc5WjNISVBjb0pkRVJxeGhRT2YwRFRZaENpa2lRczNRT2Mzb2F3N0lNYUxGZUZPOW5GTU1tSlQzbjhOZHVycl84cFJzWDVFQWNFSHYyTjZmTkV6WFQ0aEk0VV85Ty1iNlBYVmd3OEs1QXlFNmNDVHZ1ZTRWMElIMExUQTdNbnpiaDVnalZMWE5RNA?oc=5",
+   "source": "The Economic Times",
    "cat": "elections"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "GST _____ meeting 2026: What may change as GST 2.0 takes aim at ITC, refunds, arrest powers and other re",
+   "quote": "When state intervenes in child’s life, it also intervenes in their future: Justice _____",
    "options": [
-    "Council",
-    "Allegations",
-    "Appeals",
-    "Disses"
+    "Premium",
+    "Nagarathna",
+    "Energy",
+    "MoSJE"
    ],
-   "answer": 0,
-   "why": "The headline reads: “GST Council meeting 2026: What may change as GST 2.0 takes aim at ITC, refunds, arrest powers and other re”",
-   "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQRFdLUkgzbElHSUpOb2pNbFNLY1lsUGJyR3psUklGMEtIWUtHTzNlRGNpenVKbklSbFhnREJDUThVUFJtVFhiQXV2Y1VxZllrb3R3Z2l2dkxIZm5taUlHVFVrdVRDYWIxUmpUeW5CVG5ZaEY5YUY0Q3dCLXoyRktabFNGZnlkUlAzZWxkSkN0ajVtUHFxNnlUNGxjbzhja2VaZHd4ZjFNbGpCbnNiUWlDS0VrdW0yOWx3QVk3b2lScFpNbGxuaWRPWFBaQ2F0bndNRVYzcWwyemo4bU1zaGIxbFdrSUxTNXNvdllhLTcwOXotenJHYmhkQURnMldjajVSb21Dc3ltbkVMNDhFVGFsX3d3Vm5yZVppTjdxbGFVSjJWVnFMcXNtWk5HR0RmenNlRHExMGdJeHlkMkJMcUVROFBRc9IByAJBVV95cUxQeGhXSl9YS2xhTVFjSUFKT3NaaEpqdXhsdUJnYWgxU0VFcmZjWi1LUTZDV0lkZTVOQ3ZJeUNuS3lJbFVBT1RrVWVLLUZUZHVkQ3Q0bkpVYmItcFlCR2FvUXA1VzRmUjJ4WU41TThsQUFpV3NZS3QtOW1vS01ZQzZ3NEZxY0FGRTJwazladWozVkJmcjFrV1FLT29ISjl5V25EZmZLOTBWZGgwTElJV1N5cldtUklPUHpTd3NINGREdkhNWDNrLXEzd05EY2JaWHN5ZFIyc3ZoUWdTNEJJNUVuVzh3bzJJSkt3a1ZiZUhFbjVjaEVCeVk3bXFvZFgyRDR1YzQzV01JMTUxSjRRYkJmY3I5SEg5N0dyN2x1VmVybDU4Mjd2UGxiQ0FRbFRIWTh3dHdvelJ2clVYdDFhdFlIMWdnRHhnc09o?oc=5",
-   "source": "The Economic Times",
-   "cat": "economy"
+   "answer": 1,
+   "why": "The headline reads: “When state intervenes in child’s life, it also intervenes in their future: Justice Nagarathna”",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPT09RamhKLVJLVUZ4dUJJR0xCdktxcUtyS1VtOHliUXpmTlo4cWRNTlJXaVRjWkcyMVRVUEtkMDdSTE55TUtqd0ZaRkstQURYZTJ2VGdqQnBxUDBhOWJZMU1VYzVOY0cwSDVpTWttSGFmSmhDdS16LTRaV3Q2bXVmYU13cUw1WGltbUNPSVNWUHdWa3JzY1FSeEJ2SWhiWXVoZDJoWm5CS3RTQUQ0TGxfWnVvODB1d9IBvAFBVV95cUxPUERZeTVvUWI2OXpKajZFRkVDbExxVXdvZFljeUp0dUx6aGltZm9rODliOERwckpYNWVVZ3dpQTBfVmFicFNLaDVfenAtNk40bVpLVXh1Mm5wVUt3Mk1FZ1h2MU5QMzgyNm9RaF9TNS1sdkhCckVXYkRaQXNOMmx4TGcxYUpYbllfcDhQbWMwcVk2bFVPcG5hbG85NDc3UHQ1RU5UWFdMdURaZ3VpekpQY3pFVVpSRGk0NXpRYg?oc=5",
+   "source": "The Indian Express",
+   "cat": "courts"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "US imposes sanctions on _____ Criminal Court",
+   "quote": "‘Trust Is The Currency Of _____’: Polish Envoy On India Ties, Defence And Ukraine",
    "options": [
-    "Very",
-    "Vijayendra",
-    "International",
-    "Bill"
+    "Diplomacy",
+    "Rahul",
+    "Kisan",
+    "Estate"
    ],
-   "answer": 2,
-   "why": "The headline reads: “US imposes sanctions on International Criminal Court”",
-   "link": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
+   "answer": 0,
+   "why": "The headline reads: “‘Trust Is The Currency Of Diplomacy’: Polish Envoy On India Ties, Defence And Ukraine”",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOX3dNWUVtdGtGVzM1cWlBcGJnZ0M3c01ZcEc0X0Nnc2oycVB4ZmJLdEN6Y3dhTVRVWEJPTXM0NVR4eGxkNUFuMXVXbzFsdHRlRTd1YlpfdXBMc0h4SEQyWHBBT0NKb3Q5UEdfSFdld0JORWR5ME4wYmZtZUlKRDltOTNDYzQ0R3YxRGVkbXVQTlcwRlNDbnh1U3pjMncwY1laREJQOWR6eU9JNkM2bkJSNGJYcjZDR1NTZ2tiTi1XbGs5QdIBzwFBVV95cUxPUGtZTE1KbjRSWGQ1cTFsc0I4QWVwZDgtN3V5c3dQT2pGckNTRVJtWEROamxhU1VXNmpOSC1hWGw2eU8ySldpVTI2ZVFNNE0tWWpSS19HUm1iMGdIaXBkVzVoamc3Nnp3eHZ5YUEySG1UVmp3ZHBHTGNETTFubGwwc2R2R3oxVDN3SG9NQklZNWwyY3V6cVVrWWszNGtuWnJiRk56c1hMcExQRXNJaXd2eXVFQ052Mm00NjFNQmpTd3RsNVNONDRxSm54eFlvLTA?oc=5",
+   "source": "Outlook India",
    "cat": "world"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Sitharaman to introduce Taxation and Other Laws (_____) Bill in Lok Sabha",
+   "quote": "FCRA Bill: MP James Sangma seeks _____ hearing as JPC consults stakeholders - The Sentinel",
    "options": [
-    "Outlook",
-    "Have",
-    "Metro",
-    "Amendment"
+    "Right",
+    "Isaias",
+    "Shillong",
+    "During"
    ],
-   "answer": 3,
-   "why": "The headline reads: “Sitharaman to introduce Taxation and Other Laws (Amendment) Bill in Lok Sabha”",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZGdDT2tiX3VjLS1SZnNaMXpFZXBFVHF6ME1HUEZOcjJfTmNsYmgtUmtiQWJSS0t5R2k1ZzBwSHFjSFhIWnBsZWI4OTA3bll1T3h5dUR5MVBpa1BwdGZwWThNLWZPczNNTjFtaDhjQ3hlMXBVaEpLMUExVERGa250Qlh1ZUZudXRITWFhUkg0NlJ1TlBYSVZxYUk5QWdpckJNMUVR?oc=5",
-   "source": "DD News",
+   "answer": 2,
+   "why": "The headline reads: “FCRA Bill: MP James Sangma seeks Shillong hearing as JPC consults stakeholders - The Sentinel”",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZ0RGSmM1MUZzQlFVUDJPM3B1Yk9mQTBuVGRNa21SbW1kZ1JIUFJXcjV1OVlITjQxQmdleWFuVjZDT21qSUU1NlRNeUNpbWRYVDRhczlHbENFY2FjNERiQ1RGYVVmY2pDR0ZZVS1KMkpUV2Jxa296Vlduc1VsRVhzdmlSQmxoTEZBVEdEY0t3U01WYlBjU3VsMmhocW9pSW1BUVRaMFZfVjVMeHdzWmNkNElNQjREdU5vajVmcTBQbG1hNmlpdllOYjR3NGhSUFJqeEZFTTVpR0c2ZklHR2Y0SFRWV1VIdzdLRHfSAeoBQVVfeXFMUGdERkpjNTFGc0JRVVAyTzNwdWJPZkEwblRkTWttUm1tZGdSSFBSV3I1dTlZSE40MUJnZXlhblY2Q09taklFNTZUTXlDaW1kWFQ0YXM5R2xDRWNhYzREYkNURmFVZmNqQ0dGWVUtSjJKVFdicWtvelZXbnNVbEVYc3ZpUkJsaExGQVRHRGNLd1NNVmJQY1N1bDJoaHFvaUltQVFUWjBWX1Y1THh3c1pjZDRJTUI0RHVOb2o1ZnEwUGxtYTZpaXZZTmI0dzRoUlBSanhGRU01aUdHNmZJR0dmNEhUVldVSHc3S0R3?oc=5",
+   "source": "The Sentinel - of this Land, for its People",
    "cat": "parliament"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "RBI Raises Daily CRR _____ For Banks To 99% From October 16",
+   "options": [
+    "Training",
+    "Requirement",
+    "Mobilisation",
+    "Fiscal"
+   ],
+   "answer": 1,
+   "why": "The headline reads: “RBI Raises Daily CRR Requirement For Banks To 99% From October 16”",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPajB2UmNIUTJXNmZjV0syTkpPczRzd3AxSkdpLU8yWmZacTI0N09IYmhEWF9xTFNDbTI0aFdhNTJOSklzeTlqa2FZZlJPbzF1S2VvMzFEQk5VSGJwcWM2OUdlVjl6N2NFcmtwQU9vbmR0cVlWNVozV29VYWRSZDN1blFwdGhER3pDX2MwdzV4dUMxS05TcFhWTjBIRHFJOFFUaVRFNy1qTmVjN090RkVVQnA0TElHUkZWWEg3cVM5VUU4MHQtUERQVFk1UFR5NlhT0gHYAUFVX3lxTE91bFVmTFRDMENuT29JR3JDQXNGVDZOMzIxZkpoeDZ5Q2dSUW1lemVMQkFEN3dTWVg1NEpXUzBDVnV1TEdvdmV2WWdHLTFBeE90MHNPXzRVWVp5V3k2RUZMb2lveEVSaUN5V3dGclRIZ2pMa2ZyRU92X293eGVXTzNJMzhUUWZUUXp5ZkJUcVpNNV9DNUhLMDlFaEx1bktCTVFybVBRU2VQTk5NRFhRV1phVFEzeWkxSTJ0ZXk2LUtSTi1JMERkc0xyZWNoV2ZZZXRBM01LVVZJQQ?oc=5",
+   "source": "NDTV Profit",
+   "cat": "economy"
   }
  ]
 }
