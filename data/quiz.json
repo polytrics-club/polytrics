@@ -1,80 +1,80 @@
 {
- "date": "2026-10-11",
+ "date": "2026-10-12",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Election _____ caps Form 7 objection applications by individual electors during electoral roll revisi",
+   "quote": "Supreme _____ orders no illegal detention of peaceful Delhi protesters",
    "options": [
-    "Training",
-    "Prepare",
-    "Commission",
-    "Doubt"
+    "Court",
+    "Goyal",
+    "Powers",
+    "Poll"
    ],
-   "answer": 2,
-   "why": "The headline reads: “Election Commission caps Form 7 objection applications by individual electors during electoral roll revisi”",
-   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPWS01Z2xabmFpaWdtNFM5bWRUMVNwaU1ubGtOMmN4ajdjN0U2WWFFT3BIVW9Cc3R6Y1Rad3BWbWl3NWlnZzhWNThNdUo2OGY0MUNYUHFQYURDZ1k0cjJUSmp4Zm1nWHh6NWIyc3UzWG93YjNnYnpwZHlTNGpBYWhYNGJGLWhyNU5ESXk2UDBLekNxN0kwQVItdDdjTWthX0R4aGtSQTB1NHd2TDFVTmRsZ3NBa1BhZmwzTUYwNmVRZk9xQ0p2cmVsdWRPZmMzT3lkckhONXNobEZaNWdTQjlxZ0EzbmxxN0RzWHZIY0NxYzdvWHVfbE56aWp0ZElwTHhvRi1V0gGIAkFVX3lxTE9FaG45X0hiSlJsbmotclhRRVhZX3JRNkJSbDNzZTRWbTVtdUpuZnI2MDJsSXBiTWtmdGtMVFRJNHd1dkxLNFlNVzNSbWNMUUF1QmtMLVRGcXpBWmp6Wk10YUY0aDVvd1FJS084WDFJUzg5X2FxeVIyV1ZZWm1yMVc5WjNISVBjb0pkRVJxeGhRT2YwRFRZaENpa2lRczNRT2Mzb2F3N0lNYUxGZUZPOW5GTU1tSlQzbjhOZHVycl84cFJzWDVFQWNFSHYyTjZmTkV6WFQ0aEk0VV85Ty1iNlBYVmd3OEs1QXlFNmNDVHZ1ZTRWMElIMExUQTdNbnpiaDVnalZMWE5RNA?oc=5",
-   "source": "The Economic Times",
-   "cat": "elections"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "When state intervenes in child’s life, it also intervenes in their future: Justice _____",
-   "options": [
-    "Premium",
-    "Nagarathna",
-    "Energy",
-    "MoSJE"
-   ],
-   "answer": 1,
-   "why": "The headline reads: “When state intervenes in child’s life, it also intervenes in their future: Justice Nagarathna”",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPT09RamhKLVJLVUZ4dUJJR0xCdktxcUtyS1VtOHliUXpmTlo4cWRNTlJXaVRjWkcyMVRVUEtkMDdSTE55TUtqd0ZaRkstQURYZTJ2VGdqQnBxUDBhOWJZMU1VYzVOY0cwSDVpTWttSGFmSmhDdS16LTRaV3Q2bXVmYU13cUw1WGltbUNPSVNWUHdWa3JzY1FSeEJ2SWhiWXVoZDJoWm5CS3RTQUQ0TGxfWnVvODB1d9IBvAFBVV95cUxPUERZeTVvUWI2OXpKajZFRkVDbExxVXdvZFljeUp0dUx6aGltZm9rODliOERwckpYNWVVZ3dpQTBfVmFicFNLaDVfenAtNk40bVpLVXh1Mm5wVUt3Mk1FZ1h2MU5QMzgyNm9RaF9TNS1sdkhCckVXYkRaQXNOMmx4TGcxYUpYbllfcDhQbWMwcVk2bFVPcG5hbG85NDc3UHQ1RU5UWFdMdURaZ3VpekpQY3pFVVpSRGk0NXpRYg?oc=5",
-   "source": "The Indian Express",
+   "answer": 0,
+   "why": "The headline reads: “Supreme Court orders no illegal detention of peaceful Delhi protesters”",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVFpFOUZyUnNRZ1ZoN2pvYU5ucXFnSkhkTWc5cFRONW9oeTZVdWpPd0RtWGdVZGsxT3R1RE1Gd3FraGFlenFrdlNDYWNvYW05MFZYSV9qanUyR2FGRXpmRmN0M041blRNdU1LYzVmS1djMGNsUW9NNFU0NFlzckYyOWd2TW16SksycDhWUllmbzlzZTctbUtRR3pzdWVXaUZwVjhuQlJOWEJ0VXdLVkpyU1VpVUFESWdGMENqU2t3RjQyaFdFU3BxZDdycGhQQdIB0wFBVV95cUxNZ3lHdzN2U0hnUmhzamxFWG5oR1I4d18wNHktWldnVjBiNXBLZ3FlZ1pDdml2eHZJdnpyOGhibVF4d3hRWWpoVmFfLWdvQjVPZm5CWlRyNlhxMDRNbDE3UEd4cURzMEYxM1VhZkU1Z2F2LTlJNXFUOU95QXd2Y3VJTnhJUUZOWEd6ZDJGM3g0bmxLQk9RMlotMjgxX2x4eTdqMGZ0TXFPTjlEVFpBMlRHRkUzUU93Tk1uMVV3Wk5MNFozNHpSMDFiUWptRE10OGhiVTVr?oc=5",
+   "source": "India Today",
    "cat": "courts"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "‘Trust Is The Currency Of _____’: Polish Envoy On India Ties, Defence And Ukraine",
+   "quote": "Govt prioritises cultural diplomacy to strengthen partnerships: _____",
    "options": [
-    "Diplomacy",
-    "Rahul",
-    "Kisan",
-    "Estate"
+    "Ukraine",
+    "Sale",
+    "Capital",
+    "Shama"
    ],
-   "answer": 0,
-   "why": "The headline reads: “‘Trust Is The Currency Of Diplomacy’: Polish Envoy On India Ties, Defence And Ukraine”",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOX3dNWUVtdGtGVzM1cWlBcGJnZ0M3c01ZcEc0X0Nnc2oycVB4ZmJLdEN6Y3dhTVRVWEJPTXM0NVR4eGxkNUFuMXVXbzFsdHRlRTd1YlpfdXBMc0h4SEQyWHBBT0NKb3Q5UEdfSFdld0JORWR5ME4wYmZtZUlKRDltOTNDYzQ0R3YxRGVkbXVQTlcwRlNDbnh1U3pjMncwY1laREJQOWR6eU9JNkM2bkJSNGJYcjZDR1NTZ2tiTi1XbGs5QdIBzwFBVV95cUxPUGtZTE1KbjRSWGQ1cTFsc0I4QWVwZDgtN3V5c3dQT2pGckNTRVJtWEROamxhU1VXNmpOSC1hWGw2eU8ySldpVTI2ZVFNNE0tWWpSS19HUm1iMGdIaXBkVzVoamc3Nnp3eHZ5YUEySG1UVmp3ZHBHTGNETTFubGwwc2R2R3oxVDN3SG9NQklZNWwyY3V6cVVrWWszNGtuWnJiRk56c1hMcExQRXNJaXd2eXVFQ052Mm00NjFNQmpTd3RsNVNONDRxSm54eFlvLTA?oc=5",
-   "source": "Outlook India",
+   "answer": 3,
+   "why": "The headline reads: “Govt prioritises cultural diplomacy to strengthen partnerships: Shama”",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Pd2FWeVM4M2VmNGVaYzBvZ2R4dWpIUkdBQzFRdHRocXliNnU1RXFDZDIwVC14MjM4Z0FRT2pzZ0gzaVIzZF9Zb1B1cmgyVVdkLXVSZmdmTQ?oc=5",
+   "source": "Bangladesh Sangbad Sangstha (BSS)",
    "cat": "world"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "FCRA Bill: MP James Sangma seeks _____ hearing as JPC consults stakeholders - The Sentinel",
+   "quote": "Real Estate Sector Eyes GST _____ To Ease Costs, Unlock Working Capital",
    "options": [
-    "Right",
-    "Isaias",
-    "Shillong",
-    "During"
+    "Undeclared",
+    "Gulati",
+    "Youth",
+    "Reforms"
    ],
-   "answer": 2,
-   "why": "The headline reads: “FCRA Bill: MP James Sangma seeks Shillong hearing as JPC consults stakeholders - The Sentinel”",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZ0RGSmM1MUZzQlFVUDJPM3B1Yk9mQTBuVGRNa21SbW1kZ1JIUFJXcjV1OVlITjQxQmdleWFuVjZDT21qSUU1NlRNeUNpbWRYVDRhczlHbENFY2FjNERiQ1RGYVVmY2pDR0ZZVS1KMkpUV2Jxa296Vlduc1VsRVhzdmlSQmxoTEZBVEdEY0t3U01WYlBjU3VsMmhocW9pSW1BUVRaMFZfVjVMeHdzWmNkNElNQjREdU5vajVmcTBQbG1hNmlpdllOYjR3NGhSUFJqeEZFTTVpR0c2ZklHR2Y0SFRWV1VIdzdLRHfSAeoBQVVfeXFMUGdERkpjNTFGc0JRVVAyTzNwdWJPZkEwblRkTWttUm1tZGdSSFBSV3I1dTlZSE40MUJnZXlhblY2Q09taklFNTZUTXlDaW1kWFQ0YXM5R2xDRWNhYzREYkNURmFVZmNqQ0dGWVUtSjJKVFdicWtvelZXbnNVbEVYc3ZpUkJsaExGQVRHRGNLd1NNVmJQY1N1bDJoaHFvaUltQVFUWjBWX1Y1THh3c1pjZDRJTUI0RHVOb2o1ZnEwUGxtYTZpaXZZTmI0dzRoUlBSanhGRU01aUdHNmZJR0dmNEhUVldVSHc3S0R3?oc=5",
-   "source": "The Sentinel - of this Land, for its People",
-   "cat": "parliament"
+   "answer": 3,
+   "why": "The headline reads: “Real Estate Sector Eyes GST Reforms To Ease Costs, Unlock Working Capital”",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR2xmZlZ1WkdZeU5rMzhmM1lkVzhjamFFQ1FuQnlJUldsYXQ4T2lCWF9QdkZQcFZMbEhFN0hidmgxb1dVYWVweTcweDJ4WmVkZmw1eVppS25IaXI1ZUZHS3F0NTVDaklKT0M4Nnl0Y0VyTnJad3ZIWk9CanFqVlNqUmtMWVFMVU9nMl9LV2t3Y2VNbG4zSkI5WjZaeXVkT1NDTXc4YjA3aGFjSUVwRFpZU0NOcU83N0U?oc=5",
+   "source": "BW Businessworld",
+   "cat": "economy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "RBI Raises Daily CRR _____ For Banks To 99% From October 16",
+   "quote": "CJP protest: _____ Imran Khan detained over demand for India poll chief’s resignation",
    "options": [
-    "Training",
-    "Requirement",
-    "Mobilisation",
-    "Fiscal"
+    "Delimitation",
+    "Actor",
+    "Wider",
+    "Estate"
    ],
    "answer": 1,
-   "why": "The headline reads: “RBI Raises Daily CRR Requirement For Banks To 99% From October 16”",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPajB2UmNIUTJXNmZjV0syTkpPczRzd3AxSkdpLU8yWmZacTI0N09IYmhEWF9xTFNDbTI0aFdhNTJOSklzeTlqa2FZZlJPbzF1S2VvMzFEQk5VSGJwcWM2OUdlVjl6N2NFcmtwQU9vbmR0cVlWNVozV29VYWRSZDN1blFwdGhER3pDX2MwdzV4dUMxS05TcFhWTjBIRHFJOFFUaVRFNy1qTmVjN090RkVVQnA0TElHUkZWWEg3cVM5VUU4MHQtUERQVFk1UFR5NlhT0gHYAUFVX3lxTE91bFVmTFRDMENuT29JR3JDQXNGVDZOMzIxZkpoeDZ5Q2dSUW1lemVMQkFEN3dTWVg1NEpXUzBDVnV1TEdvdmV2WWdHLTFBeE90MHNPXzRVWVp5V3k2RUZMb2lveEVSaUN5V3dGclRIZ2pMa2ZyRU92X293eGVXTzNJMzhUUWZUUXp5ZkJUcVpNNV9DNUhLMDlFaEx1bktCTVFybVBRU2VQTk5NRFhRV1phVFEzeWkxSTJ0ZXk2LUtSTi1JMERkc0xyZWNoV2ZZZXRBM01LVVZJQQ?oc=5",
-   "source": "NDTV Profit",
-   "cat": "economy"
+   "why": "The headline reads: “CJP protest: Actor Imran Khan detained over demand for India poll chief’s resignation”",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQamd6anpfTjZoaW5iX1l4djc1b1NsOTIwcnhQTGFjbnFram5WcXBHenBFVVo3V0ZIZHF6RDdhOC1hY1pGYnl6Uk5ZZlFNUllQOFN1dHRyc0FWaDhzNE1Tb2tfektWcWtUWVBKWlo2eTF3aXdET2xhYmRWLXFxNl81WE1ZOGlHVVlDSnY0Z1NiUEZpdHYxRlEzMUtFaGw2Unk3RTVfWmtMbE9VdklhZkZYS1JtdnR5c2xwbmYyQkdRWGdlVzBJMXU0eG9jaHBuSFhZUXZLb1hmWQ?oc=5",
+   "source": "Gulf News",
+   "cat": "elections"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "FCRA Amendment Bill referred to Joint _____ Committee",
+   "options": [
+    "Parliamentary",
+    "Rules",
+    "Biggest",
+    "Deliveries"
+   ],
+   "answer": 0,
+   "why": "The headline reads: “FCRA Amendment Bill referred to Joint Parliamentary Committee”",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRl9SWWViQjVGc2haT0NkTC14bERSc0RqRkpsVFZUNXhYeE9YNnNHU1pyY0wzTFFNUkdhbC05dklUaVY0NkprY25KbDVadnpMZFVhbUdVSU5Qc1hGYXhISEkzcl91YVM4MEZ0b05XUm9lLTNCSEVQcEx4d19mb2NTSUZSUjhQUHFRT0I4Y19BbjM?oc=5",
+   "source": "DD News",
+   "cat": "parliament"
   }
  ]
 }

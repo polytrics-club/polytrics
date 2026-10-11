@@ -1,37 +1,37 @@
 {
- "week": "2026-10-05",
- "start": "2026-10-05",
- "end": "2026-10-11",
+ "week": "2026-10-12",
+ "start": "2026-10-12",
+ "end": "2026-10-18",
  "topics": [
   {
-   "id": "motion-2026-10-05",
+   "id": "motion-2026-10-12",
    "kind": "motion",
    "label": "Debate motion",
-   "title": "Is the collegium the right way to appoint judges?"
+   "title": "Should the voting age be lowered to 16?"
   },
   {
-   "id": "news-2026-10-05-courts",
+   "id": "news-2026-10-12-courts",
    "kind": "news",
    "label": "In the news · Courts & Law",
-   "title": "Supreme Court closes 7-judge reference on legislative privilege, leaves free speech questions open",
-   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNenV2bHAzNVQ5UWExYnhIV2JlX0p3NGlnZktJNEFnM2FZNkxkQ09UdmJ1TmFjaHdaRkh2ZGh3ZEVGRUFuSExQeWVMWUx3ZnNLX19MVVR1dV9QaE91V3F1WGJhRDFlaVdfdjA5LVUwQU1ZeXFIcDJjQ2pqQUxXR0hqWUpzVnMzdHFDZ08tWDFKdzdmc0xMaUpSY2JCOVJQX2pBSXFCcC1nZFFwSHI2dHBIWmFRZDNoeFVPMWVlaC1vd1lyWXFvbUlqUmdnd0hoZExaOTB6UUJ0aC12eVZ6eTdYZ0xReG5JU3d1ZXZjVm5nT1lPUQ?oc=5",
-   "source": "India Legal"
+   "title": "Rahul Gandhi Calls for Supreme Court March against CEC",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUE1Yc0dKNDBybmY4Uzd1dmt4blltTERVMTdrMGdwT3ROSTd5Q3FGQVJGS0RNS0FEQmhsbzhlZVY2VjczYXdFRmx4VXc0YkFEYzJ3eW1QdHk1b2tYbE1obVktcDJEODV4Q0FuQUJUU0NBckdGMHktTEFwRU5TMEttWFprRW9acUxyTUE?oc=5",
+   "source": "The Indian Awaaz"
   },
   {
-   "id": "news-2026-10-05-elections",
+   "id": "news-2026-10-12-parliament",
    "kind": "news",
-   "label": "In the news · Elections",
-   "title": "INDIA bloc march to EC: Rahul, Priyanka enter Akashvani Bhawan; several leaders detained",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOODZrbE80dEM0enZsOUQySUV2TWxicE5hbUNHRGR3UHp2R3paenBwSWhwSkgtdTg5MEQ1YjVQUTBGb2h3UTNsR3FSZGhnTW9SUW9kYl9Db19OYjB6c1VhYzJhRWZrT3RTeVdlUXA2MTJFS1RLbURoTmUtN01Gc1BDSmUzYU1DME02emtydTU2VkNjUU12dFMxdVhRLXh6ZWZ6MGpQQjk0ZDdjaHNZc2ZXV3NSMWR0V1JHU2hwZnI2RDZDSkcxWERSNUJxYWxURm_SAdQBQVVfeXFMTXdEaWF5TW1RUER0VFlXVzdlMXp2cWxXTVN6bnczNHRONGM4SzV6azJzanVXSzFXMU9BdTVVV1Z6OEVZWkVXUE10cHFlYm1ycU9kbXNDWFFmcHROS1lnblFyREhzSW1UZnl4aDdZSFBma3FMNUNpZE9DT3NYU0xtQnVIdDB2aGh0WEJHTkNKaF9VZk1LTDBEUENlUEt6M0s4WjBiUUF6SXFaeXZtX0hGLXpOdC1lSW4zelZCdk9yS252WnQxWGxEdHpZekl6d1hXZ2c0U1M?oc=5",
-   "source": "Telegraph India"
+   "label": "In the news · Parliament",
+   "title": "Ruling Party: Focus on Delimitation Bill",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeDY2bEdEWHNTb0tMemZLWWJrYThYTFpFZG1FOE5hX1FQN1FIWU1BaVBkWTROeXNfdmhFbTg0Rk1lYWktN21xbXlMVUU4OGJuM3hlSXhlbUp4OHVhd1dTa0I0aTNhUWNzM1d5ZWxUck1ReFhfdG9vYU1yQ1cwUGN5ZkdPV2VkdGpWbnFV?oc=5",
+   "source": "Punjab Kesari English"
   },
   {
-   "id": "news-2026-10-05-economy",
+   "id": "news-2026-10-12-policy",
    "kind": "news",
-   "label": "In the news · Economy",
-   "title": "Mint Explainer | Why the RBI looks set to hike rates",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOS1BrZXd4emtBa2JQUTV1R2FOUXhrUFNnY3gxcGRQNDVwWnNBc3laZU9YbEVLTDZPMWxGT2tDUzNiQ1piT0RCczNFVXJSUzhOT01PY1NUOGxrTWNlemlUTlo3NFE4aHpkOHNqbGNTQzdKcF81dkEwVU1vYk53ZlNTQm9pclhEYXJUOGdWTlYzVlh5UdIBlwFBVV95cUxQN2ViMFIwWW5icXptMEZfeE9CNUY2RTc4Q2FNNFBTbnlZOWozdXBIX0c0T2lKVHJZQ1RzZWFUeUNBSVBaU3VCcG52VDR1RTdLdzBjX19jOFlkZFEzRmhhUzlnT3QyVWJ4QldwZ3pCZTVIdDlWMlZhZU4tYVJGa2p3ZnpwalQ2TGgzWFVKZTdiMFF0MFppQUJN?oc=5",
-   "source": "livemint.com"
+   "label": "In the news · Policy & Schemes",
+   "title": "India’s electronics manufacturing is not just assembly: Dixon’s Atul B Lall",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSjQ3UldmQjZEVDJLRGhaZDYxZmF3QUNPcnVodEZwQ0o0bk9qekhPa0kzN0pQR3k4dmV6cHBmTjZZeFItZlBWNnNTTDc4YmJJU25hRmJxZ3pSajNITk1qeEFROElLdGoyaUV5Zk10dmZUUEZyaV9LUTVCN2c2R0I4V19QbHJjdjk2SE1sZV9PVEJhOXUyQ1JFeUhWTnFHRzJqR3Y4dDlvV3dYNWdCMHk1MnRvb256X3RsU09iMUpYeV9fTUJC0gHSAUFVX3lxTFB2QlpqZldQMl9WQ3hXVlBrUU9MVlpyWWw3S29uZEExRjF6Z21ILWs2eTdkV08yM3pxaTJGT2d6MksxUFZYTUkzaDJSaWdra3BvVGIwTEd4a0VPZXVPM2lPUG5ucTRwNlZOenJrc3MwbVlidk1za2RRN2YwckR1WXVYLXpzdkU1U2tUTGQ2aW0xTWxKQUNVODNFVEhqUVVJaHJrSFdSQ2ZyU0k2VFNWNXdYLS1YS1ZFWGlFQkZmcjN2VHZ5M0kwdVFpOElxeGtnZzFpQQ?oc=5",
+   "source": "The New Indian Express"
   },
   {
    "id": "open",
