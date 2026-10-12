@@ -1,80 +1,80 @@
 {
- "date": "2026-10-12",
+ "date": "2026-10-13",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Supreme _____ orders no illegal detention of peaceful Delhi protesters",
+   "quote": "Geopolitics Could Derail India’s AI _____, Warns Anuraag Saxena",
    "options": [
-    "Court",
-    "Goyal",
-    "Powers",
-    "Poll"
+    "Meet",
+    "Unite",
+    "Ambitions",
+    "Micro"
    ],
-   "answer": 0,
-   "why": "The headline reads: “Supreme Court orders no illegal detention of peaceful Delhi protesters”",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVFpFOUZyUnNRZ1ZoN2pvYU5ucXFnSkhkTWc5cFRONW9oeTZVdWpPd0RtWGdVZGsxT3R1RE1Gd3FraGFlenFrdlNDYWNvYW05MFZYSV9qanUyR2FGRXpmRmN0M041blRNdU1LYzVmS1djMGNsUW9NNFU0NFlzckYyOWd2TW16SksycDhWUllmbzlzZTctbUtRR3pzdWVXaUZwVjhuQlJOWEJ0VXdLVkpyU1VpVUFESWdGMENqU2t3RjQyaFdFU3BxZDdycGhQQdIB0wFBVV95cUxNZ3lHdzN2U0hnUmhzamxFWG5oR1I4d18wNHktWldnVjBiNXBLZ3FlZ1pDdml2eHZJdnpyOGhibVF4d3hRWWpoVmFfLWdvQjVPZm5CWlRyNlhxMDRNbDE3UEd4cURzMEYxM1VhZkU1Z2F2LTlJNXFUOU95QXd2Y3VJTnhJUUZOWEd6ZDJGM3g0bmxLQk9RMlotMjgxX2x4eTdqMGZ0TXFPTjlEVFpBMlRHRkUzUU93Tk1uMVV3Wk5MNFozNHpSMDFiUWptRE10OGhiVTVr?oc=5",
-   "source": "India Today",
-   "cat": "courts"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "Govt prioritises cultural diplomacy to strengthen partnerships: _____",
-   "options": [
-    "Ukraine",
-    "Sale",
-    "Capital",
-    "Shama"
-   ],
-   "answer": 3,
-   "why": "The headline reads: “Govt prioritises cultural diplomacy to strengthen partnerships: Shama”",
-   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Pd2FWeVM4M2VmNGVaYzBvZ2R4dWpIUkdBQzFRdHRocXliNnU1RXFDZDIwVC14MjM4Z0FRT2pzZ0gzaVIzZF9Zb1B1cmgyVVdkLXVSZmdmTQ?oc=5",
-   "source": "Bangladesh Sangbad Sangstha (BSS)",
+   "answer": 2,
+   "why": "The headline reads: “Geopolitics Could Derail India’s AI Ambitions, Warns Anuraag Saxena”",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMVMtTy1veE42UnBCR08yZjdXOWxCT0UtLTFtWDBnWUNEemk0eDd0STFzY0RnWjRpVVBzR2dNN2pNZFNQaHVicnRoM0ctX25kcU52ZVVnT0FfaTdMSmxSWGdRdFJnYnJNRnF4NHAta0Z3NmRBRkNFUExYc1lqSmtmTl9URDdwRHU3azdVM2V2WmgwRElWOGxVd2NwYW1NeGZRSE1HZTUxTlVTbGc?oc=5",
+   "source": "Analytics India Magazine",
    "cat": "world"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Real Estate Sector Eyes GST _____ To Ease Costs, Unlock Working Capital",
+   "quote": "\"Top 3 economy, hosting _____, Indian on Moon—we will do it\": PM Modi in Chennai",
    "options": [
-    "Undeclared",
-    "Gulati",
-    "Youth",
-    "Reforms"
+    "Olympics",
+    "Marriage-Promise",
+    "Ibrahim",
+    "Protesters"
    ],
-   "answer": 3,
-   "why": "The headline reads: “Real Estate Sector Eyes GST Reforms To Ease Costs, Unlock Working Capital”",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR2xmZlZ1WkdZeU5rMzhmM1lkVzhjamFFQ1FuQnlJUldsYXQ4T2lCWF9QdkZQcFZMbEhFN0hidmgxb1dVYWVweTcweDJ4WmVkZmw1eVppS25IaXI1ZUZHS3F0NTVDaklKT0M4Nnl0Y0VyTnJad3ZIWk9CanFqVlNqUmtMWVFMVU9nMl9LV2t3Y2VNbG4zSkI5WjZaeXVkT1NDTXc4YjA3aGFjSUVwRFpZU0NOcU83N0U?oc=5",
-   "source": "BW Businessworld",
+   "answer": 0,
+   "why": "The headline reads: “\"Top 3 economy, hosting Olympics, Indian on Moon—we will do it\": PM Modi in Chennai”",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5wVXEwTkJBNWh5NDc0VE9vU3Qtb3Z6Yzg3Z0FJZFIwM3Q3TENWa2E3Y0E1RG1YWXdrWGlNR09PeHVzeEhZLVI0eHg0aWN6dmxBek4yVlVBLUNZUG1MS3c?oc=5",
+   "source": "Babushahi.com",
    "cat": "economy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "CJP protest: _____ Imran Khan detained over demand for India poll chief’s resignation",
+   "quote": "\"Two-language policy should not remain just on paper\": P _____",
    "options": [
-    "Delimitation",
-    "Actor",
-    "Wider",
-    "Estate"
+    "Identity",
+    "List",
+    "Chidambaram",
+    "Admission"
    ],
-   "answer": 1,
-   "why": "The headline reads: “CJP protest: Actor Imran Khan detained over demand for India poll chief’s resignation”",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQamd6anpfTjZoaW5iX1l4djc1b1NsOTIwcnhQTGFjbnFram5WcXBHenBFVVo3V0ZIZHF6RDdhOC1hY1pGYnl6Uk5ZZlFNUllQOFN1dHRyc0FWaDhzNE1Tb2tfektWcWtUWVBKWlo2eTF3aXdET2xhYmRWLXFxNl81WE1ZOGlHVVlDSnY0Z1NiUEZpdHYxRlEzMUtFaGw2Unk3RTVfWmtMbE9VdklhZkZYS1JtdnR5c2xwbmYyQkdRWGdlVzBJMXU0eG9jaHBuSFhZUXZLb1hmWQ?oc=5",
-   "source": "Gulf News",
-   "cat": "elections"
+   "answer": 2,
+   "why": "The headline reads: “\"Two-language policy should not remain just on paper\": P Chidambaram”",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONm1qbV9HZmlCN2FsT1RUMVpVbHVlMDcwdTlDamlMNTdjRE0tRy1rcTdYU0pQUUdPa3Fqc1lWWFp3TUxKbEdYbGh1N01mcUVEWFJ5dVBzYkNkWFZJR2wxRi1GMGYyRlF4WVpzMTRNOHE3bkExbk85bnFZQ0ZDYW1QTGlrNXVnTmpKS0tHRDhHQmVuOVc4ZGhnMXJTVE9UaTl2ZWdCVDZHV2w1QVk?oc=5",
+   "source": "India's News.Net",
+   "cat": "policy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "FCRA Amendment Bill referred to Joint _____ Committee",
+   "quote": "Monsoon Session: 12 Bills passed as _____ grapples with disruptions and low productivity",
    "options": [
-    "Parliamentary",
-    "Rules",
-    "Biggest",
-    "Deliveries"
+    "Parliament",
+    "Department",
+    "Miss",
+    "States"
    ],
    "answer": 0,
-   "why": "The headline reads: “FCRA Amendment Bill referred to Joint Parliamentary Committee”",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRl9SWWViQjVGc2haT0NkTC14bERSc0RqRkpsVFZUNXhYeE9YNnNHU1pyY0wzTFFNUkdhbC05dklUaVY0NkprY25KbDVadnpMZFVhbUdVSU5Qc1hGYXhISEkzcl91YVM4MEZ0b05XUm9lLTNCSEVQcEx4d19mb2NTSUZSUjhQUHFRT0I4Y19BbjM?oc=5",
+   "why": "The headline reads: “Monsoon Session: 12 Bills passed as Parliament grapples with disruptions and low productivity”",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcHJSVUdkbVlPcGs0cXU1OGtxVTlUQ09hSnhGRmgzVFpIcW1JeW14UkxJOU5EVFVzWGlqVUlLVE1ycGFCMDJoWk5PQ0JRUjBDc3F4dVFtTnF2OVo0M3ByXzczRGlSSlRPeXNNR0tFUkY3SnFzekxjM3VDRHJBU2tPbFRDZU9fV2F0WG9RR1Q5eTNFYlVJQ01EbHlFMzFmUlZwVmVGX0kzN21uMWZTdXV0Tnhrb0lfZnpHb3c?oc=5",
    "source": "DD News",
    "cat": "parliament"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "‘Don’t pick words like this’: _____ Court clarifies stand on modified Form 6",
+   "options": [
+    "Official",
+    "Open-Goal",
+    "Supreme",
+    "Accessible"
+   ],
+   "answer": 2,
+   "why": "The headline reads: “‘Don’t pick words like this’: Supreme Court clarifies stand on modified Form 6”",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAzNG02TklUTV9MUXRYT3llZHpJTmFETEx5dkRYeklfTUtFU0QwSm9WVWt3bnFLa0o0bmh2N2dxeFhMY2xqT1E5Z29kS3hzaE1JTDdTdnJXSW9RX0hGdFowLVowTlk0VE9VS00zR2RrY0VYUdIBeEFVX3lxTE1nN3VtRFZvWlFpYzZ4WTlEZ0RfdEtUMDdUWWhXTnN2bFgxeHJUOHlsazlIeVlxLTlfQ3JvRnFKSWJ6SDZUWDEtMGZlSmtwRnJ4ZHdaZDhWRjFPYmloVmVvLVFPOFBpSjNEeDIzZGppWjdYbWcyekp4NQ?oc=5",
+   "source": "The Indian Express",
+   "cat": "courts"
   }
  ]
 }
