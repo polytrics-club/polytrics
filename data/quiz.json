@@ -1,80 +1,80 @@
 {
- "date": "2026-10-13",
+ "date": "2026-10-14",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Geopolitics Could Derail India’s AI _____, Warns Anuraag Saxena",
+   "quote": "Dr. Ambedkar Foundation’s _____ Marriage and Atrocity Victims Relief Schemes Merged with Centrally Sponsored Scheme from March 31, 2023",
    "options": [
-    "Meet",
-    "Unite",
-    "Ambitions",
-    "Micro"
+    "Source",
+    "Sandhu",
+    "Connectivity",
+    "Inter-Caste"
    ],
-   "answer": 2,
-   "why": "The headline reads: “Geopolitics Could Derail India’s AI Ambitions, Warns Anuraag Saxena”",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMVMtTy1veE42UnBCR08yZjdXOWxCT0UtLTFtWDBnWUNEemk0eDd0STFzY0RnWjRpVVBzR2dNN2pNZFNQaHVicnRoM0ctX25kcU52ZVVnT0FfaTdMSmxSWGdRdFJnYnJNRnF4NHAta0Z3NmRBRkNFUExYc1lqSmtmTl9URDdwRHU3azdVM2V2WmgwRElWOGxVd2NwYW1NeGZRSE1HZTUxTlVTbGc?oc=5",
-   "source": "Analytics India Magazine",
-   "cat": "world"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "\"Top 3 economy, hosting _____, Indian on Moon—we will do it\": PM Modi in Chennai",
-   "options": [
-    "Olympics",
-    "Marriage-Promise",
-    "Ibrahim",
-    "Protesters"
-   ],
-   "answer": 0,
-   "why": "The headline reads: “\"Top 3 economy, hosting Olympics, Indian on Moon—we will do it\": PM Modi in Chennai”",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5wVXEwTkJBNWh5NDc0VE9vU3Qtb3Z6Yzg3Z0FJZFIwM3Q3TENWa2E3Y0E1RG1YWXdrWGlNR09PeHVzeEhZLVI0eHg0aWN6dmxBek4yVlVBLUNZUG1MS3c?oc=5",
-   "source": "Babushahi.com",
-   "cat": "economy"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "\"Two-language policy should not remain just on paper\": P _____",
-   "options": [
-    "Identity",
-    "List",
-    "Chidambaram",
-    "Admission"
-   ],
-   "answer": 2,
-   "why": "The headline reads: “\"Two-language policy should not remain just on paper\": P Chidambaram”",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONm1qbV9HZmlCN2FsT1RUMVpVbHVlMDcwdTlDamlMNTdjRE0tRy1rcTdYU0pQUUdPa3Fqc1lWWFp3TUxKbEdYbGh1N01mcUVEWFJ5dVBzYkNkWFZJR2wxRi1GMGYyRlF4WVpzMTRNOHE3bkExbk85bnFZQ0ZDYW1QTGlrNXVnTmpKS0tHRDhHQmVuOVc4ZGhnMXJTVE9UaTl2ZWdCVDZHV2w1QVk?oc=5",
-   "source": "India's News.Net",
+   "answer": 3,
+   "why": "The headline reads: “Dr. Ambedkar Foundation’s Inter-Caste Marriage and Atrocity Victims Relief Schemes Merged with Centrally Sponsored Scheme from March 31, 2023”",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Vb2p1dnhMdkZIYmlucWJ4N0Q5dUdnYWpPU3lIQXpxOG10T080Qlo1N1ZLRFJoeW85WjlRdUNjSEVfODQ4UGlTdEdTaWVQNGp5VmlySko5VlNxYWlBMEdLc2pkX1N5Q2lybzlR?oc=5",
+   "source": "Press Information Bureau",
    "cat": "policy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Monsoon Session: 12 Bills passed as _____ grapples with disruptions and low productivity",
+   "quote": "IMF raises India’s _____ growth forecast to 7 pc, cites strong domestic demand",
    "options": [
-    "Parliament",
-    "Department",
-    "Miss",
-    "States"
+    "GDP",
+    "CBT",
+    "UP",
+    "ED"
    ],
    "answer": 0,
-   "why": "The headline reads: “Monsoon Session: 12 Bills passed as Parliament grapples with disruptions and low productivity”",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcHJSVUdkbVlPcGs0cXU1OGtxVTlUQ09hSnhGRmgzVFpIcW1JeW14UkxJOU5EVFVzWGlqVUlLVE1ycGFCMDJoWk5PQ0JRUjBDc3F4dVFtTnF2OVo0M3ByXzczRGlSSlRPeXNNR0tFUkY3SnFzekxjM3VDRHJBU2tPbFRDZU9fV2F0WG9RR1Q5eTNFYlVJQ01EbHlFMzFmUlZwVmVGX0kzN21uMWZTdXV0Tnhrb0lfZnpHb3c?oc=5",
-   "source": "DD News",
-   "cat": "parliament"
+   "why": "The headline reads: “IMF raises India’s GDP growth forecast to 7 pc, cites strong domestic demand”",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOenM4VV8xcWVOZVVBdGl3d1RiSlVJWDg4X09keWlUZFR4WXdZTndtMjZVVTk1c1pVTFM3T2VZdmQ5ZUdKUWV6VklJUkRHMjJWU2RfY05CZ1FmWmI5QXAtRjhib19PaXBFaE82Wi1zM1lqdHFEY3RWblJySExBZG1BRTIzVlJuLUMyRVh4anpOUTdkeGhoTjh4clFsOFBmcUk3eTFKUVdaaDk5NWF3UnBGcXJsel90ZHo5OFVJMnRwcmpfZ0FUdURn0gHMAUFVX3lxTE1mVEp0UVJPZGdwTzRXd0FzcUFKa3lvLUtQMEhMWnNZUzNtVjI2NEV1T1cwenA1RTdvcW5VWG9FbzhJd291NDJIZVVBcjFJOFlXd21Kd1RYSTVZenE1LTF3UzhJWnlSNTlYWm1ZbnE5OG5SM0ZBNmhqeGkzSTdsdThsdF90YjR5bDhxN2RxR0VXTHQzWkpvMGZhQ1dubUgzX01NN05vTlk1SjlnV1R1UE1meVdncml3SkluSVItWWthS1U5TldHZWhkVlEzaw?oc=5",
+   "source": "The Statesman",
+   "cat": "economy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "‘Don’t pick words like this’: _____ Court clarifies stand on modified Form 6",
+   "quote": "Madras High Court Upholds Speaker's Greenlight To 6 AIADMK MLAs' _____",
    "options": [
-    "Official",
-    "Open-Goal",
-    "Supreme",
-    "Accessible"
+    "Resignation",
+    "Vote",
+    "Jakarta",
+    "Network"
+   ],
+   "answer": 0,
+   "why": "The headline reads: “Madras High Court Upholds Speaker's Greenlight To 6 AIADMK MLAs' Resignation”",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNE50T056b29hZFNWZUlpbHZ6dzNZbk95Zzhjdm1LTGxTSTA2QURON1MwbEF6eGpXdFNoWGR1QVRxMGo0X1ZMN243MjdpRnkxZTQ1UzRYYlBlUGd0RFp4U0JVczNnLUlXdktqYkNtYTE4QUw0ckdBMGFwZmdzcUl2V2NNS3p5YnpjQWJQeTFmY1JvWTRZSU1LandtRkVFVGY4YjljYkIwVzRMbnZaQjExb2poV0d0ZFZUMlo3cdIBxAFBVV95cUxOTG9MaXh6MGZ6UHIwbEpfSjFkVDVreVJiRDh6WVpkU0NsNlJQbC1GaTRHZmJ1aWpZRUppVVhkUzFOQWVwdW5hN09leFhDbGhNYWVGeWlGa2VkNUJuN05sTE5MRkozekpYSDZ5cjJpdmptd3A0OUN3Mkh0QjNjakg2OFFnenVNVnREaFJIZTdjcHdiTDhaZWpzTkMtem00ckF0ZWQ1N2VKbGRCYUNIZWdTc2Q0YlNOWW50NElUUUdxUDQ1U2xP?oc=5",
+   "source": "NDTV",
+   "cat": "courts"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Trump’s oil diplomacy loses impact as _____ nears $107 amid refining shortages - domain-b.com",
+   "options": [
+    "Diversification",
+    "Laundering",
+    "Brent",
+    "Challenge"
    ],
    "answer": 2,
-   "why": "The headline reads: “‘Don’t pick words like this’: Supreme Court clarifies stand on modified Form 6”",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAzNG02TklUTV9MUXRYT3llZHpJTmFETEx5dkRYeklfTUtFU0QwSm9WVWt3bnFLa0o0bmh2N2dxeFhMY2xqT1E5Z29kS3hzaE1JTDdTdnJXSW9RX0hGdFowLVowTlk0VE9VS00zR2RrY0VYUdIBeEFVX3lxTE1nN3VtRFZvWlFpYzZ4WTlEZ0RfdEtUMDdUWWhXTnN2bFgxeHJUOHlsazlIeVlxLTlfQ3JvRnFKSWJ6SDZUWDEtMGZlSmtwRnJ4ZHdaZDhWRjFPYmloVmVvLVFPOFBpSjNEeDIzZGppWjdYbWcyekp4NQ?oc=5",
+   "why": "The headline reads: “Trump’s oil diplomacy loses impact as Brent nears $107 amid refining shortages - domain-b.com”",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQd0F6NkIwTC01bG5hRUhxaWt1RUpRRks1Q1FsS1JQeW5LSHpFZzE0TlVqQUltRkl3TEpnZlRuQzkzNE5RaUhJSlhCZXFjcm4wVGZVaFA0azl1UVRfa1hzMjNVVzh3dlcyS3RkSkhBTFh0blRvd2VoN1JYTGZSa0dFYzZPNmxFMTdUVzhuNnVPdlg1MHo5NVVGeWZFWWpaUEdnZXFHdGdB0gGrAUFVX3lxTE9Ec2Y2YWdzUWUzdm8ySVVnck03bnFZVm9xaDFVOTlQR0lYRGQ1S2FFV1NWVklLelREM0pzOVVSV0VnTlVZVFBMd0YzQk0xb29SZnB1RzM5eE9HZFFCUEVMQWp2bVRtTW1nV21iV2VzT0M1ZlQ0ck42UzR5UWx3Yy1Qa05PaHdKcXlodzk0My1aZ1lER1k4Q1RMbDQtTWpNTzcyQ0Z4dVdrdXY1NA?oc=5",
+   "source": "domain-b.com",
+   "cat": "world"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Election Commission to Bombay High Court: _____ of name in draft SIR does not mean ‘deletion’",
+   "options": [
+    "Non-appearance",
+    "Tatkare",
+    "Jail",
+    "Grow"
+   ],
+   "answer": 0,
+   "why": "The headline reads: “Election Commission to Bombay High Court: Non-appearance of name in draft SIR does not mean ‘deletion’”",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNc25TM081cmJUVURwWEhPRG5Sc0pMOXRKQ0lfeGxJMGJ2b1FnaGFteThXeGJXdzRLV1J3UnNCeThRb2hmVU5NZ1RLemU4TzJ0MVhVRXpVOXJsVFNFd29CS094QmpYT2luUkRLYVF5M1FGaEEyNE9MT3JjdWlyX0h2bmhfMVBoYUI2Z0gwbU9Fc0RBeHZKRVB0WTRyM1VYc3R1cUlYNVJlaDA5aTR6Zm1zdFh5YjhqSVFKS3JRWTRrX0pnM3Zlai1ydVVVbWkyZ1MxSGZFU1pNMGRQWnRqTl81Q3drNEczcEpNMlZET2ZKejBmZGluUXlMeXRR0gGAAkFVX3lxTFBZQ1ZWdk5sNmxjYVhteUhCRkc1M1pkbllMdWVyOWtoWHM4aWVvTDhSLTBWTm5OSW1jYldwWjRPdGM5dG1EVk9NYUZEZFYzZkctVFVFS3VZaldaSlJoUkV2T294R1RHTHc2OTROZndWb2lCTWlua2NlYS1QTDZIMDBRSzg1eWl2OWZBUTRTc2VIdjdCVXJhd3FRc29HcS1YcGtzOTI1SGtnNkx3eXVleXBxNTZDZ3Z2ak52Ql9OblZTcmg2N0RLM2pTT3RycmJydkxId0QxWW1odzBuanhhQVpKWW1oVF9VVkxJY0Z2dExlU0JWQjh4eV9ES3ZRYXkwQ0I?oc=5",
    "source": "The Indian Express",
-   "cat": "courts"
+   "cat": "elections"
   }
  ]
 }
