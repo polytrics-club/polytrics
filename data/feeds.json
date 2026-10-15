@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T19:31:53.668Z",
+ "updated": "2026-10-15T20:29:18.496Z",
  "sections": {
   "parliament": [
    {
@@ -349,12 +349,6 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Sa215WmdkbkJIbFZVVWpYZ25wTDhjdzFtTDNVaGt5V2lyOWl6RGgtOENFVG1xN0I2bmpIbmx3UTFCOFJMMmhYRXBmYkMxQ0ttU2pqRkNvYk1EVUpycGJWckp6bFJxZ05CX0VSb1ZUdW1sb3FKVk4yYWxGWXA?oc=5",
     "date": "2026-10-09T03:01:16.000Z",
     "source": "GK Today"
-   },
-   {
-    "title": "Amit Shah targets opposition over Delimitation, Women’s Reservation Bills in Lok Sabha - DD News",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcEdzakdjUnk5RklDQWxIQ25ybHNxcjN4VVMtRTB4U2NndWVsdGo2czRfNElOOXBRSkg5cHlicndPQU4xMkRONjFfSzI2ZGtydDRYcmlfSENHYkc0dXVQWjhZQWRRM21vY1g1TmVFc2xpbllsSktFcXlWdF9CbVBpZmd6WmJNTUgzaC14MlozS2U1cjR1VXNzT1Utb2RjUnZHVmJKaXdIcWtET2ZSSklV?oc=5",
-    "date": "2026-10-08T19:43:55.000Z",
-    "source": "DD News"
    }
   ],
   "courts": [
@@ -841,6 +835,18 @@
   ],
   "elections": [
    {
+    "title": "\"Rahul Gandhi Thinks Mobocracy Is The Way\": Smriti Irani To NDTV - NDTV",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUm53QVNzV2I4UkNWYWR2Sno5bFZraGNKMTFKM0ttd3NCZU8wdmtOTEktYjE2UjBySmZaZDFBWkt1SEM5Z2locVZ5cDRNS2NOSVdHOFZ5eVNVQlduY0dpQUNFOWkxZnN4Uk9TLXpvWjM5X3V3dFNCcG9hWVVtaERtNXpPdUFDazAwOHVid0duSURBdU8wWnh0eUlJekhWb3VxNFBFUtIBrAFBVV95cUxQSEg0NkptaGNEN0tPbHpSWUlZSmxKOGpxWllzNUlWV0VHQ2VDMTBteHNkcTBpNkJXTWptUmttNmh2NkpTbEtiX1Z1d3lGeG1CX2FEX3RSYlc5S2xOWWdJWGpYczNreUNrc3VPUUs2bkFvTXA1dDMtT0FHVGtuUTgzUU1FcUt6aXJxMWxxM20xcXdyeUFxcjkxQUU5cE9FeTlQSGg4bjl2TVFiMjR3?oc=5",
+    "date": "2026-10-15T18:18:01.000Z",
+    "source": "NDTV"
+   },
+   {
+    "title": "EC announces Special Summary Revision of rolls in 17 states, mandates 'readable' versions - The New Indian Express",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaWkzbm9fWXlrRkppdEpqbjN4dGVXOWEzTU5YSWk0UEV1T3pEUmlsTm9fYjF0SlY4U2YwU29CY1JWZWxVbGVMa2FZS1FwUEcwb3VsVzdsY0lQSzU1b3d3OW5mNkZVZWV4NTJrQk1YVEFwLVhDQUVnZ3k5RzRFcnAzdGdpcC1UcHlJVzkzLTVWd0w4ak1MOWJsbGJLNlV5bVV1ekRWQzZMdVJ0OVZLWEI5Yk1NTDNnSDMtNUhRNUVqWG1zTXJHajJwR1pSRDhsZ0JYYS1B0gHgAUFVX3lxTE9talJGdWhERmo1VDlTb1dGS2Y2a19ydlRHZEd5Zl9BUFFmMXFoNzJRSUtKUkVYSlN1enR4Tl9LVWswc0otRTI1VXpVSFJGSkhNMG40cGdJVjJnSU1rNmo0WUlMMGNBY3lYbjZYWWFXR2cxTUZFOFBFV21hUWRDOV9aWHlUaHdxVW9PN0VpR2hZaE5POU81aW5rVmhCTXBic3cyM2FnRS11REdpOE4wRlo2dnB0RkIwQjdNQXgzeEhTYkx1NUp4ZW9Pekp1Z0p5V2hpbFNHTGRYY0NvcTJWOHpl?oc=5",
+    "date": "2026-10-15T18:01:10.000Z",
+    "source": "The New Indian Express"
+   },
+   {
     "title": "\"BJP hiding behind Election Commission\": Samajwadi Party chief Akhilesh Yadav - ANI News",
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOLWoxZWQxRmpGc3NrYXFSc05XMGNQMkpRY0h6Ym56bUVSVGt6NWZObjNiMW1hOFdsUFhHVXU4S1hzZ2lETlpxT0ZpSnNndlFOYmJqMGt0TG1XOUpacXJjZFA2ekdXdGdpSG50UVhHd3NRZW1mNWJKQVBBNGUzVFloM0JHLXBpeGVSbFJrLU9CYWF4a2VxNC1hbjVCN0FtWjhpenBHUFo1cWVtTTZxa3FTZmZUaFp6TXpuS1NFTFF5QU9pdV9HeWFJR1NmVlpxX0lrVURRRDFxX1NuUmRP?oc=5",
     "date": "2026-10-15T16:56:00.000Z",
@@ -866,7 +872,7 @@
    },
    {
     "title": "Election Commission announces Special Summary Revision of electoral rolls in 17 states, UTs - The Tribune",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVmVfYW1XcUx2VTVhOFkyWWdUeTBMR19Jc1lUSEZ2UFdEcWJta3VqejFITEY3N0lhMmFRY0F4WFpvZGw4clBPZzVVMVRFTnMyenAyaVNxb0R3ZGdNNWpKNDRLYzh0ZUFNdE5mbTludTFzcWJqQXJpbUZ6VTdUdy1CdlBCTUlKckItb3VTd3pLRDhaZFhZdkZ0TXNTU0o4OTdXODhmQkJnRmY4dWF0ZU1BUkdIOGZ5X1pGNkE3ZTlnMEdxYWpHT2dCY0V2YlMyUnPSAc8BQVVfeXFMUFZlX2FtV3FMdlU1YThZMllnVHkwTEdfSXNZVEhGdlBXRHFibWt1anoxSExGNzdJYTJhUWNBeFhab2RsOHJQT2c1VTFURU5zMnpwMmlTcW9Ed2RnTTVqSjQ0S2M4dGVBTXROZm05bnUxc3FiakFyaW1GelU3VHctQnZQQk1JSnJCLW91U3d6S0Q4WmRYWXZGdE1zU1NKODk3Vzg4ZkJCZ0ZmOHVhdGVNQVJHSDhmeV9aRjZBN2U5ZzBHcWFqR09nQmNFdmJTMlJz?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObkJVWVVLZGtodW5wWnhhcUg4cHRBb1lTazdIbHpuWmdrX0FKblF0R2xGek1XWnluTnhoOU9XNFNhQV9SaGRPS2JpR0s2N0pOWEhfNkMyd0llWi1jWEJab09vcXpISm9aaFpCTXB0aG1zQkRxX25Fc1FheFhmX2tCbXVOSUMzZzF2MEpvV3pOcjIzRHoxa2lUcXp6SUVxeDAyQ3E4Z2llZ3pYNXhEbnY2d2FpS3pWc1JJSmlVSVNSZG9jR24yRG5XMlc5VdIBzwFBVV95cUxQVmVfYW1XcUx2VTVhOFkyWWdUeTBMR19Jc1lUSEZ2UFdEcWJta3VqejFITEY3N0lhMmFRY0F4WFpvZGw4clBPZzVVMVRFTnMyenAyaVNxb0R3ZGdNNWpKNDRLYzh0ZUFNdE5mbTludTFzcWJqQXJpbUZ6VTdUdy1CdlBCTUlKckItb3VTd3pLRDhaZFhZdkZ0TXNTU0o4OTdXODhmQkJnRmY4dWF0ZU1BUkdIOGZ5X1pGNkE3ZTlnMEdxYWpHT2dCY0V2YlMyUnM?oc=5",
     "date": "2026-10-15T15:35:12.000Z",
     "source": "The Tribune"
    },
@@ -1307,21 +1313,15 @@
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNbjFLby1VM1BwemltbVk4VHV3X0Vybkp4VTBKNmRCWVZ0RmFoT2xTVlVFNHlLYjZWMFh3TTIxUzA5cDdkOFVMWUlpeDM0NU5aV3FlTkNWVWNDVG4xRlQzbzdpQlcyem9YcWxzRFNlQTBwOVZieW5EbmtvZmhrOEZDZXU1WW5qS1NlZkVTUXNyYkd2NXdVSXZ6NUZuTnpiVnRQTXpZcXp3V2FCd2dSeGMybmJ1MEhUS2ZkSXNzV3dNSHB5QjdwNzlNMjlkdXZaWGhuWDlpOVp1eEVSSVhw0gHiAUFVX3lxTFBNanhxNU5wa01EVXhtUk5RZ3lUYXdxWlpzM2J5ODlhQWd5R3VxLVZrSXhoZGl1dng1NUVKYUt4NVNCS2tnSXg3NUx6MlAtSnVvUGZxRlpOLWx5UWVhSTJ2V2xvT2tkbHdPSjFmZjF0Ukg2UGxGMUNXNlIxR2dOSjVWVGVmRGhuUVBCMEhTenluWW5sUzk1cG85aTVnY0xYWGhqaE5qTnl5NGtxNWtESW1YMU9SbmtOX19lOV9fV1RKSTlacGQ1bTR0Wmlzald3ZHhnaGY5VnJubW5ndmhmM19rVGc?oc=5",
     "date": "2026-10-14T09:19:09.000Z",
     "source": "India Today"
-   },
-   {
-    "title": "Rahul Gandhi’s Plea Against Election Commission May Come Up in Supreme Court on October 26 - Dynamite News",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLWtIOHkzbGRkaEpMQ0dXX3hzMEFXa2FPVXV1dlRWV0FhaHVMRkNGYnprOUZyUFlndTJmLTF4dXZzekNkaC1VVXRhaFVBRmxwZDFYYm1iNm9NSWNsM0p0bFFOVVRPTGN6aUFrT3JIV09BLVBkQWgtYzR4SVptSnUzQ2dKSVBvUFlmMmt4Y3hCSm9QNW16R193ZXczaW9PLVlkQ3BheFNTTGdjaVprU2l5ZmN0MFNiWFZUSE1UTldpOUZyWVB3d2fSAcsBQVVfeXFMTktJNXpoZm1CdzFMbHRvTTk5M3Fpbnl6eTJ3dXRyY0ZpS0hYV19sQ2l6UlZmaTdsMnNQUHJ2Y3RnVXB5c1FNUDI0QXJWTEYteHoxNHhPNS1NOUpfa2s2cjhlaEx4QUQ0VlhJN08wY3RWYVZlOXVaME1Wb1k0TXpCYlVPdmhNSFRmaFljVmdCYXBnNWN0NG5UellnajFFeHFwRHo5bUJkZHdoTC1JSDQwMF9IZXgzYjdNeHNaeUNvcWxvSU9fQmszVDNnTTA?oc=5",
-    "date": "2026-10-14T09:14:46.000Z",
-    "source": "Dynamite News"
-   },
-   {
-    "title": "Supreme Court Issues Notice To Centre, Election Commission On ADR Plea Against Legal Immunity For CEC And Election Commissioners - Swarajya",
-    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPc2xFYkZTVGxta1pWLUZUeEhWTW9VazdrQ0RNYVB4ZkUwYU1lTmp5aWFBWkRDam5NNmRnblJmQlEzWlJkMUNKYUpBdVZ4TzZzNWNHUkJaZUYzTjVscjlteUdwRkdIVWxSN1V3ZW1KQVd0ZFNHM2NPM1AzRTNNUHp1NS1RTVJTUi02clpSVnNLN09HNGg5MndzZXBFbHZSRUowSHR5Yk1Damw0QkFuY01uX3ZVT0lUSHU5dlRVMkpDaHBqcHAtTzFYOTNNT3ZyS1VGWnZfOVhGLXdSbVhZREU1X2lRVFdpLWg1QTM0NkNWX0pqR1pO0gGEAkFVX3lxTE92UXVBaF9SZktvZks4UXkxVUlrekozcVhzcm13bDdmd25pZUJoSUJJc2RhN0RjVklaREN0SGJHbHRRWi1WRzY1VGpkeW50NzVsRGd1TS1FM0MtMUZfWDBKVGRuMU5JLUVoX0dGckROb29DeXlFWlJNdHlRdWVwUXB5MVB3RHNNTGw5c2FmeWpjLXpiY1lpRndZZzZ2Sk5oLVgwdzRXYm9DTkF1RThhMFFqUkFPZWowS01BWlZjWENQZHphenRtdzF6OGZXWG8zVkVRa19fU0VNaDJVLURKMHY1SUptZTdjRlQ2cGk4UVdFVkdjam50cHhHYlNkUXFpRmZWdjZS?oc=5",
-    "date": "2026-10-14T09:09:16.000Z",
-    "source": "Swarajya"
    }
   ],
   "policy": [
+   {
+    "title": "Daily Jharkhand Current Affairs for JPSC Exam (16-10-2026) - Drishti IAS",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkcmE1UXUzeUxGTWJuQkphNEVndG5RZ2YtUnNhWVg0VWRqRF9lR3N5ZjlEakpCeTBhOHBtc1VRQjFnUjJDbngyUklIckRpWVQtSkFMeDNOUHg0VEk4bFFJd092QnVLZjQ?oc=5",
+    "date": "2026-10-15T18:57:08.000Z",
+    "source": "Drishti IAS"
+   },
    {
     "title": "India's top court voids Yes Bank's $880 million AT-1 bond write-off - Reuters",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMzFfQ2pjUjd1eUVySlhZZlFrZHNJaWdTako1Qmp0UWZuUFhxSHBhVEdNeXVJWGZvR1k1Nm1vdlBtVnFUZm1PNHRHUm8ySHdySFY0T3hMX2dwVnhRNXBMT3NEeTQtTlRfNVMtbURneUNhRmRibU9vRjE0MGQwZl9DZV85UERLTGpJZFdqZTI2SUYwRjJQZmU4a0E3NXo1Y2F1c1Utc0NfNzFZSFVOYk1R?oc=5",
@@ -1795,12 +1795,6 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYVpXbGM2WVZTQktWRnlDQVR1ak01blhhR1dyRzJVVWxmUG1SRXRFa0s3TEowbVpFd1Y0Z2luWWNSdzVBc05PRDdkS3hsa3BlcXFHYUJkZUR3UTNCNzVvSi1xcGhJSGtycGJLbWhhZ0NyRG5vbm5WejUzVzhBOVpFY3Q2SjdyckJCbWJlYXNwQ0k3M2pWUW5DaUpPNjQ?oc=5",
     "date": "2026-10-14T07:36:44.000Z",
     "source": "INSIGHTS IAS"
-   },
-   {
-    "title": "Odisha Cabinet clears Rs 450-cr skill development scheme 'Dakshyata Vikas Yojana' - ET Education",
-    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQOGk2X09FYzk2cm9jRmhiSkhUaUlhbWVma1BBb2I0RmR3cURZYTR2Yk1SaTBRTXpiUml0R1JmTXlXT296VnVOcmVRb2VfUmNDNC1Jd0hFS1dMek1FUGExOVlpLTZtZ3R3Q1JjeHlsdjJKengzeU5idmNiaTVBd2drbHlmc19vbjdYQWcwLVJhc1h1bjRoR0JNMFNrbXUySjRPZnhwZVRHNHd3WDB1SXE4RDgxZko5S0ptQ3RFLUR0dVBzbkVqTEl3UXVLbDNrM2tzX19qMlFqdGV0TDlJbVJvY1Z4akotOG54bmJITjZOMTlraFAyeXAtdNIB-AFBVV95cUxQOGk2X09FYzk2cm9jRmhiSkhUaUlhbWVma1BBb2I0RmR3cURZYTR2Yk1SaTBRTXpiUml0R1JmTXlXT296VnVOcmVRb2VfUmNDNC1Jd0hFS1dMek1FUGExOVlpLTZtZ3R3Q1JjeHlsdjJKengzeU5idmNiaTVBd2drbHlmc19vbjdYQWcwLVJhc1h1bjRoR0JNMFNrbXUySjRPZnhwZVRHNHd3WDB1SXE4RDgxZko5S0ptQ3RFLUR0dVBzbkVqTEl3UXVLbDNrM2tzX19qMlFqdGV0TDlJbVJvY1Z4akotOG54bmJITjZOMTlraFAyeXAtdA?oc=5",
-    "date": "2026-10-14T07:32:44.000Z",
-    "source": "ET Education"
    }
   ],
   "economy": [
@@ -1859,6 +1853,12 @@
     "source": "Business Standard"
    },
    {
+    "title": "GST must become an economic partnership, not just tax collection tool: CBIC chief Vivek Chaturvedi - A2Z Taxcorp LLP",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRTVzdW9SWFVHak5tMjNQRDlhck1MMDVIU0NVRE9jVE9mRV8yd1ZtTm1tQjN5R1BrUzhvME1mcU9FeDh4ejJISDhaZU5MWVNkcVVGaHItMmZNQ3pJYXRlcFVIX0pWRVZYczVlcklSbGhPLTBsUEUyWS1DU0ltcjJLS3FGQTVDS1drZmJWSFFWZmZ5SXFPU3F4TzdYOS1sRnRnb29BdjZjNHpnODBLX21oVzZPWWJNYy10dW9QRg?oc=5",
+    "date": "2026-10-15T13:35:46.000Z",
+    "source": "A2Z Taxcorp LLP"
+   },
+   {
     "title": "Current account deficit narrows to $5.2 billion in August: RBI data - Business Standard",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTm1BTVQtWUctaTFaR1VpOF9odHZqdUtidWlfOEI0bEV3Ump1QjdQR1NkWlJfZldBTzdPMlZLTzlfWU5yY1h5RGowNFBRRnFxeTEtWDNxOWxqaldpQ1VhNW90WUZXaWJXc2UyTE93LWtyZUlfNlg1czd3NHFacGFxOGVBVmhNT2MzVnhCNm1jckpUQWt2ZFFERTRiV3hobnVvMG5kZDljNHdVOHF3S1JtT3p5MUdpZVJLV0pGdTdYMDZ3WUVGYVgyU3dLblrSAdIBQVVfeXFMUG1tOGZIaWoyblpPYXlTM2tDZ3N6T1I5SWxfcWFvdTdlbkJud3B5dElSdjRwaW1BaVdjVFJkWFBJajZiZ1ZHcTQ5VC1vV2tFNXYtdWZiUUZINkVtUjAtaXVrZlZUOGFQMklCek5GSEMyZGtVQ1k1WGZSczMyMUJfdC03UGtDUVJ1VkF6WkNVVVpaSDFMXzBuMlRMYVVWQUxENW1yZk53S3N3RU1GdnZuaF8yendGS1hNclBEUDQxMEpJdmQtcWRvYWN3UDVoU0ppdUp3?oc=5",
     "date": "2026-10-15T13:24:59.000Z",
@@ -1914,8 +1914,8 @@
    },
    {
     "title": "How is India assessing Rupee? Sitharaman answers difficult question, explains investment trends - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOaGFRNWJYaWhOaDZ0NmgyeU50aC1CWEVja2ZZRHpTblpRdlZFMG4wN1NBVlZCbTN0TVFpcVg2d2dUOHdyYUFuZ3VCcWdFY1VGUktXZGh4LXdMMjdzdzVBWVJyU3N5TGQ3b3ZxN2hfZ1c5eEo0TEk2YXE0QjZfR3p0cF9TeVh1TWdhWUVaYzV0Y0dBaWpRSDJXYkJJY1lORERSUl9kRFp1b3luYWJUYXQ1STVDSzhGcGpxaGhod0s0R3BETkVnZDFoVUdfc2lKRGI1emtsUXJoWm9oaDBRNkF1NV9MLVFKbGt2OS0yV9IB8gFBVV95cUxPU2hyMjMxNUNjWm5wZlhDTkFYZ1FsQ2VRelZmcWJ3X0h1TnhPRWhWNVl0WXBuN1AwdnZzaTBpY0plcV8wRWdXX0VrY09GZThyZVJ3QWU5Rk9hOVY4OGZEUV91bDZpTDhMZnNGeTBtbnNjemxUb1hoTnRyaTZHTVNqSmJVRUo2V1FEd2h1a2tXYU1DQ0w4ZWp2QUhqc2NaYlQyekw1d2V3dFlDdmtlTmw2Uk1Uc21rUFBDTmpYRlozODF5cExpVkF6VmlwaGlfdG5IS25jSjdmYXBPOE12NTBHU3V4NzRTOHVibTY4UThvamswUQ?oc=5",
-    "date": "2026-10-15T11:03:09.000Z",
+    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPU2hyMjMxNUNjWm5wZlhDTkFYZ1FsQ2VRelZmcWJ3X0h1TnhPRWhWNVl0WXBuN1AwdnZzaTBpY0plcV8wRWdXX0VrY09GZThyZVJ3QWU5Rk9hOVY4OGZEUV91bDZpTDhMZnNGeTBtbnNjemxUb1hoTnRyaTZHTVNqSmJVRUo2V1FEd2h1a2tXYU1DQ0w4ZWp2QUhqc2NaYlQyekw1d2V3dFlDdmtlTmw2Uk1Uc21rUFBDTmpYRlozODF5cExpVkF6VmlwaGlfdG5IS25jSjdmYXBPOE12NTBHU3V4NzRTOHVibTY4UThvamswUdIB8gFBVV95cUxPU2hyMjMxNUNjWm5wZlhDTkFYZ1FsQ2VRelZmcWJ3X0h1TnhPRWhWNVl0WXBuN1AwdnZzaTBpY0plcV8wRWdXX0VrY09GZThyZVJ3QWU5Rk9hOVY4OGZEUV91bDZpTDhMZnNGeTBtbnNjemxUb1hoTnRyaTZHTVNqSmJVRUo2V1FEd2h1a2tXYU1DQ0w4ZWp2QUhqc2NaYlQyekw1d2V3dFlDdmtlTmw2Uk1Uc21rUFBDTmpYRlozODF5cExpVkF6VmlwaGlfdG5IS25jSjdmYXBPOE12NTBHU3V4NzRTOHVibTY4UThvamswUQ?oc=5",
+    "date": "2026-10-15T10:50:00.000Z",
     "source": "The Economic Times"
    },
    {
@@ -1938,7 +1938,7 @@
    },
    {
     "title": "Why India may need rate hikes, tax cuts to buoy rupee - ThePrint",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc2VGQXdNTkUyV2RqU3R1LThpSTJSR2RpbE9UV0RuUXFqc1gxaVY5ZjA5MnF5bXlsVk5ZTnQyQ1Fweld3TWdWT25VYTlpRHJROWhyQ3dZQnB0VDREbUtFNWkxNTZsUWxZR3pGSElZdzVmRDh3blh4RjBaajBxSWd3NmlleDB6RzJJQk5HQ1NaOFc1Sy1kVDIxa9IBmAFBVV95cUxQc2VGQXdNTkUyV2RqU3R1LThpSTJSR2RpbE9UV0RuUXFqc1gxaVY5ZjA5MnF5bXlsVk5ZTnQyQ1Fweld3TWdWT25VYTlpRHJROWhyQ3dZQnB0VDREbUtFNWkxNTZsUWxZR3pGSElZdzVmRDh3blh4RjBaajBxSWd3NmlleDB6RzJJQk5HQ1NaOFc1Sy1kVDIxaw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNT1NJdmY0cHp6d0ZqSmdHelFxUkotODFFNFQ3OTk4VTVxdno4UUF3Yy1VTlF1RHAyYWlfM2oyYS02N0lZMkw5OHVkb3FqUnBZakEwS2dMckpCbDZMZGl1T3h4MEhOWWhBZDF4SkoxZTBZSGlWY2g1U2VtR1REY1VJMHpEcGE1VmQ0anpHVE51ZERhSDDSAZgBQVVfeXFMUHNlRkF3TU5FMldkalN0dS04aUkyUkdkaWxPVFdEblFxanNYMWlWOWYwOTJxeW15bFZOWU50MkNRcHpXd01nVk9uVWE5aURyUTlockN3WUJwdFQ0RG1LRTVpMTU2bFFsWUd6RkhJWXc1ZkQ4d25YeEYwWmowcUlndzZpZXgwekcySUJOR0NTWjhXNUstZFQyMWs?oc=5",
     "date": "2026-10-15T10:05:48.000Z",
     "source": "ThePrint"
    },
@@ -2277,15 +2277,15 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQekhVWHJRa2RpTHBZTElpb2lhMTJxWEF0bHk5dTVONXExR2NzVk45WlBFZ1M0OWo3dFZrT2UteWp2a2pwTWQtYWtpbkE1OUE3SEJ5b1dMcHJfRm1nMGc1QVcyVVRudE1Rd3ZPSFNfUVdCTVdBcEl6dHc3cTNoVS10clhkbzdJR3VMUjhRMmtxV01hOHBxN3IwVDlQMzFPVXgycWZxaXNWYXQzNFlwTE9mTXJyQ25WZEZjX1RZatIBvAFBVV95cUxQekhVWHJRa2RpTHBZTElpb2lhMTJxWEF0bHk5dTVONXExR2NzVk45WlBFZ1M0OWo3dFZrT2UteWp2a2pwTWQtYWtpbkE1OUE3SEJ5b1dMcHJfRm1nMGc1QVcyVVRudE1Rd3ZPSFNfUVdCTVdBcEl6dHc3cTNoVS10clhkbzdJR3VMUjhRMmtxV01hOHBxN3IwVDlQMzFPVXgycWZxaXNWYXQzNFlwTE9mTXJyQ25WZEZjX1RZag?oc=5",
     "date": "2026-10-14T02:00:21.000Z",
     "source": "CNBC TV18"
-   },
-   {
-    "title": "India’s September inflation rises to 5.54%, strengthening case for further RBI rate hikes - Prop News Time",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaGFwbGZJTGc0bngzV2VhMmtvbkdfRFhjbXVEdzJWS0lfSUxFZnN4V0xVMDJqYlJuakFyUkJoMWlyRzhUNlZyeWFqdHlwdktQQmVqdnRUZ0RXcjdKaS1GRU9vMGM3RjM0OEhYcTZ6YVQySzFSVDJ2emx6N2szVmN0RHFNamszM1B6Z3ZUUXJsRmtyMXlUUF9HSXQ2WjJtbnUxUVd4NmNXQ0gxMGUyT2s0NkFobHVVcUtzTFkySVBlbHhHUkhWWkRnTll1SDY1UzBubGFuUjdXOA?oc=5",
-    "date": "2026-10-14T01:34:50.000Z",
-    "source": "Prop News Time"
    }
   ],
   "world": [
+   {
+    "title": "PR News | Qorvis Adds Diplomacy Ace - Thu., Oct. 15, 2026 - O'Dwyer's PR News",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQUZHM1pEX3BCb1dMOTZOTm1yM3FhMHAwdXJYQUxaT3RCNzZJTjg5a0VCM2hveGlVYzhBUVplSkdPZGdoSEJPZTlreDhhSTd0dHh4a01CLTFDNk83eWlmancycGs4UC1kb01NTF9ja1g1TVBJdFJQREZ4QktqOWxqcmxic2JtTllUVzFDOFJR?oc=5",
+    "date": "2026-10-15T19:52:43.000Z",
+    "source": "O'Dwyer's PR News"
+   },
    {
     "title": "Letters with 'suspicious substances' sent to US election offices",
     "link": "https://www.bbc.co.uk/news/articles/cmq8n513x523o?at_medium=RSS&at_campaign=rss",
@@ -2759,12 +2759,6 @@
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSVRIQXpYazFRal95NkxfdEtWUFpVZ0syajdGMjhZZmppUWU3emlna2M4NnZ5RXBaa2g5SUtGUWs0Ull1WnhLSXlMOS1zNG9zV1JCVXVRTVZiZnprWjA0elRvbXVQOTZpYlhZeG5ONWNjUnM4MDJFOUJMQjNUVk80cw?oc=5",
     "date": "2026-10-15T00:49:27.000Z",
     "source": "kpmg.com"
-   },
-   {
-    "title": "Bangladesh’s First Dollar Bond Can Wait - The Diplomat – Asia-Pacific Current Affairs Magazine",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBhVzZlbHpPMGpHeGNPc2VFSWU2Y2pzOUtuR193UVEyQm9ROXVGLUVoN2tEaFFkQnU2QUd1QTF4WjlKVkpONjM3dC1CMThMeHBHLWF0UnQxVXRneWZLTl92S29aMHRiZ05oTklvczlYNlQ2Ym1tVVAxdWt2OA?oc=5",
-    "date": "2026-10-15T00:45:00.000Z",
-    "source": "The Diplomat – Asia-Pacific Current Affairs Magazine"
    }
   ]
  }
