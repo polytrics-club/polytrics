@@ -1,80 +1,80 @@
 {
- "date": "2026-10-15",
+ "date": "2026-10-16",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "High Court quashes Modi Govt’s Rs 117.94 Cr. CGST notice against _____ Labs.",
+   "quote": "Supreme Court Questions Election Commission Over Missing Karnataka _____ Video",
    "options": [
-    "Bail",
-    "Morepen",
-    "Gray",
-    "Hike"
-   ],
-   "answer": 1,
-   "why": "The headline reads: “High Court quashes Modi Govt’s Rs 117.94 Cr. CGST notice against Morepen Labs.”",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUXBUd1pwQWs1LThxcy1kU0NERmprWFB5SzM1N3JpMkhvNHNGRFZ5LUZONDBQX2Y0TUdGVGxVbjZpdy1tMGc4ZGN0ZG1mV25ZYTZSdkF5SFptN3RWanprdzVPYnREajFqN0YzSWtrMGM4SUh4TmpyMGw1RGRUSkdkR3RNLXg4Qmt2X0p2QTBZejUtVEdaUzZKTHI2cXdPcy1pMEoxY2NNcktEYTVqcHhyZHVCSQ?oc=5",
-   "source": "Himachal Scape",
-   "cat": "courts"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "FCRA Amendment Bill Has Similar _____ Like UPA-Era Law: Panel Chief Jaiswal",
-   "options": [
-    "Circle",
-    "Steps",
-    "Seeks",
-    "Provisions"
-   ],
-   "answer": 3,
-   "why": "The headline reads: “FCRA Amendment Bill Has Similar Provisions Like UPA-Era Law: Panel Chief Jaiswal”",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOaDZvQVM4ckFRSXBfZnk3clVIYndmMlktR3FqVjd5amJFejF3TEE5NWJkTWNrTkZFVURBU1hFdkdhNEVWS0dVTVFNTmxyOTJSZzE2aTJhenh4Mmk4T29jT0lCOXZ1OGFMVUV3QnpHUFJLNzdKdGxGaTJXNDVXQkdnV1VCYVN5RnVoQTVrZHlySWp0YnpWUnhNZElSdlBDRXJoS0RIbTNnTjdDYTJHcFEzNnloeFR2UXZzOGlBdXhsbHFqM3RZVU1aLVRR0gHPAUFVX3lxTE1GZXpIcUVhbndyTUdzQzBfWFZaMGlPeWx4ZTVDbmhvNjdKNjRsQ1U4M19ESnJhdDV1Z3U5NDFiVmIwd29kM2lNTW9YYVV2cENHNnJNd0J3N0J1ejZtVjk2RmlyUV80WHV6clp5bmdjTTg0NGlwX1ZXeEZPUFp5bndiZXYzRngwdWhEa2pvMWNPdlozOWJ6ZDhYdF9mM2I5Rk1rWFRZSDVzRWlRRnE1cDRXYjY1S2sxVFk1b1c2WlQwMjRQZ25DbTYwNjhOR2lkVQ?oc=5",
-   "source": "ETV Bharat",
-   "cat": "parliament"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "Tejashwi Yadav questions Election _____ as AISA leads protest march in Patna",
-   "options": [
-    "Joint",
-    "Form",
-    "Commission",
-    "Reforms"
+    "Deal",
+    "Judiciary",
+    "Vote-Counting",
+    "Pinarayi"
    ],
    "answer": 2,
-   "why": "The headline reads: “Tejashwi Yadav questions Election Commission as AISA leads protest march in Patna”",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRTEtY0hNVnlpYWlQSnlTWm1JYldSd1d5Vkw1VW5KeFA4RjBJZGd1aWVBaThCSG5Wck9FWTd0OFZieDZHVUVNeUYzcjQ5SVVlV0lST3NEY3oxYzEzenRwMDExcERTeWVTSkI5cE1iYVU2a0g4b1ZsSUp1azFIb2pGbVVaNkNrSUdCc2JPYTZKX0g5UmR5QXI4TDZ2UTRmam1MaEZsZ2VVMkxZY1J0MDQzTkw2cVNfNlRrTTE5blV1S2I2ZXVPZ3pVMEQ4anLSAdIBQVVfeXFMTjVQR0w3bXM3Wk1jVjdHUU5nQlNzeC1EYWhCTFM5QnlJSkNwRFhrTEdNRE9NV3BraTJBT3A3ZWJnYlEyajhzUTBON0xyRFIwb2R4TzVndHJXbjRvTkI1azBOZ1ZIbXpKNnBtWVMyWVdoMURfc1dDYnBJNmpKR1U2MFMzMzlXOVR3WTJIVmV4VVh6REE5YWJXb2gzc0NvM3o5LUE4ckdRbXBGZ2xyaE42aEZyTHN6RExERWlCTWpYREF4QVZpa0VpcEdISUZBcklZcFF3?oc=5",
-   "source": "The Statesman",
+   "why": "The headline reads: “Supreme Court Questions Election Commission Over Missing Karnataka Vote-Counting Video”",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVUIyUEpvOFpCSWRwdXJ1MEZLNTRNTnAyNE1IeHhSU0JVUUUwSlNrcDhuRUR2V19KeGlzM3M5c0xDRnNNNDAzTXlHSEtrZFhLSXJ4QktFMllwcHRqYk9YS1Myb1ZQZ0F3TXhLbU1oN25JeDNIWFZlaG4tWlVkNTc0RzRKTTJGYXZCVTBfSUJRTWRCdnZDV184?oc=5",
+   "source": "www.nationpathindia.com",
    "cat": "elections"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Switzerland and the _____: So close and yet so far",
+   "quote": "India’s Trade _____ With China Crosses $100 Billion in First Nine Months of 2026",
    "options": [
-    "BJP",
-    "NHRC",
-    "OMR",
-    "EU"
+    "Budget",
+    "Calcutta",
+    "Recognition",
+    "Deficit"
    ],
    "answer": 3,
-   "why": "The headline reads: “Switzerland and the EU: So close and yet so far”",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOa01ORHlOUjBiMG8xNTY1VnlzMFVZWk1STDdpbldlZ0p5RWdNRGt3WDg3Q2JLLXE1ZHA0NE5LeF9aWUI4QUY5dkJSbkoxbEw5MGZfLW1pTW92dWxuSWlGUTBscmNWX3o1d19qMWlHRWxHQ3NWN1VGaG1WdVJmcjZzb2hFOEhVNnA3M1l4TlFQWWQtV3NHRzNzdUdGazhiVEE4UFE?oc=5",
-   "source": "SWI swissinfo.ch",
-   "cat": "world"
+   "why": "The headline reads: “India’s Trade Deficit With China Crosses $100 Billion in First Nine Months of 2026”",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYTNSWElSYzN0OHV0SDJ4VmxrVGNrMjVKQVp0eTI1akExS3paSWgxVFlrUGdVLThPV2xYYXQ2QllrMmdtTngyRWJIVno5SXJKZHBlcTlQbGs3eUxaVVRKWUZaVFFxVml0SXZ2azl6b29rQVFlQ25tS3J1bUZRTExtRHVjVmdDYllkalZCZDQ0WkhKdlkxWVltN2JHWjI4T2x3SE41WlR5SUMyd1NjcjFCYjlEZ3E?oc=5",
+   "source": "India Business Trade",
+   "cat": "policy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Andhra govt to add 22 dialysis centres under _____",
+   "quote": "Current account deficit narrows to _____ 5.2 bn in Aug: RBI data",
    "options": [
-    "NITI",
-    "PMNDP",
-    "TV",
-    "EV"
+    "PM",
+    "CMRL",
+    "EC",
+    "USD"
    ],
-   "answer": 1,
-   "why": "The headline reads: “Andhra govt to add 22 dialysis centres under PMNDP”",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdjBTMUtWd2huSnZabUF0N3RwaVdTVjZfejhXWDdjTTdMZExfQ0FpZFlLaUlPOFRiU1VFZTN4eGQ3a3FFdzFfYlFNTnBNOGZyMk14UjRCWjZ0ZFVWUlVnM0MyVXZlUktoMHVreTBZM2NsNkdMY2I1VVp0cmtKR1dMYk52UnRvU3ZmanlqQVJKeHROZnlSd2RVenNJNFJWOVZ3Vl9CX21zNzczc1RockRmd01BcTVtZnJVT3NjStIBvAFBVV95cUxQdjBTMUtWd2huSnZabUF0N3RwaVdTVjZfejhXWDdjTTdMZExfQ0FpZFlLaUlPOFRiU1VFZTN4eGQ3a3FFdzFfYlFNTnBNOGZyMk14UjRCWjZ0ZFVWUlVnM0MyVXZlUktoMHVreTBZM2NsNkdMY2I1VVp0cmtKR1dMYk52UnRvU3ZmanlqQVJKeHROZnlSd2RVenNJNFJWOVZ3Vl9CX21zNzczc1RockRmd01BcTVtZnJVT3NjSg?oc=5",
-   "source": "ET HealthWorld",
-   "cat": "policy"
+   "answer": 3,
+   "why": "The headline reads: “Current account deficit narrows to USD 5.2 bn in Aug: RBI data”",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTDBvVE1GSGQ5cWQ0d3EzcU5GS2wwY2NEeXlXbkpFNmRlQzZnTjlTUWRhZVVJTUFxRzczSi1zbVM0ZW1nT0EzdFMyMjVuMDBNMjQ4XzdaVmQ1Y1RzR0RFXzFsNjBUbnR5dU5lUUlTZktKZEVMZEJLVk1hTUttZ2R3UU1XbTJTWDllbGowWG43cEEtbnVOeFlDRUlGNkpVQmfSAaQBQVVfeXFMTzNvS3pQT2dpZW9YTzlRVzlkekx1NGJCTXY5QXFFNTBmQWV1dHBNRm95ZkM5bUFJWXpVWUJBa0xuVG9qWXFrUUIweE5ZQjNSZV9LbThEVGxkVWRjNmJmNVh6aEZGRGtNT1JidXBNVTVidHFERzd0NGt1bExha21QN2VSZGlsYk9iV3FIVTQ1OFZoNF9GdlZ4SUYzSk83akg0WWk1dFc?oc=5",
+   "source": "ThePrint",
+   "cat": "economy"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Apology In Contempt _____ Is Settled Practice, Not Admission: SG Tushar Mehta Tells Supreme Court;...",
+   "options": [
+    "Coercive",
+    "Unethical",
+    "Affidavits",
+    "Strikes"
+   ],
+   "answer": 2,
+   "why": "The headline reads: “Apology In Contempt Affidavits Is Settled Practice, Not Admission: SG Tushar Mehta Tells Supreme Court;...”",
+   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQM09OQVdiZ1FCak4zM0RSTDk3aHF1bk94WWczT2xkN1JxNGJNbHk1ZkFWT25WTFdYcTg3UVhTcWdTNDVRUlkzeVE5aFJBRHdkeklCSWl4VlF6emJTbzV6WVBQNTkwLVhwczFsV1drOUFVb0tuSnZkMXpBMmp0SkxGXzhTSzJBZDJpNTFFYXcyRXdDcVdBMHFZWnpPbUI4bmZEVzAyYl9jR2swUGkzTktnWk9fbUlNU1BQMVU1V0Vqd2xJVHBLUGNkT0NkZDZ4SGVsQUhLdFR5NmNKMXRNdl9xQ1FkQk0yYjRvVXQySGFn0gHuAUFVX3lxTFAzT05BV2JnUUJqTjMzRFJMOTdocXVuT3hZZzNPbGQ3UnE0Yk1seTVmQVZPblZMV1hxODdRWFNxZ1M0NVFSWTN5UTloUkFEd2R6SUJJaXhWUXp6YlNvNXpZUFA1OTAtWHBzMWxXV2s5QVVvS25KdmQxekEyanRKTEZfOFNLMkFkMmk1MUVhdzJFd0NxV0EwcVlaek9tQjhuZkRXMDJiX2NHazBQaTNOS2daT19tSU1TUFAxVTVXRWp3bElUcEtQY2RPQ2RkNnhIZWxBSEt0VHk2Y0oxdE12X3FDUWRCTTJiNG9VdDJIYWc?oc=5",
+   "source": "LawBeat",
+   "cat": "courts"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Russia _____ Diesel Exports After Trump Deal, Kremlin Says",
+   "options": [
+    "Using",
+    "Examine",
+    "Resumes",
+    "Judiciary"
+   ],
+   "answer": 2,
+   "why": "The headline reads: “Russia Resumes Diesel Exports After Trump Deal, Kremlin Says”",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNmJ4UXVfVGhvQzRneWZIeDBCX0dqNS1fT0ZpUm51MzF4UXprMG1DeTlvcUNnVlJvb2Ytd1k2Vm82a09hekRMM0xONExGVjl4dVZkQVVBT19lT2hSM3RTb3QySFFsanhWMzlySUVocm5NSHdiVGFzTFlCZU03akVueWpUMFJLV0l1NkZBSEpmVWg1cE02QWsyY2FVNjE1ckk?oc=5",
+   "source": "Modern Diplomacy",
+   "cat": "world"
   }
  ]
 }
