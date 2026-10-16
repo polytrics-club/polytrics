@@ -1,80 +1,80 @@
 {
- "date": "2026-10-16",
+ "date": "2026-10-17",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Supreme Court Questions Election Commission Over Missing Karnataka _____ Video",
+   "quote": "Parliament Special Session: _____ & Womens Reservation Bills Likely",
    "options": [
-    "Deal",
-    "Judiciary",
-    "Vote-Counting",
-    "Pinarayi"
+    "Call",
+    "Delimitation",
+    "Strategic",
+    "Heavy"
    ],
-   "answer": 2,
-   "why": "The headline reads: “Supreme Court Questions Election Commission Over Missing Karnataka Vote-Counting Video”",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVUIyUEpvOFpCSWRwdXJ1MEZLNTRNTnAyNE1IeHhSU0JVUUUwSlNrcDhuRUR2V19KeGlzM3M5c0xDRnNNNDAzTXlHSEtrZFhLSXJ4QktFMllwcHRqYk9YS1Myb1ZQZ0F3TXhLbU1oN25JeDNIWFZlaG4tWlVkNTc0RzRKTTJGYXZCVTBfSUJRTWRCdnZDV184?oc=5",
-   "source": "www.nationpathindia.com",
-   "cat": "elections"
+   "answer": 1,
+   "why": "The headline reads: “Parliament Special Session: Delimitation & Womens Reservation Bills Likely”",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVkNZZDJpb1dvTUpxeUJqb3R0Q3lPNk9wVHVIS3c2WTlRVXp0THhpZHd3ZlJtUDJzekFERE9BODlQenU3UUpIZllsbGhCb0s3STJRdXowS1BkaDBzY3ZWTW9yVUVTQ2h6dHU1eTJ5cEtXWVRFZlJYRjhINmZUYk9rZFM0aUlKemhQYUlRRWhPeUpXcnh6TWJQa2hUblpSU2x6T1JCcnA2NEdEOTFCa08wRlMzWE5qZ2ZvcmQzVzczOA?oc=5",
+   "source": "Bhaskar English",
+   "cat": "parliament"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "India’s Trade _____ With China Crosses $100 Billion in First Nine Months of 2026",
+   "quote": "Money is going into data centres and AI in US... now India will be on everyone’s list: Prem _____",
    "options": [
-    "Budget",
-    "Calcutta",
-    "Recognition",
-    "Deficit"
+    "Watsa",
+    "Pact",
+    "Mid-Day",
+    "Changing"
    ],
-   "answer": 3,
-   "why": "The headline reads: “India’s Trade Deficit With China Crosses $100 Billion in First Nine Months of 2026”",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYTNSWElSYzN0OHV0SDJ4VmxrVGNrMjVKQVp0eTI1akExS3paSWgxVFlrUGdVLThPV2xYYXQ2QllrMmdtTngyRWJIVno5SXJKZHBlcTlQbGs3eUxaVVRKWUZaVFFxVml0SXZ2azl6b29rQVFlQ25tS3J1bUZRTExtRHVjVmdDYllkalZCZDQ0WkhKdlkxWVltN2JHWjI4T2x3SE41WlR5SUMyd1NjcjFCYjlEZ3E?oc=5",
-   "source": "India Business Trade",
-   "cat": "policy"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "Current account deficit narrows to _____ 5.2 bn in Aug: RBI data",
-   "options": [
-    "PM",
-    "CMRL",
-    "EC",
-    "USD"
-   ],
-   "answer": 3,
-   "why": "The headline reads: “Current account deficit narrows to USD 5.2 bn in Aug: RBI data”",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTDBvVE1GSGQ5cWQ0d3EzcU5GS2wwY2NEeXlXbkpFNmRlQzZnTjlTUWRhZVVJTUFxRzczSi1zbVM0ZW1nT0EzdFMyMjVuMDBNMjQ4XzdaVmQ1Y1RzR0RFXzFsNjBUbnR5dU5lUUlTZktKZEVMZEJLVk1hTUttZ2R3UU1XbTJTWDllbGowWG43cEEtbnVOeFlDRUlGNkpVQmfSAaQBQVVfeXFMTzNvS3pQT2dpZW9YTzlRVzlkekx1NGJCTXY5QXFFNTBmQWV1dHBNRm95ZkM5bUFJWXpVWUJBa0xuVG9qWXFrUUIweE5ZQjNSZV9LbThEVGxkVWRjNmJmNVh6aEZGRGtNT1JidXBNVTVidHFERzd0NGt1bExha21QN2VSZGlsYk9iV3FIVTQ1OFZoNF9GdlZ4SUYzSk83akg0WWk1dFc?oc=5",
-   "source": "ThePrint",
+   "answer": 0,
+   "why": "The headline reads: “Money is going into data centres and AI in US... now India will be on everyone’s list: Prem Watsa”",
+   "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOR2NXZnh2Rk5Mc19oSHVyVW5zRUpCVlVpRU5WUHFNRWF3WlB4elhkYmdNaDNBWFpLbUhGUTNvaTYtMGhNcy1PeU8yYWR2RGphZVNBRzdFazRjLUJLOFVSYXhUUzVHT0JtMmpmS3RWN295S01jcndrM010eUZXbjFsUmtHZEZuN1JDQlh6RXF6ZmxsOGpLNG9WTGd5VGRqM3hrMHBKZzc1TmRKWEhPS1ozemtkYlRKUVRlTUhhN19WeWJmWnh3NG1kQWtoZXNoazdtT3FjY2pkUXF0XzJOVW1Uc2ZwN3E0U0R2clFVbEtoLVREcnFuZmp6LUxkWXMzSDdhejRTa1J30gGGAkFVX3lxTE5HY1dmeHZGTkxzX2hIdXJVbnNFSkJWVWlFTlZQcU1FYXdaUHh6WGRiZ01oM0FYWkttSEZRM29pNi0waE1zLU95TzJhZHZEamFlU0FHN0VrNGMtQks4VVJheFRTNUdPQm0yamZLdFY3b3lLTWNyd2szTXR5RlduMWxSa0dkRm43UkNCWHpFcXpmbGw4aks0b1ZMZ3lUZGozeGswcEpnNzVOZEpYSE9LWjN6a2RiVEpRVGVNSGE3X1Z5YmZaeHc0bWRBa2hlc2hrN21PcWNjamRRcXRfMk5VbVRzZnA3cTRTRHZyUVVsS2gtVERycW5manotTGRZczNIN2F6NFNrUnc?oc=5",
+   "source": "The Economic Times",
    "cat": "economy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Apology In Contempt _____ Is Settled Practice, Not Admission: SG Tushar Mehta Tells Supreme Court;...",
+   "quote": "Twisha Sharma death: _____ Court stays trial, orders expeditious decision on bail pleas of accused",
    "options": [
-    "Coercive",
-    "Unethical",
-    "Affidavits",
-    "Strikes"
+    "Boom",
+    "Supreme",
+    "Pushed",
+    "Changing"
    ],
-   "answer": 2,
-   "why": "The headline reads: “Apology In Contempt Affidavits Is Settled Practice, Not Admission: SG Tushar Mehta Tells Supreme Court;...”",
-   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQM09OQVdiZ1FCak4zM0RSTDk3aHF1bk94WWczT2xkN1JxNGJNbHk1ZkFWT25WTFdYcTg3UVhTcWdTNDVRUlkzeVE5aFJBRHdkeklCSWl4VlF6emJTbzV6WVBQNTkwLVhwczFsV1drOUFVb0tuSnZkMXpBMmp0SkxGXzhTSzJBZDJpNTFFYXcyRXdDcVdBMHFZWnpPbUI4bmZEVzAyYl9jR2swUGkzTktnWk9fbUlNU1BQMVU1V0Vqd2xJVHBLUGNkT0NkZDZ4SGVsQUhLdFR5NmNKMXRNdl9xQ1FkQk0yYjRvVXQySGFn0gHuAUFVX3lxTFAzT05BV2JnUUJqTjMzRFJMOTdocXVuT3hZZzNPbGQ3UnE0Yk1seTVmQVZPblZMV1hxODdRWFNxZ1M0NVFSWTN5UTloUkFEd2R6SUJJaXhWUXp6YlNvNXpZUFA1OTAtWHBzMWxXV2s5QVVvS25KdmQxekEyanRKTEZfOFNLMkFkMmk1MUVhdzJFd0NxV0EwcVlaek9tQjhuZkRXMDJiX2NHazBQaTNOS2daT19tSU1TUFAxVTVXRWp3bElUcEtQY2RPQ2RkNnhIZWxBSEt0VHk2Y0oxdE12X3FDUWRCTTJiNG9VdDJIYWc?oc=5",
-   "source": "LawBeat",
+   "answer": 1,
+   "why": "The headline reads: “Twisha Sharma death: Supreme Court stays trial, orders expeditious decision on bail pleas of accused”",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMWgxeUU2NkF1NU9SSWFEV29BMVNzbE5MS2pZdjVCZTZnTTgzXzdLVURrd3RtVEZtNTBXM1RKMHhEajVqSDFkUzQ2Mm81VE4zQWRWV196S08zV0FMQlpEODJVS1VZU3E4UXdjV05FUDcycHRBQzBCNm9Rb2ZiNXA1UWRaSTc5LUNvSHRER1ZrN3FTc1NRdGJWQnlTa2diTmhuVmlMYWYzSDhpc2NKNlVQVE8wQmV3QmljYlFOZm0zWWtJMkFnbEIxTHlud9IB2AFBVV95cUxOUTNUTnNISjZzcGZuZ3c1Zmg0dm5UeUNlcVhOSVBCTkJmTm9CNTM0Z3IwdWEyckpnWkI1eWdqVGVSbFdFUDlJNlpqRWVBS2R2a2FnaENPaFJnUFRmeFZpUlBrd2UwaFRzT1JQeE80aTZCTkRaeW1USzRKOVJoUjBtR0l1NFZqMmVGVVQ1VkRaWHRTRjhZS1lnRXZaYkJaWFVWckZmRFR1eTR2WTJ6OGJhLXZkVUVKSVcyNlhWQ2VpMURkMHhINjdQOUMxaXllRlpONzdwM1Z0SFA?oc=5",
+   "source": "Bar and Bench",
    "cat": "courts"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Russia _____ Diesel Exports After Trump Deal, Kremlin Says",
+   "quote": "Jaishankar to host Rubio in Mumbai, will be guest of honour at US’ 250th _____ Day celebrations",
    "options": [
-    "Using",
-    "Examine",
-    "Resumes",
-    "Judiciary"
+    "Independence",
+    "Cooperation",
+    "Immunity",
+    "Pradesh"
    ],
-   "answer": 2,
-   "why": "The headline reads: “Russia Resumes Diesel Exports After Trump Deal, Kremlin Says”",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNmJ4UXVfVGhvQzRneWZIeDBCX0dqNS1fT0ZpUm51MzF4UXprMG1DeTlvcUNnVlJvb2Ytd1k2Vm82a09hekRMM0xONExGVjl4dVZkQVVBT19lT2hSM3RTb3QySFFsanhWMzlySUVocm5NSHdiVGFzTFlCZU03akVueWpUMFJLV0l1NkZBSEpmVWg1cE02QWsyY2FVNjE1ckk?oc=5",
-   "source": "Modern Diplomacy",
+   "answer": 0,
+   "why": "The headline reads: “Jaishankar to host Rubio in Mumbai, will be guest of honour at US’ 250th Independence Day celebrations”",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZnJMMEd0ZlZjQWFmRXBXRXRKUXZpUjZfUWxMd25IaWpfRkNWcmM3RGYxTVV4cGZrS3dkUmNwZTdXWHpXZ3Fhb2h6dXBtZlVHcVotWlZQYnRZcGFKM3pVcDZDWG9kcEE5blZNaEtQa2R4dkRFdDVtZ09yOVIxS1EzeWRTMk9hRERMbWYwdTJ4aUdJZlFMeEFreEc3dG52Tm1sNl9vVFpMNW5BeWUwYWFkeFM0TWlheXhRblF3a1V4aEpPeE1FdDFzU01LQUFrb2VIR0NzTjhR0gHbAUFVX3lxTE9lZWpaVDBHdzN6Z1Z3Vk9LRWc1THJjNjdpREk4TzRuSTVNbXdiWXRxMHFMWlFKUEZabl9QWjl3aEM3RW5xYmhUVEU2WlNXSF9qYTF0UjZTaFFOUkxnV2ZvWlVTTnpzTmJsQ0tQM3dXdWVFOFdPZEowOVN6Y3NOS203UlV4NW5UUG90Y29Nd1Etam5helFXRm9iY3Z2ODdsV3I0ODVFYXgzQ0lzbkdjNUV6azA0a3F3VzVtSVFoWlBFRC1KbW56RDRsWldaZlhKa3dTbE1YZk1rbF9QUQ?oc=5",
+   "source": "ThePrint",
    "cat": "world"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "SC issues notice to EC on Rahul _____’s plea over alleged voter deletions",
+   "options": [
+    "Payments",
+    "West",
+    "Fuel",
+    "Gandhi"
+   ],
+   "answer": 3,
+   "why": "The headline reads: “SC issues notice to EC on Rahul Gandhi’s plea over alleged voter deletions”",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPTkdGdnpnV2k2b2kzSW5BaDNDTXpoZW1BVzYyOHdDMUZKcG1vVDU0cmt1NU4tTjMzNjR1R2xqWjdxZXhIcEdZS3k1WWE2SjZsZVA0MkJMRF9sNGd1b3A3WUEyQzNBbHpLRzB6bHlmTmJDbmxXanNPUnJuTWcxWlF2dVhLV2dKSEZqMkV1YlFyTzkwa2l0ME5KOUdvNGRJMER5b1QtSWdXNU9lV2JkLVBtRzlFTHZoSkpzYkZzWG8wWGVVZzNoU3ZqVWlXWnlad1REMW9wZG1mVGNLYnFVZXhyY1ViNklNdjjSAewBQVVfeXFMT2lUUHJOVjdMNDZZbkxRaWpHUlo4SjBrWXo5TC1uVmpQclpEdUM0VWh6YldpbTVWcnNvbndWNVB2TWU1WEhpOEFqdFpBRjhfbDdUTDFDUUViZUtUdTRFZTBZNmN6Z2taMDd6QUtta2I1dUhfZkpUbDJUWFZxSGhnUV84OE5UalAwWUhZamFqWVFmNGY3QWJaSmRiTHdxb1NiaHhBUzl2Z0tNOGJCdDNaRFFmMHRIaGdIaW5fRFhhU21iZkd0Mk1LclU0TVo1QUJvZVhONmxieTNNT2xHd1E0ZE1xRDVCUFdXdFpvcTI?oc=5",
+   "source": "The Economic Times",
+   "cat": "elections"
   }
  ]
 }
