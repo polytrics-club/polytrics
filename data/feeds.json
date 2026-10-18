@@ -1,7 +1,13 @@
 {
- "updated": "2026-10-18T19:24:42.470Z",
+ "updated": "2026-10-18T20:26:00.151Z",
  "sections": {
   "parliament": [
+   {
+    "title": "Revamp functioning of Parliament - The Hindu",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPa0pxUHdIY3hVZEg0eE1TaEpmZzZYaE9xUTM2TkEtUUotV2xBbmRnMVVlWXpURnVNYnNCTTVkcGRndkljVldqd2s2RjFCR2JsSWo3dTY3c01xYnd4Zy1jMElSTDJIQjAyNldSczRvSmJYSVF3N0JKT1ZaUHJILWdPLUh1dC1NTlVyMWdINFhEU3BlX3g4MWfSAZwBQVVfeXFMT2lNb0paT0RHTDUzTF9Wc3A0X0hmTFdsWWtSMzVaRnZVcE1LdzZicXgtYmplVGhybk1uRi1iRHJZMHBMWGUxZXBPaWFnUmV0S3ZMZm9rbHdlWnlvQ3hVTlVUTTlwYkdab0ExaVIxWGtib0FrRnc2UTcwNzR1c3NvWmZZaktiQ1lWTHUzR3JrWDZ5Mzl6QkVWeU5Ub0lO?oc=5",
+    "date": "2026-10-18T19:00:00.000Z",
+    "source": "The Hindu"
+   },
    {
     "title": "DMK, YSRCP backing CEC’s removal clouds Centre’s delimitation push ahead of possible Parliament session - The New Indian Express",
     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPUlRpQ1BYYTMxOGROUjF6eTk2SDNHYklMa1AwX0ZlTkJyQ21UanFYWWp3UnA0cGQ5ZkF3VmU5a25oLTZKREZwdFNtSkxFY1NtQ1VRVEp0MXlsLUowRE9oUXA3YXZYNG8xRWdvRFVYMWRPcnE0UlEtS19mQlVaX3VvOUNIVXlQNUs3ZzlPUUZwSWo4dHNnOTk1WEJzLWViM25WelBWZEJ6TER1ZmpWQUJPSEFZejVfdHFlelVKQ1RjbURqWGhnYzZiRktJTC0zOGxPSVhwdjVLdVA0Y2tIM3djVEVIZDhCd9IB8wFBVV95cUxQaHJNSEZGcVI3QmxYQ2NoME5fTjExZTZtYnBQQV9heWNvSE05bjlEX3pfUTR2RkNkTDJ4VFNyc1l3ZWJ6dDJWQ01UMVBRaFVPZ1h5X2Y5SVdZNDFRZTVFalltVW11cGNCdTk2V3VFdjVSLXFzMFFGaUFkRzJQWVIwRE4wMVBNTUU2Vko1WG9mNVBuSXdNQzgxX1F0bGRIYU9COGxsLXVrNk1wUENsRFFwWnRiTS1jQmhjWG15S05PS0xJUUFGNEpyUGJJN1RqalpreHFZM2NoSHpUeXNaQUFzZXd1bWY5aVZqeV9CM2VrVGJCTVE?oc=5",
@@ -475,12 +481,6 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxON1VqMXB2b1ZxNFVCaktRRlN4X2FoZHZ1RERLcDNtc1JYczZwTWg4cU1MUUhQQ1FFY0JhUFgtYWlXQWhYZEhycUwzYnR0cmhLdE5rWE9HcF8ycDBZX3FGM3hxalpONjZFT3F5ckN2QnpqWmdCMVhfY3A0Z3RGWUt4OFZERUFJc083bDdULXRuNXo1aWdySlBZMHBIeDNVQ0QzMi1URlhIMU9uUHdYODFOTjZxTGZibS1pV2pBalJWaw?oc=5",
     "date": "2026-10-12T10:25:34.000Z",
     "source": "DD News"
-   },
-   {
-    "title": "Lok Sabha to take up Births and Deaths, Supreme Court Judges Bills today - DD News",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbnc3ZktwSTNRWlo1U21lN0Q2LTkzX2l0d3FzS3U4a3lTcUtGaDd6MTFuUDctSEdKenMtU0R2WGlmdVJQYlo1a01kV1ZqWnlSeVJFYWc4UWtUX1YtUE1aVGl0UGtrWXhuelpHaW5NUnBCY1phaW82TzJSZ2Zwd21MOWlvTU8zd2JOSzhZeVktWFZFYWROYXYyMUJIUV9TZw?oc=5",
-    "date": "2026-10-12T10:17:48.000Z",
-    "source": "DD News"
    }
   ],
   "courts": [
@@ -495,6 +495,12 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSTZKR1FkNlhETWVfTC13ejVlODlmTlV4RzNRMmhMTmxRYTNjVHczNVllR0NUd056SXZ4Q0lWVm5kYUxMUlE0SEt3elBsdmxEajZ5YkFKYXIyX0thSmhvNDlJUklEMEZkMnhlczc2czhZclRLSUZwaFhURnlOQXhWMllfMC13V21EWnozaENucWhoYjQ5eW4ycGxBbnh2RjVB0gGmAUFVX3lxTFBjX3lwV0ZJSVpEMlVvWkRMcEdhcWh5Q2xXOXR5blQzd01TN21sMnY5ZXBpSFJLMVM1elN6Z1RpSWF5RzUxQ3pUdkJzcHE3OGI3c0JMYkNtV0xPc2NJOWdSdGUxNDNoYnR1RjhaX2VVa1oyUUlDXzc2VUhrSm5tVUJJMi16dzZlRTVTeHZRaWZ3a3VZMHNPR3VBRWxiWTZTSGNncUtncGc?oc=5",
     "date": "2026-10-18T17:26:54.000Z",
     "source": "Business Standard"
+   },
+   {
+    "title": "Courts This Week | ECI Under Fire, Cancer Drug Prices, Reservation & More - Live Law",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdzZlNkJMcUpydGd3UG9MVG1XNkh4SFJwcy0xcXdUWFBYejVYRnp2aFRFTWhZdmFaUTVwYUYwTGNNUXYzWkVoSF85X214WjlQWnVvMTNOUTlqQzVoTzRWd2dxNkx4VFZPWFdZM2NPeWttMnNXaDJSVXBLRFZwcjMxOVN2ZDV1Nm4xTzRNbTFyU3ZLXzVOYWltdHVtTGx1a01kZllxck93M2s3Ymhjb1ZmQk5hb25ELUI1X2N5Nl9ONS1qNEU1aE81X3VLd09SZkRI0gHWAUFVX3lxTE5wRlUtT0l3d1NzQVEwVjJMWTNXRUszVGVFNGJHMjNaR0czU1pEQWI1UTBmY0hqUUI2TzNNX2ZRU1B6Yk03Z09UM0drTVk2VW84czJUMTV2MFU4WUdIM3pldmg4Q3JMaU8zS1hBb2NJVUJfWEpQdVR2bXYtZk14X205d0RINVV4OXdUR1hvQjQweGpCd1VjcTRETl9tdkZIeGJFN19iYjYyVGJScHpnUXVkanVQRU5UdDhtRWR5WWJwSS1OdHRaWktfZ1plaEhaanNCSGR6a2c?oc=5",
+    "date": "2026-10-18T17:01:53.000Z",
+    "source": "Live Law"
    },
    {
     "title": "Supreme Court warns states, UTs of contempt action over menstrual hygiene ruling - The Tribune",
@@ -540,7 +546,7 @@
    },
    {
     "title": "How Generative AI Is Pushing India's Designs Act To Its Breaking Point - Live Law",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORllhYnYtclpGNFN5a0RNdDhkcVdFTGt4dGRiaXBRNzJDSy01c1o3cTZuWVB4VnBRQ2pkU3RTdEpkcktlV3o5WmdhZlRBUUVpcHVCaW13Nl9xazVzX2lHT19WUnhYVkVvZzJacS1MWElSQXVYa1V1X1Flemk5VnNuZFRUOVhZcVQ3V19zd3dVSV9HTkdoQUdQZGRocnRWb01KM1Fj0gGjAUFVX3lxTE5GWWFidi1yWkY0U3lrRE10OGRxV0VMa3h0ZGJpcFE3MkNLLTVzWjdxNm5ZUHhWcFFDamRTdFN0SmRyS2VXejlaZ2FmVEFRRWlwdUJpbXc2X3FrNXNfaUdPX1ZSeFhWRW9nMlpxLUxYSVJBdVhrVXVfUWV6aTlWc25kVFQ5WFlxVDdXX3N3d1VJX0dOR2hBR1BkZGhydFZvTUozUWM?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdVhub2tfUGVIWTR6cGY5VkVSXzVTOExoTmhIbl9iWEJseTVmUXJ5ajhQMDdRNGVqZmRxaUxQd2RMbGJEQTFnUDd2ek8tVHpVM1ljV3ZVWGpyZDc4WXpVR2RzNTQ3b3JVV3Jia1Y3RHNaUkJKMDVHTlBRbnRqak8yNVF2RVBvSkpjT3VUX0lXNnZVLW5WU2FTTjlia25xZ9IBowFBVV95cUxORllhYnYtclpGNFN5a0RNdDhkcVdFTGt4dGRiaXBRNzJDSy01c1o3cTZuWVB4VnBRQ2pkU3RTdEpkcktlV3o5WmdhZlRBUUVpcHVCaW13Nl9xazVzX2lHT19WUnhYVkVvZzJacS1MWElSQXVYa1V1X1Flemk5VnNuZFRUOVhZcVQ3V19zd3dVSV9HTkdoQUdQZGRocnRWb01KM1Fj?oc=5",
     "date": "2026-10-18T14:30:33.000Z",
     "source": "Live Law"
    },
@@ -717,6 +723,12 @@
     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOR053c2xNMlFEb29OVWhjXzJmNUFUellDVzlneHNmQVBudi1iWTgtYjJXNHJvWExBRnh5NDNrVURDQ21wMUNPQWdsVDdpT1J2ZXFuMHZEOGhSdWpaWEZ1TlNnMjBPUk9JeTgwdVd0ZGFEX3drX2VUVll6NUs5cWt0a1c2ZW9mMVdyLUhZWlNmdUFLdUozWS1HQllFV01kUFhUdjRvRUhnNWxiS3JwN0p1RUc0V1FZa3YyeW56cTU4WnJBcWFra19qOTlvdFZBR1hGcEhLNHVRSGZuanFtY2ZweTR2N3lfcVZEUnVQWTVFaDHSAfYBQVVfeXFMUGo1YWtRa3p5VFpmOW84SHBkOGtyQnBCRU1meW1LQ0dXakF2YTVEY2F2ZGxTMDlBWUVfUF96cTR4VFVNQmlXYXRsaVNyVzF6dFZleXhpX3dLRjg2dTRWSDFtNk50am5qaGlZNXFJRHF1dnRINzRodlFSVjZ2SDY2NjhOajZJdGNZYXBIYmVBRDFibFg5Sm5IUndVclhzOVc4enRRd2huci1VV0NDMThzOTZCWXpGNE9iZ0JKU183NEFJTnpTRGNzd1B0TEVhMlFVT3pLSGY3QjluZHhpMFQ3VExtT21xOTBINGVxSllJdEhHd3NVLWJn?oc=5",
     "date": "2026-10-18T07:33:38.000Z",
     "source": "The Economic Times"
+   },
+   {
+    "title": "Madras High Court Dismisses Writ Petitions Challenging LIC Amendment Rules 2016, Holds No Infringement of Promotional Rights. Court Rules That Development Officers Retain Promotion to Assistant Branch Manager, Equivalent to Assistant Administrative - Lawtext",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBULXdVMzRKalNEck9MdnhHajU4ek9rZi10N251UXpBbXpXOUt5c085Sll5YmFGdGo2VHRlQW9QWFFLRmRRTlU4dEVMZW5VbnJteHBSYnlibWctOEFTS2txYWV1dGVxMHho?oc=5",
+    "date": "2026-10-18T07:31:48.000Z",
+    "source": "Lawtext"
    },
    {
     "title": "Supreme Court warns states over silence on menstrual hygiene ruling - India Today",
@@ -951,18 +963,6 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV3doZnBSVzNPRFlYSlhkUGJ6eUppYi1JVXlHRThCclJrMVVGRGNYT0NlRTBJQWw2ZE1nNUZsLVVFYk9vTGx4MzBFbFlpMHROOVB4WkdMaGdfZzhVbGgzRGdxUGpuZVc0Z3NfaXF0QmFFd0lxZEJYSlNvaGVVSC1iQ1poaGFTZGlVS2hRVTByQlVuQXI0cGk1WExGSHRjNVBfU3R3VTFpcU12NHZjS0JYMkZCbk4tcm16?oc=5",
     "date": "2026-10-17T15:19:10.000Z",
     "source": "Reuters"
-   },
-   {
-    "title": "Children cannot be denied internet access in name of safety, a fundamental right: SC - MorungExpress",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa0wyQlk3SkVMck9qeWt3Ykh0RTRaV1R5VnJRQmdHYlR1UXBpLUVEYnJHMlc1d3RXM2Npa2NxdFZoTjhDYjliTXVFYk9BeXNfMmlyYzNaZWdLSHlua183Y1FzaXk0SUI0MFZYNmJwcnZqcDVzRUVxVmZUWUFXTjVGRXVZNFFXb2hJc3B5WU5CSXBndi1UUm9aaUEzSTM5TDFsRjN4aF9VR3lpS1pn?oc=5",
-    "date": "2026-10-17T15:10:21.000Z",
-    "source": "MorungExpress"
-   },
-   {
-    "title": "Supreme Court Contempt Case: Sanjay Raut Submits Reply After Notice Over Remarks on CJI - www.nationpathindia.com",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZUo4RG04U2JfYUtHMWMxbjNoSXJrcEh0dUtjZ0JPdmU0TDYtSmREMUdsaHNsV2lrUkxDN05Uek5iWUVQLS1fc3JpR3ZTaWNWV3dqTk1VNkxNWFY2Y0M2S0lsMUs3S2RURWJrMThBazhBbTBTVHJPUEN2djV0YTVhNWdxRnFMdVpJZ05YWC1nb29LS2UzRkl4bVF6NA?oc=5",
-    "date": "2026-10-17T15:06:46.000Z",
-    "source": "www.nationpathindia.com"
    }
   ],
   "elections": [
@@ -1142,7 +1142,7 @@
    },
    {
     "title": "‘When they lose, EC becomes an issue’: Nitin Nabin targets Rahul Gandhi over SIR - The Indian Express",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbkpTTDd5SUZ0bnZGaG02NWFBYmw3LVQxVEhtdjF4TlB6bjliSEFvM2dVSHhvWDlFLUlmdENWUzk2WGpEeDdZUGJLTnA5dk1hMWNwaVR1c2xHVTV6VnVJdzdUdnM5YXdjRzI5cFFieGQ2aUF2TUFheVJ6Y1RDN1Ezb3d4TzRaWlAwVGphWHgyRXJtNVhlTVNnZHhyUHVSbTJLU21RTUJMLUhBRVJuMEdfUjZwdEx2NzRubkHSAboBQVVfeXFMTW5KU0w3eUlGdG52RmhtNjVhQWJsNy1UMVRIbXYxeE5Qem45YkhBbzNnVUh4b1g5RS1JZnRDVlM5NlhqRHg3WVBiS05wOXZNYTFjcGlUdXNsR1U1elZ1SXc3VHZzOWF3Y0cyOXBRYnhkNmlBdk1BYXlSemNUQzdRM293eE80WlpQMFRqYVh4MkVybTVYZU1TZ2R4clB1Um0yS1NtUU1CTC1IQUVSbjBHX1I2cHRMdjc0bm5B?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVEFqdGF2MjVWV281cnVmWEV3NEwwWjVDQVNJajYyUk45WXpVZF9SMDh1SzQ1TWFwVnVzU0VITElsWkxHbzNUOW5aVmxGLVd3RWNSWmUxTEVORDNXeTNhYjYtX19mRWU1QVF5SWV4TENTQ000bXZkdkxMUmFheHNIZWhtMUlER2k0M3hINkVHUTZTQjZCQ25oY0ppc3otNVdueWVROGpCSW9qUnllbkg2d1Vic9IBugFBVV95cUxNbkpTTDd5SUZ0bnZGaG02NWFBYmw3LVQxVEhtdjF4TlB6bjliSEFvM2dVSHhvWDlFLUlmdENWUzk2WGpEeDdZUGJLTnA5dk1hMWNwaVR1c2xHVTV6VnVJdzdUdnM5YXdjRzI5cFFieGQ2aUF2TUFheVJ6Y1RDN1Ezb3d4TzRaWlAwVGphWHgyRXJtNVhlTVNnZHhyUHVSbTJLU21RTUJMLUhBRVJuMEdfUjZwdEx2NzRubkE?oc=5",
     "date": "2026-10-18T01:00:34.000Z",
     "source": "The Indian Express"
    },
@@ -1465,6 +1465,12 @@
     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUFdJVnRQdzNyeUtZZE8yQ3p1RWFzcXVlUkR5cEFXV1RDWnBmZk1od2M0V0dsaXk3ZXRKUTVBWUdaMlBTbE45S2ktenduOFYycndPRjZwbzU0ZFR4aXQyWC1MQmhEMktaSVpFTVNsSVdmVi1xTGNIaE90bVpWdnUyOXVVa2J5ZlZlSllMUml6ckhjQ2c1aWhhcXNmb2xKWDZJSVlUak4yM3VITGMzUE1HNWlhTEpJbGk0T1cyUlJSZm16TWQ0WjJCLTRqMXpvU2o0Ung5TUI2SEhuSGFiUFRDbndNRnPSAeQBQVVfeXFMT1BXSVZ0UHczcnlLWWRPMkN6dUVhc3F1ZVJEeXBBV1dUQ1pwZmZNaHdjNFdHbGl5N2V0SlE1QVlHWjJQU2xOOUtpLXp3bjhWMnJ3T0Y2cG81NGRUeGl0MlgtTEJoRDJLWklaRU1TbElXZlYtcUxjSGhPdG1aVnZ1Mjl1VWtieWZWZUpZTFJpenJIY0NnNWloYXFzZm9sSlg2SUlZVGpOMjN1SExjM1BNRzVpYUxKSWxpNE9XMlJSUmZtek1kNFoyQi00ajF6b1NqNFJ4OU1CNkhIbkhhYlBUQ253TUZz?oc=5",
     "date": "2026-10-18T17:20:20.000Z",
     "source": "Hindustan Times"
+   },
+   {
+    "title": "India’s Infrastructure Transformation: From Connectivity to Capacity - Press Information Bureau",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb0xGcGxxMFYzWU5qVDluREdGYVVVV1Q2dk84cnpEMWQ1RExaUDR3bWtWbnpBd29WanNHQW04aFA4ZGhLTFVaWG96bndNTmRuVHhmV2MtWUt3S2d6U2xZcjVaQmowRW85a2ZDcFlPRXRBTlNjZGdQS0tJTEdoSFVET1dIM1RTRThOaDdLRVcwdnc0aDVXTHZIODVR?oc=5",
+    "date": "2026-10-18T17:04:11.000Z",
+    "source": "Press Information Bureau"
    },
    {
     "title": "Delhi seeks public feedback on proposed 250,000 e-rickshaw fleet limit under new scheme - Swarajya",
@@ -1921,15 +1927,21 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOU3ZDdTFWNFp4RTBCR200VGNaVmhINnJUZ2N4cGVGdU94aXEwZ01tcGlVamJ2c3ZxNFlBVUFBUTR1RUQ3dmJfYnA0MmZjRVlnc2loQ29RQ1FHSFZUVW1KX3RldkdMeWhaTkVGZTFUNms2QlZQVjlqYkRhZUc1TWpVV3Q4Y0hERGVsWjYwZ2JyTTBLYnVGMzRNb3E2RHNQQm5naHNubzRlQVU?oc=5",
     "date": "2026-10-17T05:00:22.000Z",
     "source": "SCC Online"
-   },
-   {
-    "title": "Sports Ministry's Key Rules for National Sports Federations Explained - Sportstar",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNy10dXo5X3piQ2dvWVdhUFBBQkhCbndPa1dlRnVIZTVhRzJhR2JyOFM3cExrRllXaHF2aFRoUE1KUFlyWWgwOVUyWEVBS1paV1dRNWRhMnl5b1N1Q0VVN21wMUFEcFN2MjNaaGc1MElTa1lxV3ptSjVFLXAyYnRzT1V1S0lvZzgxZDA1bDM0VEt5c3pwQ1B5NG5sWmZSbTREUG5WRlVRN19tY0lCb3F1bFJJenh2ajVFT2RRNVpR0gHEAUFVX3lxTE52dnp5YUdxMG01emFDdHRhRzdHNlhfSi1RMTNjRzJPaTB3MDVRUW1HZ3NKNWtxTDZ0TkFNVklLUHBhQThteG1XeWtISWRCYnIxb2JpQU91Y0dxc2VpOWVPTGo0Wk5iNFphUlBrLUxxeGZvd25UWXZrTEhQQ1V5MXp2Vzhib3htZ3FrU0NJQlNvNkJrLU5xdHR6UUowNlJseFlZRDVvUEN1MGdoWExXeHR0Rl9VNHRnLV90UldYX1h3OUFPZkk?oc=5",
-    "date": "2026-10-17T04:32:38.000Z",
-    "source": "Sportstar"
    }
   ],
   "economy": [
+   {
+    "title": "Correcting rupee against fundamentals ultimately futile, says RBI's ex-guv Subbarao - The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOeE5qQk9iWWZIeGNjNDg1cG1rWFhaMVFiekRmbGloLW9uZzVBOUFxdkRMQWlNeEdMOU5GLUNfenJfVVFldXM4S2M4M1c2NUQ5cW9zU3FQYUp5ZFhESk1sazNpcklPS0lwVmlnRHBaamZFUGh6bjBwdTlWNnQxRkRmN3REYi1GbmRMNkt1anMzMFM5R0dVSDBzUW1VODhwb1RJNlFjUHE0VEN5ZjJ0azZPOHYyQ0ZWNWRxN29lOVRtVUR1LUFRaHFtZzhFLVVZV01TU0FUWUh6dUU4MVlybkU3b3dNQXFScmE0NnpmVkVyTFU3d9IB9wFBVV95cUxOVEJlNU9vc1hER0hZWXowOXVTczRnRFY1cGx6ejJDalBoVWQtcjlITjY2OFhkRWZFYmxmZWhiTlFXbzl4azdYTkdRZS1MZFBVTTJLRGFvSVRzZlRKTzN1X2pMRzlYa0lWVkJDeXpLMFd6cDBrVVBxU1YyejNIZGtIMm15LTQ2aWllUkxwU2JNZTN0d0FkZEhjZ1ZMbF9CcXIwOUg0LWJtTzhTSjlIb1YtbmVUdTlPdlVCUTJySThOdi15aU8tdU5DeDNkSTNxTURrSFh4RmNSVDJ3bzlUZUtTazFjczMzYkltZVN5bmxEZ0xBdjFVMy1J?oc=5",
+    "date": "2026-10-18T19:45:45.000Z",
+    "source": "The Economic Times"
+   },
+   {
+    "title": "Tamil Nadu adopts new GST checks to ease goods movement - The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVHdnQnBRRVhZWElDNEhFYkFGek8yemVGMkxXUjdkd1l6TGNQZl81SFkwUlhUbGpabmZpRWtKZks2eWx0UTdQWmNfZFplMVI1eWFkZVc5RDdhR1dVdm9KYW0wUVdmaUtEcFM2QXY5OV9NajYzSWxTRUlsTm9sclpnTmY2M3UzRENMWWw4dHN4MGJmbDVUM3U2U3V4d1JDRGZNeGdNWm1fT3cwZVFmbjVCNDNkS2xmcU1uVEJQRtIBwgFBVV95cUxQM1NyczJ2YUhzR0pPczRlTkxCV3V5RlBEQUNUT2N1bnE4Z2NKeDVwX3BiS2w3bzF5VURvRWZNS1JBU1BHVVY4dHZtZHN1bklaMHZLUHpXbzJOOXhBbDNBTlM5aGZkUkpQZHRuaUpPZXQtbTUwRUd1NG8zam1WUnZYMEt6eEpiWGNGWWlvSXJ3ZmZVZlZ3UHBKbFdaRmR5YjIxX0U1NUlHem1yVlpJRl9RU2JiclhqNDR5UTRma0tkbWhxUQ?oc=5",
+    "date": "2026-10-18T19:34:08.000Z",
+    "source": "The Economic Times"
+   },
    {
     "title": "Tata Sons reviews AoA to meet Sebi listing norms - The Economic Times",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMzVmN09fTDJvWDhpTkNFSWJGWGQxR0thNk5jMEtBUVFKS2E1Nlg4LVZXclJmVVFfQ1dqSEhTWFpESUVpSW1TSTUwNU9mZlY5WDZBRDB4ZGhyY2IzVXRENGpobXgzUFQxakZwUTlmbm5NUmVvNURobTVNQUNvcDl1WUo3Vk5CWU1wWC1WejJ4dVF4R2M0Y0szUnNBaWpCUk8wZzVuVl9GSDQzMW4ya2VLeUNNV043dG5JZ3hJWVprcXluQ1BuY0ZDT3E5OGzSAdIBQVVfeXFMTkpDdjZISnJCYy1jR0pza3FnWUxxQjhaUENkb1RIeGN2UVpiWU9Sb1BGeUE5bUxNdlRYWklBSkJhb3hfVzVUMDcxT2N2bk1MaWFFV1NkUGQwdVNlQzZHdjNZWEkxYTkwaS1ER2JIeUpZNzVVVUJpVnpQdlZMLXU5ZXZkejdDdDRrRUhkd3dDT0VRbTV2QncxZUpoUE8teHJfT3ZNYU96QjN6d1JBTVdBU2JodEVTdlNFajA1cnlVZUdFNzRGSGYtc3BGYUh0SGRSMTZB?oc=5",
@@ -1953,6 +1965,12 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdm5SVWVRT1NseTQ3RUhnM3hxQ0wzVl8wZTJkOHM4UTdCbkxTeDNKdk50RGFNbjNha041MEgxOWNEU01Na29sRU9iNFJLUjN0TTd0Mkx1UHB1aU82OGpieUU3RzU0R2FPSzBTUWc5bG0wOG4wUERaVkdxTDZwQTk1bVdUSkhibHJyQXBDSEhBNjZNTXNN0gGaAUFVX3lxTE5acWpzV2t1ZWh0WmxHRlY4VXFBVU1uSnEtOE04MklKQ1FCN0gzajRNekdTRGl6X0h2ZWpaQ2hadkdwQ05XalV2VmtPQ3JPLTVnRVFyTERndlZrZFlYQ0RfT0E0cW9ZTFR1aE5VV1JOTmxiU1VEbnJBMXg3cmdpTHdnV3hZcHpXNmhEbXFxMjR2R2doazBldzlaWFE?oc=5",
     "date": "2026-10-18T17:17:04.000Z",
     "source": "Business Standard"
+   },
+   {
+    "title": "Gold and Silver Price Outlook: Rupee, Crude Oil and US Inflation in Focus Next Week - Sangri Today",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxON2x3bU5pQkZRTVVuNnhrQmttZ3N1RUdjaFlNUFdmUzhQQjJ3dFV5emlrNEtHd3BMcGp5S3VTblUyS3Bxc0F4bmtNeEFiV3VPSGdHSXh4VmZkdDIwQ3Y3b0dDdXltYUZ0SURvTlRwaTB3b1NLLTdlWWl0MXF6YVFzdnV3QmM5TUJiak1GYzRWTG1rVWxKemdwbmhhQS1sUlVEU3h1LTBzdjZMRDA1Sk1PLU9Yci1pSkVQRHB3ZktrZ9IBvwFBVV95cUxON2x3bU5pQkZRTVVuNnhrQmttZ3N1RUdjaFlNUFdmUzhQQjJ3dFV5emlrNEtHd3BMcGp5S3VTblUyS3Bxc0F4bmtNeEFiV3VPSGdHSXh4VmZkdDIwQ3Y3b0dDdXltYUZ0SURvTlRwaTB3b1NLLTdlWWl0MXF6YVFzdnV3QmM5TUJiak1GYzRWTG1rVWxKemdwbmhhQS1sUlVEU3h1LTBzdjZMRDA1Sk1PLU9Yci1pSkVQRHB3ZktrZw?oc=5",
+    "date": "2026-10-18T16:08:47.000Z",
+    "source": "Sangri Today"
    },
    {
     "title": "UPI: Transforming India's Payment Landscape - Press Information Bureau",
@@ -2133,6 +2151,12 @@
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOM2hscHQxRm4wenQ1ZmszQlZpS1NXMUtXYV8wTTV6bXNxOE9zZEc2Ql9tSjlLdXg2ZUFVbnVJbDlrYnFSdC1QNGoxWU5zcVhOTThIbmZZWjFkWUdLZjJ6SXdPb2ZWajcxaThuRndENlRvaVRVS3lrTGl1YmNFYnhIM0xYNVRBMXB1aWVzT2NUZU84d1RsQ09qT3N2RnZDOUNUM3pCako3dHFNalY4aUVuRndseFlTTjAxY2NmNFRZWG9IMmkwVXMyOXRaYlF4VFdPVHZtajlyN0dFMHpjM3JBMktnLUpkSVFvVlhVNdIB7AFBVV95cUxOM2hscHQxRm4wenQ1ZmszQlZpS1NXMUtXYV8wTTV6bXNxOE9zZEc2Ql9tSjlLdXg2ZUFVbnVJbDlrYnFSdC1QNGoxWU5zcVhOTThIbmZZWjFkWUdLZjJ6SXdPb2ZWajcxaThuRndENlRvaVRVS3lrTGl1YmNFYnhIM0xYNVRBMXB1aWVzT2NUZU84d1RsQ09qT3N2RnZDOUNUM3pCako3dHFNalY4aUVuRndseFlTTjAxY2NmNFRZWG9IMmkwVXMyOXRaYlF4VFdPVHZtajlyN0dFMHpjM3JBMktnLUpkSVFvVlhVNQ?oc=5",
     "date": "2026-10-18T03:30:00.000Z",
     "source": "The Economic Times"
+   },
+   {
+    "title": "Why national inflation averages hide the real story of household price experiences across India - ET Government",
+    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZjh1ZWI2MXFVVG40SWJXaHVOa1JwQmxqaU5wdG5QSURVNmRyQjVlTXkwaHUtS3VYbG1aQU1nSDg4YXNxVktrZ1Q5ak1Pb3VJOVJ2bTZRUVZ1VWNaQ0cwdHVVTWM3cloxd2lObWx4WXVVMVJYTXZUVHpBaGpvc3A2QW9KLW13cnRZbjRRV3NvZVZBdDh6RTNtMWtqQUZ4Z1dVM2Q1emxJYmdOSTBZZTVJc2h5TmVwa0hBa0hBWlhleHNXRV9sZUdiZ2FTdnk4Qk04U1JIVXFyM0syeDNNdG5wRHdoSElMd9IB4AFBVV95cUxPeEtvdVZKbGlSTENGYlZDVlJrQTJVdHZhRHJMeHdTaXUwMGN1aE5rdXJQWk1LNVBsR2VvTjB3dHlHVXo2MUNzSmV2S2tlSnFiOS1yb2pSNEJvbUtCQkNVZDZramEyUTBFTGFDUDFMTUY2ZXNSaGFLSWZOVmF0MVZmSnpyODZ4QkRZMWROcUFPek1fMHpFN3B5TE8zZ2U4OTlmMVlZNDdxaS1ySjNiTnVTdHFvN0MxYkJ4bVI0WkQ4dWtNZ3JPNmZnUm5DQzZ4YXNZR1czYmFqM2RUY1IwQS1fag?oc=5",
+    "date": "2026-10-18T02:43:11.000Z",
+    "source": "ET Government"
    },
    {
     "title": "Private capex cycle in India seen gaining traction as corporate, SME lending surges: Jefferies - https://www.indiagazette.com/",
@@ -2385,36 +2409,30 @@
     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSVVLQnNjUHl2T3JvbFlING5TVkN6SFJfaTNORlp0bDc1S2J6d3U2c19MQ2JuVWZ6TmROZVkxOXpxbnlZZGpObUc5RG04cElsZXFBdUltVTlOQzZDeGkzY1Vmak0zRXhSWnliVTdFSnVzRTRBMHQ5UTVKYW1Vek9VZnhnS2JkTmZoMXlkZHNVc1Z3Vm1LOXoyRGVRUXZaYURQSnRkVnUzUjAtNDM1eXVPNEJUeWx2c3FjUGV3c0FXdVVkeFExaUxjOUFXNkRlRV9oS0FMSnl0aFZoM0ZMR3lYOFZVR0lmQWdNQUHSAeoBQVVfeXFMT0lVS0JzY1B5dk9yb2xZSDRuU1ZDekhSX2kzTkZadGw3NUtiend1NnNfTENiblVmek5kTmVZMTl6cW55WWRqTm1HOURtOHBJbGVxQXVJbVU5TkM2Q3hpM2NVZmpNM0V4Ulp5YlU3RUp1c0U0QTB0OVE1SmFtVXpPVWZ4Z0tiZE5maDF5ZGRzVXNWd1ZtSzl6MkRlUVF2WmFEUEp0ZFZ1M1IwLTQzNXl1TzRCVHlsdnNxY1Bld3NBV3VVZHhRMWlMYzlBVzZEZUVfaEtBTEp5dGhWaDNGTEd5WDhWVUdJZkFnTUFB?oc=5",
     "date": "2026-10-17T05:25:36.000Z",
     "source": "Business Today"
-   },
-   {
-    "title": "$60 billion in 6 weeks: RBI's rupee defence comes at a cost - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPT21iSWtNdWRpV3dKcGNyYVBjUU5FTFJFenEyamJlSm9PRkhEZF9YcmxiU1NieWw2ZVQwbU1iWnkzQ0FPdWppNUNMdEw4YzVkelJfeEE4Q1dOaTFxVEV0VVptTU5iZjBodjlqMG9fRWFsczRkTm9BTlJwVVN4aGtRVTJOeEMyeXdtLWJSaTQ4VWJZVUphbFQ0cmRCdmxNVUZRMml2SHk1VnFSd0gzcHJkU1N6ZHhjejBnbW9oTEdCRk5FZDRPMGlXMDA4VU5KZFNo0gHWAUFVX3lxTFBlU3N3U2ZCUFZyVnhfY0JsaFM2Z051ZnozYjlRWXY0QTNtVTI5WUd1cDA1cUhUY2V6Q1V5UE1KanJwa3g4My0wTnVHX1JVRjhLSS1PaWRZVS1CZlNLNEUyS2dreXdHUGpGa2x1WVhaSWpqQ3dVamFBWFQ3S3ZBUlJtM1lBaXd1eHNfTVJmSm1Ea0puRjFacVJqcjJHeWx0R0VSR2VTOFBOeC1mY2VEdmRkNXp6cXJ6ai1zdnRxcV8zNzNrOTZPaG9aaHpZLWtRT3FaLWN0Rnc?oc=5",
-    "date": "2026-10-17T04:56:20.000Z",
-    "source": "The Economic Times"
-   },
-   {
-    "title": "Finance Ministry clarifies on legislative developments concerning govt's IDBI Bank stake - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOYWdsbXc4QXZWMUd3SGZoNlpGeTNYLVY1WUFDVldSWmFYZTJEZ3J4Q05hTmFGUHRGdjQzM0w2emgwcnItRzBFRVNZV09fZG5xWVFScXc4OGdPVElUMFNFX1RPZ29oTVdRQjRhbGJVV0tod3pnZ2d1YWdUQ1RiV29ZNm9BLURyV2dMM1NGMFFSdmJvVFNOeEpOT1VHclBpdkhkZ0xFaHQwYXQ3ZWxqY2FhOVFyeEtsTjF4NGdqbXZpdDdUNkZIcFpxdmhLS0VTeHJhSkNoUnRqdHNHaXVwOVJnTVdXOWp3dDRGa2Y0cnhsanJNWHRkWGxvSXh1LW8zSzRvUTZGVkl4WEJ3QdIBigJBVV95cUxOYWdsbXc4QXZWMUd3SGZoNlpGeTNYLVY1WUFDVldSWmFYZTJEZ3J4Q05hTmFGUHRGdjQzM0w2emgwcnItRzBFRVNZV09fZG5xWVFScXc4OGdPVElUMFNFX1RPZ29oTVdRQjRhbGJVV0tod3pnZ2d1YWdUQ1RiV29ZNm9BLURyV2dMM1NGMFFSdmJvVFNOeEpOT1VHclBpdkhkZ0xFaHQwYXQ3ZWxqY2FhOVFyeEtsTjF4NGdqbXZpdDdUNkZIcFpxdmhLS0VTeHJhSkNoUnRqdHNHaXVwOVJnTVdXOWp3dDRGa2Y0cnhsanJNWHRkWGxvSXh1LW8zSzRvUTZGVkl4WEJ3QQ?oc=5",
-    "date": "2026-10-17T04:31:00.000Z",
-    "source": "The Economic Times"
-   },
-   {
-    "title": "Online Push, Strong Product Portfolio May Help Nestle India Sustain Growth - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOEFyUTFNdzVsU1dzQlViVS0zd0E1U19KM2toM2pHVUFqT2QtbHFHV1V6eEotdHBuRXF3dGNVN3M4WVVyd2pNZnYzYTJmY3RWOExqZnhLc1R1OTBZR2xnd3RwVVNxY09DZ29wTW1kRDFKcTVXV3BkNjdTVnFpX1V2YXdUUlloMEpjb1NhTlJBUm1NOTNYcnZTTnZabUJmWVhaSXNnQ3lOaGNZLVN0ek4tby1LT1ItMzVoV29TMTdoMmg1VktRLXo0U01B?oc=5",
-    "date": "2026-10-17T04:16:00.000Z",
-    "source": "TradingView"
-   },
-   {
-    "title": "RBI Imposes Rs 1.3 Crore Penalty On State Bank Of India - NDTV Profit",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZDRfaVgwVW83YUVHdkJldjBGb1hab0pocFdobHUzLWQ4Z1JGWlRTeldVYXdiMUdDZzFNQmtwRFViZjh6S3lUUmE2eU11YVV3eWJoTnFpZlNIdkZTeUs0ZXIzLUVMazhkQi1LUVpTaW40blIwUG1zQmtCQ1Y3dGliUkdIb0YxN3Y2cVlveXdpcG9BRDkwcW9kYUQ3OVZNYTVv0gGoAUFVX3lxTE43eXdoY29BMkdLY0Jaak5yTFFSUXlINWl6UXVzZ181b1c3WlZDNk1jMEF2a3FfU3c3U2JYcnVrMGFJdVY5RmRYVTkzR0JuUll4Mk5oZUtzeU1QSzVRdTBYMTB5eWc2QVBJaWZCTFlKSUtDeE1sbVZ6SzJtdWNLaWpfa29vUGFHOW1IUFg2TnJYVHA3endwWWwwUUhxMjU0ak15SXJzMnBtRQ?oc=5",
-    "date": "2026-10-17T02:37:58.000Z",
-    "source": "NDTV Profit"
    }
   ],
   "world": [
    {
+    "title": "Macron calls for calm in France and warns rioting must not escalate",
+    "link": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-18T20:06:20.000Z",
+    "source": "BBC World"
+   },
+   {
+    "title": "What we know so far about deadly fire at Canadian military base",
+    "link": "https://www.bbc.co.uk/news/articles/cmgelrq8x92do?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-18T19:42:37.000Z",
+    "source": "BBC World"
+   },
+   {
+    "title": "COP31: Bangladesh’s test of climate diplomacy - The Business Standard",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNGlxeS00SVFtckJGZmZ4a2dNQzZfWVB1eGw0VnhvX3BtZTZYRF9adEZSOXV5X3hxMDkwZDRuYUxSbEhDZzhzRzR2VnhGRHhHUFhBZk5iZ2xnNGhycWZfRWVDR0VUZURWY3BQc1NyZU05YTJ0Q0ZpNjJNbnlLZFVUNjhMTjVfT0Nv?oc=5",
+    "date": "2026-10-18T19:35:00.000Z",
+    "source": "The Business Standard"
+   },
+   {
     "title": "Zelensky discusses next steps in diplomacy with Trump's representatives - Ukrinform",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUngzOXp3UUdTTlRONjAwSHk4TTFLbUhudDFGQWw4N1dUV1ZKZmxWMENBLWFJdkljcXhwNEgxaVpqZmtGeHAydi0zYXN6aGNGelR1ZndQTmRlU1BjRGxpV29OdC1seXJxRDh3SVdRSG5LUzlrOXR6MklWZHNNQXNuWVdyZ0YwRnYtVnpQQUpYSkItaTlUckZUazRRWDFaNXpraGwzam0zZ2R3WHpLcGN6dEozSHF3RXR0UkJfQzltWjE1OUXSAcgBQVVfeXFMTXA1LTVYUTFCTVFqWlJZOEd2dnNYQW16Q2VlNTNlWWpsZllPbHJNRTZqbmFKVzgtY1R4d1M4MllLcXAwX0lrLUFyZ051Ql90VF9VdXUyenBlTTF5NWNsWTd6eXhaUTd2VXlSTjB3N1c1cFcxNEFYLWRwdzhJMkI4VGJGZlRuNHVYbDVaeTVEU0JBeVJ0WG9UVWZ2NHZMMVYyc0IyQnlzSHdvME9ndkQ3enZVR3U5ektjcGNPQk5aLU0xQ19nSzRBS3M?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcDUtNVhRMUJNUWpaUlk4R3Z2c1hBbXpDZWU1M2VZamxmWU9sck1FNmpuYUpXOC1jVHh3UzgyWUtxcDBfSWstQXJnTnVCX3RUX1V1dTJ6cGVNMXk1Y2xZN3p5eFpRN3ZVeVJOMHc3VzVwVzE0QVgtZHB3OEkyQjhUYkZmVG40dVhsNVp5NURTQkF5UnRYb1RVZnY0dkwxVjJzQjJCeXNId28wT2d2RDd6dlVHdTl6S2NwY09CTlotTTFDX2dLNEFLc9IByAFBVV95cUxNcDUtNVhRMUJNUWpaUlk4R3Z2c1hBbXpDZWU1M2VZamxmWU9sck1FNmpuYUpXOC1jVHh3UzgyWUtxcDBfSWstQXJnTnVCX3RUX1V1dTJ6cGVNMXk1Y2xZN3p5eFpRN3ZVeVJOMHc3VzVwVzE0QVgtZHB3OEkyQjhUYkZmVG40dVhsNVp5NURTQkF5UnRYb1RVZnY0dkwxVjJzQjJCeXNId28wT2d2RDd6dlVHdTl6S2NwY09CTlotTTFDX2dLNEFLcw?oc=5",
     "date": "2026-10-18T17:58:00.000Z",
     "source": "Ukrinform"
    },
@@ -2486,7 +2504,7 @@
    },
    {
     "title": "Zelenskyy speaks with Trump envoys - Українська правда",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Ic3RKMXVlN0RvamRGX1QwdzVWQlo3U0pBV0xSMDFON2o2T2lwYk5YeE11d2VPNFRsZzNVYWlHa3U4cHJaSUxrdncxbS0tdjhvbEl1UE5OX3Ryc1NJal9CWHRrRHk?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Ic3RKMXVlN0RvamRGX1QwdzVWQlo3U0pBV0xSMDFON2o2T2lwYk5YeE11d2VPNFRsZzNVYWlHa3U4cHJaSUxrdncxbS0tdjhvbEl1UE5OX3Ryc1NJal9CWHRrRHnSAXBBVV95cUxQMHRPcEZKQVo4QWRrc1RiVGlzNmtCZVBJU0xzT1ltZ256TUJ5SFBYNDBLTlVXY2dDQXM1clNPQThQLWstQWNmWHhkeHlBam5mNGhqb0R5OTgzWUVITERocUY0emtzdEVHUG82S1Y4S2Zi?oc=5",
     "date": "2026-10-18T14:58:00.000Z",
     "source": "Українська правда"
    },
@@ -2872,24 +2890,6 @@
     "title": "Pope discharged from hospital days after lung cancer surgery",
     "link": "https://www.bbc.co.uk/news/articles/c5x2vkddrkrko?at_medium=RSS&at_campaign=rss",
     "date": "2026-10-17T13:51:36.000Z",
-    "source": "BBC World"
-   },
-   {
-    "title": "Egypt FM urges diplomacy to contain regional crisis - Egyptian Gazette",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMW1DNTZyMW1kNlNucE44Vi03Vl9Sc0wtQXMxZFNWWHFjVE9uem9yVnJTTU9Fazg4OEZ3QlNpLXd5NjRTcTRWeE5fOTFoWllqNlZWNmpZR1NGNHVLODhWeDlsQUpsS2EtN0VLVlUwSGxFTlBLVmpWazE2d3hYa2F0X1V1VTQ3VEp0UUczMXJ6VWY?oc=5",
-    "date": "2026-10-17T13:42:02.000Z",
-    "source": "Egyptian Gazette"
-   },
-   {
-    "title": "Pope to be discharged days after lung cancer surgery",
-    "link": "https://www.bbc.co.uk/news/articles/c5x2vkddrkrko?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-17T12:37:26.000Z",
-    "source": "BBC World"
-   },
-   {
-    "title": "Nursery owner in China jailed for life after hundreds of children poisoned",
-    "link": "https://www.bbc.co.uk/news/articles/cqe9lx54g7x9o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-17T12:11:58.000Z",
     "source": "BBC World"
    }
   ]
