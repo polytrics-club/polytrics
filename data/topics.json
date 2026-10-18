@@ -1,37 +1,37 @@
 {
- "week": "2026-10-12",
- "start": "2026-10-12",
- "end": "2026-10-18",
+ "week": "2026-10-19",
+ "start": "2026-10-19",
+ "end": "2026-10-25",
  "topics": [
   {
-   "id": "motion-2026-10-12",
+   "id": "motion-2026-10-19",
    "kind": "motion",
    "label": "Debate motion",
-   "title": "Should the voting age be lowered to 16?"
+   "title": "Should governors be elected instead of appointed?"
   },
   {
-   "id": "news-2026-10-12-courts",
+   "id": "news-2026-10-19-courts",
    "kind": "news",
    "label": "In the news · Courts & Law",
-   "title": "Rahul Gandhi Calls for Supreme Court March against CEC",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUE1Yc0dKNDBybmY4Uzd1dmt4blltTERVMTdrMGdwT3ROSTd5Q3FGQVJGS0RNS0FEQmhsbzhlZVY2VjczYXdFRmx4VXc0YkFEYzJ3eW1QdHk1b2tYbE1obVktcDJEODV4Q0FuQUJUU0NBckdGMHktTEFwRU5TMEttWFprRW9acUxyTUE?oc=5",
-   "source": "The Indian Awaaz"
+   "title": "If you want to play cricket for India, become an Indian Citizen first: Bombay High Court tells OCI players",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNaUplNmRZU0c0S0Z1WDdfSjVqZFkzcE4zUDNoVXBlOURPSENNY205LVRYZDEyZU04aF9IeXgtdUhGaGNyY0xRcXhxV0pYNFVtX3RtQzZZYm9vVDdzZ1k5dXhBNnVlaTMwanlJZHdmcUxfZzZCSTAzMVAydjBud1R0dzlra0NGenZZYnJGVW84dEhjYWg2ZU5DamJQNkh2TUtYVlFRLUMwUHNCTUI2STJHY3h4TnV2blpra0wtalNjNW5ZVWxOenY2dElad2gtcGxqOElibXhKMl9RS3hfY3JaNtIB5gFBVV95cUxPRVNjZ05QTTI5ZUZ5bFJYU2laREQwZXdnVDRCWHVJejNvRlRqdmt4TjVwZkNGRnlxY05wZG54Vlo0NjdERVVzMUJueVdYNmJLbi1WTVI4QnNsd3pQN3VvOFpGaXFFOE1zTmdIX0ZIQmp2ZVVvdVhPVjRTaS1yYjVVV2ZYb0tKb0dyMl9DeHhrY0l2SWdnbkJZaExzMzlCcW00eE5SY2xsT29mbDVUaVVNc2FxTEtjZUgtWkM1RnN1OEZZRkVpakljSXBMUFpZallhaFd5VFFmT2J4UkdETjVQVzc3cTc2Zw?oc=5",
+   "source": "Organiser"
   },
   {
-   "id": "news-2026-10-12-parliament",
+   "id": "news-2026-10-19-parliament",
    "kind": "news",
    "label": "In the news · Parliament",
-   "title": "Ruling Party: Focus on Delimitation Bill",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeDY2bEdEWHNTb0tMemZLWWJrYThYTFpFZG1FOE5hX1FQN1FIWU1BaVBkWTROeXNfdmhFbTg0Rk1lYWktN21xbXlMVUU4OGJuM3hlSXhlbUp4OHVhd1dTa0I0aTNhUWNzM1d5ZWxUck1ReFhfdG9vYU1yQ1cwUGN5ZkdPV2VkdGpWbnFV?oc=5",
-   "source": "Punjab Kesari English"
+   "title": "DMK, YSRCP backing CEC’s removal clouds Centre’s delimitation push ahead of possible Parliament session",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPUlRpQ1BYYTMxOGROUjF6eTk2SDNHYklMa1AwX0ZlTkJyQ21UanFYWWp3UnA0cGQ5ZkF3VmU5a25oLTZKREZwdFNtSkxFY1NtQ1VRVEp0MXlsLUowRE9oUXA3YXZYNG8xRWdvRFVYMWRPcnE0UlEtS19mQlVaX3VvOUNIVXlQNUs3ZzlPUUZwSWo4dHNnOTk1WEJzLWViM25WelBWZEJ6TER1ZmpWQUJPSEFZejVfdHFlelVKQ1RjbURqWGhnYzZiRktJTC0zOGxPSVhwdjVLdVA0Y2tIM3djVEVIZDhCd9IB8wFBVV95cUxQaHJNSEZGcVI3QmxYQ2NoME5fTjExZTZtYnBQQV9heWNvSE05bjlEX3pfUTR2RkNkTDJ4VFNyc1l3ZWJ6dDJWQ01UMVBRaFVPZ1h5X2Y5SVdZNDFRZTVFalltVW11cGNCdTk2V3VFdjVSLXFzMFFGaUFkRzJQWVIwRE4wMVBNTUU2Vko1WG9mNVBuSXdNQzgxX1F0bGRIYU9COGxsLXVrNk1wUENsRFFwWnRiTS1jQmhjWG15S05PS0xJUUFGNEpyUGJJN1RqalpreHFZM2NoSHpUeXNaQUFzZXd1bWY5aVZqeV9CM2VrVGJCTVE?oc=5",
+   "source": "The New Indian Express"
   },
   {
-   "id": "news-2026-10-12-policy",
+   "id": "news-2026-10-19-policy",
    "kind": "news",
    "label": "In the news · Policy & Schemes",
-   "title": "India’s electronics manufacturing is not just assembly: Dixon’s Atul B Lall",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSjQ3UldmQjZEVDJLRGhaZDYxZmF3QUNPcnVodEZwQ0o0bk9qekhPa0kzN0pQR3k4dmV6cHBmTjZZeFItZlBWNnNTTDc4YmJJU25hRmJxZ3pSajNITk1qeEFROElLdGoyaUV5Zk10dmZUUEZyaV9LUTVCN2c2R0I4V19QbHJjdjk2SE1sZV9PVEJhOXUyQ1JFeUhWTnFHRzJqR3Y4dDlvV3dYNWdCMHk1MnRvb256X3RsU09iMUpYeV9fTUJC0gHSAUFVX3lxTFB2QlpqZldQMl9WQ3hXVlBrUU9MVlpyWWw3S29uZEExRjF6Z21ILWs2eTdkV08yM3pxaTJGT2d6MksxUFZYTUkzaDJSaWdra3BvVGIwTEd4a0VPZXVPM2lPUG5ucTRwNlZOenJrc3MwbVlidk1za2RRN2YwckR1WXVYLXpzdkU1U2tUTGQ2aW0xTWxKQUNVODNFVEhqUVVJaHJrSFdSQ2ZyU0k2VFNWNXdYLS1YS1ZFWGlFQkZmcjN2VHZ5M0kwdVFpOElxeGtnZzFpQQ?oc=5",
-   "source": "The New Indian Express"
+   "title": "Max 4 passengers, top speed of 25kmph: Draft policy tightens e-rick safety norms",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPUmV6aFJuSXpKU0piR1BIdDdzczI5TkR4dTd4MjY2MWVpcU9KbDA2aEl0aE9FY1FpeEZTWGY2NkRXNU5USmdubnVCVzJ6YWF2N2RkQlpfeUpNOUdlX1R2M2hIOXVtNHBGOFN1N2RSc2lBdlFhVTRjejB2OW42LWxqT0NJanp4Z0lSa19wbkdnNFRvT1FPSUQ2UFM5N1hsbS1XXzN0emFzRHU0M2wyWW5DcEZzQVFZbHUwaEowMjJOQUd2VGFseVJEbHRNcUJLT0JQSHp4eURBZXVsUy1pY2xqaU90TXZ1UdIB6wFBVV95cUxPZEd0WlpCQTdiVW5rb3NxeUhSZXhqeXgteWRBQzBsa0gzc3VveGVqQ0RiX1M1eUJXcGNHb1ptZUc1b2ZGdEhXMXpZQjVFSVJCYmdmZV9XSDZ3Nm53Zm9yeFJ5RkoweEtiSEs0RUJQX3lMRHY1U21rc2Ywc2NtN1JIQkdkM3hKandObHRlYVdqOTZ5OHlyOWNWMkVMZi1CQWJDdTJrMDZMMDVzY0lrM0lkYVU3MXl1aVlYTDE0dnVicjQyU3ptU1NVYzdKQXJWRDNjVUhra1N0aUJJZUR5MDU2REsyWlhZVjc5UXlV?oc=5",
+   "source": "The Times of India"
   },
   {
    "id": "open",
