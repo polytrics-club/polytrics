@@ -1,80 +1,80 @@
 {
- "date": "2026-10-20",
+ "date": "2026-10-21",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Dept of Commerce organises “_____ FTAs Outreach Programme\" in Jaipur to strengthen export opportunities",
+   "quote": "Election _____ fixes 1,200 cap on voters per booth",
    "options": [
-    "Leveraging",
-    "Seeks",
-    "Amendment",
-    "Voting"
+    "Commission",
+    "Name",
+    "Nadu",
+    "Allies"
    ],
    "answer": 0,
-   "why": "The headline reads: “Dept of Commerce organises “Leveraging FTAs Outreach Programme\" in Jaipur to strengthen export opportunities”",
-   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNcGJxYWQ2Y2U0N0FYMi1pd3Y4WktnQmlzbkZvNmpHWnBHSlJyejRmbGc0RlRDWGRfekc0UldQZUIxckdxQlhNRm9JbEVFVU11bVVKTEoyTTA0ajdDYkhlZklSX0t3VWNucV9ObEg4ODZtM3I2ME1kMVdkeTVSbEt1aTl0a0JvenVtZl82alBJb2FnQW5mOFpiV3BzX09yUjNkeUpZSWJPaTBlNWFzSFdFcm14clJPNm5vWnRkdTRSTHhvazFQdk9nZEdoV3dZTVhUYjJuQjRyTllaTDF5clVYRFo5NFhvdw?oc=5",
-   "source": "India Shipping News",
-   "cat": "policy"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "Araghchi: We welcome dignified diplomacy to defend _____",
-   "options": [
-    "Round-Up",
-    "Claim",
-    "Demand",
-    "Iran"
-   ],
-   "answer": 3,
-   "why": "The headline reads: “Araghchi: We welcome dignified diplomacy to defend Iran”",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMExqVkJRVnF2ejFndGpLNS14TVk1c0ZNMVNwbVFmbU5jNWoxQjBoVVlXbzJZSlVjVmxCNHBQcUE3R0dNaHd1b0dZY2w4VzFQQnZhRXZlWFpEOEltM3hnaTQzZEl2clJhZ1lnTkNsbXQzbVVXcG9ncUw4Q1Q4RzBiWkZVZnBsa0hkUFRINW43Z2gzbmJMMk5ORE1LNHg?oc=5",
-   "source": "Pars Today",
-   "cat": "world"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "AI and the Future of Learning | Google DeepMind’s Lila Ibrahim | Corner Office _____",
-   "options": [
-    "Conversation",
-    "Kumar",
-    "Bombay",
-    "Summit"
-   ],
-   "answer": 0,
-   "why": "The headline reads: “AI and the Future of Learning | Google DeepMind’s Lila Ibrahim | Corner Office Conversation”",
-   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNQzBMQlNaVTFPdTBoM05TdWNlS3RNemlJN1dBd280Y0pxQWxXZUxmV3RWWGlYVU9yZ0E4MDRnM0EyTDVGRUxhN185TThjWlJkeEVzRXNqaUk1bFkwOEtfWmYzN2MzRzlOVE5wcE1seTJqVTdMcUhCbzJ6Wl8yOWlOTm9ieS16UERIT0JwUDRURlJlSHQ4LVdzU2NLLWNGVE9kX0ZBN1padk4xTU45T0sxazNmTUZad1hPRTI4cWthNm1GMVRmOHJEUnNualJTcG1Gc1JnRlVCUTJPX0dWTUMzWUVEZTU0Q2xl0gHoAUFVX3lxTE1DMExCU1pVMU91MGgzTlN1Y2VLdE16aUk3V0F3bzRjSnFBbFdlTGZXdFZYaVhVT3JnQTgwNGczQTJMNUZFTGE3XzlNOGNaUmR4RXNFc2ppSTVsWTA4S19aZjM3YzNHOU5UTnBwTWx5MmpVN0xxSEJvMnpaXzI5aU5Ob2J5LXpQREhPQnBQNFRGUmVIdDgtV3NTY0stY0ZUT2RfRkE3Wlp2TjFNTjlPSzFrM2ZNRlp3WE9FMjhxa2E2bUYxVGY4ckRSc25qUlNwbUZzUmdGVUJRMk9fR1ZNQzNZRURlNTRDbGU?oc=5",
-   "source": "The Economic Times",
-   "cat": "economy"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "After London and New York, protest demanding removal of Indian Election _____ to be held in Wakanda",
-   "options": [
-    "Commissioner",
-    "Kerala",
-    "Private",
-    "Talks"
-   ],
-   "answer": 0,
-   "why": "The headline reads: “After London and New York, protest demanding removal of Indian Election Commissioner to be held in Wakanda”",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZndrX0pYaU1tRHl1c0EzTkdMMnd0ODlNNm5hWnpMdnhYMmZ5cVhfOWtmN1dXakdmNlhfRnMxUVlMcHp3QmQyMGh5TktONTMyTThoVE12LURhZm5FRHhaWl9iZXYtOHlXcjBsZ3NzeWY5Vk4xa2M1N2ZKTTFsanhIUlJ6cXMtSWNiS0pUWGJsUlpncF9nMklHOTNSeXhtck9BejFYZ3cxTHZCRlY5M0VMcnZ6VHBVSHNJdDFlRHNKeDE4V1I0LVNreQ?oc=5",
-   "source": "The Pamphlet",
+   "why": "The headline reads: “Election Commission fixes 1,200 cap on voters per booth”",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTUpxd2RRNXhacVY0YzNoMTNCMzdqNlFwRDUzb3UxMVY1R0MtMFNZeTVTMlBBLWk1T2pBX2xTRXo2UlFjeXJRaXVvX1piN09ITF82azNhVDFzTGVmSUhHNnlkT1FfSFgzdFZhTEtBRGJVdExxUjZQa2UweEthU0ZMdFZXcUQ4Z1l5TkpwOVVkVWZjUjZtLUHSAaMBQVVfeXFMUFBQdnQ4dHBzY2dSV0w0b3VZQmo5R0g0TnlJTnI2OHZxUnFJTk5FVEFxN2RsT3lrQnJIX1pETlVSendUOVA3d1ZocnRjQkZxTHJWdEU4SXhxaTFDVDdhOXc2Uzh0ZG1YSzF0aWQ1eGx4b1dBWEx3ZVVTTFdydlBLQ2ZHY0tnVVE5ZjdVRXdSaTU2RktOb3lIRkZjQ1YzVzg4NTAycw?oc=5",
+   "source": "DT Next",
    "cat": "elections"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "‘Love jihad’ label unsupported: _____ High Court not to quash ‘fraud’ case against cop",
+   "quote": "Smartphone _____ Hit Decade Low",
    "options": [
-    "Stark",
-    "Tharoor",
-    "Site",
-    "Calcutta"
+    "Shipments",
+    "Cannot",
+    "Rejects",
+    "Hikes"
    ],
-   "answer": 3,
-   "why": "The headline reads: “‘Love jihad’ label unsupported: Calcutta High Court not to quash ‘fraud’ case against cop”",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOakh6Ym15Y0ppZzVkU3dlTXdMODlQX3VBVDFuVk42RjF5bkJPeVV4VmxUczVlQmVjYVlvVXctbmZ4QXdGOHlzOHVUaDlicUt6SDlKcjBZMmtXdkNvWHc0czZhOC0wOHdZYXJlQXZFbmpuamhaNXN2VG1LWGVzVmsxU25rdXNEYVlvWXFReEh6NHBqWUpiNUx2bEhQUHFDSHlaZ1hkczA1UHRYQUJkck0tb2YtdDE4bFFkM0HSAcABQVVfeXFMTW9zdzhlUmliYk82ZjRVRHl0OWZJanBNNzNOblRsUjlNWkF1WkxVVzZsYm94Wk9CYWVWdXNZdllJUmdWaWR4WjBxSVVKV291Wkd4Y1ZpZndMbnNMWVNOeDJmZXVQRlJlN3NzU1JzeXRSWWxxZ3NBR2t1Y0FZUVBwRnJYNktTLWU0WS1qOWRKOFB5TVdONU0ydmNRdExLMWVNc2RGcTM2UGxxQ1EzYmpxUnBoektEVGRubUItamlhRUpS?oc=5",
-   "source": "The Indian Express",
+   "answer": 0,
+   "why": "The headline reads: “Smartphone Shipments Hit Decade Low”",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JYlFSc3dOWUFoa0RqOFg3VTY4d2htemwxbXpDLUdqOGFfMS11VlF3OEhZWjVXQkFEdG5rbXFpWnFleFVlb3QtSklZaUk4QzZHQ1VBZzZfNHJrVU1tVVhCZFJuMDZZMngzNEp4a2hnRDRJeXpkbXh3aQ?oc=5",
+   "source": "India Business Trade",
+   "cat": "policy"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Top Legal _____ [12-18 Oct 2026]: AIBE-XXII syllabus, IBC appeal limitation, same arbitrator in 4,155 cases, and other Key verdicts and Policy Updates",
+   "options": [
+    "Developments",
+    "Oppose",
+    "Export",
+    "Amendment"
+   ],
+   "answer": 0,
+   "why": "The headline reads: “Top Legal Developments [12-18 Oct 2026]: AIBE-XXII syllabus, IBC appeal limitation, same arbitrator in 4,155 cases, and other Key verdicts and Policy Updates”",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMjRhMU14N0l0Xzlab1R6b1NjUTZwNWRlNmV2OFRZZElUaHJROWlBaHdQUTg0c0VISGRONzJOb1R0c0cxT2RkUFlWb0Vuek14dmFiRWxhUG02T0xlT0Iyb3ktMGRlUGdKUGVWUnk0Qm5qdEpnRHdvR3VwNUU4REpBZmNnR3NWNE83TmR5THpwcFZOSnFRcjI5dnczdWg2R0k?oc=5",
+   "source": "SCC Online",
    "cat": "courts"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "How key opposition parties stand on proposals to raise Lok Sabha strength, redraw seats | HT _____",
+   "options": [
+    "Explainers",
+    "American",
+    "Issue",
+    "Amidst"
+   ],
+   "answer": 0,
+   "why": "The headline reads: “How key opposition parties stand on proposals to raise Lok Sabha strength, redraw seats | HT Explainers”",
+   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSjZxMGU3SUNHblNFU0ZTU0NsTVN1bmFvZ202RnhwTk5Yc0ZnRTl3Z1hYZVUzdEtZRUlvVXdyYmpMMlpEMG1wcmlXbFRzXzl1NUpOZUpRSk80dktHZnJ5VVRoU0tJeElTdlBoQlRrYWJuUjhrUEYtcjVrMUhyaEdDcm1uNHhaR2tjVU1QOUJTbkdqREJYdFZnYTVwUm5wQkZUSzBsUS1RZnpUOFQ1dWxzTC1XbktESGp5TDNWd2lsZmRRSFBUZEdtSE5ZbTFpdGhmSTIwQWJCeFg2Z19adHA3LWpuSmxUUm9RbjVEVdIB7AFBVV95cUxNSjZxMGU3SUNHblNFU0ZTU0NsTVN1bmFvZ202RnhwTk5Yc0ZnRTl3Z1hYZVUzdEtZRUlvVXdyYmpMMlpEMG1wcmlXbFRzXzl1NUpOZUpRSk80dktHZnJ5VVRoU0tJeElTdlBoQlRrYWJuUjhrUEYtcjVrMUhyaEdDcm1uNHhaR2tjVU1QOUJTbkdqREJYdFZnYTVwUm5wQkZUSzBsUS1RZnpUOFQ1dWxzTC1XbktESGp5TDNWd2lsZmRRSFBUZEdtSE5ZbTFpdGhmSTIwQWJCeFg2Z19adHA3LWpuSmxUUm9RbjVEVQ?oc=5",
+   "source": "Hindustan Times",
+   "cat": "parliament"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "India Steps Up Overseas _____ Checks as Rupee Slides",
+   "options": [
+    "Investment",
+    "American",
+    "Political",
+    "Services"
+   ],
+   "answer": 0,
+   "why": "The headline reads: “India Steps Up Overseas Investment Checks as Rupee Slides”",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZFNjakdnTjJsQW04TE13OE45QU1IM1psZlVOV0lMZTdpbGZyVk9XUVJXdGdFYlppZ3FtUGgzeE5ScXhhY2V5YVd4QUtydElMZmpadWtDZmd5LWVPMmNNU1FfSVA1TE5pbVM1RmUwRmRaX29MOWNualphNzM1cnVESjRjRE04djd1R1hjb3BHRk5LN1F2ZWdtN0NtUDdPWlYwQXJ4WGFPell2TDRLZkdPYnpWRko?oc=5",
+   "source": "Bloomberg.com",
+   "cat": "economy"
   }
  ]
 }
