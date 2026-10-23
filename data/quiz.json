@@ -1,78 +1,78 @@
 {
- "date": "2026-10-23",
+ "date": "2026-10-24",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Meta strikes deal to stop Mark _____ leaving California over billionaire tax",
+   "quote": "Supreme Court: Agreement To Sell Confers No Title, _____ Suit Over Friends Colony Plot Fails",
    "options": [
-    "Treasury",
-    "Beginning",
-    "Joseph",
-    "Zuckerberg"
+    "Wellness",
+    "Possession",
+    "Diplomat",
+    "Fall"
    ],
-   "answer": 3,
-   "why": "The headline reads: “Meta strikes deal to stop Mark Zuckerberg leaving California over billionaire tax”",
-   "link": "https://www.bbc.co.uk/news/articles/cky83vwnyglno?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
+   "answer": 1,
+   "why": "The headline reads: “Supreme Court: Agreement To Sell Confers No Title, Possession Suit Over Friends Colony Plot Fails”",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE51NF9UOTV2c1Foa3pVTS1sXzNaTU5tUUI1MF8yZGJmQktMTTJoZG9wZExwNHpKQjFCRG01RC1IME5ycEV2RzJ5S2xDUWN1Y3p1aVhzN0UtWENyU25pbU9temt2Wl9VRWdoSkU2SlRpSQ?oc=5",
+   "source": "LawChakra",
+   "cat": "courts"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Why _____ Eyes Jamnagar: Reliance Mega Refinery, Venezuelan Crude & Global Oil Diplomacy - India Today",
+   "options": [
+    "Party",
+    "Washington",
+    "Fall",
+    "Annual"
+   ],
+   "answer": 1,
+   "why": "The headline reads: “Why Washington Eyes Jamnagar: Reliance Mega Refinery, Venezuelan Crude & Global Oil Diplomacy - India Today”",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNWEJISXRTSDRMcXpocnZLcVlGQjRoTzZSWWtMSVlEQl9uWks3VUpnLUwxQ0pVZzRhTHJ0QzZUZ1BTcEdwbFE5WlIyZkczUFRJcHE4OUNsd05TSUcxcHlubWVGNFdMcXI4elYtOE0wbHU5emZwOFVxX0p2am1xaUJvRkpNa1dsYlZFQi1BQV83UV9aUkdlZFpsbXBUZlBuQVBaTVA4UWFOcDRhMWc5U25jelN4SFR6bkc3Y212RDVwZFlqaXJSRXZic0N0TWZObk42cTYydjVnTjg0VHIyNUFiOVpac25uQdIB6wFBVV95cUxPMW1BTnZNbmtSclpxNTFVX2UxejY0YzBXTzFxWmRiQlc3Q3FwNGVySHdPMkx1VWJ1ZlNkRmdWd2lNVk5aMzZuaERLb05ZY1VhY2NJbDRvRVZrQVJXbV8tZm5IUV9qSVREdEt0aHNoTkJWbjhRSUltS3l5c3ZCbHNaSVc5NjNuZ0JSdWlzSnkxSjFVcG0yQ2ZIV1JxV0htQXhST25TODM1UktaRHVGaHJLdVo3cEpqSzI2bkdaVWZYdjhwallhYjByWXA0X0RnVHhsa0VKMzdmODhIV2g0THpYZXBtS3RhdS1FQnpB?oc=5",
+   "source": "India Today",
    "cat": "world"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Rajya Sabha Bypoll on November 12 After L Murugan Resigns; Modi Cabinet _____ Buzz Grows",
+   "quote": "Interview with Mr. Sumanta _____ [Part I]",
    "options": [
-    "Reshuffle",
-    "Amendment",
-    "Share",
-    "Irregularities"
+    "Joins",
+    "Possession",
+    "Chaudhuri",
+    "Adhiniyam"
    ],
-   "answer": 0,
-   "why": "The headline reads: “Rajya Sabha Bypoll on November 12 After L Murugan Resigns; Modi Cabinet Reshuffle Buzz Grows”",
-   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPaXh1NUdlVGVFcUJHbjNJMExzYlhmQl96c1RiN2xFd1lxSGZKQzJKdGJkRDQ2cXJTYS01NTcyVGdkTFFFdWFvTE4wTEx0djVyNmdicm9udzc4NUloTlJxeUthNk1Ha1ZhOGNEQTZ0U3hYcGdKQ0ZPU0czUFY4UWtuLUJmSWlZbXlmaVRRbTNkcHdfSkhsd0Yxd3lhTGhreWxJaml4ekpQMGNoTmxjMWNHSFFkNUoxV0g2WU9CcGxhM0tXd2ZZbnNneDQyNXBva1RUd0lqSG4xLVVNQ1hSNGhrVDdSZWp6TnFS?oc=5",
-   "source": "Gujarat Samachar",
-   "cat": "parliament"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "What India must learn from this year’s Nobel _____ in economics and peace",
-   "options": [
-    "Court",
-    "Balance",
-    "Parliament",
-    "Prizes"
-   ],
-   "answer": 3,
-   "why": "The headline reads: “What India must learn from this year’s Nobel Prizes in economics and peace”",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUnJadGh2VjhKNExBcHJwUGNHTkdwTVk5WVRQc0ZCWnljNkJPZTlJQ2I5dDRxbE4zZXdRRTRtTDdhRjRlLTdQQ0taMkstcjFhR3RVQ2V0VGowWlNGS3hTUU54OHRUeFZaTTNmUm9fa19ldmFEbmZBWmRaV0lhdlVqSXZlOEc?oc=5",
-   "source": "Counterview",
+   "answer": 2,
+   "why": "The headline reads: “Interview with Mr. Sumanta Chaudhuri [Part I]”",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5qRHNPVzBpbmV3TEJ3dWFEdFdUYmh1WERJRzZOb2c4UGZIbW8tRmdCRWE5eTl2S2p3dTdoX0RZaXlILVVOX1MtVFdDX0toM3dfQWxmelFEdEU4RHhrSUo1UGptOVQtNnhsNkd2WVFKblRrdFk4T3E3RXFn?oc=5",
+   "source": "The Policy Edge",
    "cat": "policy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "‘Protests are an international conspiracy to spread anarchy in India’: _____ Shinde | Mumbai news",
+   "quote": "Cabinet _____ took no action on complaints against EC officer by Sandhu, Joshi: RTI reply",
    "options": [
-    "Relief",
-    "Late",
-    "Eknath",
-    "Krishna"
+    "Emergency",
+    "Solatium",
+    "Secretariat",
+    "Asian"
    ],
    "answer": 2,
-   "why": "The headline reads: “‘Protests are an international conspiracy to spread anarchy in India’: Eknath Shinde | Mumbai news”",
-   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNTHZybDAzMlRmb1FVb3NoNmRGU1ZZVk91MmV2b0ZhLVZ2OUd2R1pVS1Q5XzNlWVNTWUl0Vlh2V0V3U0dfZ2xmV1VCWTd4UnpYSXBmZGMtZDJnVUR1RlZib2R3TldjZ2t6VURfSkF3ZkMwQVNGMmJCQ3FUeE82RnlSU3YybG9lZnplTzItVE9Qd2FITjJVVVVvTTloQTBLV190eGtNdEFDM25BbF9acmFONjBVQWlsWmJ3WG1ERWFRbm1IZDVhdHUzZ1lUR3dGVmdTem4tUklyR3FLc192eXVlbTNlX2NCX29ySjJoVdIB7AFBVV95cUxNTHZybDAzMlRmb1FVb3NoNmRGU1ZZVk91MmV2b0ZhLVZ2OUd2R1pVS1Q5XzNlWVNTWUl0Vlh2V0V3U0dfZ2xmV1VCWTd4UnpYSXBmZGMtZDJnVUR1RlZib2R3TldjZ2t6VURfSkF3ZkMwQVNGMmJCQ3FUeE82RnlSU3YybG9lZnplTzItVE9Qd2FITjJVVVVvTTloQTBLV190eGtNdEFDM25BbF9acmFONjBVQWlsWmJ3WG1ERWFRbm1IZDVhdHUzZ1lUR3dGVmdTem4tUklyR3FLc192eXVlbTNlX2NCX29ySjJoVQ?oc=5",
-   "source": "Hindustan Times",
+   "why": "The headline reads: “Cabinet Secretariat took no action on complaints against EC officer by Sandhu, Joshi: RTI reply”",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQY1c0Q29RUTlPcVpWbHFrU3pzZDEwMHk3R1ltSjA1dG9lYldEczNmbWtsN01iOVF4OVBfeHBZV0Exa1NlYl9lSy1rSzBGS1lRSUFoWU90X3JySGowTUpJbnJoZHlkTExaaTNERTBsZWYwem5MS3hhM0JZWlFNb2JibWhpZHM4aHNENDlJN3dKMF8zQTJQTWJQS2Uzd3BKdWZmMWxuMm5keWtTdzEybDE3NkpLeVBXdDZNWWIwa3YxaS1OUU5sQW9xN3U2dWk5R2l4c3dLbEk1ZUpBa1J2QUhV0gHsAUFVX3lxTFBZRDNDcDM4bTFUN1o2N2JLN2ZKLThqdTRrd2VVT25KVnFWd2N6bVNsXy1OekY2ZWF6VXJCdzN5ZTQtaFZPM194bnZNMFVkZ0dWTFIyVmpoX0ZIY0ZBYTFVeFhDaEtNakFrTldUY3BiVk9JbXdXTHMyaVZEWnVzVTZQS09rR3VvNXBoTkJ5bzBrQVhRaWJiNFBwU3d1UVpBbzBjQ3NYeUJoVm9zNExCOWlYaVM4aGFhSHdycmpZdzhST29RdzFBYVNmQWNZV29oaGVSaTVEVG5kd2xvb1QxUUszMFQ3dDczUm9uYjZ6?oc=5",
+   "source": "The New Indian Express",
    "cat": "elections"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Core output grows at series high of 7.9% in _____",
+   "quote": "Indian _____ raises deposit rates by 15 basis points",
    "options": [
-    "Voters",
-    "Sept",
-    "Treasury",
-    "Disposes"
+    "Trucks",
+    "Stall",
+    "Impeachment",
+    "Bank"
    ],
-   "answer": 1,
-   "why": "The headline reads: “Core output grows at series high of 7.9% in Sept”",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaWVRc0l1VnpoVElzUTFCMHI5cWdRdjFHcS1SMW5NTFRyUEZBV09XVjdNUFhwRTRnTDRfeFkyajV0dmhseEMxX1JtVjJfallJVFg4R2hWTmlmN0dqNW9IMmx2Q1h5VEF6V0lOdG84WWMtSFlGOHNNTUt5V2FwZG0ybXFnVnQwanlxemF2VjliT01zQ0hnbGc3ZmdwYzVUZmRUTFJVeWVLUy1scmtrNERxSDB1elhXN25ENGlBUUk0S1JwWjTSAcgBQVVfeXFMTVRtZ0xhdHMzZV9nOXhnWFhmcnNKNnBWOEdtRm1lSEJWbU1SSEtyNHhXejVRM1l5cFByU1h6Rk1FRVY0eUh6MWs3YjdPTmxwWmFvc3pIZVBCUkhvNi1tTmpwVGEwdndvb3NQc1hETEQ2SVhZb0RlOVdXNndfcjczdG11a2FzcWZWVHFiT0dXWTBlTE9wNnFWVjFoMlNJYmRjczQ1V3haMXNTdHYyb3R2U3VkdkJUN0xhUVB5ektoOHUzNUJnNGtEa08?oc=5",
+   "answer": 3,
+   "why": "The headline reads: “Indian Bank raises deposit rates by 15 basis points”",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYVRnejhNN004VnRWTFhCMzB5TUJiRjhQVVBoMm9YT3FLRVpzaC1fR0xQWnJ4Njkzc19GRk1NOTZjbE5PeWU3NzlYZFFJOW5TM1l4WkM1SmR0MXFFeUFvdkJxb0VGSEgwT0FibzJVaVFsaWJ1Wk5BSG82Yzg5ckY1VVlMUmk1ZkdKUm1hSEpBcC0zX1A2RTZWQUFrQ21jaHZMMThiR1p4YzlYTHhUN0Y2MW5xeXVSakxHUjFzTEN2YVQyNHdGS1I4Z0J5YTY0a2J0ZDBKWTVQU0VzQdIB2gFBVV95cUxNYVRnejhNN004VnRWTFhCMzB5TUJiRjhQVVBoMm9YT3FLRVpzaC1fR0xQWnJ4Njkzc19GRk1NOTZjbE5PeWU3NzlYZFFJOW5TM1l4WkM1SmR0MXFFeUFvdkJxb0VGSEgwT0FibzJVaVFsaWJ1Wk5BSG82Yzg5ckY1VVlMUmk1ZkdKUm1hSEpBcC0zX1A2RTZWQUFrQ21jaHZMMThiR1p4YzlYTHhUN0Y2MW5xeXVSakxHUjFzTEN2YVQyNHdGS1I4Z0J5YTY0a2J0ZDBKWTVQU0VzQQ?oc=5",
    "source": "The Economic Times",
    "cat": "economy"
   }
