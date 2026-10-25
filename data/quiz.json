@@ -1,80 +1,80 @@
 {
- "date": "2026-10-25",
+ "date": "2026-10-26",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Rajasthan High Court Admits Appeal On SC/ST Ward _____ Over Disputed Population Data, Declines Poll Stay",
+   "quote": "I.N.D.I.A bloc rally to test _____’s leadership",
    "options": [
-    "Attend",
-    "Bonds",
-    "Reservation",
-    "Affari"
+    "Economies",
+    "Karnataka",
+    "Rahul",
+    "Lawyers"
    ],
    "answer": 2,
-   "why": "The headline reads: “Rajasthan High Court Admits Appeal On SC/ST Ward Reservation Over Disputed Population Data, Declines Poll Stay”",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcTY2Y19fV3o5RFUwMEhHYmFJS3J0R2U4QUZEa3hQMTM1S25YcExzTk1PUFlTaTdaRWRYZHlxZkpGM2wzNGpZUW5xMDcyMkxFYU05S1k3TXREYmR4UV9lYVFVQkhQVFlWSVUzSm9OZFg2aC1pUl9iYjJfc0otZDdBZTBQZl9LVkU?oc=5",
-   "source": "LawChakra",
-   "cat": "courts"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "Parliament panel to examine 46 economic issues including _____ and crypto",
-   "options": [
-    "AI",
-    "BJP",
-    "RAKIA",
-    "ATS"
-   ],
-   "answer": 0,
-   "why": "The headline reads: “Parliament panel to examine 46 economic issues including AI and crypto”",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNm9uZTUzQjJLZGxvaGJLQVBtOUpjbUNuTEdIbVlabWlJYXVTWnMxUWhvVzZ6TjhPYjZuemE5UldickMwRUFVc245Y0FHTHpjWUJjd2dnNWRidWpfQnJOR0lDT0ZZWmZOXzVtaFM4dHlweWVkbTI4QnptWnBPZDRsVmhpSVhtNWdwc1NVUFNzRTBHRUJxX1NZUGRYUzJRWUVOTzBPY1Z5aUhTSVdOeHZITXFZWXrSAboBQVVfeXFMTW1TVVZjWUhTdE11MTRDVzJ1MThkVUI4N3c3VDNPd1htUE9hVWYyaFRpZmJWRW40aXo5TDhVaFB0RnJoOFB6ZUx1S21VdkNfOGgtNTFkMnNfWEpYOFhzZEpLbDhxQVpXR3NpV1ZmWDMtQ2lCWElmOWloSVYtOEp0aXIyMHNWdUNNYVRld1pCdENFSTh3Ump0czlfSkRveU5VMjlUN3J0aFlRR2otUHVsMTZWWDhBYWhnYy1n?oc=5",
-   "source": "Zoom News",
+   "why": "The headline reads: “I.N.D.I.A bloc rally to test Rahul’s leadership”",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNclZSbHBTamRQbVJrZDVtT0tDeDNuUDZJaHBIbmhxNVpEbDhEMElEUmc0LWNraG9vbWFlRnhxd29EaGVvLVFTZnJZdDJaWWtBVm1laDZNWFIxd0VjeGFpLUlXNGxHSUlHRFB6VmFVNHpWOWcyQ2d0OHBjTkpobUlrNzZRSm4wclpWOFJBbDN1Y2dMMEU40gGUAUFVX3lxTE1yVlJscFNqZFBtUmtkNW1PS0N4M25QNklocEhuaHE1WkRsOEQwSURSZzQtY2tob29tYWVGeHF3b0RoZW8tUVNmcll0MlpZa0FWbWVoNk1YUjF3RWN4YWktSVc0bEdJSUdEUHpWYVU0elY5ZzJDZ3Q4cGNOSmhtSWs3NlFKbjByWlY4UkFsM3VjZ0wwRTg?oc=5",
+   "source": "The Sunday Guardian",
    "cat": "parliament"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Arrest made after fire at _____'s mountaintop Eagle's Nest retreat",
+   "quote": "PM Modi to inaugurate RBI's Rs 169-crore data centre in _____",
    "options": [
-    "Hitler",
-    "Ukraine",
-    "Regulators",
-    "Yogi"
+    "Launches",
+    "Sabha",
+    "Schemes",
+    "Odisha"
    ],
-   "answer": 0,
-   "why": "The headline reads: “Arrest made after fire at Hitler's mountaintop Eagle's Nest retreat”",
-   "link": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
-   "cat": "world"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "Demand at home supporting growth momentum: _____",
-   "options": [
-    "RBI",
-    "US",
-    "OCI",
-    "SIR"
-   ],
-   "answer": 0,
-   "why": "The headline reads: “Demand at home supporting growth momentum: RBI”",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaHRyTV9ld0RKTkVYbDJDMVpEei1KdXdEaThNWVhLVVFJeTV5T042ZlNJeDlWUHFjWnJSZmMtZkdTd0pySU1LVlFiWG9rUW9HRHZBV0k1am1aT20tOUo0TzB2R0xoNkNRTS0yTGxkZWlqcXNJbldMMVhsZmozQkpDdDBPUWQ1THBNSDlGQUthR2RmQjR3MWdzNHdlWHJyQVBRenVaSU1WZl9Scm1vSlNGTUc3RTZOOThBMTd1QkV3bVd4OG43ai10MzdFRFQ0bWdK0gHQAUFVX3lxTE5odHJNX2V3REpORVhsMkMxWkR6LUp1d0RpOE1ZWEtVUUl5NXlPTjZmU0l4OVZQcWNaclJmYy1mR1N3SnJJTUtWUWJYb2tRb0dEdkFXSTVqbVpPbS05SjRPMHZHTGg2Q1FNLTJMbGRlaWpxc0luV0wxWGxmajNCSkN0ME9RZDVMcE1IOUZBS2FHZGZCNHcxZ3M0d2VYcnJBUFF6dVpJTVZmX1JybW9KU0ZNRzdFNk45OEExN3VCRXdtV3g4bjdqLXQzN0VEVDRtZ0o?oc=5",
-   "source": "The Times of India",
+   "answer": 3,
+   "why": "The headline reads: “PM Modi to inaugurate RBI's Rs 169-crore data centre in Odisha”",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQU2J3akF5V2NCZHJKYjNTeDladmdIYVNwQkNrM092dWxyWUdpWXdTY1Ftdm1yX0t1X3d3WF9NSlZSRGxsaXRBOFB6MUd6N2UyRl83VjVIaU03alJxVzQxREdkNDEyUUpEcHVETjMybngzUnF1Tm1zOU1mYld0LXRUa1JlQ3ZsaHYwVjFuUVVwX1YxQnByNFFsQ3czY05QZEs4clQwSXpCZEJjUjBZdWxwedIBtgFBVV95cUxNTUtwVU1lLXBFb1pnZlNYM1ZPa2V1anRkUVlKd1BUblBrRnhQaklEMGFGUWlPUVRHLWVYeS1ZTEFnMXlKc1pKa0pjdmllRU1mTTBEbllZaEhoWFNaWEc1aXlRamVtQm9VVExlcERoQUhWNGhYOURKYXMyZnNGSGtFWWdfUk9NTXM5OUhfTk1qVkZBS0pkY28wUXF4UXRybTdOak5kdWtqb3VDYVpkbGtzcm1KUGlfUQ?oc=5",
+   "source": "India Today",
    "cat": "economy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Bajaj General _____ Appoints Deepak Reddy as CEO-Designate",
+   "quote": "India Cooling Action Plan (ICAP), 2019: Bridging the Gap Between _____ Cooling and Climate Resilience Background",
    "options": [
-    "Referral",
-    "Haze",
-    "Sons",
-    "Insurance"
+    "Bhubaneswar",
+    "Inland",
+    "Sustainable",
+    "Ukraine"
    ],
-   "answer": 3,
-   "why": "The headline reads: “Bajaj General Insurance Appoints Deepak Reddy as CEO-Designate”",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeVY3ZXJNVmh3VWdYMEJENUtkTjNTNXd6Wng4TDh6Z1E0TEg3dlE5Q1RPRnlMYzlVdWFwSVExSkxuS28wY0dRMkc2S2loSm5MdWw3U3RDMGtURnBTc3lGMG1fOVJQbUYxX1AydFhVWG1uLUY2OUs5QkhuX2ttZzFRcUFSblVRdUIxaFlVOFlwTmNJZGF4MDlnYndJbkI?oc=5",
-   "source": "India Business Trade",
+   "answer": 2,
+   "why": "The headline reads: “India Cooling Action Plan (ICAP), 2019: Bridging the Gap Between Sustainable Cooling and Climate Resilience Background”",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ3pmbC03MnJZYWVNc21GckJvVmg2T3lId2F1N200RXhUT0J4NTNWTDdDOGFoenVHbElMWVVuNnpiZmV1MnQwQ2ZpRlpLc09NSjRTTDIwX1VoS2prRjNIdElTci1TWWFiMHVmMGpLUjFIeVBhM2hVT2lTS3pXUWVOYVNYbHVMQml0OHI2VG41QQ?oc=5",
+   "source": "IMPRI Impact and Policy Research Institute",
    "cat": "policy"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "ED Moves Supreme Court Against Delhi HC Order Quashing EOW FIR In _____ Case",
+   "options": [
+    "NewsClick",
+    "Appeal",
+    "Former",
+    "Rise"
+   ],
+   "answer": 0,
+   "why": "The headline reads: “ED Moves Supreme Court Against Delhi HC Order Quashing EOW FIR In NewsClick Case”",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaFdDWDNuNWJfSnhyWGZhaVo0eWNoWlRZM0pUelJmNW52RlhvbVAxRlhNdi1LUlc1OEhmcW9pODFNNDNDdXBBLTNQZ3VkVFVacU1pMDdOVlZTT3hZWC1JaF90TVBnVktmNUc4enBIZEl6QnZDa1FXVFRWLWN2Z01WRXpka3lkTGxhb2lhd2VYT1lkbk1QRHhuOHN4TmkzSFZoUGc5d1JmU09pOHVEbUxUYVRYaXZwSmxGd1FtY2p4NkVta092SjJ1SE10TmFpdGPSAdQBQVVfeXFMTjVBTnNrdlYyZ3VlUENoakZCV19mcE12MlpRUVdSdXFvTzZFaFhPMndCcVBqUDROY3NSRXBpaklqS2R2ODJzTUVBWW53M19pS1Y5azNnaTduTW8zRFRHSHAyV1UtbjROMHVpRmVIMUN1V3RwNkVnVHZlQUx2QkZWbGRoR1dySlBNazVTRFNWRjlrNk83bGdfaWk5ZDlHallBTVRiNFVMY2VyYVkwZ05aZVRLaDZmNHF5RTNJQkNoellfQzMtS08xYnhNU2JHUTFlWDFxRkE?oc=5",
+   "source": "Republic World",
+   "cat": "courts"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Restoring shared heritage: PM Modi’s visit to historic _____ Temple strengthens India’s cultural diplomacy",
+   "options": [
+    "France",
+    "Prambanan",
+    "Election",
+    "Explain"
+   ],
+   "answer": 1,
+   "why": "The headline reads: “Restoring shared heritage: PM Modi’s visit to historic Prambanan Temple strengthens India’s cultural diplomacy”",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNVhJZGdZV3hxUzhBOVBRbDkyMXdNWUxjaW1Id213UFZyV0VQQ0pmZWg3clB3b0Ric2NhVVd4MmI0dXlPMWlVeGhFU2FDS3RqSlNtbGg1R3BPYldKLWR1VjQ2a0ZNbE1MMlVlZENaZjh4WnNaQXFsTUNzaWVJVll0Nm9fUHpNQUwyaDBHMnFJUkloc1piYzRJc192bmRrOWVvdTBFN1pqNmNxRFhtY08zTTM4d0VLNGtvd2MyRUtfbVQ1bXZ3TTY0a2k2X2kwQQ?oc=5",
+   "source": "DD News",
+   "cat": "world"
   }
  ]
 }
