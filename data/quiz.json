@@ -1,80 +1,80 @@
 {
- "date": "2026-10-29",
+ "date": "2026-10-30",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Renewed Appeal to the President for a Judicial Enquiry into the Election Commission’s _____",
+   "quote": "Public _____ Bill passed in Lok Sabha to combat malpractices in govt recruitment exams",
    "options": [
-    "Functioning",
-    "Broken",
-    "Smolowitz",
-    "Paperwork"
-   ],
-   "answer": 0,
-   "why": "The headline reads: “Renewed Appeal to the President for a Judicial Enquiry into the Election Commission’s Functioning”",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdmExalMzbXBNTmg1ZGJtTkt6cWtYU3dMS2FLTmFRaExmQ0poMHkxWEE0by1RV2c3cUJxUnp3VjdKSkZtOVdTZHNDeGg0ZTJWNG1LLXZoSnRBRkVoSFlBbkhQX1pia3RwckZmS0NRWHhHa2Qza29Ea3M1MnZHcU5FOGNfUURuSDlja2RzMlRzX0Fwd3hiSXpGa0o4MnRUdFE4WkFhSWhzanhfemEtUHNfWmlnQkthTS1HcV9VR0RBekdCeDQ5RnEzTXJFY3JDZw?oc=5",
-   "source": "Countercurrents",
-   "cat": "elections"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "Four Bills introduced in Lok Sabha amid _____ protests; both Houses adjourned till 2 pm",
-   "options": [
-    "Avoid",
-    "Data",
-    "Reply",
-    "Opposition"
+    "Liquidity",
+    "Money",
+    "Police",
+    "Examinations"
    ],
    "answer": 3,
-   "why": "The headline reads: “Four Bills introduced in Lok Sabha amid Opposition protests; both Houses adjourned till 2 pm”",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNnpHbUpRVG04OTZSNGV6akxKLWNLQWc2dXZuWnoxb25jSW9pSm9iZWtZSTJNcTVyejVGMEIwaGs3VERncUJ1aTZHX0ZUMzFBZ2VaTHlHdXg3N2FfUEZ4X3loRW05ZE1ZaW4tX2M0a1hYUTJPMjRDd2Q2R0dJMFRiT0FSTW42RVFMUUJYVXBvYzVZN2FhWm5qT0RGa3c3QndCLThUU1h3?oc=5",
-   "source": "DD News",
+   "why": "The headline reads: “Public Examinations Bill passed in Lok Sabha to combat malpractices in govt recruitment exams”",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9VYVNoNGNqSFMzUmYyVzd5QUlvMi1FS2E1TTRRUkhoSGFLX0lISHhnVjk0bWFmVF9JOWNFd2dXSVBRaGtmS1ctWUhSOUkybHBtT3ZrRnVZQnJFVTR4TkpYOXV6NNIB8gFBVV95cUxNeGFyMzl6QmRoY2ZBYjExT3JFZnB1UnExbmI1bkR4ZElZSjVqZlVTM2tGeXNHUUtoRkMyZ0tTZ1Q0MWhNbDVLSFFvNzF3TXRhd3NMWEIxMjVPXzVWRkxWQ3BKUEcyRTduX0hLbU00RlJ1Z3EtTGUwZXYtaVM0SUl4RVIxd09OVUtkMTJtVElYdTFjQVJwV0Y0REl3UTA3UXBYSTFiX1FSNzVPSUhtaHRYdHRFOHRnRlo0V2FVSlF6QkxUUlR0amlGRXdpMURRSzFNbjM2SFJ5SEpZaWZXVnVJZ056TTRkQU5rM3J4cGNoX2pYQQ?oc=5",
+   "source": "The Economic Times",
    "cat": "parliament"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "DNA Test Case: Madras High Court _____ Father’s Plea, Orders Him to Pay ₹50,000 in Costs",
+   "quote": "Supreme _____ says corporate affairs ministry 'hijacked' NCLT autonomy",
    "options": [
-    "Cabinet",
-    "Cooperation",
-    "Rejects",
-    "Data"
+    "Transgender",
+    "Papua",
+    "Hormuz",
+    "Court"
    ],
-   "answer": 2,
-   "why": "The headline reads: “DNA Test Case: Madras High Court Rejects Father’s Plea, Orders Him to Pay ₹50,000 in Costs”",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPa1JIalRwaGY1Y2hrV1RPQ2RLS0RUQUJscm9fVktpUXBUVTNzcWxIX3l1VTM1T2N6M2treUxRY3VTelhrLXFaTTJfZ3h2WFlMWVlSSDRmZFJjMF9vZ0s2Uy0xelV4NWlvMkZqSFRuRFN4amVYMFdJZmlYcElGaUJyYk9BZl80cERkcG41NQ?oc=5",
-   "source": "theopenpress.in",
+   "answer": 3,
+   "why": "The headline reads: “Supreme Court says corporate affairs ministry 'hijacked' NCLT autonomy”",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaUhkQnpYYXdRSWV5OGw2SGdVa3BWZF9uLTdBeUl3MUcxWWN1bkE3ajU3MlhDZ0h2R0IxUlJaN29xaWhpR3ltbldKRWptWGdOOHdFYmhSOHBPWEVDVGhsZkR1TjBVZ3lxY1VDZXV0MjJoY2ZkblJDMkFSb2F4MG5pcXdBeWdJRG9QMlFJVGZGaDR5cHV3WEE0eV9OWFJtbENKcFJGeXVvYzlrdTFTZ2VXbjdzSUQtZkdCNWZnVmEySl9BQk1aRlp4M1kxY9IB0AFBVV95cUxQQ1NiWktQU1Z5WGNYRzdnTVhzTDlBeTFVaGI4SUQzTXE4ckJ5UzJKeloxMEdwUGU5TFV1TDM1TG1vZnlDS3JRSmJubndwdFhNMjRrbE01REVzb0xIakd3bDd6bTBoY21CWHNyV2hwTFBvanY5Q0JrUTJGNy0xMll2amhMUWJHRGQ0ZGI0X09OUERPVE0wU3BVM0Y1djZaTUp4bk5iRXVlUjlTSTBZWG5DYTRmRjNob1dpZDVwR3ZzWmpta2p1UVBtS0JhQ2VCT3Bu?oc=5",
+   "source": "India Today",
    "cat": "courts"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "India in striking distance of 8% growth as reforms boost economy: _____ Das",
+   "quote": "India Could Achieve 8% GDP Growth as Global _____ Improve, Says RBI Deputy Governor",
    "options": [
-    "Chaitar",
-    "Were",
-    "Shaktikanta",
-    "Examinations"
+    "Defers",
+    "Till",
+    "Plea",
+    "Conditions"
    ],
-   "answer": 2,
-   "why": "The headline reads: “India in striking distance of 8% growth as reforms boost economy: Shaktikanta Das”",
-   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQOHpYNXNPeTVWSW5aUmJCcXJINVdLdVJuV2kxVmhjUHVoc1pMM0lOQ0hHcTV1ZWE1SENaM1VBNjFtNTNQMTdBZ0o1YmpXN0RQTlI2anhqMXlZejRKNVFVMFpvWVJsU3B0T3Atd1VtVnB3UFVVV05GSHNZYTJEWVplWVVpcmNpT2I2aEs3UnJGTjh0UjltOHJGclZNSGNVYU5uQUMza1RQVEYzTDliemc2NDIzWHdYRVhtWnlnNnQ1NzBIT1ladC1LUFVOSEJIa3VGSVlJSzdFOXJfMDMzUGswZHhLaFZxYXRpdXNtNDJn0gHzAUFVX3lxTFBtczh4al9GNmNxMEV4Q0JXMHhSeDhhTk9LXzNDMVVTUkdPN0dxY183bXJ3dXlHbmYxRUtqNlpCdWRSdlhpT0JKcHppX1kwSVQ0TmdyRkkyX3hJUm1LQmh3N3dMcWU2MzEtblVXR3RRQlhpNk9pUFN4YXh1QUIxaW5EU0dYcVU5ZHpkYy1scW1RbjdBWkZ3OXBtWHc2cUhaSVFMME1qbjZrTTBDOVMtc1cxaXNRc1g3eTZpZkhSNEEzY3hQa2V0VVAyUHVOdG1zNllTTWZEVFBIdDVZWmlkaTZRT09ESXV1NVhybldMSjYxc2M2SQ?oc=5",
-   "source": "The Economic Times",
+   "answer": 3,
+   "why": "The headline reads: “India Could Achieve 8% GDP Growth as Global Conditions Improve, Says RBI Deputy Governor”",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQzM1aTJjMUlTdUtqcGNYTnEzSkJ6MkZHelRHM3dLREdRSE4tM1M3a1RwZG8xYV9SMXBNeEtvcGZkODhDdEpSMjFMWXhoQk9ySWlDTGs1cU5IVlZEbVBUeGYybnJ0eDl5QXYxQUpSTkNuMDFzVHZ2UExSejJLb3hNQ1ZIZW1KNFdweUJIN0pkSXFwVHZCZWpoZmdRdVlwZjBHX2RfTHNaTmRHeWR6c21NYlh6UUZVQ0lDLVp0STdjQ1BzY2Fyb2VHTlRyYjFtM09xQzhPN2puUnNGUUc1?oc=5",
+   "source": "Siliconindia",
    "cat": "economy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Cabinet hikes Dearness _____ by 3% with Rs 10,000 crore allocation; check key announcements",
+   "quote": "UP’s New _____ Job Rules: Who Could Be Barred Over ‘Regime Change’ Activities?",
    "options": [
-    "Mere",
-    "Hospitals",
-    "Unchanged",
-    "Allowance"
+    "Government",
+    "Back",
+    "Woman",
+    "Join"
    ],
-   "answer": 3,
-   "why": "The headline reads: “Cabinet hikes Dearness Allowance by 3% with Rs 10,000 crore allocation; check key announcements”",
-   "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOQnVhLUN5SEVybzZSN1pfM1RobFFEeWZ4cFNyM2lKVEpaclhwMnRsMFlER18tR2lCOGtub0tqRHdZR2hqbk5NU1Q4LU1UMXQ2NXZkWENvX1ZFVWpCMHctWGZFeHNrSlV2bjVGUlU1dDA0NjVqS1ZqLWs2N2ZoTFk4a1JCc3VFVlRqdHFSTVdRc0NPSVQxX1phMlJrakpBQnBoMmw0dFZBaXNqTUNrZlR4anE2dmFrVGpzS3RhRFdNWHJwaUNLYU1hWWZhWV9kdEx4d0VBNkhFbGI5X3g0ejI0YlRlNVZPSW9jaWI0RENPdE1sa0tCcmJUUEQwNmFVRllTQndIeFBiRmhlZ9IBjwJBVV95cUxPR3otMjJ5TXdkTGpUai1LMkN6UmZZUVRmY0stNTNfY1dCRWRxVzNHb1Zzd0pZNk5vWk41UVUxS1N1YldPeFhVNUhxZUJHYkVtRk10MjB2QXkzaEtDZmg4MFpfSEQ3VFNhLWlsN3VTZi03UkFZdmxORnRaendxYTc0YXh0ZG5TRWZvVkJ6M3lINnhLRjM2T1Z1ZHlic2lBOXpzTmE1ZVpGcW9mZGdmeXktbHhqajh6TmtIdlA1aVNSa3J3MHpzTFV4SzhOS09ady1sT1F1Vm9oa3B1SlNJQ1plX21wLXFZLUdndDRBa2xtYXNPUXZOZzlhcWx0WUNNTmljUGRiOHBtSy1XazZSR0Vr?oc=5",
-   "source": "The Economic Times",
+   "answer": 0,
+   "why": "The headline reads: “UP’s New Government Job Rules: Who Could Be Barred Over ‘Regime Change’ Activities?”",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeDlJR2M3WlQzR0hjZkxJTjNuM0ZxTFU1VEwzQzluUDVyeC1GWmo0WGx1RW4xR1NQaS1jdE9OWW1ISFB2RS1NTkZoSzl0Nk94U1BsSXBBMlJSZEtZQ1lnakFTdVViSld5WDNjd24td1NITk5HelVXaHhlUWVaY2dsaG5JRGRaOVV1YTFNRXJxZDF5blRiTy1XWU8wQ2NoTUJmazBfWjlJZ1dBOExHUmVsVThlNXJQdy1XTEZR?oc=5",
+   "source": "News Arena India",
    "cat": "policy"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Carney to push for closer ties at _____ summit in Montreal",
+   "options": [
+    "Canada-EU",
+    "Mentally",
+    "Liquidity",
+    "Ex-Judge"
+   ],
+   "answer": 0,
+   "why": "The headline reads: “Carney to push for closer ties at Canada-EU summit in Montreal”",
+   "link": "https://www.bbc.co.uk/news/articles/cq8ezj7jylrzo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "cat": "world"
   }
  ]
 }
