@@ -1,80 +1,80 @@
 {
- "date": "2026-10-30",
+ "date": "2026-10-31",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Public _____ Bill passed in Lok Sabha to combat malpractices in govt recruitment exams",
+   "quote": "Eminent economists appear before _____ panel on simultaneous polls",
    "options": [
-    "Liquidity",
-    "Money",
-    "Police",
-    "Examinations"
+    "Ends",
+    "Parliamentary",
+    "Hedge",
+    "Visa"
    ],
-   "answer": 3,
-   "why": "The headline reads: “Public Examinations Bill passed in Lok Sabha to combat malpractices in govt recruitment exams”",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9VYVNoNGNqSFMzUmYyVzd5QUlvMi1FS2E1TTRRUkhoSGFLX0lISHhnVjk0bWFmVF9JOWNFd2dXSVBRaGtmS1ctWUhSOUkybHBtT3ZrRnVZQnJFVTR4TkpYOXV6NNIB8gFBVV95cUxNeGFyMzl6QmRoY2ZBYjExT3JFZnB1UnExbmI1bkR4ZElZSjVqZlVTM2tGeXNHUUtoRkMyZ0tTZ1Q0MWhNbDVLSFFvNzF3TXRhd3NMWEIxMjVPXzVWRkxWQ3BKUEcyRTduX0hLbU00RlJ1Z3EtTGUwZXYtaVM0SUl4RVIxd09OVUtkMTJtVElYdTFjQVJwV0Y0REl3UTA3UXBYSTFiX1FSNzVPSUhtaHRYdHRFOHRnRlo0V2FVSlF6QkxUUlR0amlGRXdpMURRSzFNbjM2SFJ5SEpZaWZXVnVJZ056TTRkQU5rM3J4cGNoX2pYQQ?oc=5",
-   "source": "The Economic Times",
+   "answer": 1,
+   "why": "The headline reads: “Eminent economists appear before Parliamentary panel on simultaneous polls”",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQS3JJUUUtV0ROV2ZFbnFBMDRmMy1nVXd4bDJSTEZVQl80bDVZaWtuR2lXRkttaVdSM0xobTY1MU05UkgyU0FrTGxnOE9YTjU1UGdxZzZuclJITERpR1pEMmIwdFhiaUZPdFpJd1hycWsyTjZWT3c1aXBSMExzMnh1WWxZY2o5bjdwV0EzNlBJZ2Rxa19KSjhJZXVDSzI0eWtVaDctZHVLc0pWTnd3aEFhYWRLTXRGVDMyeHE4c1VmNnBsQUhodlB4S2ZKUU95Z9IB1AFBVV95cUxOSWJmUTIzaXFxMHFtM0RfV3V3S3hTNUNMRHdYb3dRVW5ndWNrSTZweDhVMVpTQTdvczcxd3JQWHhZLVUtN2x6VldTNEhMODdGLXNlR1JmdnhKYTZMcGRidm5jUjFfY2lHdjZBbUlHVmZBMV9OTjRBTGM2QkhNb0lkNHpXbDBnb204NllXRjkzcUhkcGFLLWY3MldpS25TQVNtNmJrX0JJLXVDS016ZjBaakJKOUVzODg5bUNXTWlmNU92bDJtYUkxbVhRWnBfR2MyQks1dA?oc=5",
+   "source": "The Hindu",
    "cat": "parliament"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Supreme _____ says corporate affairs ministry 'hijacked' NCLT autonomy",
+   "quote": "The _____ Sea Route Is a Hedge, Not a Highway",
    "options": [
-    "Transgender",
-    "Papua",
-    "Hormuz",
-    "Court"
+    "Northern",
+    "Jaishankar",
+    "Russian",
+    "Kharif"
    ],
-   "answer": 3,
-   "why": "The headline reads: “Supreme Court says corporate affairs ministry 'hijacked' NCLT autonomy”",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaUhkQnpYYXdRSWV5OGw2SGdVa3BWZF9uLTdBeUl3MUcxWWN1bkE3ajU3MlhDZ0h2R0IxUlJaN29xaWhpR3ltbldKRWptWGdOOHdFYmhSOHBPWEVDVGhsZkR1TjBVZ3lxY1VDZXV0MjJoY2ZkblJDMkFSb2F4MG5pcXdBeWdJRG9QMlFJVGZGaDR5cHV3WEE0eV9OWFJtbENKcFJGeXVvYzlrdTFTZ2VXbjdzSUQtZkdCNWZnVmEySl9BQk1aRlp4M1kxY9IB0AFBVV95cUxQQ1NiWktQU1Z5WGNYRzdnTVhzTDlBeTFVaGI4SUQzTXE4ckJ5UzJKeloxMEdwUGU5TFV1TDM1TG1vZnlDS3JRSmJubndwdFhNMjRrbE01REVzb0xIakd3bDd6bTBoY21CWHNyV2hwTFBvanY5Q0JrUTJGNy0xMll2amhMUWJHRGQ0ZGI0X09OUERPVE0wU3BVM0Y1djZaTUp4bk5iRXVlUjlTSTBZWG5DYTRmRjNob1dpZDVwR3ZzWmpta2p1UVBtS0JhQ2VCT3Bu?oc=5",
-   "source": "India Today",
-   "cat": "courts"
+   "answer": 0,
+   "why": "The headline reads: “The Northern Sea Route Is a Hedge, Not a Highway”",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOXzg1bnA1SWo0dllaSWpidGRSU1dZQWhGN0s0TFk0aWk2MFJaMnJIUHI5WXFXZkNVcllJTktwWkZBUEtnMjdheV9oaGFOZHplTm9xbjB6am8zaVYzTGM3X3NZdVc1MEp5UTJtelEzczhISFZwNGVjRVhtbE1uQlFxSHVxRGZNMlhyWnVBWE1Baw?oc=5",
+   "source": "Modern Diplomacy",
+   "cat": "world"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "India Could Achieve 8% GDP Growth as Global _____ Improve, Says RBI Deputy Governor",
+   "quote": "India's fiscal deficit for _____ at Rs 7.14 lakh crore, widens to 42.1% of FY27 aim",
    "options": [
-    "Defers",
-    "Till",
-    "Plea",
-    "Conditions"
+    "Ferreira",
+    "Rises",
+    "April-September",
+    "Disproportionate"
    ],
-   "answer": 3,
-   "why": "The headline reads: “India Could Achieve 8% GDP Growth as Global Conditions Improve, Says RBI Deputy Governor”",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQzM1aTJjMUlTdUtqcGNYTnEzSkJ6MkZHelRHM3dLREdRSE4tM1M3a1RwZG8xYV9SMXBNeEtvcGZkODhDdEpSMjFMWXhoQk9ySWlDTGs1cU5IVlZEbVBUeGYybnJ0eDl5QXYxQUpSTkNuMDFzVHZ2UExSejJLb3hNQ1ZIZW1KNFdweUJIN0pkSXFwVHZCZWpoZmdRdVlwZjBHX2RfTHNaTmRHeWR6c21NYlh6UUZVQ0lDLVp0STdjQ1BzY2Fyb2VHTlRyYjFtM09xQzhPN2puUnNGUUc1?oc=5",
-   "source": "Siliconindia",
+   "answer": 2,
+   "why": "The headline reads: “India's fiscal deficit for April-September at Rs 7.14 lakh crore, widens to 42.1% of FY27 aim”",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOczhlckthcnVfN0JiN1BHdWJiNUhQYUoweEtzRzh6Qk5obXNuRHhJNHVOM0ZYcms0YUdaNVZxeDN6RkZka3V1cE1BU0t5WF9fcmVwMFY4RFA1TW1OV3oxMFhLbU1Hdk5lQmFDNlRuazVkbXhTVDRWZ0EwSXJCanBsSGVZUXNwUlRmdGlPN3prckNPM1Nsb0tuN0FmWlpMeEJZV0s4S3k3amloRWFSUUFydXZibFZBTG4zU3R6VWMyREdjaDR5MG9DSmVwWjRlcnls0gHWAUFVX3lxTE9hRkNtdThBT1p1eE8xY0VoWHFOVm05RVdleG1fYVY4VjlfNXd6NWZkUVgzYkMwWl93UE9CRGpzZkY3SmRsTEQtTVZCOHJCandOZllYSUx3Vy1xZm5xOXJRVGNEeXpDWnRGaUZsbFd3WEFZMUtTZ004eXI5ZE8wVElvLUVuVU10X1d0UHBkdTdVWnRCM0Q1X2ZuSkZLWDV6NnBRYmU1X1A4YmZ5TjJ5a1NNc2Rlc0tfeHk4cDd1Z3NlWlNPMnhwODBiMUxseXBmNVRJRDRPT2c?oc=5",
+   "source": "The Economic Times",
    "cat": "economy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "UP’s New _____ Job Rules: Who Could Be Barred Over ‘Regime Change’ Activities?",
+   "quote": "Tribunal has gone haywire: _____ Court slams APTEL for ignoring binding precedent",
    "options": [
-    "Government",
-    "Back",
-    "Woman",
-    "Join"
+    "Children",
+    "Energy",
+    "Applications",
+    "Supreme"
    ],
-   "answer": 0,
-   "why": "The headline reads: “UP’s New Government Job Rules: Who Could Be Barred Over ‘Regime Change’ Activities?”",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeDlJR2M3WlQzR0hjZkxJTjNuM0ZxTFU1VEwzQzluUDVyeC1GWmo0WGx1RW4xR1NQaS1jdE9OWW1ISFB2RS1NTkZoSzl0Nk94U1BsSXBBMlJSZEtZQ1lnakFTdVViSld5WDNjd24td1NITk5HelVXaHhlUWVaY2dsaG5JRGRaOVV1YTFNRXJxZDF5blRiTy1XWU8wQ2NoTUJmazBfWjlJZ1dBOExHUmVsVThlNXJQdy1XTEZR?oc=5",
-   "source": "News Arena India",
-   "cat": "policy"
+   "answer": 3,
+   "why": "The headline reads: “Tribunal has gone haywire: Supreme Court slams APTEL for ignoring binding precedent”",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOHRjeUJwRW1hamdIVUVXanBUbjhMVXVQZTlLZFJOZHlwOXFXX3pDbjEwbWlwVzFSTVhsUmgxcEs0amdTa2xoWnNpWFUya3hFWGZoMWZTcWozaEdSbE1rLXEyeWNUTktOYnlyTlhLLUY1V1kzUnFuLXZmTElmd3k1b1JRRHN5OEQ4LTZZYlJ0ZHNfcGpRa1V0RWIwZTYtWkozeXVlSzg5Z3c4aHNTeWg5YWFYR01yRGxzYUItcWl2eHMwcmZR0gHSAUFVX3lxTE5EdVNBUmY4dVZGX2dKamdJWVpHSk1LbFdJRkxCNloxRENsSTBRU0pITVpyZGtZb2tSajJac2NYdjJEYTdCZnkyeEdsQkFRS3VBX0U5X2R6MmdzbWN1a3gzdGtTRzF4S3ItSVZISFpWQW1MbXJCVkJNbEdheFJPSzBFcEJtRTBhajFIRGZ3LUdDQjNkdjVtUHRNQjhRZFdSd0xERmpGdWVyZ0x1X3BRRHN4b3NNZVdLamhmWFNKc0dxc2ZtM2ZEZ0gxQ2loalJzUWk5UQ?oc=5",
+   "source": "Bar and Bench",
+   "cat": "courts"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Carney to push for closer ties at _____ summit in Montreal",
+   "quote": "Non-Violent Protests for Right to Vote and _____ of Election Commission of India Augurs Well for Democracy",
    "options": [
-    "Canada-EU",
-    "Mentally",
-    "Liquidity",
-    "Ex-Judge"
+    "Independence",
+    "Self-Employment",
+    "Evacuate",
+    "Asks"
    ],
    "answer": 0,
-   "why": "The headline reads: “Carney to push for closer ties at Canada-EU summit in Montreal”",
-   "link": "https://www.bbc.co.uk/news/articles/cq8ezj7jylrzo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
-   "cat": "world"
+   "why": "The headline reads: “Non-Violent Protests for Right to Vote and Independence of Election Commission of India Augurs Well for Democracy”",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQUJqS29ENXpjMGd2b0liOS1JOEliT3VwSTVZeTdUbDR5cUVheGdzekcxbTF5aHhtMGtBVV9JcHJKNXdLcXc3WVluUEdkb2l2RW03RnVqSnBfNHY5VVBOZGlPZjZJeUhfTndwa2JIb25fZWh4c1pYN1ZmeTlqMEdNaElYdEQtQ0JWMDdTTTk4Yk81ZVp6R3QzNDRaWGRQQXFDMWRRNHVjSFVBVjdiTnVLYUJpNnNKYmlEWUVFNzF5OS12WVQ4cG9Cb1NDS1Ffc2pEVGZnVmhTTjRac2hnWldv0gHsAUFVX3lxTE5Kd2l1WlJOb2xjamowLTZScmVSZHFkcHVmeWstZzZiaWlic0sxZi01clBmT3BRaGZ1VkJBdDNlemlFRkNHV2VtSjFLZHQ0a0NVV1hBZklFb24xcHhwUTJ2SFhiS000N1RWVHBFRnpiQnNDVVFrQWZSaFE3S2ZDQ1gyeDdqdkpqektxaFRMZHhyMFctSzZEWUFFdDVhcjMwRlI4dm1GXzhkNVh2SWEwWl9zSTEza055ajhxNGFkcHQ4TERFMTNTOXNTdUNSTTBhajN4ZGNhc0VnaTZOX1BRa3ZtV2pHWkhScUk0MUMt?oc=5",
+   "source": "The Leaflet",
+   "cat": "elections"
   }
  ]
 }
