@@ -1,80 +1,80 @@
 {
- "date": "2026-11-01",
+ "date": "2026-11-02",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "High-Level Committee on Banking for Viksit Bharat: _____, Objectives and Terms of Reference",
+   "quote": "Amitabh _____ pitches for development model with rural communities as producers, innovators",
    "options": [
-    "Halloween",
-    "Digital",
-    "Tech",
-    "Composition"
+    "Kant",
+    "Geopolitics",
+    "Heidi",
+    "Signals"
    ],
-   "answer": 3,
-   "why": "The headline reads: “High-Level Committee on Banking for Viksit Bharat: Composition, Objectives and Terms of Reference”",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRXE2aDJoS3d5Q25PeWhKVkxnQ3FuRGZBTDZiSVJ0bDhVQjJiaWY2ajAwb3FHejRERUF2NWYxcGJNaE9lOGRvZVhTb0tNSk5VSWNIcWtUbDdqTnZENmtadTlMQnlJVVNDMnhiWVlPaHQzSF9CUXZ3ZHFMbzd5UU15ZTZ6MjM4MTZuS1hjZmJTc1AwSm1BWDlRRW5FQWxfYnVZQll3QnBRdGhuMnpuSi1qbGtydXJPSGU1Z19UY1doRDB0MEVSRlNkVE1QSQ?oc=5",
-   "source": "Adda247",
-   "cat": "economy"
+   "answer": 0,
+   "why": "The headline reads: “Amitabh Kant pitches for development model with rural communities as producers, innovators”",
+   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPY2xhenJkOWhxd0RUNEN2c3JxcjktSHk5QU9TSm1Vc05jcUlrWFFNR0ZicW50S0tRQ09DYU5rbHNNRk5xTkdYazdraGJKdHJ6X0FQaTdsalA4VG9zT0VWb3Z2R0RmcHNieXNlR19rbTlBbE1McFZJM0djNkFEcjVSUW8xVkZNeUstZXZRRzkwVUxZY25xSk1rNGtPMEhXanJDeEZpUXRxTFZER09jRkRZTkNvTFIyNlRLSUlDd0NiNHFNTUo3R1hiYXFoSUZ6WXYtOFJzSjhWTEFRLUZMRzdKQmg5a1pKbHZxeXpFc09DWUw1eGExWmfSAfsBQVVfeXFMTW8xZWo4bUpYMklNMUEyQUtab2JpWWV0NXAtdXZDZjhFbjItMlRJRFlwcE1BVVNYZzBCeThDOG0wbnQ2b3BNeERiTU9NWGR3VnNXdWlhZzJRSHhlZE9vVU43QzN5N19UOXpIa1VYYlBuZzZWelZmQzlrRGY4VjBiZWZrQXhIbWM2ZloyRklWZEduV2ZKVUttU3lEUWx3ZThMamt6amU3VGFseElnWmJsbmJTRWJNUkVpTkNMMDlZWEFiSmtTZGs3QXdoRjNla2U3VjhMaTZSUkpTa0FJRHNuYWFhN19pVENvMTlxdjM5bThLRXhncUpldWlic0U?oc=5",
+   "source": "The Economic Times",
+   "cat": "policy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Supreme Court Directs Election Commission to Examine Bulk Form 7 _____ During Uttar Pradesh Voter Revision",
+   "quote": "INDIA Bloc Holds Symbolic Public _____ of CEC Gyanesh…",
    "options": [
-    "Constitutes",
-    "Irregularities",
-    "Gyanesh",
-    "Hubs"
+    "Impeachment",
+    "Overseas",
+    "Initiates",
+    "Association"
    ],
-   "answer": 1,
-   "why": "The headline reads: “Supreme Court Directs Election Commission to Examine Bulk Form 7 Irregularities During Uttar Pradesh Voter Revision”",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNa3d0SC1QYURPRUhTczltXzN3dXBMSS00enA3TTBxaWkyZnZmNnVVT3MyM3d4M3BTNVVtVEtVdnZvY3NPWk9QV0xXMFBmclp1ekJQeVRqVF9paUJIZFVyY0w0a0RnbGk0SHBtdlJPcF94OHdCMko0RmQ2YlVuRndBOHpEZ29HR2dPVFU2aGNjQ1E3bXBFU0xlbFVvWjFzUGJkcWhoV1plRzJCZi00QjE2dlFKNjJnSkJhX0UyNTlXUHRJNkFMbW9sRU4tZ3Ytc1dVRE5Xd25BOEl3dw?oc=5",
-   "source": "Court Book",
+   "answer": 0,
+   "why": "The headline reads: “INDIA Bloc Holds Symbolic Public Impeachment of CEC Gyanesh…”",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVkw5LUpscmZPZGY3OENwYi00VmtwbEFTai1Qd1JEbW5kR090SW5oelhjYkZ3Qy11Y0c4NC1GekgtWFNoN1BienZudWdXT1lXRUpLNE5aRVExalprNmtieU9lc3dvd2ctWFB6ZUw1UnlDbmNnUW5HM2ZGbHpmQ0JLTVd6bEpYMkRpYTQyVmJ2ckhSejlSVUE?oc=5",
+   "source": "theopenpress.in",
    "cat": "elections"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Lokesh meets PM Modi, thanks him for passing _____ Bill",
+   "quote": "Government Bond Yields May Ease To 6.75%-7% By March 2027 Despite _____ RBI Rate Hike: Report",
    "options": [
-    "Amaravati",
-    "Nationalised",
-    "Introduce",
-    "Exclusively"
+    "Escorts",
+    "Potential",
+    "Reviews",
+    "Forex"
    ],
-   "answer": 0,
-   "why": "The headline reads: “Lokesh meets PM Modi, thanks him for passing Amaravati Bill”",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPclA0WVUwVGozLUdHZF9xX3lnd1BBY1ZWZXM5TkJNQnpCQ1lwekx2SnV0bmFtd3B2V2txM3phLWxkZks0aWN3WHZ6SDlkRXJhT1FDRm9Db1BHcXQxbDhyd3o3eGlqbWRZLTNvanlEVG13eGpRZTBfOUZGdG9IamNqamtGYWgxVnJrUm9DSg?oc=5",
-   "source": "DD News",
+   "answer": 1,
+   "why": "The headline reads: “Government Bond Yields May Ease To 6.75%-7% By March 2027 Despite Potential RBI Rate Hike: Report”",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOUJVa2lDZEJ5dXlYbE1hTy0wVzcyMjBlZklWeTdkZHk0SktnTjZaaDRzbFB1cFVkS0hQVGpJRl81ZklmVDF2cmJfSWNWZXFqemFuRUVnNmJ5bVkxQjFlSmo1RkdVaDdfSmtrZDJLcTZxdHpONGY2blZWcnQxZmo2bndJM2FMX1h4UjNyNHdmNUZqWlB4Q1p3THZpNmd0TUpxTHYyOWdlZkxJSjBYTFQyRzlDSlFrYlVseDk5NEh4RXVPSUZ5U2Nra1ljQzBDQlJwT0VOctIB3AFBVV95cUxOb3JWdmpSQlZwRWM5WW1RVWZoMzZNTXFKd2FvaVJVclhUZEl3b2h0LU1sTEpqSUhmYWVmc2tfWHp1b0FLeFBldUhJekdxQmlUQjhTUF94RTVtZU9OV2pqUURYbFE5SGNXWTFaamlWWmp1SHlqRFVGVGFvcW9USHp4eURick1DWlhuNEJoSEZyT28zYXVzQUM3dVBpNHZLRlUtOWNYckVYdTV1MGlzb0o4V3UyUUZFSGFwN0xOaHlIUFR1U1ItVndCNm9VaUI0cldoN01oeTBGRF9tTmxY?oc=5",
+   "source": "NDTV Profit",
+   "cat": "economy"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "JPC Chief Defends One Nation One Election To Reduce Poll _____",
+   "options": [
+    "Invest",
+    "Disruptions",
+    "Weeks",
+    "Profit"
+   ],
+   "answer": 1,
+   "why": "The headline reads: “JPC Chief Defends One Nation One Election To Reduce Poll Disruptions”",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV3pxUFptbTl3UDdlS2ZnRU5OaWJ2ZmtqTUYyQnl4eGRqUnZuaF9ETkJfcVR2SnlrMURsc3F4b0h4WENpcHN4VjNxX1JxSXdMMnBsTkhlOEtUckdtUEtDXzlNSFJ3MDZLeWY3Yjl3TjNKM0R5aUtxVHBmU2ZleFowTzhJU2hYNGlZdTJzVFRKandMcDlSRzB1eWxfUUNTaU0?oc=5",
+   "source": "Menafn",
    "cat": "parliament"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Suspension Of Sentence: Supreme Court Faults _____ HC In Sarpanch Poll Murder Case",
+   "quote": "Why Azam Khan Was Sent To _____ Custody A Day After His Release From Jail",
    "options": [
-    "Adhikari",
-    "Rajasthan",
-    "Tackle",
-    "Management"
+    "Singh",
+    "Judicial",
+    "Succeed",
+    "Restructuring"
    ],
    "answer": 1,
-   "why": "The headline reads: “Suspension Of Sentence: Supreme Court Faults Rajasthan HC In Sarpanch Poll Murder Case”",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1EZ1llNEx4YThyMkl1bVdSN2x3aHRDN3lGV0hfTDMzT2hoYzNTcFZ4QXp2emN0aWpyVlg3SW5GOTUxOUF3cUFteGlFdGJaUGI1cWpqTVBrcHlmbFAxOXlyQWFqbDV4VVgzNmhUdXdR?oc=5",
-   "source": "LawChakra",
+   "why": "The headline reads: “Why Azam Khan Was Sent To Judicial Custody A Day After His Release From Jail”",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSmJoUzBjVGtGXzhDbVNscU54ck5aR0V5VUo4UHNodVNNd0hvQW1RLWRTVHdvU3dSLUtHSnZFM3lvcnAxRVZnRmQybTJ3N01ZUFVXRDdfTUQzTldMN2Y0ZnF4N3pYc2wyRlhIZVhybkEtQzRaVHRYSDdLbXJtZUQweEhqX2k3eWlJZ0RDZWRNUkMxMERnWXNRQnAyMTFLdEI3TUtDYlV3eXhQZ3NGYm5Z0gG3AUFVX3lxTE5zTHlVRnFIN29jeDZWVVo3cmVwMHZLTzQ4dzFLUEhud2Y4akNnUzlEVnRCM2tjXzg2cV9YM0N3WnB5Nlo0RlFWUGRnU3dTMXBJbjc4SEdtQXF4S0xIbFFBQ1QxaUxyRXJJRXB5R21CY0ZWUERabmhqWFRrUHZsSnhOSGlPVWhyXzkyUmhBSEtVRDJwUFV3RGlIeXZUUzFVQUl6Y0QwMk41WjA0MDN0NGt1U08waGtfQQ?oc=5",
+   "source": "NDTV",
    "cat": "courts"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "More than 5,000 die from _____ in DR Congo's deadliest outbreak",
-   "options": [
-    "Advance",
-    "Discredit",
-    "Timelines",
-    "Ebola"
-   ],
-   "answer": 3,
-   "why": "The headline reads: “More than 5,000 die from Ebola in DR Congo's deadliest outbreak”",
-   "link": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
-   "cat": "world"
   }
  ]
 }

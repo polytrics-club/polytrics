@@ -1,37 +1,37 @@
 {
- "week": "2026-10-26",
- "start": "2026-10-26",
- "end": "2026-11-01",
+ "week": "2026-11-02",
+ "start": "2026-11-02",
+ "end": "2026-11-08",
  "topics": [
   {
-   "id": "motion-2026-10-26",
+   "id": "motion-2026-11-02",
    "kind": "motion",
    "label": "Debate motion",
-   "title": "Should internet shutdowns need a court's approval?"
+   "title": "Should political parties be covered by the RTI Act?"
   },
   {
-   "id": "news-2026-10-26-courts",
+   "id": "news-2026-11-02-courts",
    "kind": "news",
    "label": "In the news · Courts & Law",
-   "title": "50 hotels, shut since Free School Street fire, reopen after Calcutta High Court order",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxObUpfZGNGNXRNYUtXSnRZVmo0NllTdjJzdC1SUTF1NUR5YUtmT3ZGR21Tdjd3VGRNUHVORXB5ZlFvcFR1YVF6UE1EdThJLWo5cFlZVVpKWC1uWWV0cEhXOVU2blExaUpIVjNzaV9XMmJROUF1S3pQNURtVWxyUHh0cHloY2NhSGNGNUEtT3VWSGZmc3pmcWpOakdtVU5OUWxpcGpIaGprRDdUbFdVNDJoQlJXVHpWVENmNGNTVXYzcEZmN0ZmMHMxdXkxb0MxWGVfbmRuRWh5b0ZsbGM2Y1F4M0FGVkYwTlBweFFsZVAtWdIB9AFBVV95cUxNWDdoc1RiVEJDWDNRdTNvaU1qVTFDelpfU2U0SUxkOHZwckR2NTNUN2VDMlJsU1d0eXV1TU9uZGlqRVY0T2huSnpyMnlXeWFmMzlkblpvNHBsdXVoSC1LUDZqSkVBY3JkOWlOVmpKQ3h2Rm84dVNKWlJ1WmYwR3pyMVdpSExWRVB0dWlwN1hsd2pBRW13ZGdEZmRaR1dFWXlibndXVjItdmotd0toQzBBMGdJRE0wdkFuUkg5ZTlMZ1FydzUzY19OX0gxcWxUUUlZZThTUHlwSDh0YWptTEZNcjBac2hHamxTUTVXNklwTTFfalI2?oc=5",
-   "source": "The Times of India"
+   "title": "Yes Bank AT-1 Bond Case: Lender Rejects Non-Compliance Allegations After Supreme Court Verdict",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQX3NFV3hrYVIwZVNtakRVRzBHa1UtUWR1c3owLW1RdnZfMWRKbDRsNjVHWFJfYjZuSkpVblhVVnNVRjFZSjZsRkZ4aVJQaURwUkhEUHUxV3Y5NXV5cDhfUDliT2kxSHZyRWo2bWY3Nm5ra0J0X2ducnprV3pLc2JkaEZFM1daSTFvR3RsWkZSTWIyblFhV3BHTU9PX0tFQ0RpNEViX0l2dE41QWdoa090NGJxb2hKUUp2OXJoTzItSmtMTV96ZHFNTWJVVkxqTDJjWTk5MtIB3AFBVV95cUxNLVdUMUd1cWpSSk4wQ3RKbFRVRW9GLVRRVHprZTRzdHJ6LU5YamVkaG9jU2djb0xhWFZvTzFGdGpXY0UyaHdycXUzMTRrTXlQQlBoWkJlLUc1MkgtOFM0aUhQbW5fdEkydG9uZ3pOYW1zN0hjUnZDeHNfWURKQTBnQ09IWTNqSjkwS2Q1NWJuNk9nQ2o1VURFU1pLQUVFSFlnNE5QRFI5ZENHa3gyYmYzU1JjOVNadUJJWFp3Q21jVUVVdHp0b0NtcWZoR0d4Y1pId2NWRWRlX0JHNGFa?oc=5",
+   "source": "NDTV Profit"
   },
   {
-   "id": "news-2026-10-26-parliament",
+   "id": "news-2026-11-02-parliament",
    "kind": "news",
    "label": "In the news · Parliament",
-   "title": "Lok Sabha Speaker Om Birla Holds Talks with Egyptian Delegation Ahead of BRICS Parliamentary Forum",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOanZlUlZsVGYtZndGV0J1ZUpaNUVQSGhkS2Y2VmdoNjZWRkRlNWJraVZoaEFYa1dwVmluMFNya1oyLXRES20yRF9VaVIzb0Rwc3pxTVAyd0pBVmttakNVZEtiT25yb3ZlVHUza0lMZUVzb3p3VFc3anE4bldiU2tVUEJDUUVaRHBaNFpwVFNHQ2hEMzZLUTg4ckotV2U2UVozYi1NTHR2YnBiRlJJN1R2OW0zZ2NqWG45VGVNYlFoSVE3N3hW?oc=5",
-   "source": "The Indian Awaaz"
+   "title": "The Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FZTBOb2xsNFIxaDFIei1YaU1ERnZwbW5pa3BDcDJhVnZmaEF3clJKVGFMcFJLYTJMeWtIb2RPclZNZXdLMGt0ajJPNTh5NS1wTS13bG12VU9rOUE3UmZhVG9oN0dPbHZ5ZHFJSVk0MVROeFVuUGtn?oc=5",
+   "source": "pib.gov.in"
   },
   {
-   "id": "news-2026-10-26-policy",
+   "id": "news-2026-11-02-policy",
    "kind": "news",
    "label": "In the news · Policy & Schemes",
-   "title": "Chhattisgarh Yuva Darshan Yojana, 2026: Promoting Educational and Cultural Exposure among Government School Students in Chhattisgarh",
-   "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQX2ZLVWVIMk1xZFZpT3g3X3M0U3RWdFEzT3d2bmdycmF6bHZJamVwQ1RQQ2FnYjI3Z29LU094RWtTRXhGQUNEWklaMWQ2QWJHbXJ6QkEwZmx0UDcxR0ktNDR0SkdqZGpVcVpLdVA2SHBON0lYV2JId3psT1JkVi12dXRVU1hLZUxSRkZzUWVTRFNrcTZpTVY5TGV2TzBUZlREOVhsZ29zaTdVZDZBUTdZNXBtSklQemcxOEkyTXlVTUJoazlIWnFtZ1M5SE5oN0pkWV9oOGdhU3ItNkVGMXkwYzYzUDFRV0JWWlBrY05BckRIVUV2dkxic0RzY3FsMHJtQnVZQmxVWnc4SDl0Snc?oc=5",
-   "source": "IMPRI Impact and Policy Research Institute"
+   "title": "Banks seek microloan guarantee extension",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZTEtVzJCTkFveVZDN0ZmNTJOVlJmS3pxZVNoanlmRnFZbVgzc2ZnUmw0Rjd3SmxkanlQMDFSeE11Umc1Zm10OWg4TFpaWFlBOXZfZWJDNUpRUGVjWF9Fc1lYbXNOSzVoZlNBSVhnY3pLclhJZGdfUm9YY09JZlJqR0tSTlk2RDZSQmhqLWxDSnJMY0xNeGVVYXQ5NWFzaGZodzBHb1E5bjlxb1NFbUE1b3pwVXZIcE9GNTQtN3A3TmRDcU1tZ1HSAcsBQVVfeXFMTmxDaVNJdFViVW1EQnR3Mmh0Q0dCWldRcFo1WmhjS3VvZkJ2MkY4ME5oQ1BtSFNPQVNjYjdXc0UwZF82X2FNZG00aTRXc0ZSV1RraEItSUZydGdjYzhLejB6SlNiLVNHOS1sRGV2dktJNVdTc0MyT09CRDVSbjRmMk5OaXA1WmZWVEVtUG1KMXFzRU5QcjNVYmRqTXk0OHR4Uzh1bnFhYWRyTlFEUTJnQ2ZMc0lOVmVDWU5DWnNnMXFPMlJub1lCR3JJMkk?oc=5",
+   "source": "The Economic Times"
   },
   {
    "id": "open",
