@@ -1,80 +1,80 @@
 {
- "date": "2026-11-02",
+ "date": "2026-11-03",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Amitabh _____ pitches for development model with rural communities as producers, innovators",
+   "quote": "Wife earning enough to support herself not entitled to maintenance: _____ HC",
    "options": [
-    "Kant",
-    "Geopolitics",
-    "Heidi",
-    "Signals"
+    "Programme",
+    "Bill",
+    "Karnataka",
+    "Mullaperiyar"
    ],
-   "answer": 0,
-   "why": "The headline reads: “Amitabh Kant pitches for development model with rural communities as producers, innovators”",
-   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPY2xhenJkOWhxd0RUNEN2c3JxcjktSHk5QU9TSm1Vc05jcUlrWFFNR0ZicW50S0tRQ09DYU5rbHNNRk5xTkdYazdraGJKdHJ6X0FQaTdsalA4VG9zT0VWb3Z2R0RmcHNieXNlR19rbTlBbE1McFZJM0djNkFEcjVSUW8xVkZNeUstZXZRRzkwVUxZY25xSk1rNGtPMEhXanJDeEZpUXRxTFZER09jRkRZTkNvTFIyNlRLSUlDd0NiNHFNTUo3R1hiYXFoSUZ6WXYtOFJzSjhWTEFRLUZMRzdKQmg5a1pKbHZxeXpFc09DWUw1eGExWmfSAfsBQVVfeXFMTW8xZWo4bUpYMklNMUEyQUtab2JpWWV0NXAtdXZDZjhFbjItMlRJRFlwcE1BVVNYZzBCeThDOG0wbnQ2b3BNeERiTU9NWGR3VnNXdWlhZzJRSHhlZE9vVU43QzN5N19UOXpIa1VYYlBuZzZWelZmQzlrRGY4VjBiZWZrQXhIbWM2ZloyRklWZEduV2ZKVUttU3lEUWx3ZThMamt6amU3VGFseElnWmJsbmJTRWJNUkVpTkNMMDlZWEFiSmtTZGs3QXdoRjNla2U3VjhMaTZSUkpTa0FJRHNuYWFhN19pVENvMTlxdjM5bThLRXhncUpldWlic0U?oc=5",
-   "source": "The Economic Times",
-   "cat": "policy"
+   "answer": 2,
+   "why": "The headline reads: “Wife earning enough to support herself not entitled to maintenance: Karnataka HC”",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQmg5aG9lZE5BNUh0TW90MnQwSkNNcUVHdWZkeUJ2b0UwaTRDZjhHX0hiVFdRdW92b0NwZW83VEVjc0ZfQk9UMklHUWhOZVl5TkdXbUo5OUw1X0Q4c1lEMlZ4aFpYbWtGWlhfZUlvTWV3ZktRMFY3cjJvcGpNNXlqRTc5U0RzMF9jZTVKMWJrRE41ekpuMEd0R1VFV2IwVHhqd3fSAagBQVVfeXFMTm5LdjIzcTJvY0NDY1BtNEIxLWlMRWlla29tSnRTYTRZMFF4Y1R6bEtvenFMMUZnVlRPYzRzUGRfeXFRMTJnS09yZEQ4bGZIVnJZazlFUVY2U0xSR1FXaXNfdHY0MFpaYUlKVzhMV3F6VTUyc3ZZLTJqcGRtd1FCdUdSTVpOelY1YnZNdW9TVlRwZTVtQzZfMHAyaGZlMW5PNFV5VmV2ZEpO?oc=5",
+   "source": "The Indian Express",
+   "cat": "courts"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "INDIA Bloc Holds Symbolic Public _____ of CEC Gyanesh…",
+   "quote": "Rahul _____ & his besties should verify electoral rolls instead of wasting time protesting",
    "options": [
-    "Impeachment",
-    "Overseas",
-    "Initiates",
-    "Association"
+    "Bhagwant",
+    "Gandhi",
+    "Pushes",
+    "Bloc"
    ],
-   "answer": 0,
-   "why": "The headline reads: “INDIA Bloc Holds Symbolic Public Impeachment of CEC Gyanesh…”",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVkw5LUpscmZPZGY3OENwYi00VmtwbEFTai1Qd1JEbW5kR090SW5oelhjYkZ3Qy11Y0c4NC1GekgtWFNoN1BienZudWdXT1lXRUpLNE5aRVExalprNmtieU9lc3dvd2ctWFB6ZUw1UnlDbmNnUW5HM2ZGbHpmQ0JLTVd6bEpYMkRpYTQyVmJ2ckhSejlSVUE?oc=5",
-   "source": "theopenpress.in",
+   "answer": 1,
+   "why": "The headline reads: “Rahul Gandhi & his besties should verify electoral rolls instead of wasting time protesting”",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9DVWhqc0pEQmwtQVlXNkY2Z2VTeV9fM0huNnpLemd0MnE5cEI0b0tMSG5TTGlNWWVoOHA4VEx0Z0g3WkxCLXplcURrcDh3TE9aOFFKVE52QTZ2c1pWdE1pangtRml1ZVJQVUVNS1c0eW9YdUVtaFBkQ1d3WDN6Z9IBgwFBVV95cUxPV0ZENzM0bWVvXzJSd2hvX3BPMk1qd0RPMTRUVjI3Y2RqS3pQVXQ1LUVHOGdLRWNMYUxNREpLeTZ6Mlk5dWd0amctd3RUN3VKNHIxN2djd1QxZ0JXNnhOSWJ5VnR0ZDdSVkNEWkhyd0w5b2JnZjJFc001RlN4QkM4Z3U0VQ?oc=5",
+   "source": "ThePrint",
    "cat": "elections"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Government Bond Yields May Ease To 6.75%-7% By March 2027 Despite _____ RBI Rate Hike: Report",
+   "quote": "Manufacturing Momentum:Building a _____ India",
    "options": [
-    "Escorts",
-    "Potential",
-    "Reviews",
-    "Forex"
+    "Self-Reliant",
+    "Parliament",
+    "Your",
+    "Jagan"
    ],
-   "answer": 1,
-   "why": "The headline reads: “Government Bond Yields May Ease To 6.75%-7% By March 2027 Despite Potential RBI Rate Hike: Report”",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOUJVa2lDZEJ5dXlYbE1hTy0wVzcyMjBlZklWeTdkZHk0SktnTjZaaDRzbFB1cFVkS0hQVGpJRl81ZklmVDF2cmJfSWNWZXFqemFuRUVnNmJ5bVkxQjFlSmo1RkdVaDdfSmtrZDJLcTZxdHpONGY2blZWcnQxZmo2bndJM2FMX1h4UjNyNHdmNUZqWlB4Q1p3THZpNmd0TUpxTHYyOWdlZkxJSjBYTFQyRzlDSlFrYlVseDk5NEh4RXVPSUZ5U2Nra1ljQzBDQlJwT0VOctIB3AFBVV95cUxOb3JWdmpSQlZwRWM5WW1RVWZoMzZNTXFKd2FvaVJVclhUZEl3b2h0LU1sTEpqSUhmYWVmc2tfWHp1b0FLeFBldUhJekdxQmlUQjhTUF94RTVtZU9OV2pqUURYbFE5SGNXWTFaamlWWmp1SHlqRFVGVGFvcW9USHp4eURick1DWlhuNEJoSEZyT28zYXVzQUM3dVBpNHZLRlUtOWNYckVYdTV1MGlzb0o4V3UyUUZFSGFwN0xOaHlIUFR1U1ItVndCNm9VaUI0cldoN01oeTBGRF9tTmxY?oc=5",
-   "source": "NDTV Profit",
-   "cat": "economy"
+   "answer": 0,
+   "why": "The headline reads: “Manufacturing Momentum:Building a Self-Reliant India”",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvRmtvLV9MbC1nX2RudWdiZ2xQUnpCRmtTTU0xNkF2eV96Zi1kUUhkVjlrMWNGUkVKZzZXRUdEQjN0eGZRS3AxSm1BWC0tbnVHOXU2LUJDNlR1eDVpY1B0N09Ga01xUG9XSzVRejNpOHRvREdBS3c?oc=5",
+   "source": "www.pib.gov.in",
+   "cat": "policy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "JPC Chief Defends One Nation One Election To Reduce Poll _____",
+   "quote": "Oil falls as _____ favours Iran diplomacy before midterm elections By Investing.com",
    "options": [
-    "Invest",
-    "Disruptions",
-    "Weeks",
-    "Profit"
+    "Trump",
+    "Shut",
+    "West",
+    "Allegations"
    ],
-   "answer": 1,
-   "why": "The headline reads: “JPC Chief Defends One Nation One Election To Reduce Poll Disruptions”",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV3pxUFptbTl3UDdlS2ZnRU5OaWJ2ZmtqTUYyQnl4eGRqUnZuaF9ETkJfcVR2SnlrMURsc3F4b0h4WENpcHN4VjNxX1JxSXdMMnBsTkhlOEtUckdtUEtDXzlNSFJ3MDZLeWY3Yjl3TjNKM0R5aUtxVHBmU2ZleFowTzhJU2hYNGlZdTJzVFRKandMcDlSRzB1eWxfUUNTaU0?oc=5",
-   "source": "Menafn",
+   "answer": 0,
+   "why": "The headline reads: “Oil falls as Trump favours Iran diplomacy before midterm elections By Investing.com”",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNXzFSdUdsN0Nyd1hUeEw2T2lXWnlsa29YTWZBVkdaYnJ0Snlvcmh6RnN6MlhpVG9yQkxDSDMwT09sMmo3UnJjX2VEOE9pODFUd0JscXdGbW9NY3ZYOU96d0dqYmcxRmx1OXBJRm5zVkJMYS1JVEQ2OGl1dnlwZWF0VHpyaXBnNVBkek1VZHZlVzJIYmZWRUg5bDJ4WVNBSVBzLURudDFHamYxbDBOX1hqakdtSnpFMjNVYzNkcTdn?oc=5",
+   "source": "Investing.com India",
+   "cat": "world"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Pratap Public School, _____ Colony, Karnal",
+   "options": [
+    "Adhikari",
+    "Temple",
+    "Sales",
+    "Jarnailly"
+   ],
+   "answer": 3,
+   "why": "The headline reads: “Pratap Public School, Jarnailly Colony, Karnal”",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ2VBTFlVRWlRc0NGazJ1eDc0Y0dYYkU2eWs1S1lPMGdmR19xN2JfUHBSbFNaUndBd0RiLWR6blVVa3Q4NS1iSjdsUm9sLVd1T3NnMnBIMmw5OWx6TWZId0ZneF84TWNlNnRyQ3NGWEVhQlllUnNEdkpBRlUzS0FfSGFlZE5QYnhZdGlLY3V3c04tMGNFektzatIBmAFBVV95cUxNQ2VBTFlVRWlRc0NGazJ1eDc0Y0dYYkU2eWs1S1lPMGdmR19xN2JfUHBSbFNaUndBd0RiLWR6blVVa3Q4NS1iSjdsUm9sLVd1T3NnMnBIMmw5OWx6TWZId0ZneF84TWNlNnRyQ3NGWEVhQlllUnNEdkpBRlUzS0FfSGFlZE5QYnhZdGlLY3V3c04tMGNFektzag?oc=5",
+   "source": "The Tribune",
    "cat": "parliament"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "Why Azam Khan Was Sent To _____ Custody A Day After His Release From Jail",
-   "options": [
-    "Singh",
-    "Judicial",
-    "Succeed",
-    "Restructuring"
-   ],
-   "answer": 1,
-   "why": "The headline reads: “Why Azam Khan Was Sent To Judicial Custody A Day After His Release From Jail”",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSmJoUzBjVGtGXzhDbVNscU54ck5aR0V5VUo4UHNodVNNd0hvQW1RLWRTVHdvU3dSLUtHSnZFM3lvcnAxRVZnRmQybTJ3N01ZUFVXRDdfTUQzTldMN2Y0ZnF4N3pYc2wyRlhIZVhybkEtQzRaVHRYSDdLbXJtZUQweEhqX2k3eWlJZ0RDZWRNUkMxMERnWXNRQnAyMTFLdEI3TUtDYlV3eXhQZ3NGYm5Z0gG3AUFVX3lxTE5zTHlVRnFIN29jeDZWVVo3cmVwMHZLTzQ4dzFLUEhud2Y4akNnUzlEVnRCM2tjXzg2cV9YM0N3WnB5Nlo0RlFWUGRnU3dTMXBJbjc4SEdtQXF4S0xIbFFBQ1QxaUxyRXJJRXB5R21CY0ZWUERabmhqWFRrUHZsSnhOSGlPVWhyXzkyUmhBSEtVRDJwUFV3RGlIeXZUUzFVQUl6Y0QwMk41WjA0MDN0NGt1U08waGtfQQ?oc=5",
-   "source": "NDTV",
-   "cat": "courts"
   }
  ]
 }
