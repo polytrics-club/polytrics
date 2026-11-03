@@ -1,80 +1,80 @@
 {
- "date": "2026-11-03",
+ "date": "2026-11-04",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Wife earning enough to support herself not entitled to maintenance: _____ HC",
+   "quote": "ECI holds first All India Media _____ to enhance understanding of electoral process",
    "options": [
-    "Programme",
-    "Bill",
-    "Karnataka",
-    "Mullaperiyar"
+    "Empowering",
+    "Conference",
+    "Maritime",
+    "Dignity"
+   ],
+   "answer": 1,
+   "why": "The headline reads: “ECI holds first All India Media Conference to enhance understanding of electoral process”",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRndTNnRnSHZMdUxtM0Y4LWY5WkNGNnV4LWZFYXc3Z1Rha0tVOGNKNjJjeDZiM0xGZHZteGNCaDllZE5najlMS010YkkzUU5rd09ZdUhmdV9aUmlaVVk5QWxmRjNhc2xrTFF2Q2RRSHA1S1JrakM1bXZNeU56Yk9Hd242cHNuLWpHaDZLdHlHZGw4dnJFcUFtdXNUNXpJNXZZN0VGYUwta1VmeFEwVzlBNWUydW8?oc=5",
+   "source": "DD News",
+   "cat": "elections"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Can a neighbour install CCTV invading the privacy of your home? _____ experts say no",
+   "options": [
+    "Tech",
+    "Explainer",
+    "Legal",
+    "Sach"
    ],
    "answer": 2,
-   "why": "The headline reads: “Wife earning enough to support herself not entitled to maintenance: Karnataka HC”",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQmg5aG9lZE5BNUh0TW90MnQwSkNNcUVHdWZkeUJ2b0UwaTRDZjhHX0hiVFdRdW92b0NwZW83VEVjc0ZfQk9UMklHUWhOZVl5TkdXbUo5OUw1X0Q4c1lEMlZ4aFpYbWtGWlhfZUlvTWV3ZktRMFY3cjJvcGpNNXlqRTc5U0RzMF9jZTVKMWJrRE41ekpuMEd0R1VFV2IwVHhqd3fSAagBQVVfeXFMTm5LdjIzcTJvY0NDY1BtNEIxLWlMRWlla29tSnRTYTRZMFF4Y1R6bEtvenFMMUZnVlRPYzRzUGRfeXFRMTJnS09yZEQ4bGZIVnJZazlFUVY2U0xSR1FXaXNfdHY0MFpaYUlKVzhMV3F6VTUyc3ZZLTJqcGRtd1FCdUdSTVpOelY1YnZNdW9TVlRwZTVtQzZfMHAyaGZlMW5PNFV5VmV2ZEpO?oc=5",
+   "why": "The headline reads: “Can a neighbour install CCTV invading the privacy of your home? Legal experts say no”",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMGNwTEhXSXBUM1BMcE1oRGRqQmJfTDQ2STNScEppQmxvOWNKaGwtQ1IxcVB4QU9uaVA1cWlpWUp0aTVOTThxYW5jSk1NOG03dHRhRjRRSDlab0tIQWRVQkRrM3FBTzBTZ3NUZWV5azdOTjlHT1JhbElKaXJCU2VoSkxxZHM3MlB5b1pYSWlNbm01ZFoyZV9QLUpNUTZ4dzlscmVSR1REYjFXdmVoWDY5M3lQSk9GUmfSAb4BQVVfeXFMTi1iM3dIMFY3cmdiMDgxaHdzZDF2bHBsd3NkR08taUhzd2ZqWEh6UF9FbkFnYS1sSHBQNDFhMEJ4OF9KcVpFTXJoZWplX1FHeFNXZFFMUUFaMkpUdEVRYnlZb1VOc0JsWFVsYzltaE4xZ1JON285bWdwYlN3VFA2M3FjYjhPVGlnQktJcWdLbUl5aEV3YVhhV0xLckZueEdMZXI4MF9HbFVJS2xwbVRlZW02TVlvU0JDTHlaZ0Zxdw?oc=5",
    "source": "The Indian Express",
    "cat": "courts"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Rahul _____ & his besties should verify electoral rolls instead of wasting time protesting",
-   "options": [
-    "Bhagwant",
-    "Gandhi",
-    "Pushes",
-    "Bloc"
-   ],
-   "answer": 1,
-   "why": "The headline reads: “Rahul Gandhi & his besties should verify electoral rolls instead of wasting time protesting”",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9DVWhqc0pEQmwtQVlXNkY2Z2VTeV9fM0huNnpLemd0MnE5cEI0b0tMSG5TTGlNWWVoOHA4VEx0Z0g3WkxCLXplcURrcDh3TE9aOFFKVE52QTZ2c1pWdE1pangtRml1ZVJQVUVNS1c0eW9YdUVtaFBkQ1d3WDN6Z9IBgwFBVV95cUxPV0ZENzM0bWVvXzJSd2hvX3BPMk1qd0RPMTRUVjI3Y2RqS3pQVXQ1LUVHOGdLRWNMYUxNREpLeTZ6Mlk5dWd0amctd3RUN3VKNHIxN2djd1QxZ0JXNnhOSWJ5VnR0ZDdSVkNEWkhyd0w5b2JnZjJFc001RlN4QkM4Z3U0VQ?oc=5",
-   "source": "ThePrint",
-   "cat": "elections"
-  },
-  {
-   "q": "Which word completes this headline?",
    "quote": "Manufacturing Momentum:Building a _____ India",
    "options": [
+    "Eviction",
     "Self-Reliant",
-    "Parliament",
-    "Your",
-    "Jagan"
+    "Territory",
+    "Roads"
    ],
-   "answer": 0,
+   "answer": 1,
    "why": "The headline reads: “Manufacturing Momentum:Building a Self-Reliant India”",
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvRmtvLV9MbC1nX2RudWdiZ2xQUnpCRmtTTU0xNkF2eV96Zi1kUUhkVjlrMWNGUkVKZzZXRUdEQjN0eGZRS3AxSm1BWC0tbnVHOXU2LUJDNlR1eDVpY1B0N09Ga01xUG9XSzVRejNpOHRvREdBS3c?oc=5",
-   "source": "www.pib.gov.in",
+   "source": "पीआईबी",
    "cat": "policy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Oil falls as _____ favours Iran diplomacy before midterm elections By Investing.com",
+   "quote": "Tamil Nadu's GST Growth Stalls: _____ Fallout and Economic Concerns Rise | Plain Speak",
    "options": [
-    "Trump",
-    "Shut",
-    "West",
-    "Allegations"
+    "Political",
+    "Ground",
+    "North",
+    "Olympian"
    ],
    "answer": 0,
-   "why": "The headline reads: “Oil falls as Trump favours Iran diplomacy before midterm elections By Investing.com”",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNXzFSdUdsN0Nyd1hUeEw2T2lXWnlsa29YTWZBVkdaYnJ0Snlvcmh6RnN6MlhpVG9yQkxDSDMwT09sMmo3UnJjX2VEOE9pODFUd0JscXdGbW9NY3ZYOU96d0dqYmcxRmx1OXBJRm5zVkJMYS1JVEQ2OGl1dnlwZWF0VHpyaXBnNVBkek1VZHZlVzJIYmZWRUg5bDJ4WVNBSVBzLURudDFHamYxbDBOX1hqakdtSnpFMjNVYzNkcTdn?oc=5",
-   "source": "Investing.com India",
-   "cat": "world"
+   "why": "The headline reads: “Tamil Nadu's GST Growth Stalls: Political Fallout and Economic Concerns Rise | Plain Speak”",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbzhsSlVkWDhZRERVSjNZcGtweW5GT252akMyRUlRdXoxZksxN0VBQVNtNjZNSFpHVnlYMkNmVEgyZUdmMjV0Zmo2OTlPVHhSeHBYS0FsZG5HWTRxb1FxSzV3RWpsU3l4amVQMGVsZE5RWjVHRmVnNE4zZ2NYNmhyM1lfQTlNWmZFMXJDTy1iSkY1ek1JZWtYd09KNUFUTVcxZVZJbTljT3k0LXZncUlHVXRJSkt6dC1rZ2VLcS1sNUc0akt2OHlTOFJCbk9TSHZJSGdheG9BZ1hSY0NseXU1R9IB4AFBVV95cUxPbzhsSlVkWDhZRERVSjNZcGtweW5GT252akMyRUlRdXoxZksxN0VBQVNtNjZNSFpHVnlYMkNmVEgyZUdmMjV0Zmo2OTlPVHhSeHBYS0FsZG5HWTRxb1FxSzV3RWpsU3l4amVQMGVsZE5RWjVHRmVnNE4zZ2NYNmhyM1lfQTlNWmZFMXJDTy1iSkY1ek1JZWtYd09KNUFUTVcxZVZJbTljT3k0LXZncUlHVXRJSkt6dC1rZ2VLcS1sNUc0akt2OHlTOFJCbk9TSHZJSGdheG9BZ1hSY0NseXU1Rw?oc=5",
+   "source": "News18",
+   "cat": "economy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Pratap Public School, _____ Colony, Karnal",
+   "quote": "US strikes _____ island ahead of midterm elections",
    "options": [
-    "Adhikari",
-    "Temple",
-    "Sales",
-    "Jarnailly"
+    "Iranian",
+    "Attract",
+    "Deputy",
+    "Radmila"
    ],
-   "answer": 3,
-   "why": "The headline reads: “Pratap Public School, Jarnailly Colony, Karnal”",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ2VBTFlVRWlRc0NGazJ1eDc0Y0dYYkU2eWs1S1lPMGdmR19xN2JfUHBSbFNaUndBd0RiLWR6blVVa3Q4NS1iSjdsUm9sLVd1T3NnMnBIMmw5OWx6TWZId0ZneF84TWNlNnRyQ3NGWEVhQlllUnNEdkpBRlUzS0FfSGFlZE5QYnhZdGlLY3V3c04tMGNFektzatIBmAFBVV95cUxNQ2VBTFlVRWlRc0NGazJ1eDc0Y0dYYkU2eWs1S1lPMGdmR19xN2JfUHBSbFNaUndBd0RiLWR6blVVa3Q4NS1iSjdsUm9sLVd1T3NnMnBIMmw5OWx6TWZId0ZneF84TWNlNnRyQ3NGWEVhQlllUnNEdkpBRlUzS0FfSGFlZE5QYnhZdGlLY3V3c04tMGNFektzag?oc=5",
-   "source": "The Tribune",
-   "cat": "parliament"
+   "answer": 0,
+   "why": "The headline reads: “US strikes Iranian island ahead of midterm elections”",
+   "link": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "cat": "world"
   }
  ]
 }
