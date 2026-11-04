@@ -1,80 +1,80 @@
 {
- "date": "2026-11-04",
+ "date": "2026-11-05",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "ECI holds first All India Media _____ to enhance understanding of electoral process",
+   "quote": "Ships from India, Iraq, Qatar and China exempted by Iran from restrictions in the _____ of Hormuz",
    "options": [
-    "Empowering",
-    "Conference",
-    "Maritime",
-    "Dignity"
+    "Strait",
+    "Response",
+    "Courts",
+    "Children"
    ],
-   "answer": 1,
-   "why": "The headline reads: “ECI holds first All India Media Conference to enhance understanding of electoral process”",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRndTNnRnSHZMdUxtM0Y4LWY5WkNGNnV4LWZFYXc3Z1Rha0tVOGNKNjJjeDZiM0xGZHZteGNCaDllZE5najlMS010YkkzUU5rd09ZdUhmdV9aUmlaVVk5QWxmRjNhc2xrTFF2Q2RRSHA1S1JrakM1bXZNeU56Yk9Hd242cHNuLWpHaDZLdHlHZGw4dnJFcUFtdXNUNXpJNXZZN0VGYUwta1VmeFEwVzlBNWUydW8?oc=5",
-   "source": "DD News",
+   "answer": 0,
+   "why": "The headline reads: “Ships from India, Iraq, Qatar and China exempted by Iran from restrictions in the Strait of Hormuz”",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOT0h3d1hadHFKUjBnRUhGV0NVdm1lSWtldnIwR016dFVJb2E5STAtWjZqTEl0bUJ1M2pLaEpJX2RuOVdDQkduTVM3N1FRQzB2Yl9jdUZzUjU4VWVkSUhSNV9RdjN6dzNWTjVFel9IX2N2NkEtdnBvRFk5NDZubHdTYmZtcm5FcWpRTERIckdLYmJkRm9BWlJjMG8yOElpWkFtQ3NiX0taZGplTGJrUy1qYXQ1ZlFEOWRJYk1ERjRhZHNLVDFyNDNPSXdvajhLMFow0gHWAUFVX3lxTE00U0Y0VGVFSUdaQTJjNVBYN0dVWWlqeDFPVGRxZEdqVzRqel8tSkxmTllmMUI0ek5hZDFzM200ZHJiTURiV3MzVGxPM2MtMWZEcF9RbHBLcmdtRmVzY2NZbEEteGxHNElIU3ZoM0JEVDFNWXVsTmxNV0haczNScGpxbWtkYnFXWnoyRlhPemxQU3BJd0N5TzVNdGZYenQ0dG9iYTdycUhSbTBaZzFfU014bDhBSzA4WUdocWhCRUxfZjdPa1FUUFUwZkhmM1lEWlE0ODdQYWc?oc=5",
+   "source": "ThePrint",
+   "cat": "world"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "INDIA bloc to step up anti-SIR campaign with _____ protest on Nov 5",
+   "options": [
+    "Bengaluru",
+    "Wangchuk-founded",
+    "Self-Reliance",
+    "Sabha"
+   ],
+   "answer": 0,
+   "why": "The headline reads: “INDIA bloc to step up anti-SIR campaign with Bengaluru protest on Nov 5”",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMmlRaWZwRm84QThrUGpfYTFVdklIZHVINzhpdGtFM25KX3ZKOWhmSlVGcmp1SGlHSXdDZVNPdEU1VFpwSlYzQTVIN1F4U2FjVG9yMU9LcmdVa0s5ZTdCamo3WnZuSWt2Y19ueU1GQzY1SWtVSHFwY3Nla2xvc2NLNjhqWW94VVFxeDJ1WElncTdPc044TVpkZmNGVzhaZDl5RkhEYVNhV1lITG1YYlpVcHNiTDlXZHZDQi1YYk5UR0hSaW4wWkNtUmtSUjR2d2xvZnV5VDZkMXJ0TWVidUlPTWEweU0wZDc1VFHSAeoBQVVfeXFMTTJpUWlmcEZvOEE4a1BqX2ExVXZJSGR1SDc4aXRrRTNuSl92SjloZkpVRnJqdUhpR0l3Q2VTT3RFNVRacEpWM0E1SDdReFNhY1RvcjFPS3JnVWtLOWU3QmpqN1p2bklrdmNfbnlNRkM2NUlrVUhxcGNzZWtsb3NjSzY4allveFVRcXgydVhJZ3E3T3NOOE1aZGZjRlc4WmQ5eUZIRGFTYVdZSExtWGJaVXBzYkw5V2R2Q0ItWGJOVEdIUmluMFpDbVJrUlI0dndsb2Z1eVQ2ZDFydE1lYnVJT01hMHlNMGQ3NVRR?oc=5",
+   "source": "The Economic Times",
    "cat": "elections"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Can a neighbour install CCTV invading the privacy of your home? _____ experts say no",
+   "quote": "'Mischievous Breach': Supreme Court Stops BMC Chief's Salary Over Failure To Clear _____",
    "options": [
-    "Tech",
-    "Explainer",
-    "Legal",
-    "Sach"
+    "Two-Child",
+    "Encroachments",
+    "Name",
+    "Powering"
    ],
-   "answer": 2,
-   "why": "The headline reads: “Can a neighbour install CCTV invading the privacy of your home? Legal experts say no”",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMGNwTEhXSXBUM1BMcE1oRGRqQmJfTDQ2STNScEppQmxvOWNKaGwtQ1IxcVB4QU9uaVA1cWlpWUp0aTVOTThxYW5jSk1NOG03dHRhRjRRSDlab0tIQWRVQkRrM3FBTzBTZ3NUZWV5azdOTjlHT1JhbElKaXJCU2VoSkxxZHM3MlB5b1pYSWlNbm01ZFoyZV9QLUpNUTZ4dzlscmVSR1REYjFXdmVoWDY5M3lQSk9GUmfSAb4BQVVfeXFMTi1iM3dIMFY3cmdiMDgxaHdzZDF2bHBsd3NkR08taUhzd2ZqWEh6UF9FbkFnYS1sSHBQNDFhMEJ4OF9KcVpFTXJoZWplX1FHeFNXZFFMUUFaMkpUdEVRYnlZb1VOc0JsWFVsYzltaE4xZ1JON285bWdwYlN3VFA2M3FjYjhPVGlnQktJcWdLbUl5aEV3YVhhV0xLckZueEdMZXI4MF9HbFVJS2xwbVRlZW02TVlvU0JDTHlaZ0Zxdw?oc=5",
-   "source": "The Indian Express",
+   "answer": 1,
+   "why": "The headline reads: “'Mischievous Breach': Supreme Court Stops BMC Chief's Salary Over Failure To Clear Encroachments”",
+   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOS0lGU1BHT24tdGdMTzh2UVdHNW9RY25aTFBWNS1XbFNoQl9GOXdfa3kyaUgtT3haaDNIS2g4bTlqS09Zc0p1bTVnREEwN3F0M2ljQ0NHTjJhZnFiMXNhcDBWUGtwTl9taXVPa0JKOXBCOE1UZl8xUXM1UFQtUFdMVHVjSU9uOFpFVm1RRmpPR29BTm9VRnBLdHV3dUt0YWFPcHMxdkNxdi1sekg2YVM5a2R1emVYNXVQTUFzTXlnUWxPMzB5Q2ptUENVbkZOaTdiMjdRNTBBR0lzcUJ6SjlVZXQtVE8wT3l3RU9lcGs2NXlWenMwb3Bv0gH8AUFVX3lxTE5sWVpOOGJIaUZFaTh6ekVIUkRtQWdBdmtNdXJ2SlpDV0tXRUlEcjljOTBCd2wwTGJyVzJJVlZJM2FVNTk3Zl9lRUV2MXVhc2F6Y1N5UkxXUU1iSnVlVTg4bVJnV0ljQ0FqTDY0ZXBvdWpKUnAzUFNBRVVucE4wbDYtajdVcS1PTTZrLTlfYjM1akJfSG9xdTFpdlozenhZU0JrbVc4V1EyYWYwdWxRU0JqVUZlUHlxOXZ2ck5KdkFlc2ZVZGFXSlFvYjFDUUhZMDlhMDZFc2J3S1QweHR6ckVISmxzM3hGWDVwNjhwVUw3LWJ0UGFSYm1iSVRQMA?oc=5",
+   "source": "The Times of India",
    "cat": "courts"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Manufacturing Momentum:Building a _____ India",
+   "quote": "Punjab BJP chief calls on _____ Nabin; talks on strengthening organisational structure",
    "options": [
-    "Eviction",
-    "Self-Reliant",
-    "Territory",
-    "Roads"
+    "Approach",
+    "Nitin",
+    "Divergences",
+    "Distribution"
    ],
    "answer": 1,
-   "why": "The headline reads: “Manufacturing Momentum:Building a Self-Reliant India”",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvRmtvLV9MbC1nX2RudWdiZ2xQUnpCRmtTTU0xNkF2eV96Zi1kUUhkVjlrMWNGUkVKZzZXRUdEQjN0eGZRS3AxSm1BWC0tbnVHOXU2LUJDNlR1eDVpY1B0N09Ga01xUG9XSzVRejNpOHRvREdBS3c?oc=5",
-   "source": "पीआईबी",
+   "why": "The headline reads: “Punjab BJP chief calls on Nitin Nabin; talks on strengthening organisational structure”",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZ3d1angzZFNZOGR0dGdBSGFjRExOR2gzQjRfOFh6ZjZUbFRHZXR6U1U3WnZDNWtuSUhhX3BfMEF5WE1aVUx0V2h6eGFsbER6NVAwRlNUVGg0clpMVkVpTFRRaFROY0dleUVyOWQ1ZWQ0UmJ2XzlkR2JxQWxMQmpJUHNGVTFiSUk3bkl6RjkwQURST3pTSzhibVhRY2gyTUMwZDgySC1JUXNRVWxFNDdyVVlZYlVhNTAwU0h3?oc=5",
+   "source": "The Hawk",
    "cat": "policy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Tamil Nadu's GST Growth Stalls: _____ Fallout and Economic Concerns Rise | Plain Speak",
+   "quote": "India’s Housing Market Is _____, But What Do the Numbers Reveal?",
    "options": [
-    "Political",
-    "Ground",
-    "North",
-    "Olympian"
+    "Notices",
+    "Changing",
+    "Artificial",
+    "Guinea"
    ],
-   "answer": 0,
-   "why": "The headline reads: “Tamil Nadu's GST Growth Stalls: Political Fallout and Economic Concerns Rise | Plain Speak”",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbzhsSlVkWDhZRERVSjNZcGtweW5GT252akMyRUlRdXoxZksxN0VBQVNtNjZNSFpHVnlYMkNmVEgyZUdmMjV0Zmo2OTlPVHhSeHBYS0FsZG5HWTRxb1FxSzV3RWpsU3l4amVQMGVsZE5RWjVHRmVnNE4zZ2NYNmhyM1lfQTlNWmZFMXJDTy1iSkY1ek1JZWtYd09KNUFUTVcxZVZJbTljT3k0LXZncUlHVXRJSkt6dC1rZ2VLcS1sNUc0akt2OHlTOFJCbk9TSHZJSGdheG9BZ1hSY0NseXU1R9IB4AFBVV95cUxPbzhsSlVkWDhZRERVSjNZcGtweW5GT252akMyRUlRdXoxZksxN0VBQVNtNjZNSFpHVnlYMkNmVEgyZUdmMjV0Zmo2OTlPVHhSeHBYS0FsZG5HWTRxb1FxSzV3RWpsU3l4amVQMGVsZE5RWjVHRmVnNE4zZ2NYNmhyM1lfQTlNWmZFMXJDTy1iSkY1ek1JZWtYd09KNUFUTVcxZVZJbTljT3k0LXZncUlHVXRJSkt6dC1rZ2VLcS1sNUc0akt2OHlTOFJCbk9TSHZJSGdheG9BZ1hSY0NseXU1Rw?oc=5",
-   "source": "News18",
+   "answer": 1,
+   "why": "The headline reads: “India’s Housing Market Is Changing, But What Do the Numbers Reveal?”",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMkNGUnU5LUM1WGRwUjlFMmRPcmgtYko5ZXRGdzZMVHpxdGNGdXktenY1SzZiMzhmUWxZSk5RSkg1V0Y5TklES0pwNnROLXZyTXBjSkhpQWRDOGhxNlpwMFZFd0tqX1UzQmc1ZnhaMDVPVHh2ZGtZeTd4Y3JsZ2RsMHFrV0hSTm0waFhnSHRNNi1EeXpVVExISzl2bS0zeDRsVldfNVd6LVhEdGpkTEthTDA0MHd5QkU?oc=5",
+   "source": "Realty Plus Magazine",
    "cat": "economy"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "US strikes _____ island ahead of midterm elections",
-   "options": [
-    "Iranian",
-    "Attract",
-    "Deputy",
-    "Radmila"
-   ],
-   "answer": 0,
-   "why": "The headline reads: “US strikes Iranian island ahead of midterm elections”",
-   "link": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
-   "cat": "world"
   }
  ]
 }
