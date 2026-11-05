@@ -1,79 +1,79 @@
 {
- "date": "2026-11-05",
+ "date": "2026-11-06",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Ships from India, Iraq, Qatar and China exempted by Iran from restrictions in the _____ of Hormuz",
+   "quote": "Eight killed in series of shootings in western _____",
    "options": [
-    "Strait",
-    "Response",
-    "Courts",
-    "Children"
+    "Develop",
+    "Harsh",
+    "Runs",
+    "Turkey"
    ],
-   "answer": 0,
-   "why": "The headline reads: “Ships from India, Iraq, Qatar and China exempted by Iran from restrictions in the Strait of Hormuz”",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOT0h3d1hadHFKUjBnRUhGV0NVdm1lSWtldnIwR016dFVJb2E5STAtWjZqTEl0bUJ1M2pLaEpJX2RuOVdDQkduTVM3N1FRQzB2Yl9jdUZzUjU4VWVkSUhSNV9RdjN6dzNWTjVFel9IX2N2NkEtdnBvRFk5NDZubHdTYmZtcm5FcWpRTERIckdLYmJkRm9BWlJjMG8yOElpWkFtQ3NiX0taZGplTGJrUy1qYXQ1ZlFEOWRJYk1ERjRhZHNLVDFyNDNPSXdvajhLMFow0gHWAUFVX3lxTE00U0Y0VGVFSUdaQTJjNVBYN0dVWWlqeDFPVGRxZEdqVzRqel8tSkxmTllmMUI0ek5hZDFzM200ZHJiTURiV3MzVGxPM2MtMWZEcF9RbHBLcmdtRmVzY2NZbEEteGxHNElIU3ZoM0JEVDFNWXVsTmxNV0haczNScGpxbWtkYnFXWnoyRlhPemxQU3BJd0N5TzVNdGZYenQ0dG9iYTdycUhSbTBaZzFfU014bDhBSzA4WUdocWhCRUxfZjdPa1FUUFUwZkhmM1lEWlE0ODdQYWc?oc=5",
-   "source": "ThePrint",
+   "answer": 3,
+   "why": "The headline reads: “Eight killed in series of shootings in western Turkey”",
+   "link": "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
    "cat": "world"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "INDIA bloc to step up anti-SIR campaign with _____ protest on Nov 5",
+   "quote": "Delhi Notifies New Slum _____ Policy, Aims To Provide Homes To 5 Lakh Families",
    "options": [
-    "Bengaluru",
-    "Wangchuk-founded",
-    "Self-Reliance",
-    "Sabha"
+    "Fraud",
+    "Pick",
+    "Rehabilitation",
+    "Chauhan"
    ],
-   "answer": 0,
-   "why": "The headline reads: “INDIA bloc to step up anti-SIR campaign with Bengaluru protest on Nov 5”",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMmlRaWZwRm84QThrUGpfYTFVdklIZHVINzhpdGtFM25KX3ZKOWhmSlVGcmp1SGlHSXdDZVNPdEU1VFpwSlYzQTVIN1F4U2FjVG9yMU9LcmdVa0s5ZTdCamo3WnZuSWt2Y19ueU1GQzY1SWtVSHFwY3Nla2xvc2NLNjhqWW94VVFxeDJ1WElncTdPc044TVpkZmNGVzhaZDl5RkhEYVNhV1lITG1YYlpVcHNiTDlXZHZDQi1YYk5UR0hSaW4wWkNtUmtSUjR2d2xvZnV5VDZkMXJ0TWVidUlPTWEweU0wZDc1VFHSAeoBQVVfeXFMTTJpUWlmcEZvOEE4a1BqX2ExVXZJSGR1SDc4aXRrRTNuSl92SjloZkpVRnJqdUhpR0l3Q2VTT3RFNVRacEpWM0E1SDdReFNhY1RvcjFPS3JnVWtLOWU3QmpqN1p2bklrdmNfbnlNRkM2NUlrVUhxcGNzZWtsb3NjSzY4allveFVRcXgydVhJZ3E3T3NOOE1aZGZjRlc4WmQ5eUZIRGFTYVdZSExtWGJaVXBzYkw5V2R2Q0ItWGJOVEdIUmluMFpDbVJrUlI0dndsb2Z1eVQ2ZDFydE1lYnVJT01hMHlNMGQ3NVRR?oc=5",
-   "source": "The Economic Times",
-   "cat": "elections"
+   "answer": 2,
+   "why": "The headline reads: “Delhi Notifies New Slum Rehabilitation Policy, Aims To Provide Homes To 5 Lakh Families”",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZTVyNXRhTGdjU0xpYmhLNXcxSk5TREtUa25KdTl3WFVPSW9HT2NZODJ4a3NfdjBBN3dVYVVSYjFGc0Rld0VwTEdtOU5IaURjakYybW9YUlZzWU1mLXZ5ajZyX0NhUWo5T1BpNi1sQlF4YUdYOW00cG5ReW5tbUx4bElKMlJhc3E3eW1ZRUhpMV92LUMybzUtSWdUMVJLeWtFU3o5cFNJYXRBRi0xdXFVVllkbkZHZ9IBwwFBVV95cUxOTi03MHExcWFfemQtRnlUVmVEdlAzSkNqQndCUHVfUXZjY0pBNmZ2eENEbUQ4Sy0zN0JULTcxZTVtYy1QTjJDeV9kdWpVNjRlSndmNXFhVVJPaTRXVGJKNmJrWXVSRDlJbWRfNHNZU0QwNzFLZ0JtMF9ocHE4ZFVGQTBkU1hUazFSdWxreXV1eHdoUmthTFRxcHdpV1dCYXlJVGhkSjVZaDBBc1EwVTR5VkhldzBHZlkxeEZTZnBJTVVWczA?oc=5",
+   "source": "Outlook India",
+   "cat": "policy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "'Mischievous Breach': Supreme Court Stops BMC Chief's Salary Over Failure To Clear _____",
+   "quote": "'Contemplating to appoint a committee': _____ to SC on UGC's equity rules",
    "options": [
-    "Two-Child",
-    "Encroachments",
-    "Name",
-    "Powering"
+    "Rupee",
+    "Letters",
+    "Welfare",
+    "Centre"
    ],
-   "answer": 1,
-   "why": "The headline reads: “'Mischievous Breach': Supreme Court Stops BMC Chief's Salary Over Failure To Clear Encroachments”",
-   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOS0lGU1BHT24tdGdMTzh2UVdHNW9RY25aTFBWNS1XbFNoQl9GOXdfa3kyaUgtT3haaDNIS2g4bTlqS09Zc0p1bTVnREEwN3F0M2ljQ0NHTjJhZnFiMXNhcDBWUGtwTl9taXVPa0JKOXBCOE1UZl8xUXM1UFQtUFdMVHVjSU9uOFpFVm1RRmpPR29BTm9VRnBLdHV3dUt0YWFPcHMxdkNxdi1sekg2YVM5a2R1emVYNXVQTUFzTXlnUWxPMzB5Q2ptUENVbkZOaTdiMjdRNTBBR0lzcUJ6SjlVZXQtVE8wT3l3RU9lcGs2NXlWenMwb3Bv0gH8AUFVX3lxTE5sWVpOOGJIaUZFaTh6ekVIUkRtQWdBdmtNdXJ2SlpDV0tXRUlEcjljOTBCd2wwTGJyVzJJVlZJM2FVNTk3Zl9lRUV2MXVhc2F6Y1N5UkxXUU1iSnVlVTg4bVJnV0ljQ0FqTDY0ZXBvdWpKUnAzUFNBRVVucE4wbDYtajdVcS1PTTZrLTlfYjM1akJfSG9xdTFpdlozenhZU0JrbVc4V1EyYWYwdWxRU0JqVUZlUHlxOXZ2ck5KdkFlc2ZVZGFXSlFvYjFDUUhZMDlhMDZFc2J3S1QweHR6ckVISmxzM3hGWDVwNjhwVUw3LWJ0UGFSYm1iSVRQMA?oc=5",
+   "answer": 3,
+   "why": "The headline reads: “'Contemplating to appoint a committee': Centre to SC on UGC's equity rules”",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPU0RLZDFBcHAyMEphR1RNdDh4WXJBR0daWlJra0FDTFdRVVBmRkp2RDUzME1nSzloRURnX2JzVkdiR3NZYlZoN3BlWUQ1WDlXNHNpb01BcTJiaU5hMi1YMlViZzdtS0R5VGd0dXhXbXJlMHh5WGRFSlBOOGNrWFRoMXV0RnpVakhQQWpQMUZ4OVBVTTFYUkVhS0E0TjhLSUVxM0lEZm5Ea0tnUmRFcjAyeEtEcDhmVEQyZXNKbnlOclNpMzhhQV92WUZSMWwxNVRVTGM3S9IB2gFBVV95cUxQamJpRUtGRGhoelU3QU5UVHBlM1F0dU9zeThwZ3hZMWhBZU5neFZrLVV2dWt2VWZBRURyd2MtWENnb0FYRW15M1RlNlRuS01XQkRMZFJwVm1DaGdCbFBSa3o2X0M1WUhUcDB2NWd0NWE5YjZJZVRpTU4ySE11dk9jTHYtMGFhZ2xrTnVDWDlwQkhwbVcta2hENTJvV09HSnN3TS1zMmhIQWVad0w0bGRfWUJDTnJqeElyUkt4bkxDelkyRV9fcWZkWjJmTi1PTzJaeGlWWUVEV1ZsQQ?oc=5",
    "source": "The Times of India",
    "cat": "courts"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Punjab BJP chief calls on _____ Nabin; talks on strengthening organisational structure",
+   "quote": "Four Bills introduced in Lok Sabha amid _____ protests; both Houses adjourned till 2 pm",
    "options": [
-    "Approach",
-    "Nitin",
-    "Divergences",
-    "Distribution"
+    "Opposition",
+    "Pacific",
+    "Mid-Day",
+    "Floating"
    ],
-   "answer": 1,
-   "why": "The headline reads: “Punjab BJP chief calls on Nitin Nabin; talks on strengthening organisational structure”",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZ3d1angzZFNZOGR0dGdBSGFjRExOR2gzQjRfOFh6ZjZUbFRHZXR6U1U3WnZDNWtuSUhhX3BfMEF5WE1aVUx0V2h6eGFsbER6NVAwRlNUVGg0clpMVkVpTFRRaFROY0dleUVyOWQ1ZWQ0UmJ2XzlkR2JxQWxMQmpJUHNGVTFiSUk3bkl6RjkwQURST3pTSzhibVhRY2gyTUMwZDgySC1JUXNRVWxFNDdyVVlZYlVhNTAwU0h3?oc=5",
-   "source": "The Hawk",
-   "cat": "policy"
+   "answer": 0,
+   "why": "The headline reads: “Four Bills introduced in Lok Sabha amid Opposition protests; both Houses adjourned till 2 pm”",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNnpHbUpRVG04OTZSNGV6akxKLWNLQWc2dXZuWnoxb25jSW9pSm9iZWtZSTJNcTVyejVGMEIwaGs3VERncUJ1aTZHX0ZUMzFBZ2VaTHlHdXg3N2FfUEZ4X3loRW05ZE1ZaW4tX2M0a1hYUTJPMjRDd2Q2R0dJMFRiT0FSTW42RVFMUUJYVXBvYzVZN2FhWm5qT0RGa3c3QndCLThUU1h3?oc=5",
+   "source": "DD News",
+   "cat": "parliament"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "India’s Housing Market Is _____, But What Do the Numbers Reveal?",
+   "quote": "Lost money to a _____ scam? The first 3 days could decide how much you can recover",
    "options": [
-    "Notices",
-    "Changing",
-    "Artificial",
-    "Guinea"
+    "ET",
+    "UPI",
+    "UNGA",
+    "MS"
    ],
    "answer": 1,
-   "why": "The headline reads: “India’s Housing Market Is Changing, But What Do the Numbers Reveal?”",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMkNGUnU5LUM1WGRwUjlFMmRPcmgtYko5ZXRGdzZMVHpxdGNGdXktenY1SzZiMzhmUWxZSk5RSkg1V0Y5TklES0pwNnROLXZyTXBjSkhpQWRDOGhxNlpwMFZFd0tqX1UzQmc1ZnhaMDVPVHh2ZGtZeTd4Y3JsZ2RsMHFrV0hSTm0waFhnSHRNNi1EeXpVVExISzl2bS0zeDRsVldfNVd6LVhEdGpkTEthTDA0MHd5QkU?oc=5",
-   "source": "Realty Plus Magazine",
+   "why": "The headline reads: “Lost money to a UPI scam? The first 3 days could decide how much you can recover”",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZDZRWktDc1F6VjhLejFieTR1am9pNGhkbkdUbGFpWWMtcmNJTUExNlIxbFo2UkpGZjhWVklSNW5laFU1cXNlODdOQjR6Z3V6MmNZSmxwbHpyWER1eTN0bGZFVGEtTDJxbmNMd0ZxR0drVGRGX3ZzQ0pMaDJYTElyU0tKQnQ3UmZUUlhiWkMzdGllQ1JPQUZXTk43bU5xUHBNUktjSFV5blBTU1RBQjFraDBLZ2tVT3pkZm11dHZ6S3V3UkFCalViTGowMy1IUnFVcmo1MXpUbk81RU5Fa3fSAeMBQVVfeXFMTTRqOE54RnJKaC1GU3kxT3h2NG5DaFhmZEloOWtpbVdGeHpfZWlRM3NaQ3daa2pndVlfTHhMNlkxb0xtUXpFWE1XSi1aZ1VIRHRRV0VhdWUxZ1R6NEI3VjR4S09zTW9xeFZJcXliQTZsbTFXOGpPdGduVmxFa2xTeS1lZmZlLUx4ZnV4b1VxQjZtaU94dGtvdWowRm5hTkRMVHlrYllqenNvN1hDX3lHYmJ1dnN3VUQ3ZTE5ek14Nm5iczNMc0w4bmRuYWZjYWF2dmZ5LWlxRzBqOGtOeWxhN3lwd3M?oc=5",
+   "source": "The Economic Times",
    "cat": "economy"
   }
  ]
