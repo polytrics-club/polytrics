@@ -1,80 +1,80 @@
 {
- "date": "2026-11-06",
+ "date": "2026-11-07",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Eight killed in series of shootings in western _____",
+   "quote": "Trump Weakened, India Worried? | Arun K Singh on Iran War, Israel & US _____",
    "options": [
-    "Develop",
-    "Harsh",
-    "Runs",
-    "Turkey"
+    "Sentence",
+    "Electronics",
+    "Elections",
+    "Schemes"
    ],
-   "answer": 3,
-   "why": "The headline reads: “Eight killed in series of shootings in western Turkey”",
-   "link": "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
+   "answer": 2,
+   "why": "The headline reads: “Trump Weakened, India Worried? | Arun K Singh on Iran War, Israel & US Elections”",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQejhfRVZwUXYxa1FOZVhSQUV4cXowZWlkMHBMX3RyLWJJY1dWdmR6N2VZNWhQZ3RTZlpuckx5cUJFbm54YVpLbTdLcEFZQUhiTEJySnA5NGc0c1dLOE9sd3Vqc0V3anRWZWp4N2tNa0NxeEhJaDREdVprZ1BNMFlFQllIS19LSmd4UTJrUDNlbFRTaUg2NjExUXpUYV9mUGxJNloyUEdYUE9fMmE5eHVXeUFzdEdlSmFEdVRsRmtuWW92ajM5WEFadWwxUGgzOWZtdXZEUdIB4gFBVV95cUxQT1pSZkgyY3NNMU5GSkg3Wk54ZTg5bkd5d3lFWTdrLXJub0tiZlJiaTdYS1FjajhxNlBYOThnM29oaVFRRURtRGE5ODF0WUYxODlkZlpqYk5MOWpaTGdKVVk5RFhoNzY3b3JqNnFWb2NKN3pTVFpUMWRlVFdSOXVUdC1YcDBUcmZJNGs4VDRtX1FhV2lmOFhpMnA4WE5OLTFmVjM2VERlX0Q3SUtvNVFUWE5UVXdtX243LWhxeEVHWW15Tm9EMDQtd1JJa0F6T3RZd1FSQjRxX3E3ZWdhdHpLN0RR?oc=5",
+   "source": "The New Indian Express",
    "cat": "world"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Delhi Notifies New Slum _____ Policy, Aims To Provide Homes To 5 Lakh Families",
+   "quote": "Diwali: A Festive Demand _____ For The Economy",
    "options": [
-    "Fraud",
-    "Pick",
-    "Rehabilitation",
-    "Chauhan"
+    "Daughter",
+    "Territories",
+    "Barometer",
+    "Pilot"
    ],
    "answer": 2,
-   "why": "The headline reads: “Delhi Notifies New Slum Rehabilitation Policy, Aims To Provide Homes To 5 Lakh Families”",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZTVyNXRhTGdjU0xpYmhLNXcxSk5TREtUa25KdTl3WFVPSW9HT2NZODJ4a3NfdjBBN3dVYVVSYjFGc0Rld0VwTEdtOU5IaURjakYybW9YUlZzWU1mLXZ5ajZyX0NhUWo5T1BpNi1sQlF4YUdYOW00cG5ReW5tbUx4bElKMlJhc3E3eW1ZRUhpMV92LUMybzUtSWdUMVJLeWtFU3o5cFNJYXRBRi0xdXFVVllkbkZHZ9IBwwFBVV95cUxOTi03MHExcWFfemQtRnlUVmVEdlAzSkNqQndCUHVfUXZjY0pBNmZ2eENEbUQ4Sy0zN0JULTcxZTVtYy1QTjJDeV9kdWpVNjRlSndmNXFhVVJPaTRXVGJKNmJrWXVSRDlJbWRfNHNZU0QwNzFLZ0JtMF9ocHE4ZFVGQTBkU1hUazFSdWxreXV1eHdoUmthTFRxcHdpV1dCYXlJVGhkSjVZaDBBc1EwVTR5VkhldzBHZlkxeEZTZnBJTVVWczA?oc=5",
-   "source": "Outlook India",
+   "why": "The headline reads: “Diwali: A Festive Demand Barometer For The Economy”",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUHZPYUhKcHdRdjlGQ0ltYjRLQVpNampRSkE2SzRGY3U5czBHT3J4U1htU29sQ1V3RXJpN1RQMEdaMUhHN0pVdWtrNGlqZHZNODhyWUVxejk5ZmswNjlRNTBDM0hwYVd4bm9oYncwbFgtQ1FIS2pvWjBQMjZ3TEgxR1dkZldWMjJkVzBlM1dKcmlKVnVSQzBlc0NKM1g0XzVLNGpzcUl4YUhBWVZXSFlwU0hDZXlUR0EtUC1Z0gHAAUFVX3lxTE9YS2V0WGJuN1I2Ymp4ODNXUU4yRFJkbS1OZ1lhMDNfLU1BTHVWNlNUczFOZGlhdWZSN1pwamFPQTFabnFfdzNUdkw2bWhHX0pjbzV1UnB4UlBkbU1XM01hUlBQdkZNQWR0RnZycWpzeV9PMk5xd1F0WkR2bVNTYUtVdGsteU9fdUg3SVlyS3ZhQ1ZEQWt5aXVNLVd2OFhOZElhOFpfeGJLc0VWcWlhMjJlU01oNHRyVU52MW5TLWllQg?oc=5",
+   "source": "bfsi.economictimes.indiatimes.com",
+   "cat": "economy"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Can India become the world's _____ capital?",
+   "options": [
+    "Limit",
+    "Scholarships",
+    "Silicon",
+    "Matter"
+   ],
+   "answer": 2,
+   "why": "The headline reads: “Can India become the world's Silicon capital?”",
+   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOSjlTOGdYLS1fSFl5cklkdkVJdGxHSXRVSDl5SHVUMzlKd3I3RHQ0R0QyZ3NFWkdORXRuWTA2UjdzUzlQcXBjWXJNckJGZWFoem9oQ3FBdmpnVDZBTmhQZGdDZ19rYnpNMnFvLXM3b1p3TmVxTGtncDV4WXpkUUJIZnc5anlKbEdhdFZXVDFwNGV2dW1WSkczUm51NkhKaFNITmZNWjVTOS1XNURmNE1zZWRiWE9MTGdaR0VQZkZqZUdaOGl0VUZWc1pIN2JzZHF4WEYtSnF4bzJONXZhc2NweDlWMWt5dmZVTEJqSEd2RmIxMTdi0gHDAUFVX3lxTE9wS1JvWklkd0tHNzRvbU1Qd0Y5S09oYlEtdVNPemNfRU1ocXhOeEtPM2l4ejdFTC0wZUg0NDRRcV9MdzRHQm53c00ybVdVYzdGRjh6VFpudjZBakRZYU5TN0FPLWxPTTlqaVRucnp0OEJqWEdwRmJ2aFFNaks1eVkxYnhqbE1WU09PMTZ6ZTl3bUFtdExfM2dNenNqeURYR0kzTDlzUnphcG1yQ0UzWGZhcHBuUEhQdEJqbFVjNnY4RzdVOA?oc=5",
+   "source": "electronics.economictimes.indiatimes.com",
    "cat": "policy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "'Contemplating to appoint a committee': _____ to SC on UGC's equity rules",
+   "quote": "Reaction to High Court Ruling by _____ of Kochi Crash Victim",
    "options": [
-    "Rupee",
-    "Letters",
-    "Welfare",
-    "Centre"
+    "Daughter",
+    "Hackers",
+    "Arrears",
+    "Quashes"
    ],
-   "answer": 3,
-   "why": "The headline reads: “'Contemplating to appoint a committee': Centre to SC on UGC's equity rules”",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPU0RLZDFBcHAyMEphR1RNdDh4WXJBR0daWlJra0FDTFdRVVBmRkp2RDUzME1nSzloRURnX2JzVkdiR3NZYlZoN3BlWUQ1WDlXNHNpb01BcTJiaU5hMi1YMlViZzdtS0R5VGd0dXhXbXJlMHh5WGRFSlBOOGNrWFRoMXV0RnpVakhQQWpQMUZ4OVBVTTFYUkVhS0E0TjhLSUVxM0lEZm5Ea0tnUmRFcjAyeEtEcDhmVEQyZXNKbnlOclNpMzhhQV92WUZSMWwxNVRVTGM3S9IB2gFBVV95cUxQamJpRUtGRGhoelU3QU5UVHBlM1F0dU9zeThwZ3hZMWhBZU5neFZrLVV2dWt2VWZBRURyd2MtWENnb0FYRW15M1RlNlRuS01XQkRMZFJwVm1DaGdCbFBSa3o2X0M1WUhUcDB2NWd0NWE5YjZJZVRpTU4ySE11dk9jTHYtMGFhZ2xrTnVDWDlwQkhwbVcta2hENTJvV09HSnN3TS1zMmhIQWVad0w0bGRfWUJDTnJqeElyUkt4bkxDelkyRV9fcWZkWjJmTi1PTzJaeGlWWUVEV1ZsQQ?oc=5",
-   "source": "The Times of India",
+   "answer": 0,
+   "why": "The headline reads: “Reaction to High Court Ruling by Daughter of Kochi Crash Victim”",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSXhIblhycXRhSXg5eU1hVmNGQlRCYzRzSk5sLVBZWHBnNENiT0dSSUtEZllMdG1VR25pdjFWc0tXWGE1VVpkMlFIR2VNVWwwMEM1VTRtQlZwelJfVjlMbUtycWJoMWpjc2xKakFRM0hRYmtwRkh0WXJKdzR0QWVLcUVaUVZCeFctZ180SWFULVlGNDNEMVlTVzZrUk1wNV9H?oc=5",
+   "source": "India News Network",
    "cat": "courts"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Four Bills introduced in Lok Sabha amid _____ protests; both Houses adjourned till 2 pm",
+   "quote": "Lok Sabha Passes GST Bill To Tax Online Gaming, _____, Race Clubs At 28%",
    "options": [
-    "Opposition",
-    "Pacific",
-    "Mid-Day",
-    "Floating"
-   ],
-   "answer": 0,
-   "why": "The headline reads: “Four Bills introduced in Lok Sabha amid Opposition protests; both Houses adjourned till 2 pm”",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNnpHbUpRVG04OTZSNGV6akxKLWNLQWc2dXZuWnoxb25jSW9pSm9iZWtZSTJNcTVyejVGMEIwaGs3VERncUJ1aTZHX0ZUMzFBZ2VaTHlHdXg3N2FfUEZ4X3loRW05ZE1ZaW4tX2M0a1hYUTJPMjRDd2Q2R0dJMFRiT0FSTW42RVFMUUJYVXBvYzVZN2FhWm5qT0RGa3c3QndCLThUU1h3?oc=5",
-   "source": "DD News",
-   "cat": "parliament"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "Lost money to a _____ scam? The first 3 days could decide how much you can recover",
-   "options": [
-    "ET",
-    "UPI",
-    "UNGA",
-    "MS"
+    "Embedded",
+    "Casinos",
+    "Cybertruck",
+    "Delivery"
    ],
    "answer": 1,
-   "why": "The headline reads: “Lost money to a UPI scam? The first 3 days could decide how much you can recover”",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZDZRWktDc1F6VjhLejFieTR1am9pNGhkbkdUbGFpWWMtcmNJTUExNlIxbFo2UkpGZjhWVklSNW5laFU1cXNlODdOQjR6Z3V6MmNZSmxwbHpyWER1eTN0bGZFVGEtTDJxbmNMd0ZxR0drVGRGX3ZzQ0pMaDJYTElyU0tKQnQ3UmZUUlhiWkMzdGllQ1JPQUZXTk43bU5xUHBNUktjSFV5blBTU1RBQjFraDBLZ2tVT3pkZm11dHZ6S3V3UkFCalViTGowMy1IUnFVcmo1MXpUbk81RU5Fa3fSAeMBQVVfeXFMTTRqOE54RnJKaC1GU3kxT3h2NG5DaFhmZEloOWtpbVdGeHpfZWlRM3NaQ3daa2pndVlfTHhMNlkxb0xtUXpFWE1XSi1aZ1VIRHRRV0VhdWUxZ1R6NEI3VjR4S09zTW9xeFZJcXliQTZsbTFXOGpPdGduVmxFa2xTeS1lZmZlLUx4ZnV4b1VxQjZtaU94dGtvdWowRm5hTkRMVHlrYllqenNvN1hDX3lHYmJ1dnN3VUQ3ZTE5ek14Nm5iczNMc0w4bmRuYWZjYWF2dmZ5LWlxRzBqOGtOeWxhN3lwd3M?oc=5",
-   "source": "The Economic Times",
-   "cat": "economy"
+   "why": "The headline reads: “Lok Sabha Passes GST Bill To Tax Online Gaming, Casinos, Race Clubs At 28%”",
+   "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxONFplRVdWS1FJQ3FRMTlBMzRkQnA2R1dnd3NKYUVyM2RnckxoMEtKaFZxT2d6N3hGRTc5Uk1IdlY0LTNCMDl6Y1VKWFpSXzZFanN5VWg1RXdNdTViWWhaWG54LVNrMXRKMzV3dnVOeVU2ZTJhTzNPR1V6NUNlMVpBRmtnTkp6WjJSY2psS0Y1Y3BBN0hHaTMwUFlTbkdxX1l3azBMTl9taC1LZW8zUTNEZGVoMHhManl6YVltZlZmM2Z6X1BrSzhNMTE3bklhVHJUYXJLLTdGcjdzbXY1Z2JKRk9PS0p0TU5lUktST1U3Q1NhVjlkaTRBcGVtYjlFR252dTMwd0ZNbjZDUFk5WHVvc1hfWWFabFhrR0I0TnZFRW1BeHJHRmFzVGs5c21OOU5YTC1XSNIB1gFBVV95cUxNUG5PYTJkZUxTTmVESXdvOFRZdVVISDZERVlhLVpFcnJXZ09GMnREVzVzRGF3N3djMHYwSzROMkU0bjFTaE1pUkJLTzEtek5HU09meVgyMjU3MjNheFVRb0FQRktETDlJYng3dHVXaWJwcXhiX2I4VGxsSUk3eDY0cUFid0JjdzE0NnVZUElxSk9BSWpkQW5lZTk1b2NWSy1YaHQ4R2RZdjhLTVJRVjNiN3RJQzY1M3FFcmxGd0hMeG9FX3VhM0ZiQ29KNVFMUzREUzJURTNB?oc=5",
+   "source": "NDTV",
+   "cat": "parliament"
   }
  ]
 }
