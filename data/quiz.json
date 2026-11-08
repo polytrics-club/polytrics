@@ -1,80 +1,80 @@
 {
- "date": "2026-11-08",
+ "date": "2026-11-09",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Number Of GST _____ Likely In Monsoon Session",
+   "quote": "Barak Valley’s long wait for permanent high court bench - The _____",
    "options": [
-    "Prosperity",
-    "Mogadishu",
-    "Amendments",
-    "Job-Ready"
+    "Sentinel",
+    "Detect",
+    "Istanbul",
+    "Second"
    ],
-   "answer": 2,
-   "why": "The headline reads: “Number Of GST Amendments Likely In Monsoon Session”",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMi05djdKVzJ1TnNtNUlFczVaZHRkYVpzelhZQXpLWjBQbVVyMHhYUTJ0YWRsaDRuY3l4U1hXODJkcjhxUzJGUElHaTlVang0MkNmQzE1cG1xeGlVUU5UY2hpdHJkclYwOG95T0xlRnlyRnpyZ3VWRkswUUVZcFh0VmV0V01lalVJelAzcjZLTkRXVXgwYnloX1Nn?oc=5",
-   "source": "NDTV Profit",
+   "answer": 0,
+   "why": "The headline reads: “Barak Valley’s long wait for permanent high court bench - The Sentinel”",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNUtWbWdxc2lfRUstSVhJZExheXM1dExBSzVDRVlvRGlpS1o3eVNfNnpWdloxaFdNcmQwd1c0dk9VR0ozV3VGVmQxdXZSMV9Zel9oRGtxTkRrb0lPU3dySWVjMkFiRzFyUG5BTTJ3c2JmOElrcmVVamRNUTFsUV9GVDFlNzF3WFo1ZHpaSldWZ19XM2tQRzBIQ1JwVjNpX1E5MjBfWXYxT2o2RHNZbVRaY2pTTkfSAbQBQVVfeXFMUDVLVm1ncXNpX0VLLUlYSWRMYXlzNXRMQUs1Q0VZb0RpaUtaN3lTXzZ6VnZaMWhXTXJkMHdXNHZPVUdKM1d1RlZkMXV2UjFfWXpfaERrcU5Ea29JT1N3ckllYzJBYkcxclBuQU0yd3NiZjhJa3JlVWpkTVExbFFfRlQxZTcxd1haNWR6WkpXVmdfVzNrUEcwSENScFYzaV9ROTIwX1l2MU9qNkRzWW1UWmNqU05H?oc=5",
+   "source": "The Sentinel - of this Land, for its People",
+   "cat": "parliament"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "‘Creamy layer’ relief after 10 years for _____ candidates awaiting civil service posts",
+   "options": [
+    "CJP",
+    "MLC",
+    "SC",
+    "OBC"
+   ],
+   "answer": 3,
+   "why": "The headline reads: “‘Creamy layer’ relief after 10 years for OBC candidates awaiting civil service posts”",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObFdOVmZMV0hkR2NpdFlnc0hDSXk1TzdURDFwdXAyVExfM1NJSlJwMUpRZFNXSzh1NGtGM0V0a3R0TVJ1Z1JRZDBTVHZCY1VMTTg3bEo5aHRNWjFUU3ZueGVLY1N5UzNjWV9Ddjdqbl9rZnhkeTVLVUJHbzFjT3haSml2Y0FPdWFDTWpWY05RWW0tTHZCdzNpVnBjZjdwSEE5SVd3TGgwVWlJZnFpbEJiWWVZVnZzSkFZenJmcjJ5WG1NLUJUX0R1UlFDajE3b1d6dUJWczZIRFnSAd4BQVVfeXFMUHZ5Z2VYUWlPYjY4R0NXWkRraFZtQ3FhV19rM0xRS1FJdnZTN000cV8zekhxVTdiOGNlYVItYzhCaThiMDRnR3d0bGxuc2VZR2RMek5MeTlvdlRVeWVCLWdfa0ZzSWgxSGVOczhKdEQtS0hxVGdOSFRTNkV6Q2tZM0hKTjU0aGRFNS1memwzamZqM1NhSXV5akNkLWlvMktzUXZWN0NLTmNkVHhoZmVfVnJ2SE1lTjVDbGpYeVp4M3luVnlLVmlnQVRuMzRQM3R2RlUwZUFxdExvd2stQUdn?oc=5",
+   "source": "Telegraph India",
+   "cat": "courts"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "92 pc of S. Korean firms in _____ wish to stay despite rising labour costs",
+   "options": [
+    "Rijiju",
+    "Vietnam",
+    "Dies",
+    "DeMo"
+   ],
+   "answer": 1,
+   "why": "The headline reads: “92 pc of S. Korean firms in Vietnam wish to stay despite rising labour costs”",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQlFHbDlaYXBGRGhMRVY2VmlpTzh2Mi1qME5CaDBuOTlXamtCczNIVjVsTnRTTEh2QTQzOURULTdaRWdmY0diNkVHZWFqTHQ5RWlFVFlNSGJlOGltY3A5Wl9hT1h2ZVY4WWZacXJFeUxpQnRoa0dRN2FzSUczNGxHYk5UbUpUTEs1VDZseXVnNGtlNUkyRVV4QmxzSXdzRXlaUEdUU180MjZpRG5EcnJleTF5U25LY0dWaWFPZ2VkUm5Rdw?oc=5",
+   "source": "The Hawk",
    "cat": "economy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Modi _____ Extends Agnipath Scheme Amid Youth Discontent",
+   "quote": "Who Is Stephen Miller? Trump’s _____ New Chief of Staff",
    "options": [
-    "Reconstitution",
-    "Eight",
-    "Barnier",
-    "Government"
+    "Woman",
+    "Cite",
+    "Crossing",
+    "Hardline"
    ],
    "answer": 3,
-   "why": "The headline reads: “Modi Government Extends Agnipath Scheme Amid Youth Discontent”",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd19ySDdNTkhTTVZvZUd5aWhraHlPb0RFRFZYbnBCRTJjdEZFQWMyWURzanAtdzNYdmhhUUR6N3dHQzlYbzRzdXg2UE8zWm1vdmtrOEM0b3RsRFhMZ1F3TjJyTmxQb0FQZ0NVZGtUZlUweV8yZ0p0NG4zc2RMOGktZlliSkI1eGU0ZTFGUzFrNUlncmdWVE4xZE5kaWNWOGllajk1RlJ5dVQzZw?oc=5",
-   "source": "India News Network",
-   "cat": "policy"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "Russia Hits Kyiv Power _____, Damages Key Bridge",
-   "options": [
-    "Facilities",
-    "Unit",
-    "Europe",
-    "Electricity"
-   ],
-   "answer": 0,
-   "why": "The headline reads: “Russia Hits Kyiv Power Facilities, Damages Key Bridge”",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZEFEODZXekM5NXFzWlVraXNKWEk1dVVtOERWM2M4Y21ZYjRvRGt3aWlhMFowb0dsQXZndy00NVZFLUhydUlFQnllaXlaazZtZ0V5OVd1eElyeS1OaFRDLUplQjlFWjNORjlFdWp0OFVMcUpKejVDRmJabnoyR1I2SzJLcEZYX3NwaVB1eDRHemZRbVZzcUE?oc=5",
+   "why": "The headline reads: “Who Is Stephen Miller? Trump’s Hardline New Chief of Staff”",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWmVrQkNsYzdfaElZTDVKQ1ZYTmxSMzBYUGJ3ajBBYVBrSzJzWWdvS2tkTGV1cXRIYkdRWVZQUHltVFVHWjVUcjZYWklRenhvNHdNeXd2NU5vUzlERzJzUkJtMmlmdWRBZmxrSjlkU3V3eUxUa1pFWWpob291M2owdmlZMWpiVmQyT0VlTDFSMmo1bWJIUHhLcTdZTQ?oc=5",
    "source": "Modern Diplomacy",
    "cat": "world"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Supreme Court Removes ₹1 Crore Bail Deposit Condition For Women _____",
+   "quote": "Affordable and _____ Healthcare for All",
    "options": [
-    "Posts",
-    "Appellants",
-    "Rekha",
-    "Daily"
+    "Elephant",
+    "Accessible",
+    "Hitler",
+    "Financial"
    ],
    "answer": 1,
-   "why": "The headline reads: “Supreme Court Removes ₹1 Crore Bail Deposit Condition For Women Appellants”",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1zQ1hZUnhCMERfNzNUTVdDSVM2cFpnN3RqUzZWdGNpRGxNckVTZXlBWDhhNjgzSjVXY1RxNmtLTWNuVWQyb29EeHNlc1FPTnZqR2NJXzZ1Ykl4aFViZEVwWVdFdjg3em9QS1ZEbWJnRQ?oc=5",
-   "source": "LawChakra",
-   "cat": "courts"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "Election _____ Restores Oversight of IT Chief After Th…",
-   "options": [
-    "Trade",
-    "Trainees",
-    "Registration",
-    "Commission"
-   ],
-   "answer": 3,
-   "why": "The headline reads: “Election Commission Restores Oversight of IT Chief After Th…”",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSVBiVmtrbFktX2EyNFU4ZzJoVE1ja3ZYX3Joem5VNEZKcEM2U0NUU2tnblo5VnNYVkVXME9uZ2Ffd25BdS1zSXJMdDhoeTBXa0p1SkhvTW9jbnNROVJWUzNSS0JodWxXcTNWN0xoalpvb2x6akRFT3pjUTA4SC1qSQ?oc=5",
-   "source": "theopenpress.in",
-   "cat": "elections"
+   "why": "The headline reads: “Affordable and Accessible Healthcare for All”",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5UUjEtcWZkMHdlbm1qa1RKQTlBbWRHM0x1SVZfSlkyTllRWm9hRHhSNE1xRHJLNXZ1b2s1dlp0OHVSaEFIWG9UWUduTXJJbmhVRm9rMndZSjhkWW5INlBkY001RE9RNGM4YWpYNFVzNklUQmptNldQag?oc=5",
+   "source": "pib.gov.in",
+   "cat": "policy"
   }
  ]
 }

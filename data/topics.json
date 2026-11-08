@@ -1,24 +1,24 @@
 {
- "week": "2026-11-02",
- "start": "2026-11-02",
- "end": "2026-11-08",
+ "week": "2026-11-09",
+ "start": "2026-11-09",
+ "end": "2026-11-15",
  "topics": [
   {
-   "id": "motion-2026-11-02",
+   "id": "motion-2026-11-09",
    "kind": "motion",
    "label": "Debate motion",
-   "title": "Should political parties be covered by the RTI Act?"
+   "title": "Should there be a cap on how much parties spend on elections?"
   },
   {
-   "id": "news-2026-11-02-courts",
+   "id": "news-2026-11-09-courts",
    "kind": "news",
    "label": "In the news · Courts & Law",
-   "title": "Yes Bank AT-1 Bond Case: Lender Rejects Non-Compliance Allegations After Supreme Court Verdict",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQX3NFV3hrYVIwZVNtakRVRzBHa1UtUWR1c3owLW1RdnZfMWRKbDRsNjVHWFJfYjZuSkpVblhVVnNVRjFZSjZsRkZ4aVJQaURwUkhEUHUxV3Y5NXV5cDhfUDliT2kxSHZyRWo2bWY3Nm5ra0J0X2ducnprV3pLc2JkaEZFM1daSTFvR3RsWkZSTWIyblFhV3BHTU9PX0tFQ0RpNEViX0l2dE41QWdoa090NGJxb2hKUUp2OXJoTzItSmtMTV96ZHFNTWJVVkxqTDJjWTk5MtIB3AFBVV95cUxNLVdUMUd1cWpSSk4wQ3RKbFRVRW9GLVRRVHprZTRzdHJ6LU5YamVkaG9jU2djb0xhWFZvTzFGdGpXY0UyaHdycXUzMTRrTXlQQlBoWkJlLUc1MkgtOFM0aUhQbW5fdEkydG9uZ3pOYW1zN0hjUnZDeHNfWURKQTBnQ09IWTNqSjkwS2Q1NWJuNk9nQ2o1VURFU1pLQUVFSFlnNE5QRFI5ZENHa3gyYmYzU1JjOVNadUJJWFp3Q21jVUVVdHp0b0NtcWZoR0d4Y1pId2NWRWRlX0JHNGFa?oc=5",
-   "source": "NDTV Profit"
+   "title": "Tata Power shares face attachment proceedings in Singapore amid Kleros dispute",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZjdSTll4aVYtblVWOHktemYwaU5DQ1hMbVhPbUJFRnFsRHUyVlZJckFHbVNYeHVxUmt5WGZmOXhEa3lianJ3VHVvNTJkbnVwM0hQVW9WcksyeU5wR3pIelhKeW9nRjF4Mm9GMVFaaE5jRkdMTHN6cWZVNFFCMEd4WF9ON3BoY0lYOXZWQXpvY0dsR2RUTF9FYTZDSm9fc2VycUctREZfWm4zYmJtVTd5OE9SR25rUnp2TzBOZU02RXBtUUZWeFE1TTZlNzhfZGc1UTlMb2ZGTTY5by1HN0w0REZDZ1RJaEpycndn0gHvAUFVX3lxTE9EVXBBRFZMVzJqSnZSeVJiTUJWeWRYTG9qRTRERkhmSDlaZnhXVmlId1hicUZPc2J3WmpXSjVseUlwbnVlVWdkZlN2dmNDeEU2eXhNQTQ4TGxzTnRZeVRMM3R4MUFnck1fV1BWMkFRLUh6ek5YYXBnNm1ydU9GeFdlWk1GbUc3aXNVSWJKWm5VcEdLZm85bm1XcGFDWWRocXhDZzc3amRzb05DSFQtR0wwY2w3b0FwRXllWUlsS05uTVp2eW5Tdm5GWlptQW51SWNwUzlnMmVVcVh3aUNCZ1hkNmdaR0lwNEo4eW9QUllZ?oc=5",
+   "source": "ETLegalWorld.com"
   },
   {
-   "id": "news-2026-11-02-parliament",
+   "id": "news-2026-11-09-parliament",
    "kind": "news",
    "label": "In the news · Parliament",
    "title": "The Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026",
@@ -26,12 +26,12 @@
    "source": "pib.gov.in"
   },
   {
-   "id": "news-2026-11-02-policy",
+   "id": "news-2026-11-09-policy",
    "kind": "news",
    "label": "In the news · Policy & Schemes",
-   "title": "Banks seek microloan guarantee extension",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZTEtVzJCTkFveVZDN0ZmNTJOVlJmS3pxZVNoanlmRnFZbVgzc2ZnUmw0Rjd3SmxkanlQMDFSeE11Umc1Zm10OWg4TFpaWFlBOXZfZWJDNUpRUGVjWF9Fc1lYbXNOSzVoZlNBSVhnY3pLclhJZGdfUm9YY09JZlJqR0tSTlk2RDZSQmhqLWxDSnJMY0xNeGVVYXQ5NWFzaGZodzBHb1E5bjlxb1NFbUE1b3pwVXZIcE9GNTQtN3A3TmRDcU1tZ1HSAcsBQVVfeXFMTmxDaVNJdFViVW1EQnR3Mmh0Q0dCWldRcFo1WmhjS3VvZkJ2MkY4ME5oQ1BtSFNPQVNjYjdXc0UwZF82X2FNZG00aTRXc0ZSV1RraEItSUZydGdjYzhLejB6SlNiLVNHOS1sRGV2dktJNVdTc0MyT09CRDVSbjRmMk5OaXA1WmZWVEVtUG1KMXFzRU5QcjNVYmRqTXk0OHR4Uzh1bnFhYWRyTlFEUTJnQ2ZMc0lOVmVDWU5DWnNnMXFPMlJub1lCR3JJMkk?oc=5",
-   "source": "The Economic Times"
+   "title": "Electronics Components Manufacturing Scheme",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12VUkzTklPM1ZFQ2pob1VOT0hrbEpKUFNRSVo3V2ctVFRXNGhCU3V3a2FHUTlCT0RHdVllT2VxYmpJdFUtbXYycFk3NnMxc3VJbUQtaWtXSFY1eXR5TVFJN3FhZzdPQ2hNZ2s4QVJ4R0tOVWZpOW5n?oc=5",
+   "source": "www.pib.gov.in"
   },
   {
    "id": "open",
