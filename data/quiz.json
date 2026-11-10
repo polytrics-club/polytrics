@@ -1,80 +1,80 @@
 {
- "date": "2026-11-10",
+ "date": "2026-11-11",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Seoul stocks end lower as investors search for direction amid _____ sector uncertainties",
+   "quote": "Govt health schemes: _____ penalises 97 private hospitals since 2018",
    "options": [
-    "SIR",
-    "AI",
-    "FPI",
-    "NHB"
+    "Gogoi",
+    "Karnataka",
+    "Poll",
+    "Suresh"
    ],
    "answer": 1,
-   "why": "The headline reads: “Seoul stocks end lower as investors search for direction amid AI sector uncertainties”",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTVdrZkRRRXhoUnNneEtBSkFfTnFlV3p2eS05MVBEaHRTZXZKZEVNVTVaTVlYazNCVUtGME9xM2ZRTVQ3UW11OWRubk0wN3VfSUdnRlU5UTFZVzBaZnNNZzBuaUY4QUozVHFwVW85U2VBY2dPY1NVcEtjQ0ZHUGxGdGdnd3Q4dFFzeGFJRFU4NXRweVhzenJuUnhtOERfVmFXSG1uU1F2WUdYSWFkbXMwSUZ0ZlROanZ2MUlrSHZ6dDVvX1JhS25LVGppS1hoc2c?oc=5",
-   "source": "The Hawk",
-   "cat": "economy"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "The New Era of Indian _____ and Allied Sectors",
-   "options": [
-    "Agriculture",
-    "Marriage",
-    "Candidates",
-    "Judgment"
-   ],
-   "answer": 0,
-   "why": "The headline reads: “The New Era of Indian Agriculture and Allied Sectors”",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSUZxUkRCX05waVZTZThYT1g1a2h3NXFOTGlfSFFTS0lTTVBDcTl5eXhQZW03aHNzY0E2R0U1VWs3VXNzN2hYRkRpdTJWeGx6MXB0VEpPMGI2dkxzdmg5bmJnSFZhdDRKODlmLW1hb0wzbDh2N3lQQzNwaXRKWXhBbmlWY09ia2FJRXJvTW1Wd2NSMjhkcnYxTEhn?oc=5",
-   "source": "www.pib.gov.in",
+   "why": "The headline reads: “Govt health schemes: Karnataka penalises 97 private hospitals since 2018”",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNnUyY2R2TlZCR2hIRV9BR2hqUkR1SHdmQ0RQdzFnUWUzaWhtVnlkWjlyWXppX0lZa1hTOXE5OE1XM1pLWlUyQlJ6bk1tWVJFNFdSQTg5Y3hFWGdKVVhzN0Z6SHU1NFpRWHk3dFBpYzRLUlZWclFrN3dKa2RzM1NKNlNWWnM1MjJvVXRiblVkTHB4UUVXcnRWd0l4cFZrTHl5emZNWnJBc3l1c3BIQ0dnMXFkQVZyaHhJb05kT0owT0c0dw?oc=5",
+   "source": "Deccan Herald",
    "cat": "policy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Parliament’s _____ session remains unprorogued for record 88 days",
+   "quote": "Congress Flags Record 88-Day Parliament Delay Amid _____ Speculation",
    "options": [
-    "Draft",
-    "Enterprises",
-    "Banks",
-    "Monsoon"
+    "Pannun",
+    "Advocate",
+    "Public",
+    "Delimitation"
    ],
    "answer": 3,
-   "why": "The headline reads: “Parliament’s Monsoon session remains unprorogued for record 88 days”",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMzliSFpidVJoQUhYeDRxTVZzc2N5QVNOQUpFbEhpUmpwMUY1RlhzbnpRR2RnOWQ3TGZWMlV5TlN6dHdPNDFkRlRxbkEwdkZ0d3Q4NnJzSzZWa3dPdEgwSEpLZU40UnhXUHpuVmxmZ2UtcmU4SWVFaVV2YjhtRVlmU0FNMzVORmo0TXBqcS1qUllPUGx1RTFWMXdFRTRkMnPSAaQBQVVfeXFMT2o4QUx4eUh4S1lVcVR3Wl9HN2VsLTNTQTZGU0FsX1VwdHZfZTUzRzlJWXA1ZDJITkRSajNVNzNxUnJiV25aVDRzTzVERzlKWjRHSUFKeVhOT3NmaE85UzdzOExYR2VDYzYxS3AwbjVJTXEyS196RzV1TThXWk5BYUtSVjBiRTNOMEVTTElFdXY0ZjFwUGVidGZWQU9ud04zWDJHZjg?oc=5",
-   "source": "The Siasat Daily",
+   "why": "The headline reads: “Congress Flags Record 88-Day Parliament Delay Amid Delimitation Speculation”",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOXMxUDFGaGM2dlBTRUZvTDJ6d2JaQTAwMGhmTlNhYmFRbEEzS0dFdVJzLW85QWpfZ3JvZFgwUk5LdXB3ak5adXBFaUZSUC1GaEdiT0x1LWNiTk4zazUxNll1enB4dFUwQUlOYmFodEdTbktUWE1DZ05pNXNiWGY2U09ueUlVWDZZSm9zbGJjVmtlZUxmRTR0VDJZUzVGTF9KUkp1UXk2bGlzdWp3enVxYWhhN2JzTjY2bjl0Vm5XanjSAcABQVVfeXFMTTlzMVAxRmhjNnZQU0VGb0wyendiWkEwMDBoZk5TYWJhUWxBM0tHRXVScy1vOUFqX2dyb2RYMFJOS3Vwd2pOWnVwRWlGUlAtRmhHYk9MdS1jYk5OM2s1MTZZdXpweHRVMEFJTmJhaHRHU25LVFhNQ2dOaTVzYlhmNlNPbnlJVVg2WUpvc2xiY1ZrZWVMZkU0dFQyWVM1RkxfSlJKdVF5Nmxpc3Vqd3p1cWFoYTdic042Nm45dFZuV2p4?oc=5",
+   "source": "Outlook India",
    "cat": "parliament"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Abhijeet Dipke Targets PM _____ Modi Over ‘Aukaat Nahi’ Remark at CJP’s Kochi Protest",
+   "quote": "'I warned you before too': _____ takes swipe at Yogi over SIR, congratulates Akhilesh in advance",
    "options": [
-    "Employee",
-    "Bengal",
-    "Dwarka",
-    "Narendra"
+    "Nadu",
+    "Kejriwal",
+    "Vakalatnama",
+    "Greater"
    ],
-   "answer": 3,
-   "why": "The headline reads: “Abhijeet Dipke Targets PM Narendra Modi Over ‘Aukaat Nahi’ Remark at CJP’s Kochi Protest”",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZXBYX2FmMWpDbmpCS1JLVXQ4a0ZnLXhqbzUwYnRYQkVIck9QYjc3dGNfcVRON1hfQk1yNWdadnkwOW9CSXV3cDhpbHh1cDhDTEtJSHBBal9wUExoUXVQalA0ZmZ0RVF5TXZFb2E2VWptQ3dseW5VTDJXRlo5bmdXTENSOXk?oc=5",
-   "source": "theopenpress.in",
+   "answer": 1,
+   "why": "The headline reads: “'I warned you before too': Kejriwal takes swipe at Yogi over SIR, congratulates Akhilesh in advance”",
+   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQZnNkWWhFMDlqZTgwaHg2NmRzc3dmeGVVRzM4dDlPT096YXJXUjB0RWZsaXR3SEJfNGZURDdhYkh6Y1pCS0FZOW9YM2pNekpsc1hRaEdjUW11MER5YlBsSmEzS2ZieXQ2dlk5LWk3eG5fNmoxTnROSUYwZ3FsYkZFenRUSTRaTGcwdVZMaDhEZElvUGxZdmVnZ2hONW1Kc0dfbHJrMXRWTGFKQ0Frcl9aU1drYVFjVGtrTDcyQmVBSlZhcGhtVmdnX0ppQ3o2M0JVN1I2WFk5VF9pQlVLdkJPNzQta0EzMk5vc1oxVWFTRkdqZl8wWWfSAfsBQVVfeXFMTXp0UmdOVkZYYjkzekpIcFFkenp6Um1EVEw1dU05eXVmcTZOdFV6dG9Ldmh1aGxOYlp4YUZSeW9Hd0dQZ25majNOaFpaSXl2T3ZXMUxybnUyN25kVXJpZFJ1QzNyRmNXdUF3alpJaEIyX0xRNmhWOGJXSTJpMmpfYmdpd1dnS0JWajktdWhxc0FPMzBNa2JSRjc1VUFsNlBfQlNKZ2p2ZGdRMFVrZDVHY2ZHTzJHM1ZwbTIwY3dYMU9Oc1lwMWl3amVOR3RkenhYRnN0VU13Qk8zd3AzeWZfb3VSbXBER205eDRqa253LWVKNjBvNWxsLXBHQzA?oc=5",
+   "source": "The Times of India",
    "cat": "elections"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Nine _____ caught allegedly trying to leave South Africa to fight in Ukraine",
+   "quote": "Will Trump Avoid Renewing the Iran War as Gulf Allies Push for _____?",
    "options": [
-    "Zimbabweans",
-    "Gate",
-    "Objectives",
-    "Renewed"
+    "Undertrials",
+    "Diplomacy",
+    "Swiss",
+    "Returned"
    ],
-   "answer": 0,
-   "why": "The headline reads: “Nine Zimbabweans caught allegedly trying to leave South Africa to fight in Ukraine”",
-   "link": "https://www.bbc.co.uk/news/articles/cm93z3lp5lnpo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
+   "answer": 1,
+   "why": "The headline reads: “Will Trump Avoid Renewing the Iran War as Gulf Allies Push for Diplomacy?”",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMFZDd3VkZE1OOHQ4bFFKOWJwMU5WS3dGamVCRnYyQm95NXBaWlIzRmdZMjhNc01WTENPc0NsU2VOUEMtdlFGa0RKeGZKcnRzWGkyZnpqazV4ckhEYk02MXV2M1Z5WmxFOUYxTTJmZnJ6c0JWQ0NVdDBQLUhYU0c1OUFfOUZ5dkpSWU1GUDZmczR6SDdOV0xMUGhZb183eUYwSkx2Nno3d19NQTlzOUlhRw?oc=5",
+   "source": "Modern Diplomacy",
    "cat": "world"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Widow’s Remarriage Cannot Disqualify Her From Claiming _____ for Husband’s Death in Motor Accident: Gujarat High Court",
+   "options": [
+    "Dept",
+    "Compensation",
+    "Schools",
+    "Five"
+   ],
+   "answer": 1,
+   "why": "The headline reads: “Widow’s Remarriage Cannot Disqualify Her From Claiming Compensation for Husband’s Death in Motor Accident: Gujarat High Court”",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSUNjblJ2aVIxRFBsS202STBIZS1lRi1kNDMtYVZSMDhfa3Jpakg3cjVzYzVRT1pKbjNmN2lqN1BteUNpTzRpTTBFZ0lYd1R5TTN6VUpPREZwOW9fTndjVE11YldkOFRZckhtTTlmX3p3WmRMRkdEZmNGeXF0VHVBWTd1bi13UmE1ZmxBWUFkM3lCdHZYbUJuQzRfbktRSUVXeUtKaU5LRV9sWlY1?oc=5",
+   "source": "Court Book",
+   "cat": "courts"
   }
  ]
 }
