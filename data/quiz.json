@@ -1,80 +1,80 @@
 {
- "date": "2026-11-09",
+ "date": "2026-11-10",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Barak Valley’s long wait for permanent high court bench - The _____",
+   "quote": "Seoul stocks end lower as investors search for direction amid _____ sector uncertainties",
    "options": [
-    "Sentinel",
-    "Detect",
-    "Istanbul",
-    "Second"
-   ],
-   "answer": 0,
-   "why": "The headline reads: “Barak Valley’s long wait for permanent high court bench - The Sentinel”",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNUtWbWdxc2lfRUstSVhJZExheXM1dExBSzVDRVlvRGlpS1o3eVNfNnpWdloxaFdNcmQwd1c0dk9VR0ozV3VGVmQxdXZSMV9Zel9oRGtxTkRrb0lPU3dySWVjMkFiRzFyUG5BTTJ3c2JmOElrcmVVamRNUTFsUV9GVDFlNzF3WFo1ZHpaSldWZ19XM2tQRzBIQ1JwVjNpX1E5MjBfWXYxT2o2RHNZbVRaY2pTTkfSAbQBQVVfeXFMUDVLVm1ncXNpX0VLLUlYSWRMYXlzNXRMQUs1Q0VZb0RpaUtaN3lTXzZ6VnZaMWhXTXJkMHdXNHZPVUdKM1d1RlZkMXV2UjFfWXpfaERrcU5Ea29JT1N3ckllYzJBYkcxclBuQU0yd3NiZjhJa3JlVWpkTVExbFFfRlQxZTcxd1haNWR6WkpXVmdfVzNrUEcwSENScFYzaV9ROTIwX1l2MU9qNkRzWW1UWmNqU05H?oc=5",
-   "source": "The Sentinel - of this Land, for its People",
-   "cat": "parliament"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "‘Creamy layer’ relief after 10 years for _____ candidates awaiting civil service posts",
-   "options": [
-    "CJP",
-    "MLC",
-    "SC",
-    "OBC"
-   ],
-   "answer": 3,
-   "why": "The headline reads: “‘Creamy layer’ relief after 10 years for OBC candidates awaiting civil service posts”",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObFdOVmZMV0hkR2NpdFlnc0hDSXk1TzdURDFwdXAyVExfM1NJSlJwMUpRZFNXSzh1NGtGM0V0a3R0TVJ1Z1JRZDBTVHZCY1VMTTg3bEo5aHRNWjFUU3ZueGVLY1N5UzNjWV9Ddjdqbl9rZnhkeTVLVUJHbzFjT3haSml2Y0FPdWFDTWpWY05RWW0tTHZCdzNpVnBjZjdwSEE5SVd3TGgwVWlJZnFpbEJiWWVZVnZzSkFZenJmcjJ5WG1NLUJUX0R1UlFDajE3b1d6dUJWczZIRFnSAd4BQVVfeXFMUHZ5Z2VYUWlPYjY4R0NXWkRraFZtQ3FhV19rM0xRS1FJdnZTN000cV8zekhxVTdiOGNlYVItYzhCaThiMDRnR3d0bGxuc2VZR2RMek5MeTlvdlRVeWVCLWdfa0ZzSWgxSGVOczhKdEQtS0hxVGdOSFRTNkV6Q2tZM0hKTjU0aGRFNS1memwzamZqM1NhSXV5akNkLWlvMktzUXZWN0NLTmNkVHhoZmVfVnJ2SE1lTjVDbGpYeVp4M3luVnlLVmlnQVRuMzRQM3R2RlUwZUFxdExvd2stQUdn?oc=5",
-   "source": "Telegraph India",
-   "cat": "courts"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "92 pc of S. Korean firms in _____ wish to stay despite rising labour costs",
-   "options": [
-    "Rijiju",
-    "Vietnam",
-    "Dies",
-    "DeMo"
+    "SIR",
+    "AI",
+    "FPI",
+    "NHB"
    ],
    "answer": 1,
-   "why": "The headline reads: “92 pc of S. Korean firms in Vietnam wish to stay despite rising labour costs”",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQlFHbDlaYXBGRGhMRVY2VmlpTzh2Mi1qME5CaDBuOTlXamtCczNIVjVsTnRTTEh2QTQzOURULTdaRWdmY0diNkVHZWFqTHQ5RWlFVFlNSGJlOGltY3A5Wl9hT1h2ZVY4WWZacXJFeUxpQnRoa0dRN2FzSUczNGxHYk5UbUpUTEs1VDZseXVnNGtlNUkyRVV4QmxzSXdzRXlaUEdUU180MjZpRG5EcnJleTF5U25LY0dWaWFPZ2VkUm5Rdw?oc=5",
+   "why": "The headline reads: “Seoul stocks end lower as investors search for direction amid AI sector uncertainties”",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTVdrZkRRRXhoUnNneEtBSkFfTnFlV3p2eS05MVBEaHRTZXZKZEVNVTVaTVlYazNCVUtGME9xM2ZRTVQ3UW11OWRubk0wN3VfSUdnRlU5UTFZVzBaZnNNZzBuaUY4QUozVHFwVW85U2VBY2dPY1NVcEtjQ0ZHUGxGdGdnd3Q4dFFzeGFJRFU4NXRweVhzenJuUnhtOERfVmFXSG1uU1F2WUdYSWFkbXMwSUZ0ZlROanZ2MUlrSHZ6dDVvX1JhS25LVGppS1hoc2c?oc=5",
    "source": "The Hawk",
    "cat": "economy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Who Is Stephen Miller? Trump’s _____ New Chief of Staff",
+   "quote": "The New Era of Indian _____ and Allied Sectors",
    "options": [
-    "Woman",
-    "Cite",
-    "Crossing",
-    "Hardline"
+    "Agriculture",
+    "Marriage",
+    "Candidates",
+    "Judgment"
    ],
-   "answer": 3,
-   "why": "The headline reads: “Who Is Stephen Miller? Trump’s Hardline New Chief of Staff”",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWmVrQkNsYzdfaElZTDVKQ1ZYTmxSMzBYUGJ3ajBBYVBrSzJzWWdvS2tkTGV1cXRIYkdRWVZQUHltVFVHWjVUcjZYWklRenhvNHdNeXd2NU5vUzlERzJzUkJtMmlmdWRBZmxrSjlkU3V3eUxUa1pFWWpob291M2owdmlZMWpiVmQyT0VlTDFSMmo1bWJIUHhLcTdZTQ?oc=5",
-   "source": "Modern Diplomacy",
-   "cat": "world"
+   "answer": 0,
+   "why": "The headline reads: “The New Era of Indian Agriculture and Allied Sectors”",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSUZxUkRCX05waVZTZThYT1g1a2h3NXFOTGlfSFFTS0lTTVBDcTl5eXhQZW03aHNzY0E2R0U1VWs3VXNzN2hYRkRpdTJWeGx6MXB0VEpPMGI2dkxzdmg5bmJnSFZhdDRKODlmLW1hb0wzbDh2N3lQQzNwaXRKWXhBbmlWY09ia2FJRXJvTW1Wd2NSMjhkcnYxTEhn?oc=5",
+   "source": "www.pib.gov.in",
+   "cat": "policy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Affordable and _____ Healthcare for All",
+   "quote": "Parliament’s _____ session remains unprorogued for record 88 days",
    "options": [
-    "Elephant",
-    "Accessible",
-    "Hitler",
-    "Financial"
+    "Draft",
+    "Enterprises",
+    "Banks",
+    "Monsoon"
    ],
-   "answer": 1,
-   "why": "The headline reads: “Affordable and Accessible Healthcare for All”",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5UUjEtcWZkMHdlbm1qa1RKQTlBbWRHM0x1SVZfSlkyTllRWm9hRHhSNE1xRHJLNXZ1b2s1dlp0OHVSaEFIWG9UWUduTXJJbmhVRm9rMndZSjhkWW5INlBkY001RE9RNGM4YWpYNFVzNklUQmptNldQag?oc=5",
-   "source": "pib.gov.in",
-   "cat": "policy"
+   "answer": 3,
+   "why": "The headline reads: “Parliament’s Monsoon session remains unprorogued for record 88 days”",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMzliSFpidVJoQUhYeDRxTVZzc2N5QVNOQUpFbEhpUmpwMUY1RlhzbnpRR2RnOWQ3TGZWMlV5TlN6dHdPNDFkRlRxbkEwdkZ0d3Q4NnJzSzZWa3dPdEgwSEpLZU40UnhXUHpuVmxmZ2UtcmU4SWVFaVV2YjhtRVlmU0FNMzVORmo0TXBqcS1qUllPUGx1RTFWMXdFRTRkMnPSAaQBQVVfeXFMT2o4QUx4eUh4S1lVcVR3Wl9HN2VsLTNTQTZGU0FsX1VwdHZfZTUzRzlJWXA1ZDJITkRSajNVNzNxUnJiV25aVDRzTzVERzlKWjRHSUFKeVhOT3NmaE85UzdzOExYR2VDYzYxS3AwbjVJTXEyS196RzV1TThXWk5BYUtSVjBiRTNOMEVTTElFdXY0ZjFwUGVidGZWQU9ud04zWDJHZjg?oc=5",
+   "source": "The Siasat Daily",
+   "cat": "parliament"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Abhijeet Dipke Targets PM _____ Modi Over ‘Aukaat Nahi’ Remark at CJP’s Kochi Protest",
+   "options": [
+    "Employee",
+    "Bengal",
+    "Dwarka",
+    "Narendra"
+   ],
+   "answer": 3,
+   "why": "The headline reads: “Abhijeet Dipke Targets PM Narendra Modi Over ‘Aukaat Nahi’ Remark at CJP’s Kochi Protest”",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZXBYX2FmMWpDbmpCS1JLVXQ4a0ZnLXhqbzUwYnRYQkVIck9QYjc3dGNfcVRON1hfQk1yNWdadnkwOW9CSXV3cDhpbHh1cDhDTEtJSHBBal9wUExoUXVQalA0ZmZ0RVF5TXZFb2E2VWptQ3dseW5VTDJXRlo5bmdXTENSOXk?oc=5",
+   "source": "theopenpress.in",
+   "cat": "elections"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Nine _____ caught allegedly trying to leave South Africa to fight in Ukraine",
+   "options": [
+    "Zimbabweans",
+    "Gate",
+    "Objectives",
+    "Renewed"
+   ],
+   "answer": 0,
+   "why": "The headline reads: “Nine Zimbabweans caught allegedly trying to leave South Africa to fight in Ukraine”",
+   "link": "https://www.bbc.co.uk/news/articles/cm93z3lp5lnpo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "cat": "world"
   }
  ]
 }
