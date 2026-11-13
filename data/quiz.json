@@ -1,79 +1,79 @@
 {
- "date": "2026-11-12",
+ "date": "2026-11-13",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Election _____ Confirms Vote Count Accuracy in Mumbai North",
+   "quote": "Empowering Youth, _____ India",
    "options": [
-    "Fight",
-    "Commission",
-    "Economists",
-    "Public"
-   ],
-   "answer": 1,
-   "why": "The headline reads: “Election Commission Confirms Vote Count Accuracy in Mumbai North”",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeXZNMEg1U0llWkxEQjdjTVdTSGlzRVZ5LWlFN3k4c2c0SWxkYWw2Ykpic2R6Z21mZ25PWTE2ek5ncm1IWXUwZ0VXN0prSkE2bU9ONUdRak5JNkI3TEp2VVpTaGVKdVF3aXgyV05uM0JKcmd5OUpaWWNmNDFnZGFaY0NSbnhTMW1SUDdudXhYd2N1RnREczlGYXBEdlhPMUR4czAwbUdOSExSdw?oc=5",
-   "source": "India News Network",
-   "cat": "elections"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "Chandrababu Naidu arrest: _____ Andhra poll panel chief in skill development scam, says TDP",
-   "options": [
-    "Weather",
-    "Events",
-    "Question",
-    "Publisher"
+    "Ukraine",
+    "Cell",
+    "Transforming",
+    "Palestinians"
    ],
    "answer": 2,
-   "why": "The headline reads: “Chandrababu Naidu arrest: Question Andhra poll panel chief in skill development scam, says TDP”",
-   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQTEE4WFJlMlZDQ1hJNm9HOFBxemoyUWRqLUZEbjFkN1lHV3lVRXBfT25xZVA2U1F1YjRNOGc1T3RnYngxWjBzRzNEQkhvQnY2X0xISERyMlFfR1ZEMVpMZVNrVjJKVkdIQ0V2VlV2Uk9tMmdPNlVGM0NUUW5KZHFpTVJVN2RuVnBFZURYbUtRdHVNSGEwclNCREQ2U1FoRlFxQmFULTVsUUJXWFk2MGhaSU9PbGhwRWJxWTJ1ME5nSV9BNlZXMmRQYUkzSVNRVWtFR1VXRWcxMWFhSl9XRG9zXy1HcEdia0ctZkdGQzNNY05CWUlncmpLYmd1dVBwX1h6Um5R0gH-AUFVX3lxTFB0Z0xZVTVUbkdENUhmN3g4bVM1b0R5OTRqTGpCaHd3WURYbFJVUjhsSEtWTDdUYjRULTNuaUYwbE1YSmlFVThZc2hMM09BMlg5SkJ6aGk2OE83MEdoX3hzLWxkUndLUW1ka3ZQUmJMcG9rZndSQWZ1RWc5WkRCQk4xQkxiMUd0SUotUkotaVM0N01IaXlJNEZXVVZoQjg0bzRrNDllV1R3Y2VUbFRPbHZyQ0ZfRnR5SUZCVnFtb29Lbkt4d0J5ajFqOFBBVkRiYnliU3FBSXJ4RURUY3gxMDYzWHF2d0dlTC1IVndLamZ1Q3pfWnFSNzFNQUhQTkV3?oc=5",
-   "source": "ET Government",
-   "cat": "parliament"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "Grandson has no right to grandfather’s property held by father, _____ Court rules",
-   "options": [
-    "Kerala",
-    "Bill",
-    "Supreme",
-    "Civil"
-   ],
-   "answer": 2,
-   "why": "The headline reads: “Grandson has no right to grandfather’s property held by father, Supreme Court rules”",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVlJRak9FckZZdkNOcTlGRTNFcUEyd195WDdmWmxCX29vNXBZeHpqVkxiMU9xamdUZWhmSFRKMjhpVFNWRUJZZkYzQ0ViT3E1S3dSbUNzS0VzcmV0bGc3NlhxZV9WUGF0SzYyYlp4dlJVVWVydnBjUTlfRThTa3NOcC1sLWRrT1RfZ2J0aHpqX1lrMW8xWTlnVTFCc1NLU3RVNUZNdUFuQ3NOVy1XMTZkQy1iVGpSOWdGdDJ0RHN1NFMwU3g0Y1NOY0FDVnBpdk81VmRGQllUd9IB3AFBVV95cUxQRVpwTm84Z0w4Nnc3R3kxMDYySUFQRXhQVUZXWnNab0xFdEc0LTFrZTl1ZzdjTnFIWHRSeWhjUkhxRmRsWXJfUHFaWXR1anpGQVBqMjJLNENvc3ZVTlczelQ2VzFsZXVSQWNfTjJ2SWxObXF2dnRSNUhtQ1Nza1hIX0g1ajZIREhaOWdjZE1EVnhiNjBCVDBVU3BjUC1Yd2NJTnlVcm1HT3J1T21KUm5ub00tdHVQN2wybFFERGhfNXBKS0RkWTZRRUhqbUtROE5LQ0ZwaW91RTZxWHRz?oc=5",
-   "source": "Business Today",
-   "cat": "courts"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "Students to get free WiFi in 601 colleges under _____ scheme: Odisha CM",
-   "options": [
-    "Cannot",
-    "Until",
-    "Shikshanet",
-    "Opens"
-   ],
-   "answer": 2,
-   "why": "The headline reads: “Students to get free WiFi in 601 colleges under Shikshanet scheme: Odisha CM”",
-   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUVZ1bHE1X0Q4eEg3blI3UEx0VjZtS29SZ0ZKVnJ0cmFudkNhbGtBdTVpZVVrVlh1TDdMSzRrOUo5eXozTUdjRmlmOUZqalVJVnVsdUZQc09qSmVPSzRXNXBlbnhOeGcwR2ZZQXdHR2xkNXlHUlg3M1VKeXM1WFJRMUZmRHJYZ3Q3M0lIZTNLbUg2MmFQd2FVdDdRUGlWUldibWNUc2hyX0JSUUpPNU5TVmhqOVoyQXNrdkd6dk9RU0lhOGV4Wkk1NVUzVExRRm9ublFFY050X004eDVrcmRoNUJKRFhpUU9kN1FLbdIB8gFBVV95cUxPTFpKN0tndGpsV3g4QVJvbUZCNDBkSzdBV3kwTkhKYXVUR1U2TDA3Q1RxdHI4cDE1ZFVHSGJZM083d1JjdUNDNXctVWZfM3BOT0luemxZUW5ZUXlINmhtcDUxVzlfT0VTdDdOZ0U0SmRIdlJJcldxSC1fSTJKZVFtbjZPblluaWlmMV9YRjU5MXc3UFdqZlhTZGFJb2hiaEFxM3VYX0s0QVI0WlZDVnM5ZUg0cTJjTzVPWndZcm55Qm5QUlJwaHFHMEhVNXJHR1NBSWw2Vm5nS2tZVWttUGxGYXdjcGE3WWFaZXhGSXVoM0NSQQ?oc=5",
-   "source": "ET Education",
+   "why": "The headline reads: “Empowering Youth, Transforming India”",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMEJQRWRkUnlZOEM1dk1MU2Y0UzhlU0RYU1U4ZE9FZkFhbFZrRFE1a1phenZxNFR2emlNRl9sTms2Zzc5dnhNaHBQQWZDSFROTzFxYkJvMHBWRkJ2RDhjNlQ5RHJsZWRLTFA3aE5FcEtBZmx1Wm53QXhHRkZDLVJuV2p0ZVdBNjg?oc=5",
+   "source": "pib.gov.in",
    "cat": "policy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "How 99.6% onion price spike & El _____ risks may pose challenges to RBI’s Dec rate decision",
+   "quote": "VVPATs Not Available in Tripura Urban Polls as SEC’s EVMs Lack _____: Secretary Anurag Sen",
    "options": [
-    "Kenyans",
-    "Muslim",
-    "Nino",
-    "Bank"
+    "Meet",
+    "Diplomacy",
+    "Compatibility",
+    "Importance"
    ],
    "answer": 2,
-   "why": "The headline reads: “How 99.6% onion price spike & El Nino risks may pose challenges to RBI’s Dec rate decision”",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPdWVvbXNzQlJsNXlCQUpJMUk4cVpzLUV3Y2dadXUtMGNsMG5pUnFEdzJEak5oRkpMSjh3b1RpemVPVm1KQ3FuWDNhYnJRQ2RwU3pkaXN2eTU0dlEwRGZWTzR5THpUTTBYa051cXdsdndwOUZGU1NjLTlMaXF3YUpZOFR2VFZEX3FqSXV2aVJLaE9ibjBvaV9LZ2x1NG1vaDJ5OXRqVTgtSDQzeTQxd0FiSXo1aHVSQi00cUd1cVhRV1REU2pkSnlZemRudGhibHJTZndLTVp5REYzSEswU1IyWtIB5wFBVV95cUxNdHcyM3RwLWlmQVZJUmpvVVdRMGxRcEVWYmtQTkMzNDlFTng0VnRJRWRZUEQtc2poMXdLbUhBNWlFakoyZmx6N3BNb1RoQTM2YlNlTGRsNzNrUUJsM2psc0ZadjhiNzFXUkVleFRhTm1seGU5WGpDbUREN1ZpZ1AxNXBBRXFoZWxfVDJCZER2bGZDQUU5MUVaQUpXRFg4Q2hiV2lUY0VFRHdRUDNmN082OTl5T044S1VVY0RfV2RNU05USVk2Y1Uycmo5V1ZXb3RTS1lGMGlTRWlvYWNxVFhHMXFESktsX1E?oc=5",
-   "source": "The Financial Express",
+   "why": "The headline reads: “VVPATs Not Available in Tripura Urban Polls as SEC’s EVMs Lack Compatibility: Secretary Anurag Sen”",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZWNlWU8yQmJ6dmNFbGt4Uzk0UXpwWmg3cjFKeEZvXzNka3hHcmZLYWs0LXE5cFNOc3dNZnp6ZFVJM1cwZTNUSTZROHZVdE55bjR3MF9kOFU2LXAweWRSVHJsMlJHdndBQUdzWnYzekVpZEs5dTlvNUUzczVfQjQ4Y3huRXJfNEhIWUxXU3VHUDRNZlVVM0toZ1RsM3NlcXRYNHBxdzVJM0NKcEtmYzlPZG9LTzBCakNPTVlVLUxBV2duXzAtNGhIMnFCTEVOQQ?oc=5",
+   "source": "Northeast Today",
+   "cat": "elections"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "'Women must explain source of gold kept at home': _____ says 500-gram limit offers no exemption, asks them to ...",
+   "options": [
+    "BRS",
+    "PLI",
+    "SC",
+    "CM"
+   ],
+   "answer": 2,
+   "why": "The headline reads: “'Women must explain source of gold kept at home': SC says 500-gram limit offers no exemption, asks them to ...”",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQXZkYVNFMWowaEFNUVdhaDJpeGwyc1ViaTcxUVZCQ2xWS0ttNUg5WENpdnd0THhPLTNOTzlZeHBGSi05b01pNnYyeHVLNXh0UlVYRGYtWmJEZTE5ODJEWkZDbnVPa0M3dkhJQzZrRjR2OGVJQ2h1Vmp3elMxS0VOVUpHX095THdJU2Y1a19vWEs3VHEybzRYMGZxTXYycVNyampFajQ0V2ROR0ZnYWhmYmdPV1NCMU5wbktCSlpaeHjSAcYBQVVfeXFMTWM0MllYdWVkR0l0V2tpYURHU3pIRkhaMnNwRTNBUUVmQ3c0alNUamRxTmR5eE1YSEkwRzgyREZ3TExCN2FKNEpLalZsVl9VRW52bExaOFNkR2VWVk1Lc25YYnIxS2dodWd5U2JFeFFpQWlnbU85U2hrczBXRjlEZURkVHVoU0tzMTdaV2dobXY2Tnh6SEJ2TEptbFVkeDVjVjhodVdiYVlyMFpZNWlJaUl0UTBsVDVrVmRXUlBnYzlreElrUXlR?oc=5",
+   "source": "Bhaskar English",
+   "cat": "courts"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Jensen _____’s exit may signal tighter US controls on AI chip exports to China",
+   "options": [
+    "Huang",
+    "Resolution",
+    "Economy",
+    "Farmer"
+   ],
+   "answer": 0,
+   "why": "The headline reads: “Jensen Huang’s exit may signal tighter US controls on AI chip exports to China”",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMmRYUm1uWTZkMGFzTTdrQk9RSUViWDgwaUYtdGhBS2h2V0lBdXdQNEhHaU9mZmx3Y0ZlaW50RTVfSXJOQjBtRWRWSW1hUTBTUkFEMGdVMVFlMUNYV1RoT2ZUaGxqbFdleHRxc1g2T2hybHk5ZDIzM0NrMWV4VER5SHIwd3RQell1MWN5c1Z2UURPTF9na3ZrSkMxT3NxWTgtaDE3X2dISERPUkNNOFk5Qlc0aGFqLWtCQ05LZWFHbnRTYmdTNzM3WlhDRGM4NknSAc8BQVVfeXFMTU9jc1RGV1FKTVJqdmdZQmpQSlhZcm5FVUMxZTNSY1ZTZzlySXhzaVd1WFkzaVYyRXd0LU5LNTM2MVFCVVVfSDQ5R0FwQ2ZEbDNsc0g3N3dCNjBhR2hzdXdocXhFdEZKSkNZaXJNcXpBNDA0MTcxTzRETldvejR3cnpsYkZ5VjJCcjVENzk3TWJpQTVpZ25NVXg1eGJGcUd5VjM3SDZRZkltdk9JbjJzYkdKYlUwNVBDeHlvUGFRaUpwZ3VPOURvWkwwRWs0WTg0?oc=5",
+   "source": "South China Morning Post",
+   "cat": "world"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "India Inc's ECB, _____ fundraising plans fall to $7.05 billion in September",
+   "options": [
+    "NEFT",
+    "PAN",
+    "APEC",
+    "FCCB"
+   ],
+   "answer": 3,
+   "why": "The headline reads: “India Inc's ECB, FCCB fundraising plans fall to $7.05 billion in September”",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQnQzOHFoSUpWV3p2ZXREZ2dUMUlncWtXRG1Ib0NXbHViYTZyb3ZMaE5pREt6T0lXVUJRTjRJTkpqa0w0UzA0R0ExYnk0a1lJSnV0ai1QU054VWcxbzdmcC1SOW8yaFcxR01vSTdkeUN4b1NlU2hWRHNGbkN1ZzVwZzZDUWtmV2M3Y1loWjBpOVhRTmk3bjhDTXNJcmItUkdLRG4zcU40SnhldmJjLXp4bzhBN083RDk2cmN3b3B2TjhibG1nVW9tUzhzLWNaQ1ozS2IwcFZ30gHbAUFVX3lxTFBpZlllUUZqNWx2MVVVUHZBSW1nQjQyalJ2a1YxTmV4OWN1cTAwNk9fWFBBLURrUDlpMDJUM3lGTzVjQU1zdnQ5bHU0RlJ3cXlmNElNNGV5ZXpQcXpDMWNlNEtaWmZ2NjRkZGZzOUdoSm80MTRmbWJuSWVkdDE0WlB1ak0yaGZiRjNHVWFyRnpzR1FqR1hZdktaWW9qc1JZczBpVGhhaWdLVjhmM2xha0RwXzR5aWJGOUdvSE44SlBGOHY3Q0VVS2g3NDM1bWFpY1ZaZmxDaHJkSHFjTQ?oc=5",
+   "source": "Business Standard",
    "cat": "economy"
   }
  ]
