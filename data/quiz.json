@@ -1,80 +1,80 @@
 {
- "date": "2026-11-14",
+ "date": "2026-11-15",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Centre plans special Parliament session to push Women _____ Bill, seeks 361 votes for constitutional amendment",
+   "quote": "Arrested generals and a threatened VP: _____'s son fuels Ugandan succession fever",
    "options": [
-    "Contribution",
-    "Reservation",
-    "Moscow",
-    "Upcoming"
+    "Zelensky",
+    "President",
+    "Meets",
+    "Production"
    ],
    "answer": 1,
-   "why": "The headline reads: “Centre plans special Parliament session to push Women Reservation Bill, seeks 361 votes for constitutional amendment”",
-   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNSVBLZWtGQmROVFlXaVRHbFBRNHVqampvdTB3ZTFEMldWVi1wZHBLSzQtQndfM2hyQ09aQlp5UnVlUkwtdHp3TVNMTU9pNWZaMjlpMXVYZjUyYUVFRHc0TFZaRjlQUVlkaS1RSEJsN2QyUERSa0h5TldBZmZvV1M5dk55TzZoaDFYdUNNOF9zVmUtQnlzclVzYzBHaFB3RXZ4ZU1mZkFTemdJRWdpSEVnbHZZU0JzV2pGOVk5ZzhsVjgwZDZJSjlqdHJ6VVo3M1F2dUIxbVpIZEtsRWt3d1k2eW9MZzdQRVh6UVVDakRoc2pza1BRdkHSAfsBQVVfeXFMT08xUkY2blNtbnl0OGtBQTZaLXJVYUtHNldqZ2daN2JtU0lNYV9sMTNSM3lrb1c3dnliSmo2Q2Y4Qm5pMHZUV3lMelNrazgtZ2ZGRUlDSlg3aVVWTUpDaU5vZmcwT3FqdnFXb2lWUGNLa3lxX19QdGZGZUxVRjJuNkliS2hJbzBCbDNkV0t0OU9DV2ZNMFJQQ2ZkbldFR0RsWFRhaTJ1RjJLVmVNaUxodVhaNWxtSjU5cGpCTHJ1cDRKVmdtNFBfLXZJeVVPeDNPaTdxSFhveGxSTEdPZzBGb0tNb3k0amN2TFh0c1VzSUZ5dTF3clBCQk9QcDA?oc=5",
-   "source": "Organiser",
-   "cat": "parliament"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "India’s forex reserves jump _____ 2.49 bn to USD 719.547 bn",
-   "options": [
-    "IITF",
-    "FCCB",
-    "USD",
-    "JPC"
-   ],
-   "answer": 2,
-   "why": "The headline reads: “India’s forex reserves jump USD 2.49 bn to USD 719.547 bn”",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMFNmZUwzX25PUmlBQ2Y1UXRfcW02Z1dhalNlYzBBdHdpa25hZDZJdzFiZlhJM3BfZlJKcURIbXRWRHhINkhNdlV0UkZ3YVFkODRwOXFweU5pVHhEVERBbHN2dGR3ZjJJQWw5RWhmYVFXTWxFNnY1c1ltWTQzdDFfQmx5dEVBRzZVWGJEWklGR0NOaUNFZUhxdNIBngFBVV95cUxOSUxMQXdXTklJZDYxQ2tIZXNPclVPaXVycFFyaUhMeThvSmJfeWNPOTJrOWhCNXFCUWRETUlSYm5oY1FKTlZ2NlFQRC0xTl93aE5ZVzFMNDBwRUdfeFZEZm5sR3dZWHVmZV9CTWdaalMzaWlabnNWQWtNeE1PY3FmcFJFRlB6ZGtONHJqSEtBQkRUbXJ3NTA1QVJnaUliUQ?oc=5",
-   "source": "ThePrint",
-   "cat": "economy"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "'Ask Amit Shah': _____ Khera over UP CM's claim of 1.27 crore Hindu voters missing",
-   "options": [
-    "Pawan",
-    "Since",
-    "Anti-Suit",
-    "Pakistan"
-   ],
-   "answer": 0,
-   "why": "The headline reads: “'Ask Amit Shah': Pawan Khera over UP CM's claim of 1.27 crore Hindu voters missing”",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdlhYMUN2MmZad3VvaVZtdU9BQ2dwSVNTVHZKN2MtVF9kM2M1aVJ4ektZTHRCYlFnRktsMTZ2QjZueU9BNzZNZVYyTUNLc2lCaGlDWktGdklKR1JuTUU3Y0FscjliM0VveWJhdXVkNmFlUS1XSERRZHVvTHIyT2lHM3podFdTdlF6Y0w2SnhmNmZqTDhLZDgycENwWWFJY0l3OUxRLVBhZXZLTVI2eE5sOXIzNkd0cVR4VGRyVC1neTl2UTBBMFBpQnRtdGIwZ9IB0wFBVV95cUxNbzdIcHBILXlKQXZfa3gtajYtWk5tbDNNcFdYcnhQTTNrdUlxVzd3Z3F2OHBwWXdiOTQ0ZllRZEVvejlsRkhESU5jRW5pbnNKc1VhaHVPVUN3blRPNWhySnBWTXBzdlg1ODJjdFM5and2cThVMnlQZkpYNmt5MUo4QkV3YV9JUmRKakd3cjBvazVKWWwxeHVpYmpnUVVPbFIxWnI4WTNtQ254cFNBYVM1Vmo1eHNyaXV3cEJjYmZtdGRNU29vVmtoS2lJaUs2VndlTTdV?oc=5",
-   "source": "Moneycontrol.com",
-   "cat": "elections"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "The Carpathian Anomaly: Slovakia, Hungary And The _____ Of Russian Energy - Analysis",
-   "options": [
-    "Message",
-    "Smooth",
-    "Jobs",
-    "Geopolitics"
-   ],
-   "answer": 3,
-   "why": "The headline reads: “The Carpathian Anomaly: Slovakia, Hungary And The Geopolitics Of Russian Energy - Analysis”",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOG9Dd1ZLVTI2NzVLMkh4Ykhha1AxWlFlUDZDcjNDdW1CTmZUVW5wTk9mMHlmR2ZxVXZIa3did3M2OG54T1AtVjNscjVmeTdrcE5OS3BZR0V2X0N1RkJlUC02Zm1mR0dSa1NjbXRPNmlpZ0w4bTR3MWUwekRsNE9vaFN4OHhlS1NsODFqY01uSzVXQ1NRVTBXT0ZsbFNydzNjUnE2RXVBclVCQzhzMTlMdTlIWExVQkFQdmpkOS1WQ1NFaVU0?oc=5",
-   "source": "Eurasia Review",
+   "why": "The headline reads: “Arrested generals and a threatened VP: President's son fuels Ugandan succession fever”",
+   "link": "https://www.bbc.co.uk/news/articles/cmlydy0xw45wo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
    "cat": "world"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "A _____ father sought to change his parenting plan after his former wife moved, arguing it made visits",
+   "quote": "Supreme Court restores ownership of _____ site to man who held original 1972 grant, scrapes collusive decree",
    "options": [
-    "Europe",
-    "Appeal",
-    "Minister",
-    "Montana"
+    "Bengaluru",
+    "Bonds",
+    "Microsoft",
+    "Donation"
    ],
-   "answer": 3,
-   "why": "The headline reads: “A Montana father sought to change his parenting plan after his former wife moved, arguing it made visits”",
-   "link": "https://news.google.com/rss/articles/CBMikwNBVV95cUxNbmplci1kOTB2OVNpTElrbzNDd05tZlk1TDdxN0JpdV9EeWZoZEM4UFhUaDBHZnBOa2hPM2JkQXpFUF9yYUxSTkM0YTZEeFJ4TGJxMVBMY1lQcmNLblZKTC1hSDY2NEdvMWVBUTVrS1hyWVV3MDcxdWl6bWYxLWV5TUpZOXUtWGNjeVdkdW9ZTlNSdG0tSV9mS21CV0NkMTR2OFowdFZmWEljekVUdjJFYS1xR0VfZVFTal9MdDZ2Zm5IUkttNENoajZqTVRLTlVJS0tHYTkyd1FoWVN5TnRzM3MydDd4ZGVKLXFZUXoycmRqclludUstNVdUc1dXUWI0Q3pOMXhQS1JKdzVKb3NnWnlFLUtFMkFDelBOUUU3aGc0NHdheDhXZVJoRUxOdF9aLTh0NVFGdWV2ZjFlUklRQ3FzUnFkMmd5em5qMDR2WTdGbFBFT0t6X0pKSGVNZ3d3bVdJbHQ5aW9tT0hFOFdTQ05TaTVWelRHaThtOERaSTA1NVdXV2Juc0xadTdESUVwdVBV0gGYA0FVX3lxTE1QWW9fZGkzR2FNd2Flamlsb3lFdUhyekpOTlpzZElwaXhsQlY1UkpYTk1sTF9PSlRVXzg4UXY2Qk95ajdFelF5UFN0ZmQ3MXJYXzd0N3dQYVcwZUY1RlhEVGZuN09oX0pJLUxoVldIUkgtaVd1YzVmeDJDM0lITkVDd19SMjdDZEhvVVlaeVgzSXI5RWkwbXdyYm4zZ0dpbGs3RlNMeGpDbEFRaGZVMkh6QjFuSklUYzNxVndocG9RLVpOYmttWGdIRnZvZmJ4c2pmaTFKbC1DOEE4RDhkRlFsN1QySzRteEdPQkVZNXBiRGZJQkpQWjRmVzJkOF93RWhGRW5LUm5pY3dlYXlXal96SUVwQTJueWtKenNuaklYV3NHS2t5MTR6NmtsTmVJYi1GRmh3Rzg5TzZreEIyODFMaVNpX09kdUlpUDhJd3ppc0RncXY5aTNudllaNHNLdDRWTHAzWDFBdW9HWVMtNzIwQV96enBSQUk1eU9tc21fb2hTQWxqUlpCeU9zNkxFWGpWdEI4SDhWQg?oc=5",
-   "source": "The Times of India",
+   "answer": 0,
+   "why": "The headline reads: “Supreme Court restores ownership of Bengaluru site to man who held original 1972 grant, scrapes collusive decree”",
+   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNWUpoMWR6T3hmTU1UX09rY0FtUlNZOHhHc1BaOE5EQUNyaEJva3pxbnJLUGp6ZjFBZTYxYnBmdXdoYzhMNWlCOTVGaXVkVDRYRFlWVENhb2FuTEZmNnY4SHFGZHhHRm5HTlltaG0xWWdzTmtiWmpfbjFpYV9QQ3RPUEVReXJ2aWFUbVlGZV9ZdEtjM3J2aE0wLVBrbVE2TzlKMzh6M0ZKam1FMnJJcEdzeTJ3ZjNEVVgwQlpWcUxobThaQ1ZBTXkwY2VDQ1diR2hZWlhHTTRBN0tLdDllWnhuMThZUGhMeEdCNXVOMWVEZW5yUy1PTlRPMlFEajFrMjJtS3FocVVpc1h2Mi1lcFZLUDRR?oc=5",
+   "source": "Deccan Herald",
    "cat": "courts"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Can the proposed special _____ session on women’s quota yield results?",
+   "options": [
+    "Parl",
+    "Paswan",
+    "Components",
+    "Introduces"
+   ],
+   "answer": 0,
+   "why": "The headline reads: “Can the proposed special Parl session on women’s quota yield results?”",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWTRzTl8ySDloY0doZ1kybU03NHVDbGljZHl3SFo5Y2N5eEZpR1VYRTlkdU5YWFdtOG45bFRwS0hVM3pLLXl4aC1uRWwwUk5lYmktQU9RSk43SXdWUmx1UjloQWI2ZW5KT3d5c1VaZ3I2V21abWo1Nmt0T2MtTmk3d09zUS1rMUdJZFVHZExrSU9KZnBGYmNYSkw4Y1Z5RG1CcGYzNGwxdGJGNW9vZFNFNWg2NXFpT29NTEE3VDBR0gG-AUFVX3lxTE9ZNHNOXzJIOWhjR2hnWTJtTTc0dUNsaWNkeXdIWjljY3l4RmlHVVhFOWR1TlhYV204bjlsVHBLSFUzeksteXhoLW5FbDBSTmViaS1BT1FKTjdJd1ZSbHVSOWhBYjZlbkpPd3lzVVpncjZXbVptajU2a3RPYy1OaTd3T3NRLWsxR0lkVUdkTGtJT0pmcEZiY1hKTDhjVnlEbUJwZjM0bDF0YkY1b29kU0U1aDY1cWlPb01MQTdUMFE?oc=5",
+   "source": "The Hans India",
+   "cat": "parliament"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Air India: No major delays in _____ flights",
+   "options": [
+    "TG",
+    "US",
+    "CEC",
+    "VISTAR"
+   ],
+   "answer": 1,
+   "why": "The headline reads: “Air India: No major delays in US flights”",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMVpJWUdJSExYd29uODRXX3lyaWRRLXJ2cnM0UFRVMU1OWWhwc2Z1VC1DX3pEMlRzYVF3OERtaDhPdWRmNVRFejNRcjBJN0RwRW1fWE1KWlA1Z1pyTllKblhqcmJtREs5UEFXSlJtRnFEbllnbGNwakZHYjVITXZlaTJNR0hUOFFZeWlqZmN4UGFsVnAtVy00YzhKQkxYWktta19CaTFSNVFFQ2FRdXVmcHJRbzVnbnV6b3BLOU9WMTlmZzNFNUcxYllvTExwYnhuTWp0dG1ES2fSAdgBQVVfeXFMTzFaSVlHSUhMWHdvbjg0V195cmlkUS1ydnJzNFBUVTFNTllocHNmdVQtQ196RDJUc2FRdzhEbWg4T3VkZjVURXozUXIwSTdEcEVtX1hNSlpQNWdack5ZSm5YanJibURLOVBBV0pSbUZxRG5ZZ2xjcGpGR2I1SE12ZWkyTUdIVDhRWXlpamZjeFBhbFZwLVctNGM4SkJMWFpLbWtfQmkxUjVRRUNhUXV1ZnByUW81Z251em9wSzlPVjE5ZmczRTVHMWJZb0xMcGJ4bk1qdHRtREtn?oc=5",
+   "source": "The Economic Times",
+   "cat": "economy"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Shivraj Singh Chouhan defends Special Intensive Revision of voter list in _____",
+   "options": [
+    "Bhubaneswar",
+    "Components",
+    "Athawale",
+    "Looms"
+   ],
+   "answer": 0,
+   "why": "The headline reads: “Shivraj Singh Chouhan defends Special Intensive Revision of voter list in Bhubaneswar”",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTGYydm96alp6cHppbjZxaWY2bFZUNWJXZDRQcnFqbmZxUERkdUlaWVk2VEFGbXdxOGNVeHdsWVplbDRtV3lXLUFPV3piLXpjNFJHanUwbmFfTm92aTRibTFoN1JDSlRGcXhaWF94ZElISmdzd1FrcmtwOGZwaWZBdWFTRDd1TTRzYzZoMWgzeVpxMDk4Q2N2a29EZGQ2eWJEaTlPRzdxenhnaHhNVlBselJOanBoOEUwQXc?oc=5",
+   "source": "The News Mill",
+   "cat": "elections"
   }
  ]
 }
