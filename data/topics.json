@@ -1,37 +1,37 @@
 {
- "week": "2026-11-09",
- "start": "2026-11-09",
- "end": "2026-11-15",
+ "week": "2026-11-16",
+ "start": "2026-11-16",
+ "end": "2026-11-22",
  "topics": [
   {
-   "id": "motion-2026-11-09",
+   "id": "motion-2026-11-16",
    "kind": "motion",
    "label": "Debate motion",
-   "title": "Should there be a cap on how much parties spend on elections?"
+   "title": "Should the anti-defection law be scrapped or reformed?"
   },
   {
-   "id": "news-2026-11-09-courts",
+   "id": "news-2026-11-16-courts",
    "kind": "news",
    "label": "In the news · Courts & Law",
-   "title": "Tata Power shares face attachment proceedings in Singapore amid Kleros dispute",
-   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZjdSTll4aVYtblVWOHktemYwaU5DQ1hMbVhPbUJFRnFsRHUyVlZJckFHbVNYeHVxUmt5WGZmOXhEa3lianJ3VHVvNTJkbnVwM0hQVW9WcksyeU5wR3pIelhKeW9nRjF4Mm9GMVFaaE5jRkdMTHN6cWZVNFFCMEd4WF9ON3BoY0lYOXZWQXpvY0dsR2RUTF9FYTZDSm9fc2VycUctREZfWm4zYmJtVTd5OE9SR25rUnp2TzBOZU02RXBtUUZWeFE1TTZlNzhfZGc1UTlMb2ZGTTY5by1HN0w0REZDZ1RJaEpycndn0gHvAUFVX3lxTE9EVXBBRFZMVzJqSnZSeVJiTUJWeWRYTG9qRTRERkhmSDlaZnhXVmlId1hicUZPc2J3WmpXSjVseUlwbnVlVWdkZlN2dmNDeEU2eXhNQTQ4TGxzTnRZeVRMM3R4MUFnck1fV1BWMkFRLUh6ek5YYXBnNm1ydU9GeFdlWk1GbUc3aXNVSWJKWm5VcEdLZm85bm1XcGFDWWRocXhDZzc3amRzb05DSFQtR0wwY2w3b0FwRXllWUlsS05uTVp2eW5Tdm5GWlptQW51SWNwUzlnMmVVcVh3aUNCZ1hkNmdaR0lwNEo4eW9QUllZ?oc=5",
-   "source": "ETLegalWorld.com"
+   "title": "EC Tells Supreme Court No Prosecution for Voters Reapplying Through Form 6",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdWdyOHh5amtlZHFwdGpGcmx3cEV5M1RwNER6WVQ2anduMWFmbnItLUQ1ck5OWC1VWHpPdWJhWUdiWHhReVZRVmVoSTJaUm1VVXFMRGlYbUNaRFJFUE93aGQ0Mkg4MzYxc0swYy1Cc3J0YlpmTGkwSmtsY0djeDJDUEtiRFJnVmZGUmxRVHJqZllMQWxyQ0RnSktGNENpSzFq?oc=5",
+   "source": "theopenpress.in"
   },
   {
-   "id": "news-2026-11-09-parliament",
+   "id": "news-2026-11-16-parliament",
    "kind": "news",
    "label": "In the news · Parliament",
+   "title": "Parliament’s winter session likely in December, key bills on agenda",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS0FMYlNyanMxWVAyVGNQMDZfMzdDbHlWM1BVZm1ENjRCTXlMT0dzcVAySmotSGdrQkNySnlkTUlFZ29OdWs1MUxmVnpyYkZQRVAzbW9DX3Q1MzFiVFdmLVNCaXNIMUYyQnZNMVZ1S01iQm5mSHhpaDZ6c2NtRFNGZkZUS2ZGYkxOZnlvTGlMMnkwMG8tSEFZcUtIVWllMWVoVXRGMUFQVmkzcHREczZnUlNvWlpFM3NNX2c?oc=5",
+   "source": "Telangana Today"
+  },
+  {
+   "id": "news-2026-11-16-policy",
+   "kind": "news",
+   "label": "In the news · Policy & Schemes",
    "title": "The Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FZTBOb2xsNFIxaDFIei1YaU1ERnZwbW5pa3BDcDJhVnZmaEF3clJKVGFMcFJLYTJMeWtIb2RPclZNZXdLMGt0ajJPNTh5NS1wTS13bG12VU9rOUE3UmZhVG9oN0dPbHZ5ZHFJSVk0MVROeFVuUGtn?oc=5",
    "source": "pib.gov.in"
-  },
-  {
-   "id": "news-2026-11-09-policy",
-   "kind": "news",
-   "label": "In the news · Policy & Schemes",
-   "title": "Electronics Components Manufacturing Scheme",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12VUkzTklPM1ZFQ2pob1VOT0hrbEpKUFNRSVo3V2ctVFRXNGhCU3V3a2FHUTlCT0RHdVllT2VxYmpJdFUtbXYycFk3NnMxc3VJbUQtaWtXSFY1eXR5TVFJN3FhZzdPQ2hNZ2s4QVJ4R0tOVWZpOW5n?oc=5",
-   "source": "www.pib.gov.in"
   },
   {
    "id": "open",
