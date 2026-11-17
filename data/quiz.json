@@ -1,80 +1,80 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "UPI: _____ India's Payment Landscape",
+   "quote": "Nirmala _____ seeks agriculture and rural input for Union Budget",
    "options": [
-    "Transforming",
-    "Price",
-    "Affidavit",
-    "Participation"
+    "Sharma",
+    "Removed",
+    "Produce",
+    "Sitharaman"
    ],
-   "answer": 0,
-   "why": "The headline reads: “UPI: Transforming India's Payment Landscape”",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBReC1CZ2NIVGNWN3J1MGNmTEE0dzc3UFVJRGdWM196a053MTc0S1g5eS1WTllBNFVOa1lVbUtMMk85Y0RCa2lCdDBtQ29wRHF6VTVfVnhmb2NGREFVbGhfV21xWUk4YkJuNWctb2tER19NUjlaVl93?oc=5",
-   "source": "pib.gov.in",
+   "answer": 3,
+   "why": "The headline reads: “Nirmala Sitharaman seeks agriculture and rural input for Union Budget”",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU3hfSHdkVjdBQVQwblBPRE9oNmROYkxya0NVcVpEbWlkellKSHBIZndrNUNPdGsyeE1PQ0ZpVVF5by1Fblh4NF8wNGRQTVR1ckdJcC16VEpRLTdBSWU1enV4VEVGaEoweVpHWHl1VGQwblprQjV5aFZJS1dzZ2xza0F6MUtlMHE3czVwRE1hdXFHcTF4bF82MnF1VFpWei1BNXRzLVROdFNoV0VSVGd1LWFoN3piSDJy?oc=5",
+   "source": "NewsBytes",
    "cat": "economy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Five EU countries announce migrant deportation centre in _____",
+   "quote": "Winter session of _____ likely to start in first week of Dec - India Tribune",
    "options": [
-    "Life",
-    "Inaugurate",
-    "Rwanda",
-    "Summer"
+    "Justice",
+    "Importance",
+    "Parliament",
+    "Steel"
    ],
    "answer": 2,
-   "why": "The headline reads: “Five EU countries announce migrant deportation centre in Rwanda”",
-   "link": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
+   "why": "The headline reads: “Winter session of Parliament likely to start in first week of Dec - India Tribune”",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMXZpQnRibVRzQWl4bk9rU2pGbDVZeE5mVEZRYy1OSUNBMUtJU0IyaXk5QVdPaFZpTTJWTHZiVk1kai1VYk1TNEN6ek4wYS13aVNwSDMxb0RvZkxVT3pjWHhzUkE4RXdHM0hObklTcEk2Rk43cldYWXRBYnZfMHA2Uk1EYS02bGNZWEJHeGVyM3BYMmpwT1Bub3ZR?oc=5",
+   "source": "India Tribune - Chicago",
+   "cat": "parliament"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Gunmen kill _____ Rican journalist who reported on drugs trade",
+   "options": [
+    "Components",
+    "President",
+    "Medium",
+    "Costa"
+   ],
+   "answer": 3,
+   "why": "The headline reads: “Gunmen kill Costa Rican journalist who reported on drugs trade”",
+   "link": "https://www.bbc.co.uk/news/articles/c6ly7g5lx7gyo?at_medium=RSS&at_campaign=rss",
    "source": "BBC World",
    "cat": "world"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "8th Pay Commission: Pension Increase _____ Explained",
+   "quote": "Bilkis _____ Case: SC grants bail to two convicts, suspends life sentences pending appeal",
    "options": [
-    "Calculations",
-    "Aside",
-    "Economist",
-    "Shake"
+    "Migrant",
+    "Bano",
+    "Aayog",
+    "Programme"
+   ],
+   "answer": 1,
+   "why": "The headline reads: “Bilkis Bano Case: SC grants bail to two convicts, suspends life sentences pending appeal”",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWnprZXE3RlJXVTFIQjdSSUZyQnRlS3NNcU80VlBTeHFBRkZHU2JOTFVoUGdiNElBSmEzWm9yLTFaNWYzclBBRGV3ZGtlS01LLWV4cWZWaUVXWjk0c3V3VmU4QVZ4UDJiTXlFbzdiQjJqUnE1YUN5blpCdDB1NTFsYkExeEdaYUxPNmNGRE5kQ0dyV2lmTzh2alBpV0NQSHp0TEJINVBEMDMwX0RBaHNpNw?oc=5",
+   "source": "SabrangIndia",
+   "cat": "courts"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "West Bengal government fine-tuning its Draft _____ policy, set to deploy a Special Purpose Vehicle",
+   "options": [
+    "Startup",
+    "Tata",
+    "Cultural",
+    "Move"
    ],
    "answer": 0,
-   "why": "The headline reads: “8th Pay Commission: Pension Increase Calculations Explained”",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOakxXUlJGbUtTRzRtMmJUOWlkaGc0VVptZ0ZUQU4wLVVteGZjRXFoM0hNTmZFeDRzSjhkUjlUMmxaRDhJYUd2NFFYdjZJdWM1Uk1Fc01FUktpcVE3VWRRSzlBVEViOEpqTDJYcHhpVzcxZWRjdWN4elRiYnhBbm5RcXJwWE13VXd0T0gtMg?oc=5",
-   "source": "Udaipur Kiran",
+   "why": "The headline reads: “West Bengal government fine-tuning its Draft Startup policy, set to deploy a Special Purpose Vehicle”",
+   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQd3pVM3V4cmZMNUNVUV83S19aTmR6VDZ6MGd5TmR6ZGNmR3V0VzFIS1VCbEdEYzhpX3d0c0tFLV81Z3dRTk1zUU5reWlTOHdpOFo5akJ3MGkzOHJvSXExNkFmeDBucmlVNUVfa29zekc4Y1JwZHNGY21uZF9ZOXlzRTMwLWFPY1haZUYwZFdyODdPamZ5ZXI3a29fWmJITG8xdlF1SWIyMnZ2czlQUnZVZndNY1JLZTM4a1FLNFc3TFJaeC1ETmRvckRYQ2k3YmJJS1hBVXY2NkFwa2F6Y0tCNmpEWS1URkZ5bk45QXgwemxIcVJYY1VB0gH8AUFVX3lxTFB6RHQzcGdsQlJvSG9SaWZzT3VmSmotZWVYcVBDQk1iXzI0TmlxdWRVT1NtWGFiZmZOdjFYcmppRjZKUkVpM1I4OGJON01zSXlUR0VVb0FVSXVPZ1Q2SXBkbmFyTkZOQzJtZVp3VWpZZWdsdXRIWkxTRUtESlJlQzVobmJkTTZtTl9fUnZsaVJMX2dFYUVwUWtvWHJaaEg5VWsyZHZMY1BRQ1VIMHV5djdVUU04N04wS2dodm5DUVVJLWJwNXo0RENhaVlpMjlOSXNLb0pQNUVDWmlEVU5QSFN2Vmx6dmdLUk9kLXJuTE1RRmFOeElFbll1OERMQQ?oc=5",
+   "source": "The Economic Times",
    "cat": "policy"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "Parliament winter session: _____ gears up for delimitation-linked women's reservation bill push amid confron",
-   "options": [
-    "Diplomacy",
-    "Musk",
-    "Begin",
-    "Centre"
-   ],
-   "answer": 3,
-   "why": "The headline reads: “Parliament winter session: Centre gears up for delimitation-linked women's reservation bill push amid confron”",
-   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOVFg1Y3dXZWRCV3psakR5eVlGOFluODlaaGhzdk1NMEUtRVhWVjdMUzVkV0xpVHF5bHAzV3BWU3EwTXNpelI2aE9CRVdLd2k0MDZva1BrSmU2MG5FQ0RmSW9rZXBQS1h1enZtOW4zU250ODNlS3ZaWmFOV2JXV1dMTi0xRm8tR1ZlQVRKZVhRc2NEVFQzMzFrV0VfTkRJSndXaWlGUmdfaGVLelpKelZ4MVB6X1NSbVB0YWwtcTlIM2IwVHdnRXlTYjg0MWE5NVJ0czRmSUpZWUpUb3FSVTFoUElHQ3J2aS16czhJSVZnQWtlNkxZU3AtdTltR1pOU3A0RHd1OXY4VkdVRlVFd0pFSjFB0gGXAkFVX3lxTE5QNkd6T2s5QW5iN3k4aHBwZ29UeDZqT1ctMTZZaWRDcEVjMVY2UTRTWGV0VWFON1J3Ykszc1JiZXRoT3E2X1pNekhia1RaZGt0cy1wSjM0bUNudWFVcU5YN3NTbWFlUmNWMTVMU3Z0Z19QcDVjNnl6LTdyMy1tSVZ2Rl9faXFZbFdwc1FnbDZfTlNGVnJWYXQ4TE4wODhKLUV1V1A1V3FFN3hXUVJzSEVZR3VuYXJzMjctbWVLSXNlZHQzc0VaakFOdlowNFF2QllFTWROOG91WHRSd1luUVpJTGJZOGhWVWpPdS1RbnVzX3hQOC0xVl95ekt0WUN0MWpXckhkUVpZb19CSkFWOFI3NGZSLW5MSQ?oc=5",
-   "source": "India.com",
-   "cat": "parliament"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "In New Affidavit, Election _____ Assures SC of Measures to Re-Enrol Wrongly Excluded Voters",
-   "options": [
-    "Commission",
-    "Events",
-    "Provincial",
-    "Module"
-   ],
-   "answer": 0,
-   "why": "The headline reads: “In New Affidavit, Election Commission Assures SC of Measures to Re-Enrol Wrongly Excluded Voters”",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORzdXcTQ5Tk8yRVY3ckdGQ3RLSldfT245c2hMWmk4N0I1bDRlWk9qOUlhTi1HQXBUR1dFZHVUbU03MzNzYTcybVMxVi0tWVI5d05iemE4clpnbTVsSGpNRnFYNnlrT0p6RHRaYlNZam5FTGtiazRDR2NSOGRHQ1NlWmZZNmNuU0wxUWsxblVpVEppd3FOWnZsTnFWN1FNUWhyU0pURjNnbWRvTkJsd19pcURkSjF4bjBydHpiaTVUYjAwRWJBQUt0b1ZfVdIB0AFBVV95cUxPR2NOMlpvSFZEcVFxV25pbkpRQnQ5Rjl0ODEySDRhV3RKZ19yZU1BcjFvM1B3TGMyaEtpNFhyWkQ1bzZ4QUt4Mi1MZHdMM3VwTkM0dGhJSkFlT1c0ODNnS3FkaWNaT2IzZXp2VnEwV04wU3lMZWVMV1cxdk1CNUluU2hVejhEb0hDYWI0SHR6UW5CNDdnNjlWWkV4dUI1ME1IUWdmSlRITm1Tak5wZzFjYUh5VDFhYjN5TUhvTEJralNrOVl0SFU3N3UxaExkVmc4?oc=5",
-   "source": "TheWire.in",
-   "cat": "elections"
   }
  ]
 }
