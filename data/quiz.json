@@ -1,80 +1,80 @@
 {
- "date": "2026-11-20",
+ "date": "2026-11-21",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "What Does It Take to Prove _____ in Court?",
+   "quote": "India’s _____ growth may hit 5-quarter low of 7.5% in Q2 FY27: rating agency",
    "options": [
-    "July-September",
-    "Senegal",
-    "Genocide",
-    "Growth"
+    "NCP",
+    "PDF",
+    "SIR",
+    "GDP"
    ],
-   "answer": 2,
-   "why": "The headline reads: “What Does It Take to Prove Genocide in Court?”",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcE5kVUFVbUQ4UHJ1bmd2Z3M4UmpYVXFjZHp0UWw5SzRuaFpqLUhZSEQ4Nnc5QWNPaS15V3RrSEJTTkY3Wi1LdGdTVXp4SVJaZW5VQmxiWElKaE1LR1VtR0gzczRoWHp4aVo4Tk1VazFtcTBKbThxNUF5dHJSTmZUV3d6N1BfS1Zwci1Z?oc=5",
-   "source": "Modern Diplomacy",
-   "cat": "world"
+   "answer": 3,
+   "why": "The headline reads: “India’s GDP growth may hit 5-quarter low of 7.5% in Q2 FY27: rating agency”",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTS1wd0RKTDBjTzNFRGlQbnpCX3dLc3NLU2Q3c19hdVlHUTJpOTVfbVhBUEF2Nm8xU3FaS2x0c1ZKblZTLUVpQ2EtMzRJcW04Z0RXUGUteFZuSzFKYTFwR0NhXzZVMnN3V01rNHdfOVNZbS1Id0N2VXpfdi1hWEZiVXdFVVA5S3A5cWtsUlZDSkN1WWZZZVpSQXhHbmE2UQ?oc=5",
+   "source": "Asia News Network",
+   "cat": "economy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Supreme _____ to commence final hearing of pleas on marital rape in December",
+   "quote": "Questions Raised as Rajasthan Voter Rolls Show 30 Lakh _____ Across Three Lists",
    "options": [
-    "Court",
-    "Stakes",
-    "Bharatkosh",
-    "Names"
+    "Calculus",
+    "Busy",
+    "Trace",
+    "Variations"
    ],
-   "answer": 0,
-   "why": "The headline reads: “Supreme Court to commence final hearing of pleas on marital rape in December”",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOd25BbThKbjNRanNfZ0JiSVg3clROODJkWlBHdlNRWmtWQUItdXZtczBvNUtwNUp3a0ZXcXJYS0VtVGdZWDFieWRtNkc3VW03c18tLWNqdnhaUjlSX3ZNaWt2TTQtM2R6Qm1JMVRRZGYtLVBpblFtbXlGLVJWY2hLa0hDS09MdVRsRGtQU1NiRWU2Yy0xaHZsQTdXLTRNV2k2TTVaaFFYcmtyYmpyMXNwd2hKX3pPZ2Y2akxV0gHIAUFVX3lxTFBPZE4za2xiQ05yVFdRdE9QdXpVU3VZZFRrU0RBWVllbDZmU1JuOFJEMFdIS1J5bEREWFNxR1lRQnNxZUZsUnBGcGhUVWtXTG83bUNkYVA3c252UVVwYVZBeEtadnhGR3l4QkI0dEhFUFRIU1VhZGhucDU0Y1JqRThTZ05pdUVpbU5STzJIU1JqZDJ2Q1NmNlI3MjRjdW9hYTNSdzRVQTdvUDhwMUVLS1FNdXRLN2ctejQ1b3R0Z2k5RDI0dndJWXFn?oc=5",
-   "source": "Deccan Herald",
-   "cat": "courts"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "Karnataka HC stays probe into alleged fraudulent Form 7 applications targeting _____ voters",
-   "options": [
-    "Session",
-    "Muslim",
-    "Wont",
-    "Takiya"
-   ],
-   "answer": 1,
-   "why": "The headline reads: “Karnataka HC stays probe into alleged fraudulent Form 7 applications targeting Muslim voters”",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaTlHWjZKWmdqQlFWSUpacXJuRFQ4WEFldWQ5aXFWU0FUb3NzMkFvU3BOYXBIVjlWQ0RoYlZ4ZFJtYjlha1h5QlBnb0dHV3VuaWtaRHZFdUlpUll0VklYNVhSN1JneDdhSTN1d1JTUmtEdUFxOGZETm14b0lSbEwxWGNIRTJWZzB4Y1ZxQ3ZCa2MxNU51MUNEdnRsMWpQY0NoUl8yMW8yb2VBVUkwdTZBUlRTRno5RzJPMkE?oc=5",
-   "source": "Muslim Mirror",
+   "answer": 3,
+   "why": "The headline reads: “Questions Raised as Rajasthan Voter Rolls Show 30 Lakh Variations Across Three Lists”",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbThmNVpQOWRTa3hObEt2a0owV2RjSHlid1hCU0ZUeG80YkM4TFZwQmxBaHI2aUExejIyWkdjaHlBZFlhRFQ3Smp0OWthYzFkNE42a0ZGcjlCQ0dWY05VTUt6SmhjdUdLU2ZvS3VGc1dWTWhEbTlRQnB4ZHZ0NF9sN2oyblJFZXNSREZTNk5rRm9QTEVvTlVtZ0NPUDAxbDdXV3BZSkt5ZElubnRfY3kw?oc=5",
+   "source": "Clarion India",
    "cat": "elections"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Centre reaches out to DMK to secure support for delimitation _____",
+   "quote": "Israel, Gaza & India foreign policy: How Rahul’s Chicago remarks compare to _____ & Modi govt positions",
    "options": [
-    "Power",
-    "Bill",
-    "Senior",
-    "Budgets"
+    "Inflation",
+    "Congress",
+    "Specific",
+    "Overall"
    ],
    "answer": 1,
-   "why": "The headline reads: “Centre reaches out to DMK to secure support for delimitation Bill”",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORGtYU2piTVdhV0tsSjB5V0NHNFI2ajlqRndYaDZsM1BQemliUzdZakgxN1l1c1oyTmQtZHhZT2cyd2dEaWpsQ05vQmFpOXpiaHpMRXRXR2FoRnMxUFhTODZJZ0Y2bkNEVEV6Z0hUUS1hTUFocEprM1lVX29IVkxoNTlmVFRrMnhsNVRuUFpwZlFjdlluZDdTeXBPSmpsVXJmSWV3SA?oc=5",
-   "source": "The South First",
+   "why": "The headline reads: “Israel, Gaza & India foreign policy: How Rahul’s Chicago remarks compare to Congress & Modi govt positions”",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNnR3cnFRM2VlZ0V4WXoxRTRDeUx5RGJwQWVpU05LWjM0SnJKWkFQc0FYRnRIZlo5ZmU5WF8yQWpvNGowTnFXYnQyZzlkb0g1UnFqSURzWUFxbC1feHJoNWdWeDR2eGcxME84SnlnUGlFZTZud0RoV0dvcXZ6NDNMNzc1N2g1OXdBMDBjVWU0MUNqWGlJeDV0UjFaU1JJdTVabVZCNnhUQXFYSHRaeU1CdXhGS0tZRWc1TWR4ZGVOSDBReWRfZ3FFVmRMRk5ud0hnU3JtcdIB2gFBVV95cUxPMzh0N25lTmdIWXlGMFhmMG80TDloWVRXbWQ1MGt2b2prcEpUdFJIUGVTTlFfZFVUdS02bmIxSlFuT1JFbTdLckRIalNQNF9tRUtZUEVxMEdWVEJOQkg0NWdLWV9XM0JvbVc3ZG1RaU9RaG11VGN3WXd2NjQ0V1daRGhncnItT1RBM3BlYkhKc2txT2pXZnJpS0ZOV3ZGczNWZ3YwcXVWdWVWeUkxbllLTm1sUTVzYWhzcDEwWTkwY2FGR092ZjNHLTZrZDFoRy1OQTdQZV9FNkhhdw?oc=5",
+   "source": "ThePrint",
+   "cat": "world"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "PM Modi attends NDA _____ Party’s ‘Mangal Milan’ meeting as govt prepares to push anti-paper leak Bill in LS",
+   "options": [
+    "Hike",
+    "Parliamentary",
+    "Affairs",
+    "Life"
+   ],
+   "answer": 1,
+   "why": "The headline reads: “PM Modi attends NDA Parliamentary Party’s ‘Mangal Milan’ meeting as govt prepares to push anti-paper leak Bill in LS”",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQM3pyQXVhdXYtUkV0TVZDLTRvQ0V2Y09XdDNQVURBTnRabGtJWW92NGl6M3lqWlAwaXdBdURPWU5VNkRPSGlNZlZ2Z3FsdXZsdXJ5dVZ4d0pZRUxCNW05alpfVnFvaVVBWk9Ra0lBNUg1NFNvT0c3SHFaeUtWSkFwVlMxYUxlZ2gyMVMxQlBBR0xrSjlxWENUcndiaUlmY3I0WUE5RF9JaE5YQXBrRWd6XzRrdw?oc=5",
+   "source": "DD News",
    "cat": "parliament"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Goldman _____ sees RBI raising repo rate to 6.25% by mid-2027, India growth slowing to 7.2%",
+   "quote": "SC upholds _____ HC ruling allowing bike taxis, dismisses appeal",
    "options": [
-    "Kohima",
-    "Labour",
-    "Tirupati",
-    "Sachs"
+    "Karnataka",
+    "Cannot",
+    "Transformation",
+    "Democracy"
    ],
-   "answer": 3,
-   "why": "The headline reads: “Goldman Sachs sees RBI raising repo rate to 6.25% by mid-2027, India growth slowing to 7.2%”",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbmoxLVNkOGRRLWczYXdCSlh3MEhEeHg2bDVwNERIMFdYVGRzQldBVTZueVFFOWwxakdKLU1tS3NNUGFrckJxY1ZLaEVvSmdhVVBRV2pYSVUzT054c0RxNnpHcnNfTk9uT0ZqRExic19QX0ZfbERFSFJxVElpdXFCOGhwRUo3Q1MyRG93TDdBbUlVWWt6Z1VUQTBkT19wR0plZ2psQWVKN1N4cjZJYjU2T2Jib2NzcTVfRkJYUUFhNkRFOG8tRnlGNVBJZ1lqbk1yMjhIZnAySG5MZ3k3VmfSAeMBQVVfeXFMT2RZSUtVdGx4ejZLN19MMFgySENfNG00SmF0bThBeGd6Z29SX1dBeGRjbTJ5M19sb1dwYkR0Zk4wWXlUMm1UQ1lvVlFpNXBSb1pIX2FSaGtrdjZPLURzQzgzMksycHQ4dm5vLW8xU3FUNVhIUkJwcVpjTm83VVA5T3JJYTQ1Q3JydmhndW91V3Jta2lGV1A2VUFXV3dGMXRJWWVBRFRudk81QXh3dloteHFNMEhxNjQ3Tm9yeFQxdGVsa2lMYjBBS28xRU9kSGxVcHROWkU5QmwxbVoxYzBCeERrZHM?oc=5",
-   "source": "Moneycontrol.com",
-   "cat": "economy"
+   "answer": 0,
+   "why": "The headline reads: “SC upholds Karnataka HC ruling allowing bike taxis, dismisses appeal”",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSkY0MkJ1UjlOZnNTaVA1bmdoY25teUE0d1o2aFNWUUV0akZVZ1MweTlVMDEyTnNkN1ZTS2Y5Zkp3aVNVTm9CZHdrUkVreHd2Ylg4TklWNXViMzdweTNLcGtmZWRsMzFNLXo0NVBOSld5MWZkdDVnZ2otV2RvelRKVHp4RVpxVm5vVnI2Zk5NU19xV3FfX0NoTDl3dGlHamFSbGRUSm5ONV8tUG92TTM4ZFQwMV8ydi1YSVdSaExBZ0pId01ramE3a2RyS1TSAdIBQVVfeXFMTVRmbGtqME9QekZOYnh2TWVaaWF0M0VzV0p1eGZPUnBTZzlXZ0huLWctbXRJNldOdm5XSVdYUmFLTW5uS2hLOWdLNkRKbmtVZEdfSUptb2Z2OV80TUVmc3N6eGFRdnhsWlRZdU1GcUlzVmlYYVJEaWhRWWd0TVoxUEZxdlZIbVNydzdlYnAtelRFZzhBOHcydkJoVHVnanhkQ295U0NQSzBSN0JHUWtaY3JlQmU5RkszSEdCWFd1Y0oxYW92XzQ1ZWc3WkJzS3ZiLVVR?oc=5",
+   "source": "Business Standard",
+   "cat": "courts"
   }
  ]
 }
