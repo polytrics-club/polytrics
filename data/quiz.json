@@ -1,80 +1,80 @@
 {
- "date": "2026-11-21",
+ "date": "2026-11-22",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "India’s _____ growth may hit 5-quarter low of 7.5% in Q2 FY27: rating agency",
+   "quote": "Next-Generation GST reforms reflect India’s push for simpler taxation and Ease of Doing _____",
    "options": [
-    "NCP",
-    "PDF",
-    "SIR",
-    "GDP"
+    "Business",
+    "Minorities",
+    "Bigamy",
+    "Funds"
    ],
-   "answer": 3,
-   "why": "The headline reads: “India’s GDP growth may hit 5-quarter low of 7.5% in Q2 FY27: rating agency”",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTS1wd0RKTDBjTzNFRGlQbnpCX3dLc3NLU2Q3c19hdVlHUTJpOTVfbVhBUEF2Nm8xU3FaS2x0c1ZKblZTLUVpQ2EtMzRJcW04Z0RXUGUteFZuSzFKYTFwR0NhXzZVMnN3V01rNHdfOVNZbS1Id0N2VXpfdi1hWEZiVXdFVVA5S3A5cWtsUlZDSkN1WWZZZVpSQXhHbmE2UQ?oc=5",
-   "source": "Asia News Network",
+   "answer": 0,
+   "why": "The headline reads: “Next-Generation GST reforms reflect India’s push for simpler taxation and Ease of Doing Business”",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcko1T3hRLVc2Wm55cC1wWk81OHVzUjNwNkRKYW1nRi1kTmVRdUUtc2o0eWJfR0IzQVE1cXQ1Z0FLX1B3eFlIWjIyUTI5emlJbVZJTEFFc2RPZ1lZQmp0Y2pxME1hSXhheXZjRG5kY3NQSXdwa0RXX2hBem9nbXJjZ1RrbEVadkN3eWRiNWhGb0Jvd3A5NHlEd01JNjZIc0xvdVlxSXBQbk5IWlNLb29fdnpyS1dnRzBJLXZENWNR?oc=5",
+   "source": "DD News",
    "cat": "economy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Questions Raised as Rajasthan Voter Rolls Show 30 Lakh _____ Across Three Lists",
+   "quote": "Constitutional _____ Under Strain: S.Y. Quraishi Warns of Erosion of Public Trust; Justice Madan Lokur Calls for Safeguarding Democratic Values",
    "options": [
-    "Calculus",
-    "Busy",
-    "Trace",
-    "Variations"
+    "Furtado",
+    "Leadership",
+    "Being",
+    "Institutions"
    ],
    "answer": 3,
-   "why": "The headline reads: “Questions Raised as Rajasthan Voter Rolls Show 30 Lakh Variations Across Three Lists”",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbThmNVpQOWRTa3hObEt2a0owV2RjSHlid1hCU0ZUeG80YkM4TFZwQmxBaHI2aUExejIyWkdjaHlBZFlhRFQ3Smp0OWthYzFkNE42a0ZGcjlCQ0dWY05VTUt6SmhjdUdLU2ZvS3VGc1dWTWhEbTlRQnB4ZHZ0NF9sN2oyblJFZXNSREZTNk5rRm9QTEVvTlVtZ0NPUDAxbDdXV3BZSkt5ZElubnRfY3kw?oc=5",
-   "source": "Clarion India",
+   "why": "The headline reads: “Constitutional Institutions Under Strain: S.Y. Quraishi Warns of Erosion of Public Trust; Justice Madan Lokur Calls for Safeguarding Democratic Values”",
+   "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPdlFmVWxzTWJZUDhLUHAyVzBHOVFSRGFJejFZc0cyZTNtY2p5WWtwUlUxOE9jc0JkTEVwWW9zVU9NSVV4WmlpREJSNU5kMjRRc2MtZnl0SFF5Z3dwdW5ZUDJHcVZpNWlIYnItOWZkcXNlbThRa0pLb3FQampsdlZydmNKZ0JDbW9QLXNwLUVnT3c4bWlyLXh0Qmttc2ZDd3YzcUx2SVVBRXJRTGI1X3huTmZMSjJlelZnTHhxX0kzOWd2VlJpaFNfa2RoZ3pOVVFYNTV0LTFhbERrUzk4U01EMnZacHpraWd5Sk5WMXlNTXlqOHAzTWhCcFBibm82Z2lxZG5LaDNJdmRRZUhCSEQ2ZVh5Zw?oc=5",
+   "source": "IndiaTomorrow",
    "cat": "elections"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Israel, Gaza & India foreign policy: How Rahul’s Chicago remarks compare to _____ & Modi govt positions",
+   "quote": "How _____ is using summits to expand its global influence",
    "options": [
-    "Inflation",
-    "Congress",
-    "Specific",
-    "Overall"
+    "Roll",
+    "Countries",
+    "China",
+    "Verdict"
    ],
-   "answer": 1,
-   "why": "The headline reads: “Israel, Gaza & India foreign policy: How Rahul’s Chicago remarks compare to Congress & Modi govt positions”",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNnR3cnFRM2VlZ0V4WXoxRTRDeUx5RGJwQWVpU05LWjM0SnJKWkFQc0FYRnRIZlo5ZmU5WF8yQWpvNGowTnFXYnQyZzlkb0g1UnFqSURzWUFxbC1feHJoNWdWeDR2eGcxME84SnlnUGlFZTZud0RoV0dvcXZ6NDNMNzc1N2g1OXdBMDBjVWU0MUNqWGlJeDV0UjFaU1JJdTVabVZCNnhUQXFYSHRaeU1CdXhGS0tZRWc1TWR4ZGVOSDBReWRfZ3FFVmRMRk5ud0hnU3JtcdIB2gFBVV95cUxPMzh0N25lTmdIWXlGMFhmMG80TDloWVRXbWQ1MGt2b2prcEpUdFJIUGVTTlFfZFVUdS02bmIxSlFuT1JFbTdLckRIalNQNF9tRUtZUEVxMEdWVEJOQkg0NWdLWV9XM0JvbVc3ZG1RaU9RaG11VGN3WXd2NjQ0V1daRGhncnItT1RBM3BlYkhKc2txT2pXZnJpS0ZOV3ZGczNWZ3YwcXVWdWVWeUkxbllLTm1sUTVzYWhzcDEwWTkwY2FGR092ZjNHLTZrZDFoRy1OQTdQZV9FNkhhdw?oc=5",
-   "source": "ThePrint",
+   "answer": 2,
+   "why": "The headline reads: “How China is using summits to expand its global influence”",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZWMxMzhGQWx2Z0ZFcl9uc0ZhQjJuYUt3amt1TDdqSkpPa0xRVl9ITG42TW5VeENLd2xoYnA1WGlZdFlmNlM1SmNuSGF2N3NOd0JPLV9rZXJENmx2ZTVITzNPeFhTM0R1RDdDZ2IzbldRVzVmVkMtcjFRVHVYdW5BVEZaUVNpX1lyaTlv0gGQAUFVX3lxTE0wV3Bsby1xNE13eVc4dHZ5YVl1UzJJbDBIVDZRbkpabHlEcVlaQm5XUHp1cWUxZ2pYX3lQSGppQzNIYnZWazQwQWdWTW1oLUpOaFRDN1hpQU1USTNwZ2hRa015Y0w1SFB6OU5UMHVPRF8yQldEYlZHTjk4TUQ1eFpvOE9kcjUwOHBQc25LbzNXRg?oc=5",
+   "source": "CNBC",
    "cat": "world"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "PM Modi attends NDA _____ Party’s ‘Mangal Milan’ meeting as govt prepares to push anti-paper leak Bill in LS",
+   "quote": "\"Delimitation can wait\": _____ Ramesh says current Lok Sabha strength should remain frozen until Viksit Bharat",
    "options": [
-    "Hike",
-    "Parliamentary",
-    "Affairs",
-    "Life"
+    "Majority",
+    "Panel",
+    "Jairam",
+    "Bars"
    ],
-   "answer": 1,
-   "why": "The headline reads: “PM Modi attends NDA Parliamentary Party’s ‘Mangal Milan’ meeting as govt prepares to push anti-paper leak Bill in LS”",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQM3pyQXVhdXYtUkV0TVZDLTRvQ0V2Y09XdDNQVURBTnRabGtJWW92NGl6M3lqWlAwaXdBdURPWU5VNkRPSGlNZlZ2Z3FsdXZsdXJ5dVZ4d0pZRUxCNW05alpfVnFvaVVBWk9Ra0lBNUg1NFNvT0c3SHFaeUtWSkFwVlMxYUxlZ2gyMVMxQlBBR0xrSjlxWENUcndiaUlmY3I0WUE5RF9JaE5YQXBrRWd6XzRrdw?oc=5",
-   "source": "DD News",
+   "answer": 2,
+   "why": "The headline reads: “\"Delimitation can wait\": Jairam Ramesh says current Lok Sabha strength should remain frozen until Viksit Bharat”",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUmtjcGFuby05ZXNBOUJPdlZockIxcTEtTTR0eC1JcGFXX0RQbTBpRGtpdmlWOUZ6V0tJZnUzNXkySXJrbm1mb0pGUllWRXhGbUVMQXpVdEI1TGQyQ3hyTGRQWlpscVVrT3JQVG80Q1pocDlqU3lLVnZvMVhhRXJUbVlkS2xrSGV1OEtqY3Q1MFV5NE5zY0pqalBhblZtc2JvbTE0bVB4SGowZ0ViYUZuakcxVl9zOWFxT182Ml9kN01pTlB0amdhaTJBV2VGT0FzcU5weU1hTDhSZk5kb3R4a29hMGIzSms?oc=5",
+   "source": "https://www.indiagazette.com/",
    "cat": "parliament"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "SC upholds _____ HC ruling allowing bike taxis, dismisses appeal",
+   "quote": "The Micro, Small and Medium _____ Development (Amendment) Bill, 2026",
    "options": [
-    "Karnataka",
-    "Cannot",
-    "Transformation",
-    "Democracy"
+    "Chandigarh",
+    "Enterprises",
+    "West",
+    "Close"
    ],
-   "answer": 0,
-   "why": "The headline reads: “SC upholds Karnataka HC ruling allowing bike taxis, dismisses appeal”",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSkY0MkJ1UjlOZnNTaVA1bmdoY25teUE0d1o2aFNWUUV0akZVZ1MweTlVMDEyTnNkN1ZTS2Y5Zkp3aVNVTm9CZHdrUkVreHd2Ylg4TklWNXViMzdweTNLcGtmZWRsMzFNLXo0NVBOSld5MWZkdDVnZ2otV2RvelRKVHp4RVpxVm5vVnI2Zk5NU19xV3FfX0NoTDl3dGlHamFSbGRUSm5ONV8tUG92TTM4ZFQwMV8ydi1YSVdSaExBZ0pId01ramE3a2RyS1TSAdIBQVVfeXFMTVRmbGtqME9QekZOYnh2TWVaaWF0M0VzV0p1eGZPUnBTZzlXZ0huLWctbXRJNldOdm5XSVdYUmFLTW5uS2hLOWdLNkRKbmtVZEdfSUptb2Z2OV80TUVmc3N6eGFRdnhsWlRZdU1GcUlzVmlYYVJEaWhRWWd0TVoxUEZxdlZIbVNydzdlYnAtelRFZzhBOHcydkJoVHVnanhkQ295U0NQSzBSN0JHUWtaY3JlQmU5RkszSEdCWFd1Y0oxYW92XzQ1ZWc3WkJzS3ZiLVVR?oc=5",
-   "source": "Business Standard",
-   "cat": "courts"
+   "answer": 1,
+   "why": "The headline reads: “The Micro, Small and Medium Enterprises Development (Amendment) Bill, 2026”",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FZTBOb2xsNFIxaDFIei1YaU1ERnZwbW5pa3BDcDJhVnZmaEF3clJKVGFMcFJLYTJMeWtIb2RPclZNZXdLMGt0ajJPNTh5NS1wTS13bG12VU9rOUE3UmZhVG9oN0dPbHZ5ZHFJSVk0MVROeFVuUGtn?oc=5",
+   "source": "pib.gov.in",
+   "cat": "policy"
   }
  ]
 }
