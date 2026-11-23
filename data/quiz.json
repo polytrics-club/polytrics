@@ -1,80 +1,80 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Head of Communications Duran shares documentary “Türkiye’s Diplomacy Journey: _____ Diplomacy at Four Summits”",
+   "quote": "Agnipath's new rules, _____'s old concerns: The road to 2027 assembly polls",
    "options": [
-    "Safety",
-    "Leader-to-Leader",
-    "Cyrus",
-    "McCall"
+    "Delhi",
+    "Seeks",
+    "Uttarakhand",
+    "Arbitrators"
    ],
-   "answer": 1,
-   "why": "The headline reads: “Head of Communications Duran shares documentary “Türkiye’s Diplomacy Journey: Leader-to-Leader Diplomacy at Four Summits””",
-   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOOUtTZEpFVjYwSFJxcVBYOXRrSEtqeE1waWpFaFNXM2dRN0ZDb1BNUUZtV1lseTZtYmk1MEJPUjBweExab2M1RmRuUUFtRDczcUlRWnZTdlR2S3hrVmFOMHRXWXZqYmFRbDZUak0wektKNUtrV0E5dV9wNnA4ZEx4M1lUZGFGWEpjVVFjNHNaa2twSTlPOXRaanZUd0Z4Rjh5MEhzcmRIUGJ4NTNsRFdkSDhhZDlwUi1pNVhoYmZlb0tzMWI1c0FhVTd3RDRBUUFzRVZxdG8zcmI2WDlTQ0VXemYwSjI5VkR3SVA0ZHgtY0JZa2wzcndnaUthRk8?oc=5",
-   "source": "İletişim Başkanlığı",
-   "cat": "world"
+   "answer": 2,
+   "why": "The headline reads: “Agnipath's new rules, Uttarakhand's old concerns: The road to 2027 assembly polls”",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMnFYOWZfY3ZhNUVQUVRhc2xIS0dJN1RIbHRld1NCYWw1YldOeUtuTVlKSE9JVlRZdDZFbm1sYk4wWnkyM054NWN6d3p0WVdMc0hwZ2liSkpzbmg1NnhzalJjS0dtUFdCbUZrRWNid3dHX01KNWFzb0lhVTFHZGFXZTFlTnM4MFhzcml2OU41OE1RRkV3OC11eGNzX2IybEFvaUhpM0pIZlJ5VVRpblBQVE5QNzlONDZNci0xdDRDbGlwYWpmUER1ckExNGt4OXRpZ3l3SWFlc3FIYTFyWGc?oc=5",
+   "source": "The Times of India",
+   "cat": "policy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "BJP will get _____ Bill passed by 'hook or by crook': Congress leader Raashid Alvi",
+   "quote": "Raut alleges BJP offers funds to secure support for _____ Bill",
    "options": [
-    "Russia",
-    "Vijaya",
-    "Recovery",
+    "Merged",
+    "Greater",
+    "Relevance",
     "Delimitation"
    ],
    "answer": 3,
-   "why": "The headline reads: “BJP will get Delimitation Bill passed by 'hook or by crook': Congress leader Raashid Alvi”",
-   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOWkxSLWFpc0hIM2s1ZEYteHRLNG9CZ0NWTlZkWlV5UHRoVHR4bDhuaHNmeHRyZDlET3Bxb0syYnhIWmQyaWx6aENqNndWd0hEempidFR1QkN2aS1oNTlzakFwNU5rN0p2WXVhLXR5QzJNQUJoMElmMXVIRVlQMjNoVzN2VVJNbktRZkRubWl3bGtHZTlwd1J1VzJ3RjRvU0Njc2JLM3pEXzh2RlBTQVJJTTRuVS1wZ2RFM0p6cXA1em1JTGsyTi1KZXhEdU1BR1NVTTV3QmNvSU5sWDNNbVZsWmVQaG5vQWcya04tS2ZoVmNWaXJMQ3FUQ9IB_gFBVV95cUxPNmFuS2lrNnRoYlFkcTJrcUlJdjRFRGFGVGVZM1ZxWExwMVR2RjlpZ3owWVhBS0JYOGVwQlBiZ3pIVkVrUWhXdUp6Y0dpNHBDYkxjNHgwM0x3RS1wcG81bVVsVEdvMVBUYkt2UW5TRVJvMGpzZm1PbWRaUVR6aUlPLThnc2lfcmdhNXo0LVIwazBXVE85cF94VW5UN3E4eFBlOXlxclpESkEzNzR2dnJoZkNmZi1CZV9iVWdQZXAzRmRRazU5eWxFR2ZKajhWVDRzcTBqaHVJRllsRTRWbG14T2QxUkMwdW9BVU9DaVV0RVpCSXlHU0ZuaC1XTG9vdw?oc=5",
-   "source": "The Economic Times",
+   "why": "The headline reads: “Raut alleges BJP offers funds to secure support for Delimitation Bill”",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOXA1VXRwMWlJdTNXNWhfeDVWc0tKTV82czJwSy12eEZFWVVEU0dZMFgxZ19ESUY0WHZ6eWR3Y3VUTTZNQ21vWEZXVVBkY2NXSnZUNEEzUVVJb3NoOHh0bTh1cm9zRlZQT1M1dVkwNFE4b0dsV0s2X1NmaVZDekhWLXU1YWR3S3BERnVnQ2pYZUYydVRZWkJteFNhT2hycEtsZnZWWFZkSzh0VGNaTkZjQkgtbVctVkt0Z3RGaU5hYkp2OG5HZ2V0YW92YTBBQdIBzgFBVV95cUxNOXA1VXRwMWlJdTNXNWhfeDVWc0tKTV82czJwSy12eEZFWVVEU0dZMFgxZ19ESUY0WHZ6eWR3Y3VUTTZNQ21vWEZXVVBkY2NXSnZUNEEzUVVJb3NoOHh0bTh1cm9zRlZQT1M1dVkwNFE4b0dsV0s2X1NmaVZDekhWLXU1YWR3S3BERnVnQ2pYZUYydVRZWkJteFNhT2hycEtsZnZWWFZkSzh0VGNaTkZjQkgtbVctVkt0Z3RGaU5hYkp2OG5HZ2V0YW92YTBBQQ?oc=5",
+   "source": "The Hindu",
    "cat": "parliament"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Election _____ to hold voter roll revision in Chennai on November 21",
+   "quote": "ED summons seven _____ officials, including Lu…",
    "options": [
-    "Commission",
-    "Liberty",
-    "Paris",
-    "Uncertainty"
+    "Punjab",
+    "Treasurer",
+    "Vandan",
+    "Protection"
    ],
    "answer": 0,
-   "why": "The headline reads: “Election Commission to hold voter roll revision in Chennai on November 21”",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeEVWWlVyYVNTbDBvcWY1OXhTWURFYXlyREJEMEJFRGYtVDZETXRqcG9kdnNROUNKNTJlWi0wdEZ2OGtqOUtCSURBcUd4a3Y3bzlSQlZ4dXl2UGhXVWxsY0xkSzFhMFFCLVBtUmRtMkpZbGV2a1pZZ0tmTHdoREU4X0lLaVZfZUt5TVVoZVBwQWYyR0xyMk13S1lWNW9SQWRfZGdBb29rZGlLWk450gG6AUFVX3lxTE5NV0R5NklQYnRLN3A0cUx2S1ZCUlRnNDR2bVA4Q2l2Z08wWEdJdW9Pd3h4OEVHOU0zcjVzejJjNWhNMUkyZmx5WEZFLUN6ZWs1WWVKR29fR09JME81YjN1THRJU0szS0xpNmtmZ3dqYnNVSWV1a0xMUGRXM183QjZLbW9HRnJ1UTZReG5qbDUtbUZfRGFMV0RMYVJaUW1TTE5kajl3UGlYZTJmc1c5SU1QMUt0OGxicGpCdw?oc=5",
-   "source": "DT Next",
+   "why": "The headline reads: “ED summons seven Punjab officials, including Lu…”",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOXlUNGRvLXlNUFVOTFEzdUdLdzZfSlV1bUlxU2syd09EazZkRnVxanRseVZwcDJ3eGJMSl91cS1LYV9xbkliSWRhZUtTM2RNQ2diZFZrSGFOTVQwRnNCWHNZbDU4b2xtQ0FHX2YyZnRXZWJIcG5yQkdXOUlJUEN3TGFWVHVmdzBRbDFPQ0ZIYTZuaEVMeFBkVGRiRDFuMzBDZEtwZzhlVGcySTEwOXJQNTBETFJjUkRtdTJIOWo3NnNBbThNRUxTSG1MNWFoVXppaUNmb1ZMOFU5QQ?oc=5",
+   "source": "United News of India",
    "cat": "elections"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Vijay govt files review petition over SC nod to light lamp at _____ hill",
+   "quote": "COP31 Failed—But Giving Up On Climate _____ Would Be Worse",
    "options": [
-    "Oman",
-    "Governor",
-    "Thiruparankundram",
-    "Struck"
+    "Benefits",
+    "Harshwardhan",
+    "Diplomacy",
+    "Sabha"
    ],
    "answer": 2,
-   "why": "The headline reads: “Vijay govt files review petition over SC nod to light lamp at Thiruparankundram hill”",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPQ2R0aGtDQU5BQURMSmtmaWxiVnluQ0o3bFd3VWl4eG1lMG5xSjh6a0xIWV9UNlhFaXk2TXBuOTMzRXIyUWZzcTVlYnlSOU1aZW9FbjlHaWNHcmN1bncxUllKejl1N3ItVmtEdjNiMklnX0tCblpNQ1FsYlFBMFJ3bjhWVllvQ3ZDd3RTZzgzdnpnNzlKWHVZdDhTWTZyanZwc3kzZkx3eE9wYm1IdlZ2MHhDU1d3UDEtbWF0amJDWGp3aWpUUzRCTFl6a1cteGN6SExiYWJlVkZWWGtxbDl6Qng5aGt4RV9Zc2ZWaGxRMNIB9AFBVV95cUxPb2lpVXl1TXV5Z2FDWTc5dzFpeTZJaGtMM25TZDZEd0M0bjhkMndQZmRXTU8wRW0yTGRwVFoyS0MtQWVJRlgwWXFBbDJDR1Y4YkVEd0FQWFFMTkhYa2x0Z1RtRHpNLUdsVzNwWnlDdXpJNHg4YzBDMkI5aVpUV3hqXzVuQS1DNGdHMzRBdkNkV0NPeDhkUlA5bWpaRFpnZmYtbk1vSGc1ZU9kVGJCSlFLTXVZdmgxRTcyZTViSEl1N0xkT0s4VUJZbndLNGhyMnd1OGNPVEhmNnR4cGdhYnBCbkxlX2VnSWZyUTAxR2lsLWZPNkZ2?oc=5",
-   "source": "India Today",
-   "cat": "courts"
+   "why": "The headline reads: “COP31 Failed—But Giving Up On Climate Diplomacy Would Be Worse”",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc05TQUZkaVpEX2wtMmpZNzYxSDA0SFkxMDhZYWtZNlB5b3Bnc29Rc2FSY29TdHU1U1NnNmdfSWpHdTkxcnhBTTNHUGF6bURNM1hvbFNwZUpuQlRjdkx3Q0U3QVFfOUJHTElfWlkyajBXQTY4RUltTGpzNWJOV1ZNT29pcFlpb21Na1ExendURjdWXzFMUUdSQWJpNFpzVDA2ZGVLU05WcVprTUdOM09JS3hSQm0wQQ?oc=5",
+   "source": "Forbes",
+   "cat": "world"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "GAIL Holds _____ Workshop To Boost Karnataka's CBG Ecosystem",
+   "quote": "New GDP Series Will Capture India's _____ Economy: RBI Deputy Governor Poonam Gupta - WHAT’S HOT",
    "options": [
-    "Faces",
-    "Curbs",
-    "Bengaluru",
-    "Download"
+    "Voter",
+    "Global",
+    "Changing",
+    "Private"
    ],
    "answer": 2,
-   "why": "The headline reads: “GAIL Holds Bengaluru Workshop To Boost Karnataka's CBG Ecosystem”",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQc3FFNEc4MjQ4emlqZ0JEM2J0S2M1YzdFcXNjd3FLYkJjS2lQRldISGwwNThfVmVYa2NxMGc1UHRHS1FMazVLYzh3S3pyUkRwSVJ0c3BFTlVxVW5lU25HaC1UQ2Fydk03a1pzbDhMaFB4Njg4aDhTNzlkUlk5RnBJNUFPMU44VmFEYmc?oc=5",
-   "source": "Sarkaritel.com",
-   "cat": "policy"
+   "why": "The headline reads: “New GDP Series Will Capture India's Changing Economy: RBI Deputy Governor Poonam Gupta - WHAT’S HOT”",
+   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNbUN3YllEMWVSa1BUblVXRjFoMTN5dXdpdnlQZDhwTnBTTGhGX1R3UWhjUkttVElvTWhSRnJZcUM1cXFLM3l4QjZhUlZfUHFqSk51WUFYS0d0eUhiQ0o4QlRWS3NtbDdqRHFuNGY2UHV6ZGVwSzFKUzhVc3VlaTUwZzZWYnhDeEYtOWhjcTVSV3dkV0xoazJMMjVnRDZxcTRtY0ZzRjYtUUJzMDhnYnFyUkZCdC16czhCNFBtREt6R2tSMmZlTzNoazFCR2ZKTE92U1YydEhadTVqRnlpOEpVVTBnRW5yZWNIYlpQZ3pXZVQ?oc=5",
+   "source": "Business Today",
+   "cat": "economy"
   }
  ]
 }
