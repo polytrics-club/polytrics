@@ -1,80 +1,80 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Opposition steps up attack on Centre over Winter _____ uncertainty",
+   "quote": "SC _____ recommends new Chief Justices for Karnataka, Jharkhand, Tripura HCs",
    "options": [
-    "Ministry",
-    "Umar",
-    "Session",
-    "Approved"
+    "Prakash",
+    "Warns",
+    "Resolve",
+    "Collegium"
    ],
-   "answer": 2,
-   "why": "The headline reads: “Opposition steps up attack on Centre over Winter Session uncertainty”",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRDVfaENNREY5NUx1cFJRU1VBZUVhbktuV05RRXdwX1ZVN29ZUDBtc3kxZzk3ZDczenVlYTdwMG1zeG5hVERhVlJubVAzSzZUMkk3UlpyeFpuTk1Nd29nbTAzZTI4OHRTaV8weU9zamk5Q0xpMU9BejN4aUNfSjBvMzg4bWdId3ZYdUxLa3ZvMGhsZ1ZyelpDalU1a1ZWR0htVFpac0Y4Rzl5bjJobGpHRVBpTGfSAbQBQVVfeXFMUEQ1X2hDTURGOTVMdXBSUVNVQWVFYW5LbldOUUV3cF9WVTdvWVAwbXN5MWc5N2Q3M3p1ZWE3cDBtc3huYVREYVZSbm1QM0s2VDJJN1Jacnhabk5NTXdvZ20wM2UyODh0U2lfMHlPc2ppOUNMaTFPQXozeGlDX0owbzM4OG1nSHd2WHVMS2t2bzBobGdWcnpaQ2pVNWtWVkdIbVRaWnNGOEc5eW4yaGxqR0VQaUxn?oc=5",
-   "source": "National Herald",
-   "cat": "parliament"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "Sringeri recount row: _____ High Court scraps FIR against BJP leader",
-   "options": [
-    "Systems",
-    "Karnataka",
-    "Banking",
-    "Demand"
-   ],
-   "answer": 1,
-   "why": "The headline reads: “Sringeri recount row: Karnataka High Court scraps FIR against BJP leader”",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNT0haTFg1eXRMcFhTYlJtQ2MtUHpvRE10WFQwZmIxS1JlNzlfU0NpTFFMZUlZc196dkxUTkIyTXJ4Yl9nV0g0ck1jZnF3N0ViZXlzM1FXeW1UTzZFQS1oMGVmNV9WVmFHZ1AxZFZBeWd2Z0Riei1na1JxMG9mcHMteUxvOEFiZ2h1ZnJYb0NENXhQQnM3Tm9rUE9zT3ZLYTlmYjFETE5iMjZHODNnM3h3YS1JX1htWTM4T1FYcGt5RnNxMHVFNG1wQTUzbGxaQ09vbFHSAdIBQVVfeXFMTU9IWkxYNXl0THBYU2JSbUNjLVB6b0RNdFhUMGZiMUtSZTc5X1NDaUxRTGVJWXNfenZMVE5CMk1yeGJfZ1dINHJNY2ZxdzdFYmV5czNRV3ltVE82RUEtaDBlZjVfVlZhR2dQMWRWQXlndmdEYnotZ2tScTBvZnBzLXlMbzhBYmdodWZyWG9DRDV4UEJzN05va1BPc092S2E5ZmIxRExOYjI2RzgzZzN4d2EtSV9YbVkzOE9RWHBreUZzcTB1RTRtcEE1M2xsWkNPb2xR?oc=5",
-   "source": "The Indian Express",
+   "answer": 3,
+   "why": "The headline reads: “SC Collegium recommends new Chief Justices for Karnataka, Jharkhand, Tripura HCs”",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbmhwTmNKUXp0ME1HU2lzUGJjdHpDZmVMYm9YWkhwNkFoV1p5Nm95dTFtQUFoTGxKSDU2QzdTWVNIOEFaYWdSNGhFMm9KcUNnaWFTYVhNWDlJa25fUFNjWGFGc3Nvd2NIX3JZYTJSbF9BdG93d0k4QjlfeFB1RmhqdExnbmd6cUVlZGhvR1FKd1poZzhLbEVQVTdPQkdDb2lkdGNHLXRWLTk5a3cxbVp6STRLTmt1T0VER2ZNeE1n?oc=5",
+   "source": "Deccan Herald",
    "cat": "courts"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Lending to Micro Firms _____ Greater Economic Benefits, Says RBI Governor Sanjay Malhotra",
+   "quote": "Why is _____ struggling near its weekly low as Fed bets and geopolitics underpin USD ahead of US PCE?",
    "options": [
-    "Gandhi",
-    "Delivers",
-    "Girl",
-    "Facility"
+    "Strategic",
+    "Gold",
+    "Banerjee",
+    "Case"
    ],
    "answer": 1,
-   "why": "The headline reads: “Lending to Micro Firms Delivers Greater Economic Benefits, Says RBI Governor Sanjay Malhotra”",
-   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPY0E5UW9xd0FYWmVlbjJGTndac2l4QmZFSzVhME1EZHAxS2pnbFNxRGxWemRFMDFlb2RnMWJXR2VZNVZnUW5rdE0zOWhVeWxnZVNnY1NTTGV6VEI2Zk95NUhHeEFPMGx1ODdPRDlHTkF5SWNhZDlMS25EN0N1TVdRTG5TTWNSdlR0S0J6T05zLVZJOWJrblVKVGZaZGVIZlhJdk50cEJPT2Job3AwQ0NucWVJbldXSUJhLTRQQmkzYVNvTHVFSFN4Uk4teHVKX0hpSWwxMVdHRS1fM2hzeUdyMGQ1bjdIUkstZFJJ?oc=5",
-   "source": "Siliconindia",
-   "cat": "economy"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "Oil prices fall as _____ backs diplomacy to end Iran war",
-   "options": [
-    "Qatar",
-    "Syria",
-    "Korea",
-    "Praise"
-   ],
-   "answer": 0,
-   "why": "The headline reads: “Oil prices fall as Qatar backs diplomacy to end Iran war”",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaThLSXJpYzhoaHM1N3ZybTU2TzVvdjE1bjNrOTlMa1BkVkFja2VsTVRNVEQ1RzZOMnFBTnJvbjVJMUhJUzBZS0V5LTBTRFdlSEZYT3h3R2lJUnZVdUhUOGRTNUxmbUJFN2JTc3UzS1REZnZrMGJCLXJjZ3FkeGlET05TQURJcGpjYzZNTHZuTEd0aGt6TFJFY1Q4c0VpZE0?oc=5",
-   "source": "Arabian Gulf Business Insight | AGBI",
+   "why": "The headline reads: “Why is Gold struggling near its weekly low as Fed bets and geopolitics underpin USD ahead of US PCE?”",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQZ3ZfdzM0eWhlb195eko3b3h6NkozaEdPb3RYSHVYbm91LWt2N2R2UWdCLVZ5OWtXazNId0xva3M2STFmZHdUOEJhTGpTWnhXcUxEXy1USGQzYlo5NTdJTFNUV0taaXFUdDRvSHc0eEVZYlVZU21vaTFuSm5hbHQ2YlBKcWVvN1U2bEd5UUhuOVdfZ3A4Tzhla211VzdycEhXRWxGeEtKZG1EVDlURW50WGRjVGxCWF90Z1Zxcl84aUpzQ0pCRDNlby1KbTlyeG5SUVR0Wk1GZF9TTXpCVlJzZk5QaFVlYW5TUFVB?oc=5",
+   "source": "www.tmgm.com",
    "cat": "world"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "SC directs West _____ SIR tribunals to prioritise appeals by deleted voters",
+   "quote": "No Winter Session dates yet, Monsoon Session not prorogued: CPI MP writes to Rajya Sabha _____",
    "options": [
-    "Soon",
-    "Bengal",
-    "Slashes",
-    "Climate-Ready"
+    "Differs",
+    "Chairman",
+    "Tata",
+    "Banks"
    ],
    "answer": 1,
-   "why": "The headline reads: “SC directs West Bengal SIR tribunals to prioritise appeals by deleted voters”",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMDdITFRmTFhWNjNRbUdIb2Z3dXZEb0U2NEhMSnlQdjJ6anZ5ekFJUXFhc1pCZUVhLW5VaWs4QkZRZ3FOZEpIRlp5UDQ5Y1A5UTNzdnhnUVJTV0JQNWhDOTFlbEtfN2gxRWw3T0NPbFVxWHNrcGpWWWZScVNiU0lCUnR1Tkt0YjI3T0IwRUJkVFhfaTBBcUdlUlNfWTkybVhIQm9aRmRWX2FreW1uMFZET1k2ekRKaTVKalFSWFdzanZ3RmtQMVBiN09SNTBWdDJWWHZWNg?oc=5",
-   "source": "Maktoob",
+   "why": "The headline reads: “No Winter Session dates yet, Monsoon Session not prorogued: CPI MP writes to Rajya Sabha Chairman”",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMURFTzNlSG5EN3g1YW1nUmZ4ZnpPbFBmaTlOc2t4dTJieWc1N0hSUEpIaXNnUXVleGhOOWR1T0IxcHZnRjJKY1lqLXdfQ1NYdkZMVWNjSUxGZmIyMjBQRjRtZE1TX2k0Q19GVlpUNHl4WnROQXpVMGp3bDNvZ3UyRTdEa0pqM29OamVsVl9SSFRONUlJTjZXXzhRc3B6M0FvOVBRWkVJR0hQRjlxNU1pR2tPRlRtV2JVOU9iUFA0b1ppY2tuOC1UZ0xlUW9YMkpRNHhxQzRzaHFBR0JMUHdV0gHkAUFVX3lxTFBnQlZEaXNxOExabWdJX1pQMnlaQUdkT0VRUW1qclU1enY5c3JWanZzT2ZpQ2hDUE9HeFB3UTN6cjFybGlKdi1DaE1WNFpJb0lPazlaV240bl9ER3NtTHFQUFdGYjhTczVycVIyS1pURnBBVWMycFllN0tFa0l2M0NBcC1td0thaVF5WUhfQjBvcHNPLXZJQXlIanEtOFo2Mm1YbmJpczJURHhOSWkwS1hQMk9rbV9JTnVfU3RvUnR0eW0xNkl4TEo2bXB0anc2RHV5Q2N1ZTY4TFJ2eVNwZ0daYUZoNA?oc=5",
+   "source": "The Statesman",
+   "cat": "parliament"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Jharkhand House _____ SIR Drive, Seeks CEC Ouster",
+   "options": [
+    "Expert",
+    "Announce",
+    "Opposes",
+    "Immune"
+   ],
+   "answer": 2,
+   "why": "The headline reads: “Jharkhand House Opposes SIR Drive, Seeks CEC Ouster”",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQajdPR0dlOUNFVVNLc2VPSUZ3RDB4SkFjLUxDaGMyR2x2SWpsX0pSZ0cwYnR6YXRLZWlrSHd4S1ZkaU1vTGJmQ2NvT3E5RmJUa0tTZ1lKbXV0UzFuUERlSXQ3WjVhZVBTc0ZyMFVjMFV4R0pLblRyNXhPOE11MUJtRUhOT0JVY3c?oc=5",
+   "source": "The Avenue Mail",
    "cat": "elections"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Delhi to install 540 _____ chargers at 180 sites to boost electric vehicle adoption",
+   "options": [
+    "MP",
+    "EV",
+    "PF",
+    "IREF"
+   ],
+   "answer": 1,
+   "why": "The headline reads: “Delhi to install 540 EV chargers at 180 sites to boost electric vehicle adoption”",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPb1JuLXVISlV4MzMwZkhsOUZwMzZKUmduc2pBUlo5c0w1c2JnblF6ZXBkQU11SW1DSzhqTG81bkZMUDF5bU9SY0dhU1Ywd2Z1UVgzRm1LVFA1dk9oaFg4THZmRWNMdzlPWDlmejBnV3ZWSVdjaWppaWExOTByckZNTDE4VDR1T09zYXZDeWdMNmc3bDlRUUU2RF9DWE83RGYxOWdVSlRFOVF3Zk1kcEVtc1RBUjd3NnlsbzlKM0k2NNIBxAFBVV95cUxQNGdPMGRFX1BLMm4wT1RFWm9ndWtqRkFGbnRYUEhMZmlhUXJHZGRLajdiQ2FJSERub0drQV80ekhYQ2txZlZjX0dUTXB6YWJlNDc4eFRfcV9VMlZDY04tSjEzcHpHb2VRVlYtbEtvV21Yamg1c09Gc1hrYmMtQ0VhcUtCVlc0R08zSFpraHlQRk9kYWU3cm5NV0x4aktfcnVuS0FxcmpMSTBIU0QydFIwcFZqMWNVOTFKNzhpdDFhamFZdklL?oc=5",
+   "source": "India Today",
+   "cat": "policy"
   }
  ]
 }
