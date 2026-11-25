@@ -1,80 +1,80 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "Agnipath's new rules, _____'s old concerns: The road to 2027 assembly polls",
+   "quote": "Opposition steps up attack on Centre over Winter _____ uncertainty",
    "options": [
-    "Delhi",
-    "Seeks",
-    "Uttarakhand",
-    "Arbitrators"
+    "Ministry",
+    "Umar",
+    "Session",
+    "Approved"
    ],
    "answer": 2,
-   "why": "The headline reads: “Agnipath's new rules, Uttarakhand's old concerns: The road to 2027 assembly polls”",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMnFYOWZfY3ZhNUVQUVRhc2xIS0dJN1RIbHRld1NCYWw1YldOeUtuTVlKSE9JVlRZdDZFbm1sYk4wWnkyM054NWN6d3p0WVdMc0hwZ2liSkpzbmg1NnhzalJjS0dtUFdCbUZrRWNid3dHX01KNWFzb0lhVTFHZGFXZTFlTnM4MFhzcml2OU41OE1RRkV3OC11eGNzX2IybEFvaUhpM0pIZlJ5VVRpblBQVE5QNzlONDZNci0xdDRDbGlwYWpmUER1ckExNGt4OXRpZ3l3SWFlc3FIYTFyWGc?oc=5",
-   "source": "The Times of India",
-   "cat": "policy"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "Raut alleges BJP offers funds to secure support for _____ Bill",
-   "options": [
-    "Merged",
-    "Greater",
-    "Relevance",
-    "Delimitation"
-   ],
-   "answer": 3,
-   "why": "The headline reads: “Raut alleges BJP offers funds to secure support for Delimitation Bill”",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOXA1VXRwMWlJdTNXNWhfeDVWc0tKTV82czJwSy12eEZFWVVEU0dZMFgxZ19ESUY0WHZ6eWR3Y3VUTTZNQ21vWEZXVVBkY2NXSnZUNEEzUVVJb3NoOHh0bTh1cm9zRlZQT1M1dVkwNFE4b0dsV0s2X1NmaVZDekhWLXU1YWR3S3BERnVnQ2pYZUYydVRZWkJteFNhT2hycEtsZnZWWFZkSzh0VGNaTkZjQkgtbVctVkt0Z3RGaU5hYkp2OG5HZ2V0YW92YTBBQdIBzgFBVV95cUxNOXA1VXRwMWlJdTNXNWhfeDVWc0tKTV82czJwSy12eEZFWVVEU0dZMFgxZ19ESUY0WHZ6eWR3Y3VUTTZNQ21vWEZXVVBkY2NXSnZUNEEzUVVJb3NoOHh0bTh1cm9zRlZQT1M1dVkwNFE4b0dsV0s2X1NmaVZDekhWLXU1YWR3S3BERnVnQ2pYZUYydVRZWkJteFNhT2hycEtsZnZWWFZkSzh0VGNaTkZjQkgtbVctVkt0Z3RGaU5hYkp2OG5HZ2V0YW92YTBBQQ?oc=5",
-   "source": "The Hindu",
+   "why": "The headline reads: “Opposition steps up attack on Centre over Winter Session uncertainty”",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRDVfaENNREY5NUx1cFJRU1VBZUVhbktuV05RRXdwX1ZVN29ZUDBtc3kxZzk3ZDczenVlYTdwMG1zeG5hVERhVlJubVAzSzZUMkk3UlpyeFpuTk1Nd29nbTAzZTI4OHRTaV8weU9zamk5Q0xpMU9BejN4aUNfSjBvMzg4bWdId3ZYdUxLa3ZvMGhsZ1ZyelpDalU1a1ZWR0htVFpac0Y4Rzl5bjJobGpHRVBpTGfSAbQBQVVfeXFMUEQ1X2hDTURGOTVMdXBSUVNVQWVFYW5LbldOUUV3cF9WVTdvWVAwbXN5MWc5N2Q3M3p1ZWE3cDBtc3huYVREYVZSbm1QM0s2VDJJN1Jacnhabk5NTXdvZ20wM2UyODh0U2lfMHlPc2ppOUNMaTFPQXozeGlDX0owbzM4OG1nSHd2WHVMS2t2bzBobGdWcnpaQ2pVNWtWVkdIbVRaWnNGOEc5eW4yaGxqR0VQaUxn?oc=5",
+   "source": "National Herald",
    "cat": "parliament"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "ED summons seven _____ officials, including Lu…",
+   "quote": "Sringeri recount row: _____ High Court scraps FIR against BJP leader",
    "options": [
-    "Punjab",
-    "Treasurer",
-    "Vandan",
-    "Protection"
+    "Systems",
+    "Karnataka",
+    "Banking",
+    "Demand"
    ],
-   "answer": 0,
-   "why": "The headline reads: “ED summons seven Punjab officials, including Lu…”",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOXlUNGRvLXlNUFVOTFEzdUdLdzZfSlV1bUlxU2syd09EazZkRnVxanRseVZwcDJ3eGJMSl91cS1LYV9xbkliSWRhZUtTM2RNQ2diZFZrSGFOTVQwRnNCWHNZbDU4b2xtQ0FHX2YyZnRXZWJIcG5yQkdXOUlJUEN3TGFWVHVmdzBRbDFPQ0ZIYTZuaEVMeFBkVGRiRDFuMzBDZEtwZzhlVGcySTEwOXJQNTBETFJjUkRtdTJIOWo3NnNBbThNRUxTSG1MNWFoVXppaUNmb1ZMOFU5QQ?oc=5",
-   "source": "United News of India",
-   "cat": "elections"
+   "answer": 1,
+   "why": "The headline reads: “Sringeri recount row: Karnataka High Court scraps FIR against BJP leader”",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNT0haTFg1eXRMcFhTYlJtQ2MtUHpvRE10WFQwZmIxS1JlNzlfU0NpTFFMZUlZc196dkxUTkIyTXJ4Yl9nV0g0ck1jZnF3N0ViZXlzM1FXeW1UTzZFQS1oMGVmNV9WVmFHZ1AxZFZBeWd2Z0Riei1na1JxMG9mcHMteUxvOEFiZ2h1ZnJYb0NENXhQQnM3Tm9rUE9zT3ZLYTlmYjFETE5iMjZHODNnM3h3YS1JX1htWTM4T1FYcGt5RnNxMHVFNG1wQTUzbGxaQ09vbFHSAdIBQVVfeXFMTU9IWkxYNXl0THBYU2JSbUNjLVB6b0RNdFhUMGZiMUtSZTc5X1NDaUxRTGVJWXNfenZMVE5CMk1yeGJfZ1dINHJNY2ZxdzdFYmV5czNRV3ltVE82RUEtaDBlZjVfVlZhR2dQMWRWQXlndmdEYnotZ2tScTBvZnBzLXlMbzhBYmdodWZyWG9DRDV4UEJzN05va1BPc092S2E5ZmIxRExOYjI2RzgzZzN4d2EtSV9YbVkzOE9RWHBreUZzcTB1RTRtcEE1M2xsWkNPb2xR?oc=5",
+   "source": "The Indian Express",
+   "cat": "courts"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "COP31 Failed—But Giving Up On Climate _____ Would Be Worse",
+   "quote": "Lending to Micro Firms _____ Greater Economic Benefits, Says RBI Governor Sanjay Malhotra",
    "options": [
-    "Benefits",
-    "Harshwardhan",
-    "Diplomacy",
-    "Sabha"
+    "Gandhi",
+    "Delivers",
+    "Girl",
+    "Facility"
    ],
-   "answer": 2,
-   "why": "The headline reads: “COP31 Failed—But Giving Up On Climate Diplomacy Would Be Worse”",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc05TQUZkaVpEX2wtMmpZNzYxSDA0SFkxMDhZYWtZNlB5b3Bnc29Rc2FSY29TdHU1U1NnNmdfSWpHdTkxcnhBTTNHUGF6bURNM1hvbFNwZUpuQlRjdkx3Q0U3QVFfOUJHTElfWlkyajBXQTY4RUltTGpzNWJOV1ZNT29pcFlpb21Na1ExendURjdWXzFMUUdSQWJpNFpzVDA2ZGVLU05WcVprTUdOM09JS3hSQm0wQQ?oc=5",
-   "source": "Forbes",
+   "answer": 1,
+   "why": "The headline reads: “Lending to Micro Firms Delivers Greater Economic Benefits, Says RBI Governor Sanjay Malhotra”",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPY0E5UW9xd0FYWmVlbjJGTndac2l4QmZFSzVhME1EZHAxS2pnbFNxRGxWemRFMDFlb2RnMWJXR2VZNVZnUW5rdE0zOWhVeWxnZVNnY1NTTGV6VEI2Zk95NUhHeEFPMGx1ODdPRDlHTkF5SWNhZDlMS25EN0N1TVdRTG5TTWNSdlR0S0J6T05zLVZJOWJrblVKVGZaZGVIZlhJdk50cEJPT2Job3AwQ0NucWVJbldXSUJhLTRQQmkzYVNvTHVFSFN4Uk4teHVKX0hpSWwxMVdHRS1fM2hzeUdyMGQ1bjdIUkstZFJJ?oc=5",
+   "source": "Siliconindia",
+   "cat": "economy"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "Oil prices fall as _____ backs diplomacy to end Iran war",
+   "options": [
+    "Qatar",
+    "Syria",
+    "Korea",
+    "Praise"
+   ],
+   "answer": 0,
+   "why": "The headline reads: “Oil prices fall as Qatar backs diplomacy to end Iran war”",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaThLSXJpYzhoaHM1N3ZybTU2TzVvdjE1bjNrOTlMa1BkVkFja2VsTVRNVEQ1RzZOMnFBTnJvbjVJMUhJUzBZS0V5LTBTRFdlSEZYT3h3R2lJUnZVdUhUOGRTNUxmbUJFN2JTc3UzS1REZnZrMGJCLXJjZ3FkeGlET05TQURJcGpjYzZNTHZuTEd0aGt6TFJFY1Q4c0VpZE0?oc=5",
+   "source": "Arabian Gulf Business Insight | AGBI",
    "cat": "world"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "New GDP Series Will Capture India's _____ Economy: RBI Deputy Governor Poonam Gupta - WHAT’S HOT",
+   "quote": "SC directs West _____ SIR tribunals to prioritise appeals by deleted voters",
    "options": [
-    "Voter",
-    "Global",
-    "Changing",
-    "Private"
+    "Soon",
+    "Bengal",
+    "Slashes",
+    "Climate-Ready"
    ],
-   "answer": 2,
-   "why": "The headline reads: “New GDP Series Will Capture India's Changing Economy: RBI Deputy Governor Poonam Gupta - WHAT’S HOT”",
-   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNbUN3YllEMWVSa1BUblVXRjFoMTN5dXdpdnlQZDhwTnBTTGhGX1R3UWhjUkttVElvTWhSRnJZcUM1cXFLM3l4QjZhUlZfUHFqSk51WUFYS0d0eUhiQ0o4QlRWS3NtbDdqRHFuNGY2UHV6ZGVwSzFKUzhVc3VlaTUwZzZWYnhDeEYtOWhjcTVSV3dkV0xoazJMMjVnRDZxcTRtY0ZzRjYtUUJzMDhnYnFyUkZCdC16czhCNFBtREt6R2tSMmZlTzNoazFCR2ZKTE92U1YydEhadTVqRnlpOEpVVTBnRW5yZWNIYlpQZ3pXZVQ?oc=5",
-   "source": "Business Today",
-   "cat": "economy"
+   "answer": 1,
+   "why": "The headline reads: “SC directs West Bengal SIR tribunals to prioritise appeals by deleted voters”",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMDdITFRmTFhWNjNRbUdIb2Z3dXZEb0U2NEhMSnlQdjJ6anZ5ekFJUXFhc1pCZUVhLW5VaWs4QkZRZ3FOZEpIRlp5UDQ5Y1A5UTNzdnhnUVJTV0JQNWhDOTFlbEtfN2gxRWw3T0NPbFVxWHNrcGpWWWZScVNiU0lCUnR1Tkt0YjI3T0IwRUJkVFhfaTBBcUdlUlNfWTkybVhIQm9aRmRWX2FreW1uMFZET1k2ekRKaTVKalFSWFdzanZ3RmtQMVBiN09SNTBWdDJWWHZWNg?oc=5",
+   "source": "Maktoob",
+   "cat": "elections"
   }
  ]
 }
