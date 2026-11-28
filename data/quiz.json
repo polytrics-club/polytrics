@@ -1,80 +1,80 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "questions": [
   {
    "q": "Which word completes this headline?",
-   "quote": "NH-Amundi and Amundi Host 2027 Asset Allocation Forum in South Korea, Reviewing _____ and AI Cycle",
+   "quote": "Watch US Partners Respond to New Tariffs With Anger, _____",
    "options": [
-    "Geopolitics",
-    "Face",
-    "Sorting",
-    "Revive"
+    "Iraq",
+    "Diplomacy",
+    "Embassy",
+    "Ibiza"
    ],
-   "answer": 0,
-   "why": "The headline reads: “NH-Amundi and Amundi Host 2027 Asset Allocation Forum in South Korea, Reviewing Geopolitics and AI Cycle”",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFNXpKWDVwN2F0MkxObXBEUmFOZUhVNDctbWQ2OFBaVGlaWW5SV25pbmxBMzhVRmd4djVrazNKa3BUcFVnNGU1bHBTNV9jLWJjTk9EdC1sSlVKSGFRTEowUGhoZTJMTzJVcmJpQk1ra0JsUVZDWlE?oc=5",
-   "source": "BigGo Finance",
+   "answer": 1,
+   "why": "The headline reads: “Watch US Partners Respond to New Tariffs With Anger, Diplomacy”",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSzhudjgwWVphNXpmTGU5YjV3TDhYMkJ2aEozbXAyanQ1dHBJZjFmaTZRMFozME1zTzZPNWlxWFJwMldYdHAzajNUUS1ZTFZIa3ZyakVac2kwZ3U3MVE5VFNFZ0FmY0VIX29ReE1EcUduQWdZMDZSNFJfbFlKbWo3UFVQQmE4YjhLd3laTXRrVE04Qm5aRHU0dUlSWDlQZkZKSzNBWEdpMEp0dXdrRXkw?oc=5",
+   "source": "Bloomberg.com",
    "cat": "world"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "\"Not even a routine acknowledgement\": _____ Ramesh accuses Centre of ignoring Kharge's four letters on delimitation",
+   "quote": "AI can generate $600-700 billion in economic value for SME sector: RBI _____ Sanjay Malhotra",
    "options": [
-    "Minister",
-    "Jairam",
-    "Missile",
-    "Seeks"
-   ],
-   "answer": 1,
-   "why": "The headline reads: “\"Not even a routine acknowledgement\": Jairam Ramesh accuses Centre of ignoring Kharge's four letters on delimitation”",
-   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMjhWcTEyYmhmcXNkZWFkUkJiS01ZVVE4bTdPYUJHUWdEMGZ1emdBNmlVSUlybUszUkFzOVF2N2VGeHRKME5VSzllcENSS1V5ME0xb041ekhXYW1HYmdtRFlzYjROODMxaWh3Z05vZmtwWU9GM1JqT2RyanFaWmx4TU5nMGdCdThySEJ2SW4tbWdpQVVBQ3JzNkN1OWNtMm91ZTd5cjI0YWdIdFV4Ui1Zem44Vkx3RnVOTG1iRTk5YmF4ZHlvVy1Xcm9pcGlIT0NLa0duX05YR2d6Q0NZUGloN1owQWVOWGJkVGZj?oc=5",
-   "source": "https://www.indiagazette.com/",
-   "cat": "parliament"
-  },
-  {
-   "q": "Which word completes this headline?",
-   "quote": "RBI sees India’s growth resilient at 6.9 percent in FY27 despite _____ Asia conflict risks",
-   "options": [
-    "West",
-    "Fees",
-    "Resolution",
-    "Fuel"
+    "Governor",
+    "Reconvene",
+    "Habib",
+    "Devender"
    ],
    "answer": 0,
-   "why": "The headline reads: “RBI sees India’s growth resilient at 6.9 percent in FY27 despite West Asia conflict risks”",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ1pBa3VGRVNNZzhfQkthWS1XOF9sSmxzR084NFkyVHBuNXVzS1VRY3hDbXFCTDlfRnhZV0Zma1pHdXFPdkdIZ3hIMkZxZF8wU0NJTmFwYWRwS3B0WFBDMGhpTV9zazNMLVVtNHduRGFNeXpGam5SZGd4RWJXTnJVak16dlYxQW1nQzM4WUZxTHFQOXotUXQtLWk3MXVsZ0h3V2VtQXFhbS16NF9BdVNqMGY3aXc?oc=5",
-   "source": "DD News",
+   "why": "The headline reads: “AI can generate $600-700 billion in economic value for SME sector: RBI Governor Sanjay Malhotra”",
+   "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQdVR6dFVlVkNpRXY2UWN3dWNkRkJXa1ZfTFFHWlNyUGZ6VGpsUkFieWhKdnVDcE56UjdFQVhnMHU3ZHFtdjI2d2xvOWs5UE81V3kwaGVuZ0dmVTh6LTNNYnpYX05Ecm1xU0owaDlNU21pQThkSC15N0pzM0tGbUs2dlYxYWhpdHUtRi05MUE2Y2tZeEEyQ2tJMnBwWDR1WDFVTGtIcWU5U1lLVlhNN2xzck1BclNjRmFwcE80OXYydGo3SUZhd2U1MkRUSnZpdXRSLU5NNEVLankyejZhMW9CQVNYU1czQTJfU0diZ1RKdm9pQVdteGZKOGk0TnVoSlYyVFFDZVNyUzjSAYICQVVfeXFMTXFMTXpxQmJ6UTBIM1ZpUWNjcjdTSmxiMzBITTZraFlhYVhxREdLaXZUdTFpejcyRW1OMGVta19ySnBuLUR3VXg2UUN2WEVSaWtOWVBQaDV4UThtVU1ZNmItWDNqZE0wNzRRUFJMT1JseDNtRXZCWWl0bklNajRYVjhnRWxQSEhjNWd5cjFqWi14ZGNJT3E2MGJQa1VTZVh2NFZmRm0xYUEtT3JJQkt1RG0wYmZRNDNNZlVIYmZtVFpsNGI3UzJkamItbzk4a0x6VTdickpRaDlRRDRHcnJyUGZqRm1aSU1WWnRGSUVOdjhEdDFmWDFIdDJWajc2b3VWaWtn?oc=5",
+   "source": "The Economic Times",
    "cat": "economy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Election _____ to review 2027 UP Assembly poll preparations in 17 districts over two days",
+   "quote": "India Eyes Record Ship _____ in 2026 as Shipyard Subsidies Gain Pace",
    "options": [
-    "Gorakhpur",
-    "Government",
-    "Outlook",
-    "Commission"
+    "Deliveries",
+    "Ready",
+    "Russia",
+    "Leaving"
    ],
-   "answer": 3,
-   "why": "The headline reads: “Election Commission to review 2027 UP Assembly poll preparations in 17 districts over two days”",
-   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNbGZQbGkxMFVTcDFGZEFWa0VzZzNCUm91TEd2LUFEU1g3WjZiUFhWYXZ2M0hEWXNVLVJpQmZqM2p1LV9pTko3LVo0YkF6Ul9idlJMeXhWQlFCcUJmdFpselVoVjJERUlGRlcySVpzVzZwcGRMRDVXVExsR204dTRZTFN3cUlrOXpiNGlmbC0tWHdFTmkxUExpNmZmT2RRUG54WHljYU1aLURjMFZxaWxVRlR5dmlRbTlaZlB2MFVEc0ZBLTh1bFBwQnYzQzZfLUJwdlZ2THhva1ZrY1J3d29zaWdGM3E2XzBINmRLN1YydzdfRzRiQ2RwUDJfenJEU0xsM2NGbUVKVThMRk9oTUh30gGnAkFVX3lxTE8xUGVNcmJOTnpUUjRmSGhnU19jcTZTazZfLUZKSHF4R2dHWFFTbWxYdWE1TFc4S0Q3WWJIcENJYllhSThCVjFDTHlOVUZMN3BuVnROY2UtUTBMMFZ4UVNRMFZKX040dWUwaEFFVmtLV1BuLVFNMlRxMUUyeEhDNkVyNzlRMTRBdVpKOEpyMDloSmYtN2ZMYnVQNzJ0MG01U1VmbGJETVhDNC1jREV4OUpRM3JJanRTSnpRNHdEN194MnVENmZEWVRucVhOdWpESzdzSEJWeE1ydVZMQ2F2bTJ5akZjdk83Z1VsYU04N2U5TEh2Mkp3cmNDLS1zZXBKakN5TXV5cVQxLUxGM2wweXE4bVg0UzNCa2xBcHRmX3JHejVCbEUwam8?oc=5",
-   "source": "The Economic Times",
-   "cat": "elections"
+   "answer": 0,
+   "why": "The headline reads: “India Eyes Record Ship Deliveries in 2026 as Shipyard Subsidies Gain Pace”",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYzZacjdPbFM4NjVIaEVBMmhYdC1VR2ZUT2V0RzBsNzVWSnpNaXViZk1mNkZVaWsyX25wMHBCbXlNTWNobHQ3eHlVajR3LVFNLXI0TFUtbEVJcWtJcUY4TGUyak1TY1hGeXNVUm1iTTZOS0lLYVoxTGt5WWJldWdMU21QVmpxS0JRb3VOZDRpZW5sYnFpeTRSd2xjYVJJZzhKeW9xZU1ZRFU3MHlJWEh3?oc=5",
+   "source": "Industry Odisha",
+   "cat": "policy"
   },
   {
    "q": "Which word completes this headline?",
-   "quote": "Disability Pension for _____: Delhi High Court Upholds Tribunal's Decision",
+   "quote": "'Case Of Contempt': Supreme Court Pulls Up Vijay _____ In Deepam Row",
    "options": [
-    "Strength",
-    "Diabetes",
-    "Mural",
-    "Industry"
+    "Shah",
+    "Jobs",
+    "Government",
+    "Bhubaneswar"
    ],
-   "answer": 1,
-   "why": "The headline reads: “Disability Pension for Diabetes: Delhi High Court Upholds Tribunal's Decision”",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUjh6RVBWNTNHTGpUYUFnVzQxczh1MGRfUDNyTE92OUp5aVhpQl9QVjBFNWFjS0hHc0RlR0VzZmtMRmlFWG9iM2h6SVo2NjEyMWU2Nmk1X2pWWUNjLUdCOElVclF5akwwMHFsam00dWNQUm1BUWRfWTl3WEtNdElvdDYwdm9Ba19XTUttaTVDM2ljTkZOcnpQWnJvUko0NjdRVl9WSVNpeTdlUlB3SkU1T2tqLXF6NkMtZWdGZ2d3bjk?oc=5",
-   "source": "The Law Observer",
+   "answer": 2,
+   "why": "The headline reads: “'Case Of Contempt': Supreme Court Pulls Up Vijay Government In Deepam Row”",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNlFZREJJWVJFS0Z6VUN0N0tKUUJnTHV1S3Q5dThzYzlCb1pQbFF1OGQtc0ptWHFFaEJGcU5EOWd6cFVYV3N4dG9mWmRiUjV4VUdTaFVMMENSd3hFQWhHazk0dEpJdXZENVpFSDNzWjlBNDN5bmRZTzNJa2ZsSEEtRTlVbUZxOVQzRzc3V19OaFM5VXFjbWEwUVFqVnZ6TjVseC1zM1ZJVk12SXZuRHZEeDR30gG6AUFVX3lxTFAwQVBoX2xJU3ViVUllVUlYWmRYTDE2LUEzQXEtXzUxN3d4Q0pudjNVVm4yYmNreGVHeDVYLV9oNk81WURpQmpVR0NQX0xSNXI4T2VyVFFfeXAxU1l3eC01Zk1seG9KeXZKWTVJN0JFTlgtckpwcXY0X05LYnVROHRnS05HWW5CWWlPVGN0cVNEM0hxNHktdzhEZURab1pvZlNsc25Zb01Yb2NadG1XTWtucGNRRFdwN2dvZw?oc=5",
+   "source": "NDTV",
    "cat": "courts"
+  },
+  {
+   "q": "Which word completes this headline?",
+   "quote": "CJP Holds _____ Day Rally in Nagpur; Abhijeet Dipke Targets Centre, Election Commission",
+   "options": [
+    "Constitution",
+    "Convene",
+    "Goals",
+    "Sends"
+   ],
+   "answer": 0,
+   "why": "The headline reads: “CJP Holds Constitution Day Rally in Nagpur; Abhijeet Dipke Targets Centre, Election Commission”",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUUhZYzBSdGxyY2hoSHFmalFrUVBhVkdKY2dFMEZ0Tmo0dlpkNlRvZVFlU2VSQ1VXbmpDZ2hRSHZ1Z3pPNU5yMkFEeExYY0w1U0F0blBZN1JyQjZoX1ducXhsRUR0N0g4bEQtX083emd3dVBNcE1zc2VfY2dOelMzS0dsTlZZNEFITWVMZnZTNVYtOVBHRFY5c2ZvTHllSGtfR2NhQTlqMWk0NWhRc2JxMk1vSU9pOHVSSHc2aldHc3NMUEE?oc=5",
+   "source": "Dainik Jagran MP CG",
+   "cat": "elections"
   }
  ]
 }
